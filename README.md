@@ -9,8 +9,8 @@ In order to build these sources the following repositories are required:
 				   
 org.csstudio.iter: c4db243bd33
 <https://github.com/css-iter/org.csstudio.iter/tree/c4db243bd33>  
-cs-studio: f9a2bf4b847  
-<https://github.com/css-iter/cs-studio/tree/f9a2bf4b847>  
+cs-studio: b7f62be97ce
+<https://github.com/css-iter/cs-studio/tree/b7f62be97ce>  
 maven-osgi-bundles:8cfe2354112  
 <https://github.com/css-iter/maven-osgi-bundles/tree/8cfe2354112>  
 cs-studio-thirdparty: 3ff8cc9ffe2  
