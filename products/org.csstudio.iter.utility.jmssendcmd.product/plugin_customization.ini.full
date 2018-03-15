@@ -1,10 +1,43 @@
 #/
-## Generated date: Tue Jan 19 09:22:06 UTC 2016
+## Generated date: Thu Mar 15 12:31:12 GMT 2018
 #/
 
 #/
 ## Organization (ITER) specific plugin preferences
 #/
+
+#/
+## org.csstudio.java 
+#/
+#/ Custom patterns can be defined for DATE_FORMATTER, TIME_FORMATTER, FULL_FORMATTER, MILLI_FORMATTER, SECONDS_FORMATTER
+#/ custom_date_formatter_pattern=yyyy-MM-dd
+#/ custom_short_date_formatter_pattern=yy-MM-dd
+#/ custom_month_formatter_pattern=MM-dd HH:mm
+#/ custom_time_formatter_pattern=HH:mm:ssX
+#/ custom_full_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.nnnnnnnnnX
+#/ custom_milli_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.SSSX
+#/ custom_seconds_formatter_pattern=yyyy-MM-dd'T'HH:mm:ssX
+#/ custom_datetime_formatter_pattern=yyyy-MM-dd'T'HH:mmX
+#/ custom_short_datetime_formatter_pattern=yy-MM-dd'T'HH:mmX
+
+#>>
+org.csstudio.java/custom_datetime_formatter_pattern=yyyy-MM-dd'T'HH:mmX
+#>>
+org.csstudio.java/custom_full_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.nnnnnnnnnX
+#>>
+org.csstudio.java/custom_seconds_formatter_pattern=yyyy-MM-dd'T'HH:mm:ssX
+#>>
+org.csstudio.java/custom_date_formatter_pattern=yyyy-MM-dd
+#>>
+org.csstudio.java/custom_milli_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.SSSX
+#>>
+org.csstudio.java/custom_month_formatter_pattern=MM-dd HH:mm
+#>>
+org.csstudio.java/custom_short_datetime_formatter_pattern=yy-MM-dd'T'HH:mmX
+#>>
+org.csstudio.java/custom_short_date_formatter_pattern=yy-MM-dd
+#>>
+org.csstudio.java/custom_time_formatter_pattern=HH:mm:ssX
 
 #/
 ## org.csstudio.logging 
@@ -102,7 +135,7 @@ org.csstudio.logging/jms_level=SEVERE
 #/ be ignored!
 #/ 
 #/ Format:
-#/ ModuleClass Flag option1=value1 option2=value2 ...; ModuleClass Flag ModuleOptions; ...
+#/ 	ModuleClass Flag option1=value1 option2=value2 ...; ModuleClass Flag ModuleOptions; ...
 #/ ModuleClass, Flag and value options are in the same format as in auth.conf, but all on one line.
 #/ Value strings must be quoted.
 #/ 
@@ -188,6 +221,7 @@ org.csstudio.logging/jms_level=SEVERE
 #<< org.csstudio.security/ldap_group_base=ou=Groups
 #<< org.csstudio.security/ldap_group_url=ldap://localhost/dc=css-demo,dc=org
 #<< org.csstudio.security/secure_preference_location=Default
+org.csstudio.security/secure_preference_location=Install
 
 #/
 ## Core plugins preferences
@@ -203,3 +237,7 @@ org.csstudio.logging/jms_level=SEVERE
 
 #>>
 org.eclipse.ui/SHOW_PROGRESS_ON_STARTUP=false
+#>>
+org.csstudio.logging.jms2rdb/rdb_user=log
+#>>
+org.csstudio.logging.jms2rdb/rdb_password=

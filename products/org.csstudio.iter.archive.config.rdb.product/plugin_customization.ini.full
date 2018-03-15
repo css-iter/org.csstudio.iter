@@ -1,9 +1,108 @@
 #/
-## Generated date: Tue Jan 19 09:16:12 UTC 2016
+## Generated date: Thu Mar 15 12:31:00 GMT 2018
 #/
 
 #/
 ## Organization (ITER) specific plugin preferences
+#/
+
+#/
+## org.csstudio.archive.rdb 
+#/
+#/ Default RDB archive settings.
+#/ plugin_preferences.ini can override
+#/ @author Kay Kasemir
+#/ 
+#/ RDB URL for archived data
+#/ If your site uses the same settings everywhere, you
+#/ can specify them here.
+#/ If you switch between production and test setups, better set these
+#/ preferences in the
+#/ plugin_customization.ini
+#/ of the ArchiveEngine etc., or use the command-line
+#/ arguments of the products.
+#/ 
+#/ Oracle example
+#/ url=jdbc:oracle:thin:user/password@//172.31.73.122:1521/prod
+#/ 
+#/ MySQL example
+# org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
+#/ 
+#/ RDB user and password
+#/ Some applications also provide command-line option to override.
+# org.csstudio.archive.rdb/user=archive
+# org.csstudio.archive.rdb/password=$archive
+#/ 
+#/ Schema name. Used with an added "." as prefix for table names.
+#/ For now this is only used with Oracle URLs and ignored for MySQL
+# org.csstudio.archive.rdb/schema=
+#/ 
+#/ Timeout [seconds] for certain SQL queries
+#/ Fundamentally, the SQL queries for data take as long as they take
+#/ and any artificial timeout just breaks queries that would otherwise
+#/ have returned OK  few seconds after the timeout.
+#/ We've seen Oracle lockups, though, that caused JDBC to hang forever
+#/ because the SAMPLE table was locked. No error/exception, just hanging.
+#/ A timeout is used for operations other than getting the actual data,
+#/ for example the channel id-by-name query which _should_ return within
+#/ a shot time, to catch that type of RDB lockup.
+#/ timeout_secs=120
+#/ With PostgreSQL, the setQueryTimeout API is not implemented,
+#/ and calling it results in an exception.
+#/ Setting the timeout to 0 disables calls to setQueryTimeout.
+# org.csstudio.archive.rdb/timeout_secs=0
+#/ 
+#/ Use a blob to read/write array samples?
+#/ 
+#/ The original SAMPLE table did not contain an ARRAY_VAL column
+#/ for the array blob data, but instead used a separate ARRAY_VAL table.
+#/ When running against an old database, this parameter must be set to false.
+# org.csstudio.archive.rdb/use_array_blob=true
+#/ 
+
+#<< org.csstudio.archive.rdb/password=$archive
+org.csstudio.archive.rdb/password=
+#<< org.csstudio.archive.rdb/schema=
+#<< org.csstudio.archive.rdb/timeout_secs=0
+#<< org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
+org.csstudio.archive.rdb/url=jdbc:postgresql://localhost/css_archive_3_0_0
+#<< org.csstudio.archive.rdb/use_array_blob=true
+#<< org.csstudio.archive.rdb/user=archive
+
+#/
+## org.csstudio.java 
+#/
+#/ Custom patterns can be defined for DATE_FORMATTER, TIME_FORMATTER, FULL_FORMATTER, MILLI_FORMATTER, SECONDS_FORMATTER
+#/ custom_date_formatter_pattern=yyyy-MM-dd
+#/ custom_short_date_formatter_pattern=yy-MM-dd
+#/ custom_month_formatter_pattern=MM-dd HH:mm
+#/ custom_time_formatter_pattern=HH:mm:ssX
+#/ custom_full_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.nnnnnnnnnX
+#/ custom_milli_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.SSSX
+#/ custom_seconds_formatter_pattern=yyyy-MM-dd'T'HH:mm:ssX
+#/ custom_datetime_formatter_pattern=yyyy-MM-dd'T'HH:mmX
+#/ custom_short_datetime_formatter_pattern=yy-MM-dd'T'HH:mmX
+
+#>>
+org.csstudio.java/custom_datetime_formatter_pattern=yyyy-MM-dd'T'HH:mmX
+#>>
+org.csstudio.java/custom_full_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.nnnnnnnnnX
+#>>
+org.csstudio.java/custom_seconds_formatter_pattern=yyyy-MM-dd'T'HH:mm:ssX
+#>>
+org.csstudio.java/custom_date_formatter_pattern=yyyy-MM-dd
+#>>
+org.csstudio.java/custom_milli_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.SSSX
+#>>
+org.csstudio.java/custom_month_formatter_pattern=MM-dd HH:mm
+#>>
+org.csstudio.java/custom_short_datetime_formatter_pattern=yy-MM-dd'T'HH:mmX
+#>>
+org.csstudio.java/custom_short_date_formatter_pattern=yy-MM-dd
+#>>
+org.csstudio.java/custom_time_formatter_pattern=HH:mm:ssX
+
+#/
 ## org.csstudio.logging 
 #/
 #/ Logging preferences
@@ -99,7 +198,7 @@ org.csstudio.logging/jms_level=SEVERE
 #/ be ignored!
 #/ 
 #/ Format:
-#/ ModuleClass Flag option1=value1 option2=value2 ...; ModuleClass Flag ModuleOptions; ...
+#/ 	ModuleClass Flag option1=value1 option2=value2 ...; ModuleClass Flag ModuleOptions; ...
 #/ ModuleClass, Flag and value options are in the same format as in auth.conf, but all on one line.
 #/ Value strings must be quoted.
 #/ 
@@ -194,72 +293,6 @@ org.csstudio.security/secure_preference_location=Install
 #/
 ## Application plugins preferences
 #/
-
-#/
-#/
-
-#/
-## org.csstudio.archive.rdb 
-#/
-#/ Default RDB archive settings.
-#/ plugin_preferences.ini can override
-#/ @author Kay Kasemir
-#/ 
-#/ RDB URL for archived data
-#/ If your site uses the same settings everywhere, you
-#/ can specify them here.
-#/ If you switch between production and test setups, better set these
-#/ preferences in the
-#/ plugin_customization.ini
-#/ of the ArchiveEngine etc., or use the command-line
-#/ arguments of the products.
-#/ 
-#/ Oracle example
-#/ url=jdbc:oracle:thin:user/password@//172.31.73.122:1521/prod
-#/ 
-#/ MySQL example
-# org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
-#/ 
-#/ RDB user and password
-#/ Some applications also provide command-line option to override.
-# org.csstudio.archive.rdb/user=archive
-# org.csstudio.archive.rdb/password=$archive
-#/ 
-#/ Schema name. Used with an added "." as prefix for table names.
-#/ For now this is only used with Oracle URLs and ignored for MySQL
-# org.csstudio.archive.rdb/schema=
-#/ 
-#/ Timeout [seconds] for certain SQL queries
-#/ Fundamentally, the SQL queries for data take as long as they take
-#/ and any artificial timeout just breaks queries that would otherwise
-#/ have returned OK  few seconds after the timeout.
-#/ We've seen Oracle lockups, though, that caused JDBC to hang forever
-#/ because the SAMPLE table was locked. No error/exception, just hanging.
-#/ A timeout is used for operations other than getting the actual data,
-#/ for example the channel id-by-name query which _should_ return within
-#/ a shot time, to catch that type of RDB lockup.
-#/ timeout_secs=120
-#/ With PostgreSQL, the setQueryTimeout API is not implemented,
-#/ and calling it results in an exception.
-#/ Setting the timeout to 0 disables calls to setQueryTimeout.
-# org.csstudio.archive.rdb/timeout_secs=0
-#/ 
-#/ Use a blob to read/write array samples?
-#/ 
-#/ The original SAMPLE table did not contain an ARRAY_VAL column
-#/ for the array blob data, but instead used a separate ARRAY_VAL table.
-#/ When running against an old database, this parameter must be set to false.
-# org.csstudio.archive.rdb/use_array_blob=true
-#/ 
-
-#<< org.csstudio.archive.rdb/password=$archive
-org.csstudio.archive.rdb/password=
-#<< org.csstudio.archive.rdb/schema=
-#<< org.csstudio.archive.rdb/timeout_secs=0
-#<< org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
-org.csstudio.archive.rdb/url=jdbc:postgresql://localhost/css_archive_3_0_0
-#<< org.csstudio.archive.rdb/use_array_blob=true
-#<< org.csstudio.archive.rdb/user=archive
 
 #/
 ## Unused preferences

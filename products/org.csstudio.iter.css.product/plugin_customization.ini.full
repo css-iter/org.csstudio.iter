@@ -1,5 +1,5 @@
 #/
-## Generated date: Tue Jan 19 08:54:00 UTC 2016
+## Generated date: Thu Mar 15 12:43:21 GMT 2018
 #/
 
 #/
@@ -7,279 +7,6 @@
 #/
 
 #/
-#/
-## org.csstudio.auth 
-#/
-#/ Specify where the secure storage should locate.
-#/ It can be either "INSTALL_LOCATION" or "CONFIGURATION_LOCATION".
-#/ By default it is "CONFIGURATION_LOCATION".
-# org.csstudio.auth/secure_storage_location=CONFIGURATION_LOCATION
-
-#<< org.csstudio.auth/secure_storage_location=CONFIGURATION_LOCATION
-
-#/
-## org.csstudio.autocomplete 
-#/
-#/ # Default preferences for this plugin
-#/ 
-#/ Default max result per provider
-# org.csstudio.autocomplete/default_max_results=10
-#/ 
-#/ Define ordered provider list by type and maximum number of expected results by provider
-#/ providers.TYPE=provider_name[,max_results];provider_name[,max_results]...
-#/ providers.ANOTHER_TYPE=provider_name[,max_results];provider_name[,max_results]...
-#/ Example:
-#/ providers.PV= History; SDD Database, 5; DB Files, 5
-# org.csstudio.autocomplete/providers.PV=History,10
-# org.csstudio.autocomplete/providers.Formula=History,10
-#/ 
-#/ Top results separators
-# org.csstudio.autocomplete/max_top_results=3
-# org.csstudio.autocomplete/separators=-.(
-
-#<< org.csstudio.autocomplete/default_max_results=10
-#<< org.csstudio.autocomplete/max_top_results=3
-#<< org.csstudio.autocomplete/providers.Formula=History,10
-org.csstudio.autocomplete/providers.Formula=History,4; DB Files; Archive RDB
-#<< org.csstudio.autocomplete/providers.PV=History,10
-org.csstudio.autocomplete/providers.PV=History,4; DB Files; Archive RDB
-#<< org.csstudio.autocomplete/separators=-.(
-#>>
-org.csstudio.autocomplete/providers.LogentrySearch=Logbook,10; History,10
-
-#/
-## org.csstudio.autocomplete.ui 
-#/
-#/ # Default preferences for this plugin
-#/ 
-#/ Default history storage capacity per type
-# org.csstudio.autocomplete.ui/history_size=100
-
-#<< org.csstudio.autocomplete.ui/history_size=100
-
-
-#/
-## org.csstudio.logging 
-#/
-#/ Logging preferences
-#/ 
-#/ Detail of message format: LOW, HIGH
-# org.csstudio.logging/detail=HIGH
-#/ 
-#/ Log level for console:
-#/ OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST, ALL
-#/ Technically also allows integer level as defined by java.util.logging.Level,
-#/ but suggestion is to use predefined level names
-# org.csstudio.logging/console_level=CONFIG
-#/ 
-#/ Log level for file:
-#/ OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST, ALL
-#/ Note that level for file cannot be higher than level for console
-# org.csstudio.logging/file_level=INFO
-#/ 
-#/ Path and pattern for log files
-#/ Leave empty to disable file logging
-# org.csstudio.logging/file_pattern=
-#/ 
-#/ Maximum number of bytes kept in file
-# org.csstudio.logging/file_bytes=8000
-#/ 
-#/ Maximum number of file kept in rotation
-# org.csstudio.logging/file_count=2
-#/ 
-#/ Log level for JMS:
-#/ OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST, ALL
-#/ Note that level for JMS cannot be higher than level for console
-# org.csstudio.logging/jms_level=INFO
-#/ 
-#/ URL of JMS used for logging: failover:(tcp://some_host.my.site.org:61616)
-#/ Leave empty to disable JMS logging
-# org.csstudio.logging/jms_url=
-#/ 
-#/ Topic to use for log messages
-# org.csstudio.logging/jms_topic=LOG
-
-#<< org.csstudio.logging/console_level=CONFIG
-#<< org.csstudio.logging/detail=HIGH
-#<< org.csstudio.logging/file_bytes=8000
-org.csstudio.logging/file_bytes=500000
-#<< org.csstudio.logging/file_count=2
-#<< org.csstudio.logging/file_level=INFO
-org.csstudio.logging/file_level=CONFIG
-#<< org.csstudio.logging/file_pattern=
-#<< org.csstudio.logging/jms_level=INFO
-org.csstudio.logging/jms_level=SEVERE
-#<< org.csstudio.logging/jms_topic=LOG
-#<< org.csstudio.logging/jms_url=
-
-#/
-## org.csstudio.logging.ui 
-#/
-#/ Logging UI preferences.
-#/ This file provides the color scheme used for different message severities
-#/ Magenta
-# org.csstudio.logging.ui/color_severe=255,0,255
-#/ Red
-# org.csstudio.logging.ui/color_warning=255,0,0
-#/ Blue
-# org.csstudio.logging.ui/color_info=0,0,255
-#/ Black
-# org.csstudio.logging.ui/color_basic=0,0,0
-
-#<< org.csstudio.logging.ui/color_basic=0,0,0
-org.csstudio.logging.ui/color_basic=0, 255, 0
-#<< org.csstudio.logging.ui/color_info=0,0,255
-org.csstudio.logging.ui/color_info=20, 50, 202
-#<< org.csstudio.logging.ui/color_severe=255,0,255
-org.csstudio.logging.ui/color_severe=250, 12, 14
-#<< org.csstudio.logging.ui/color_warning=255,0,0
-org.csstudio.logging.ui/color_warning=250, 12, 14
-
-#/
-## org.csstudio.security 
-#/
-#/ Security Settings
-#/ 
-#/ #
-#/ # Authentication
-#/ #
-#/ 
-#/ Option 1:
-#/ Use a JAAS config file as in normal use of JAAS
-#/ 
-#/ Path to JAAS configuration file
-#/ 
-#/ When located inside a plugin, use
-#/ "platform:/plugin/name.of.plugin/path/within/plugin.conf"
-#/ 
-#/ When a file "my_jaas_settings.conf" is placed
-#/ inside the product's "configuration/" directory, use
-#/ "platform:/config/my_jaas_settings.conf"
-#/ 
-#/ For plain files, use either
-#/ "file:/full/path/to/my_jaas_settings.conf"
-#/ or just
-#/ "/full/path/to/my_jaas_settings.conf"
-# org.csstudio.security/jaas_config_file=platform:/plugin/org.csstudio.security/jaas.conf
-#/ 
-#/ Name of a JAAS login configuration to use.
-#/ This must match the name of one of the entries
-#/ in the jaas_config_file.
-# org.csstudio.security/jaas_config_name=dummy
-#/ 
-#/ Option 2:
-#/ Do not use a JAAS config file.
-#/ Instead, provide what would the desired entry in the config file
-#/ as an Eclipse preference.
-#/ 
-#/ If the preference "jaas_config" is defined, it will have
-#/ precedence. "jaas_config_file" and "jaas_config_name" will
-#/ be ignored!
-#/ 
-#/ Format:
-#/ ModuleClass Flag option1=value1 option2=value2 ...; ModuleClass Flag ModuleOptions; ...
-#/ ModuleClass, Flag and value options are in the same format as in auth.conf, but all on one line.
-#/ Value strings must be quoted.
-#/ 
-#/ Examples:
-#/ jaas_config=com.sun.jmx.remote.security.FileLoginModule required debug="true" passwordFile="/path/to/my_passwords.conf";
-#/ jaas_config=com.sun.security.auth.module.LdapLoginModule required debug="true" useSSL="false" userProvider="ldap://localhost:389/ou=Users,dc=css-demo,dc=org" authIdentity="uid={USERNAME},ou=Users,dc=css-demo,dc=org";
-# org.csstudio.security/jaas_config=
-#/ 
-#/ #
-#/ # Authorization
-#/ #
-#/ 
-#/ Select authorization provider
-#/ 
-#/ Standard implementations:
-#/ FileBased, see org.csstudio.security.authorization.FileBasedAuthorizationProvider
-#/ LDAPGroup, see org.csstudio.security.authorization.LDAPGroupAuthorizationProvider
-#/ Script, see org.csstudio.security.authorization.ScriptAuthorizationProvider
-#/ 
-#/ Additional providers can be added via extension point,
-#/ see org.csstudio.security.authorization.AuthorizationProvider
-# org.csstudio.security/authorization_provider=FileBased
-#/ 
-#/ Path to FileBased authorization configuration file
-# org.csstudio.security/authorization_file_name=platform:/plugin/org.csstudio.security/authorization.conf
-#/ 
-#/ Settings for authorization_provider=LDAPGroup:
-#/ URL of LDAP server. May list several space-separated URLs.
-# org.csstudio.security/ldap_group_url=ldap://localhost/dc=css-demo,dc=org
-#/ Start of search for LDAPGroup-based authorization
-# org.csstudio.security/ldap_group_base=ou=Groups
-#/ 
-#/ The LDAP search will combine the group of interest with the 'base' and URL path.
-#/ 
-#/ Example:
-#/ ldap_group_url=ldap://localhost/dc=css-demo,dc=org
-#/ ldap_group_base=ou=Groups
-#/ 
-#/ Authorization for which to determine members: alarm_config
-#/ => Locate "cn=alarm_config,ou=Groups,dc=css-demo,dc=org"
-#/ and every "memberUid" will then provide a user name
-#/ who has the alarm_config authorization.
-#/ 
-#/ Path to command used by Script authorization
-# org.csstudio.security/authorization_script_name=/usr/local/bin/id_auth
-#/ 
-#/ 
-#/ #
-#/ # Secure Preferences
-#/ #
-#/ 
-#/ Where secure preferences are located.
-#/ 
-#/ "Default":
-#/ Use the default location, which is typically
-#/ the user's home directory.
-#/ @see SecurePreferencesFactory#getDefault()
-#/ 
-#/ Advantage: It's the default
-#/ Disadvantage: You won't always know where the preferences are.
-#/ 
-#/ "Instance":
-#/ Use the Eclipse 'instance', i.e. the workspace.
-#/ 
-#/ Advantage: You know where it is, and each workspace
-#/ will have its own settings.
-#/ Disadvantage: Each workspace has different settings.
-#/ 
-#/ "Install":
-#/ Use the Eclipse 'install' location, i.e. where the product is installed.
-#/ 
-#/ Advantage: You know where it is, and every workspace for that
-#/ product will have the same settings. Good for a "global" setup.
-#/ Disadvantage: Ordinary users cannot (should not) have write permissions.
-# org.csstudio.security/secure_preference_location=Default
-
-#<< org.csstudio.security/authorization_file_name=platform:/plugin/org.csstudio.security/authorization.conf
-#<< org.csstudio.security/authorization_provider=FileBased
-org.csstudio.security/authorization_provider=ITERAuthorization
-#<< org.csstudio.security/authorization_script_name=/usr/local/bin/id_auth
-#<< org.csstudio.security/jaas_config=
-#<< org.csstudio.security/jaas_config_file=platform:/plugin/org.csstudio.security/jaas.conf
-org.csstudio.security/jaas_config_file=platform:/plugin/org.csstudio.iter.css.product/jaas.conf
-#<< org.csstudio.security/jaas_config_name=dummy
-org.csstudio.security/jaas_config_name=ITER_CODAC_LDAP
-#<< org.csstudio.security/ldap_group_base=ou=Groups
-org.csstudio.security/ldap_group_base=
-#<< org.csstudio.security/ldap_group_url=ldap://localhost/dc=css-demo,dc=org
-org.csstudio.security/ldap_group_url=ldap://localhost/dc=codac,dc=iter,dc=org
-#<< org.csstudio.security/secure_preference_location=Default
-org.csstudio.security/secure_preference_location=Install
-
-#/
-## org.csstudio.simplepv 
-#/
-#/ Default PV Factory to use
-# org.csstudio.simplepv/default_pvfactory=pvmanager
-
-#<< org.csstudio.simplepv/default_pvfactory=pvmanager
-
-#/
-
 ## org.csstudio.alarm.beast 
 #/
 #/ Default settings for Alarm Server as well as Alarm GUI
@@ -312,650 +39,6 @@ org.csstudio.security/secure_preference_location=Install
 # org.csstudio.alarm.beast/global_prefix=GLOBAL
 #/ 
 #/ JMS for alarm messages (new alarms, acknowledge, ...)
-# org.csstudio.alarm.beast/jms_url=failover:(tcp://localhost:61616)
-# org.csstudio.alarm.beast/jms_user=alarm
-# org.csstudio.alarm.beast/jms_password=$alarm
-#/ 
-#/ Timeout in seconds at which server sends idle messages in absence of
-#/ "real" traffic on alarm topic
-# org.csstudio.alarm.beast/jms_idle_timeout=10
-#/ 
-#/ Delay in millisecs that alarm server puts between PV startup to reduce
-#/ the network traffic (but also delay the server startup)
-# org.csstudio.alarm.beast/pv_start_delay=0
-#/ 
-#/ Grace period in seconds for PVs to connect
-# org.csstudio.alarm.beast/connection_grace_period=30
-#/ 
-#/ Number of entries shown in context menu for guidance or related
-#/ displays before they're summarized as "... more ..."
-# org.csstudio.alarm.beast/max_context_menu_entries=10
-#/ 
-#/ Directory used for executing commands
-#/ May use Java system properties like this: $(prop_name)
-# org.csstudio.alarm.beast/command_directory=$(user.home)
-#/ 
-#/ Time in seconds to wait for OK or error from command
-# org.csstudio.alarm.beast/command_check_time=10
-#/ 
-#/ Colors for alarm severities
-# org.csstudio.alarm.beast/color_ok=0, 255, 0
-# org.csstudio.alarm.beast/color_minor_ack=180, 170, 70
-# org.csstudio.alarm.beast/color_major_ack=255, 90, 90
-# org.csstudio.alarm.beast/color_invalid_ack=255, 128, 255
-# org.csstudio.alarm.beast/color_minor=207, 192, 0
-# org.csstudio.alarm.beast/color_major=255, 0, 0
-# org.csstudio.alarm.beast/color_invalid=255, 0, 255
-#/ 
-#/ 
-#/ 
-#/ Delay in millisecs for the initial GUI update
-# org.csstudio.alarm.beast/gui_update_initial_millis=100
-#/ 
-#/ Delay in millisecs for the suppression of a burst of GUI updates
-# org.csstudio.alarm.beast/gui_update_suppression_millis=1000
-#/ 
-
-#<< org.csstudio.alarm.beast/allow_config_selection=true
-#<< org.csstudio.alarm.beast/color_invalid=255, 0, 255
-#<< org.csstudio.alarm.beast/color_invalid_ack=255, 128, 255
-org.csstudio.alarm.beast/color_invalid_ack=255, 0, 255
-#<< org.csstudio.alarm.beast/color_major=255, 0, 0
-org.csstudio.alarm.beast/color_major=250, 12, 14
-#<< org.csstudio.alarm.beast/color_major_ack=255, 90, 90
-org.csstudio.alarm.beast/color_major_ack=250, 12, 14
-#<< org.csstudio.alarm.beast/color_minor=207, 192, 0
-org.csstudio.alarm.beast/color_minor=255, 255, 0
-#<< org.csstudio.alarm.beast/color_minor_ack=180, 170, 70
-org.csstudio.alarm.beast/color_minor_ack=255, 255, 0
-#<< org.csstudio.alarm.beast/color_ok=0, 255, 0
-#<< org.csstudio.alarm.beast/command_check_time=10
-#<< org.csstudio.alarm.beast/command_directory=$(user.home)
-#<< org.csstudio.alarm.beast/connection_grace_period=30
-#<< org.csstudio.alarm.beast/global_prefix=GLOBAL
-#<< org.csstudio.alarm.beast/gui_update_initial_millis=100
-#<< org.csstudio.alarm.beast/gui_update_suppression_millis=1000
-#<< org.csstudio.alarm.beast/jms_idle_timeout=10
-#<< org.csstudio.alarm.beast/jms_password=$alarm
-org.csstudio.alarm.beast/jms_password=
-#<< org.csstudio.alarm.beast/jms_url=failover:(tcp://localhost:61616)
-#<< org.csstudio.alarm.beast/jms_user=alarm
-#<< org.csstudio.alarm.beast/max_context_menu_entries=10
-#<< org.csstudio.alarm.beast/pv_start_delay=0
-#<< org.csstudio.alarm.beast/rdb_password=$alarm
-org.csstudio.alarm.beast/rdb_password=
-#<< org.csstudio.alarm.beast/rdb_schema=ALARM
-org.csstudio.alarm.beast/rdb_schema=
-#<< org.csstudio.alarm.beast/rdb_url=jdbc:mysql://localhost/ALARM
-org.csstudio.alarm.beast/rdb_url=jdbc:postgresql://localhost/css_alarm_3_0_0
-#<< org.csstudio.alarm.beast/rdb_user=alarm
-#<< org.csstudio.alarm.beast/readonly=false
-#<< org.csstudio.alarm.beast/root_component=Annunciator
-org.csstudio.alarm.beast/root_component=CODAC_AlarmHandler
-
-#/
-## org.csstudio.alarm.beast.annunciator 
-#/
-#/ # Default preferences for this plugin
-#/ 
-#/ JMS Connection URL
-# org.csstudio.alarm.beast.annunciator/jms_url= failover:(tcp://localhost:61616)
-#/ 
-#/ JMS Topics from which each MapMessage TEXT will be annunciated
-#/ Can be a list of comma-separated topics
-#/ For alarm messages, list the .._TALK topic of the alarm system root
-# org.csstudio.alarm.beast.annunciator/jms_topic=Annunciator_TALK
-#/ 
-#/ Translation file, for syntax see example file
-# org.csstudio.alarm.beast.annunciator/translations_file =
-#/ translations_file = /home/ek5/workspace/org.csstudio.sns.jms2speech/translations.txt
-#/ translations_file = /usr/local/css/JMS2SPEECH/translations.txt
-#/ 
-#/ List of severities, separated by comma, ordered by priority (highest first)
-# org.csstudio.alarm.beast.annunciator/jms_severity_priorities = FATAL,INVALID, ERROR, MAJOR, WARN, MINOR, INFO, OK, DEBUG
-#/ 
-#/ Threshold for ignoring flurry of messages. When more than this number
-#/ of messages queue up, a shorter "N more messages" info is annunciated
-# org.csstudio.alarm.beast.annunciator/threshold=3
-#/ 
-#/ Number of messages kept in Annunciator View
-# org.csstudio.alarm.beast.annunciator/message_buffer=50
-#/ 
-
-#<< org.csstudio.alarm.beast.annunciator/jms_severity_priorities = FATAL,INVALID, ERROR, MAJOR, WARN, MINOR, INFO, OK, DEBUG
-#<< org.csstudio.alarm.beast.annunciator/jms_topic=Annunciator_TALK
-org.csstudio.alarm.beast.annunciator/jms_topic=CODAC_AlarmHandler_TALK
-#<< org.csstudio.alarm.beast.annunciator/jms_url= failover:(tcp://localhost:61616)
-org.csstudio.alarm.beast.annunciator/jms_url=failover:(tcp://localhost:61616)?randomize=false
-#<< org.csstudio.alarm.beast.annunciator/message_buffer=50
-#<< org.csstudio.alarm.beast.annunciator/threshold=3
-#<< org.csstudio.alarm.beast.annunciator/translations_file =
-
-#/
-## org.csstudio.alarm.beast.msghist 
-#/
-#/ # Default preferences
-#/ 
-#/ Database access
-#/ rdb_url=jdbc:mysql://localhost/log
-# org.csstudio.alarm.beast.msghist/rdb_url=jdbc:oracle:thin:@127.0.0.1/prod
-# org.csstudio.alarm.beast.msghist/rdb_user=log
-# org.csstudio.alarm.beast.msghist/rdb_password=$log
-# org.csstudio.alarm.beast.msghist/rdb_schema=MSG_LOG
-#/ 
-#/ Table Columns: Property Name, widths, weight
-# org.csstudio.alarm.beast.msghist/prop_cols=SEQ,40,5|TIME,180,10|DELTA,60,1|TYPE,45,5|TEXT,50,400|NAME,50,100|STATUS,45,80|SEVERITY,50,80|CURRENT_SEVERITY,50,80|VALUE,35,50|CREATETIME,80,50|USER,45,10|HOST,50,40|APPLICATION-ID,40, 10|CLASS,50,10|FILENAME,50,10
-#/ 
-#/ Colors for the severity column: String, R, G, B
-# org.csstudio.alarm.beast.msghist/severity_colors=INVALID,50,50,50|FATAL,255,0,10|ERROR,255,0,0|MAJOR,255,0,0|MINOR,255,255,0|WARN,255,255,0|INFO,130,130,255|NO_ALARM,0,255,0
-#/ 
-# org.csstudio.alarm.beast.msghist/max_properties=100000
-#/ 
-# org.csstudio.alarm.beast.msghist/start=-1 hour
-#/ 
-#/ Auto refresh period to retrieve the message history @see Message History view
-#/ default value = 0 / unit = seconds
-# org.csstudio.alarm.beast.msghist/auto_refresh_period=0
-
-#<< org.csstudio.alarm.beast.msghist/auto_refresh_period=0
-org.csstudio.alarm.beast.msghist/auto_refresh_period=30
-#<< org.csstudio.alarm.beast.msghist/max_properties=100000
-#<< org.csstudio.alarm.beast.msghist/prop_cols=SEQ,40,5|TIME,180,10|DELTA,60,1|TYPE,45,5|TEXT,50,400|NAME,50,100|STATUS,45,80|SEVERITY,50,80|CURRENT_SEVERITY,50,80|VALUE,35,50|CREATETIME,80,50|USER,45,10|HOST,50,40|APPLICATION-ID,40, 10|CLASS,50,10|FILENAME,50,10
-org.csstudio.alarm.beast.msghist/prop_cols=SEQ,60,5|TIME,360,10|DELTA,150,1|TYPE,120,5|TEXT,50,400|NAME,500,100|STATUS,300,80|SEVERITY,300,80|CURRENT_SEVERITY,300,80|VALUE,300,50|CREATETIME,300,50|USER,120,10|HOST,280,40|APPLICATION-ID,220, 10|CLASS,50,10|FILENAME,50,10
-#<< org.csstudio.alarm.beast.msghist/rdb_password=$log
-org.csstudio.alarm.beast.msghist/rdb_password=
-#<< org.csstudio.alarm.beast.msghist/rdb_schema=MSG_LOG
-org.csstudio.alarm.beast.msghist/rdb_schema=
-#<< org.csstudio.alarm.beast.msghist/rdb_url=jdbc:oracle:thin:@127.0.0.1/prod
-org.csstudio.alarm.beast.msghist/rdb_url=jdbc:postgresql://localhost/css_log_3_0_0
-#<< org.csstudio.alarm.beast.msghist/rdb_user=log
-org.csstudio.alarm.beast.msghist/rdb_user=log_ro
-#<< org.csstudio.alarm.beast.msghist/severity_colors=INVALID,50,50,50|FATAL,255,0,10|ERROR,255,0,0|MAJOR,255,0,0|MINOR,255,255,0|WARN,255,255,0|INFO,130,130,255|NO_ALARM,0,255,0
-	org.csstudio.alarm.beast.msghist/severity_colors=INVALID,255,0,255|FATAL,250,12,14|ERROR,250,12,14|MAJOR,250,12,14|MINOR,255,255,0|WARN,255,255,0|INFO,20,50,202|NO_ALARM,0,255,0|OK,0,255,0
-#<< org.csstudio.alarm.beast.msghist/start=-1 hour
-
-#/
-## org.csstudio.alarm.beast.notifier 
-#/
-#/ # Default preferences for this plugin
-#/ 
-#/ Threshold for ignoring flurry of automated actions. When more than this number
-#/ of messages queue up, all low-priority actions are cancelled & others are forced to execute.
-#/ This threshold represents a number of actions per minute per action type
-#/ (= per implementation of org.csstudio.alarm.beast.notifier.model.IAutomatedAction)
-# org.csstudio.alarm.beast.notifier/timer_threshold=100
-#/ 
-#/ Log level of plugins listed in Application class
-# org.csstudio.alarm.beast.notifier/verbose_log.level=WARNING
-#/ 
-#/ Notify only on alarms that have a higher severity,
-#/ skipping follow-up notifications for 'OK' and acknowledged alarms?
-#/ 
-#/ Comparison of time lines
-#/ ------------------------
-#/ 
-#/ In any case we start with
-#/ 1) Alarm PV triggers, delay expires -> notification
-#/ 
-#/ Original behavior, notify_escalating_alarms_only = false
-#/ 2.a) Acknowledged -> Another notification "ack"
-#/ 2.b) Alarm PV OK, then acknowledged -> Another "OK" plus "ack" notification
-#/ 
-#/ New behavior, notify_escalating_alarms_only = true
-#/ 2.a) Acknowledged -> Nothing
-#/ 2.b) Alarm PV OK, then acknowledged -> Nothing
-# org.csstudio.alarm.beast.notifier/notify_escalating_alarms_only=false
-
-#<< org.csstudio.alarm.beast.notifier/notify_escalating_alarms_only=false
-#<< org.csstudio.alarm.beast.notifier/timer_threshold=100
-#<< org.csstudio.alarm.beast.notifier/verbose_log.level=WARNING
-
-#/
-## org.csstudio.alarm.beast.notifier.logbook 
-#/
-#/ Default Preferences
-# org.csstudio.alarm.beast.notifier.logbook/Default.logbook=CODAC
-# org.csstudio.alarm.beast.notifier.logbook/Default.level=Info
-
-#<< org.csstudio.alarm.beast.notifier.logbook/Default.level=Info
-#<< org.csstudio.alarm.beast.notifier.logbook/Default.logbook=CODAC
-
-#/
-## org.csstudio.alarm.beast.ui 
-#/
-#/ SendEmailAction default sender
-#/ By defining a default email, users who select "Email.." from the context menu
-#/ do not need to enter an email address.
-#/ If left empty, elog dialog will require users to enter a "From:" address for the sender.
-# org.csstudio.alarm.beast.ui/default_email_sender=
-
-#<< org.csstudio.alarm.beast.ui/default_email_sender=
-org.csstudio.alarm.beast.ui/default_email_sender=CSS Alarm UI <css-alarm-ui@codac.iter.org>
-
-#/
-## org.csstudio.alarm.beast.ui.alarmtable 
-#/
-#/ Default settings
-#/ Final product can override in its plugin_preferences.ini
-#/ 
-#/ Maximum number of alarms to show in alarm table
-#/ If more alarms exist, they will be replaced with
-#/ a message "There are more alarms"
-#/ because the table updates get too slow when there
-#/ are too many alarms.
-# org.csstudio.alarm.beast.ui.alarmtable/alarm_table_row_limit=2500
-#/ 
-#/ The list of columns (and order) to display in the alarm table
-#/ Available columns:
-#/ ACK, ICON, PV, DESCRIPTION, TIME, CURRENT_SEVERITY, CURRENT_STATUS, SEVERITY, STATUS, VALUE, ACTION, ID
-#/ column, width, weight (,name): ICON,20,0|PV,80,50,PV Name|...
-# org.csstudio.alarm.beast.ui.alarmtable/alarm_table_columns=ICON,20,0|PV,80,50|DESCRIPTION,80,100|TIME,80,70|CURRENT_SEVERITY,50,30|CURRENT_STATUS,45,30|SEVERITY,50,30|STATUS,45,30|VALUE,45,30
-#/ 
-#/ Combined alarm table for active vs. acknowledged alarms,
-#/ or separate tables for active (unacknowledged) vs.acknowledged alarms?
-# org.csstudio.alarm.beast.ui.alarmtable/combined_alarm_table=false
-#/ 
-#/ Unacknowledged alarms should blink until acknowledged
-# org.csstudio.alarm.beast.ui.alarmtable/blink_unacknowledged=true
-#/ 
-#/ Blinkin period in milliseconds
-# org.csstudio.alarm.beast.ui.alarmtable/blinking_period=500
-#/ 
-#/ Use the alarm's severity color as the row's background
-# org.csstudio.alarm.beast.ui.alarmtable/background_alarm_sensitive=false
-#/ 
-#/ Unacknowledged alarms that have recovered should be displayed with reversed font/background colors (when background colors are enabled)
-# org.csstudio.alarm.beast.ui.alarmtable/reverse_colors_cleared=false
-#/ 
-#/ List of colors that should be paired with Severity colors when reverse_colors_cleared is set to true.
-#/ If there's no entry for a given severity, the default is used (system dependent).
-# org.csstudio.alarm.beast.ui.alarmtable/severity_pair_colors=INVALID,255,255,255|MAJOR,255,255,255|MINOR,0,0,0
-
-#<< org.csstudio.alarm.beast.ui.alarmtable/alarm_table_columns=ICON,20,0|PV,80,50|DESCRIPTION,80,100|TIME,80,70|CURRENT_SEVERITY,50,30|CURRENT_STATUS,45,30|SEVERITY,50,30|STATUS,45,30|VALUE,45,30
-org.csstudio.alarm.beast.ui.alarmtable/alarm_table_columns=ACK,20,0,|ICON,20,0,|TIME,80,40,Date and Time|DESCRIPTION,80,100,Alarm Message|ACTION,80,100,Alarm Action|ID,80,100,Alarm ID
-#<< org.csstudio.alarm.beast.ui.alarmtable/alarm_table_row_limit=2500
-#<< org.csstudio.alarm.beast.ui.alarmtable/background_alarm_sensitive=false
-org.csstudio.alarm.beast.ui.alarmtable/background_alarm_sensitive=true
-#<< org.csstudio.alarm.beast.ui.alarmtable/blink_unacknowledged=true
-#<< org.csstudio.alarm.beast.ui.alarmtable/blinking_period=500
-#<< org.csstudio.alarm.beast.ui.alarmtable/combined_alarm_table=false
-org.csstudio.alarm.beast.ui.alarmtable/combined_alarm_table=true
-#<< org.csstudio.alarm.beast.ui.alarmtable/reverse_colors_cleared=false
-org.csstudio.alarm.beast.ui.alarmtable/reverse_colors_cleared=true
-#<< org.csstudio.alarm.beast.ui.alarmtable/severity_pair_colors=INVALID,255,255,255|MAJOR,255,255,255|MINOR,0,0,0
-#>>
-org.csstudio.alarm.beast.ui.alarmtable/time_format=HH:mm:ss
-
-#/
-## org.csstudio.alarm.beast.ui.alarmtree 
-#/
-#/ Default settings
-#/ Final product can override in its plugin_preferences.ini
-#/ 
-#/ Allow selecting multiple entries in the alarm tree?
-#/ I.e. using 'Ctrl' or 'Shift' when clicking on items?
-#/ 
-#/ Because of Bug 259141:
-#/ Tree.getSelection() is extremely slow with SWT.VIRTUAL and SWT.MULTI
-#/ https://bugs.eclipse.org/bugs/show_bug.cgi?id=259141
-#/ it is currently suggested to not allow multi-selection.
-#/ When enabling multi-selection, a workaround is used that is
-#/ still better than the original bug, but using a display without
-#/ support for multiple selections is fastest.
-# org.csstudio.alarm.beast.ui.alarmtree/allow_multi_selection=false
-
-#<< org.csstudio.alarm.beast.ui.alarmtree/allow_multi_selection=false
-
-#/
-## org.csstudio.alarm.beast.ui.areapanel 
-#/
-#/ Alarm Area Panel Settings
-#/ 
-#/ Select which level of the alarm tree hierarchy
-#/ is displayed by the panel
-#/ 0 - The alarm tree root (bad idea)
-#/ 1 - 'Area' items, 1st level of alarm tree (normal case)
-#/ 2 - 'System' items, 2nd level of alarm tree, one below 'areas' (possible)
-#/ 3 - 'Subsystem' items, 3rd level (unlikely)
-#/ higher - why?
-# org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=1
-#/ 
-#/ Number of columns to show in panel
-# org.csstudio.alarm.beast.ui.areapanel/columns=2
-
-#<< org.csstudio.alarm.beast.ui.areapanel/columns=2
-#<< org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=1
-org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=2
-
-#/
-## org.csstudio.archive.rdb 
-#/
-#/ Default RDB archive settings.
-#/ plugin_preferences.ini can override
-#/ @author Kay Kasemir
-#/ 
-#/ RDB URL for archived data
-#/ If your site uses the same settings everywhere, you
-#/ can specify them here.
-#/ If you switch between production and test setups, better set these
-#/ preferences in the
-#/ plugin_customization.ini
-#/ of the ArchiveEngine etc., or use the command-line
-#/ arguments of the products.
-#/ 
-#/ Oracle example
-#/ url=jdbc:oracle:thin:user/password@//172.31.73.122:1521/prod
-#/ 
-#/ MySQL example
-# org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
-#/ 
-#/ RDB user and password
-#/ Some applications also provide command-line option to override.
-# org.csstudio.archive.rdb/user=archive
-# org.csstudio.archive.rdb/password=$archive
-#/ 
-#/ Schema name. Used with an added "." as prefix for table names.
-#/ For now this is only used with Oracle URLs and ignored for MySQL
-# org.csstudio.archive.rdb/schema=
-#/ 
-#/ Timeout [seconds] for certain SQL queries
-#/ Fundamentally, the SQL queries for data take as long as they take
-#/ and any artificial timeout just breaks queries that would otherwise
-#/ have returned OK  few seconds after the timeout.
-#/ We've seen Oracle lockups, though, that caused JDBC to hang forever
-#/ because the SAMPLE table was locked. No error/exception, just hanging.
-#/ A timeout is used for operations other than getting the actual data,
-#/ for example the channel id-by-name query which _should_ return within
-#/ a shot time, to catch that type of RDB lockup.
-#/ timeout_secs=120
-#/ With PostgreSQL, the setQueryTimeout API is not implemented,
-#/ and calling it results in an exception.
-#/ Setting the timeout to 0 disables calls to setQueryTimeout.
-# org.csstudio.archive.rdb/timeout_secs=0
-#/ 
-#/ Use a blob to read/write array samples?
-#/ 
-#/ The original SAMPLE table did not contain an ARRAY_VAL column
-#/ for the array blob data, but instead used a separate ARRAY_VAL table.
-#/ When running against an old database, this parameter must be set to false.
-# org.csstudio.archive.rdb/use_array_blob=true
-#/ 
-
-#<< org.csstudio.archive.rdb/password=$archive
-org.csstudio.archive.rdb/password=
-#<< org.csstudio.archive.rdb/schema=
-#<< org.csstudio.archive.rdb/timeout_secs=0
-#<< org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
-org.csstudio.archive.rdb/url=jdbc:postgresql://localhost/css_archive_3_0_0
-#<< org.csstudio.archive.rdb/use_array_blob=true
-#<< org.csstudio.archive.rdb/user=archive
-org.csstudio.archive.rdb/user=archive_ro
-
-#/
-## org.csstudio.archive.reader.rdb 
-#/
-#/ Default RDB archive reader settings.
-#/ plugin_preferences.ini can override
-#/ @author Kay Kasemir
-#/ 
-#/ RDB user, password and schema
-#/ are provided by settings in
-#/ plugin org.csstudio.archive.rdb
-#/ 
-#/ Use stored procedure for 'optimized' data readout?
-#/ Set to procedure name, or nothing to disable stored procedure.
-#/ 
-#/ Stored procedure has to match the behavior of example in
-#/ chan_arch_sns.archive_reader_pkg.get_browser_data()
-#/ or the get_browser_data provided for MySQL
-#/ 
-#/ Example for complete path to the Oracle version:
-#/ use_stored_procedure=chan_arch.archive_reader_pkg.get_browser_data
-#/ 
-#/ JDBC Statement 'fetch size':
-#/ Number of samples to read in one network transfer.
-#/ 
-#/ For Oracle, the default is 10.
-#/ Tests resulted in a speed increase up to fetch sizes of 1000.
-#/ On the other hand, bigger numbers can result in java.lang.OutOfMemoryError.
-# org.csstudio.archive.reader.rdb/fetch_size=1000
-#/ 
-#/ MySQL:
-#/ use_stored_procedure=archive.get_browser_data
-#/ 
-#/ PostgreSQL
-#/ use_stored_procedure=public.get_browser_data
-#/ 
-#/ Don't use stored procedure
-# org.csstudio.archive.reader.rdb/use_stored_procedure=
-
-#<< org.csstudio.archive.reader.rdb/fetch_size=1000
-#<< org.csstudio.archive.reader.rdb/use_stored_procedure=
-org.csstudio.archive.reader.rdb/use_stored_procedure=public.get_browser_data
-## org.csstudio.alarm.beast 
-#/
-#/ Default settings for Alarm Server as well as Alarm GUI
-#/ Final product can override in its plugin_preferences.ini
-#/ 
-#/ Run in read-only mode (no acknowledge, no configuration changes)?
-# org.csstudio.alarm.beast/readonly=false
-#/ 
-#/ Allow users to select another alarm configuration at run-time
-#/ (via Alarm Tree GUI)?
-# org.csstudio.alarm.beast/allow_config_selection=true
-#/ 
-#/ RDB that holds configuration and snapshot of state
-# org.csstudio.alarm.beast/rdb_url=jdbc:mysql://localhost/ALARM
-# org.csstudio.alarm.beast/rdb_user=alarm
-# org.csstudio.alarm.beast/rdb_password=$alarm
-#/ Schema: Table name prefix, only used for Oracle.
-#/ May be empty, or provide the schema prefix, _not_ including the final '.'
-# org.csstudio.alarm.beast/rdb_schema=ALARM
-#/ 
-#/ Name of alarm tree root component, also used to
-#/ construct JMS topics:
-#/ ..._SERVER - Topic for communication from server to clients (state)
-#/ ..._CLIENT - Topic for communication from clients to server (config, ack')
-#/ ..._TALK   - Topic for annunciation (server to annunciator)
-# org.csstudio.alarm.beast/root_component=Annunciator
-#/ 
-#/ Name prefix for 'global' alarm notifications:
-#/ ..._SERVER - Topic for communication from servers to 'global' client (state)
-# org.csstudio.alarm.beast/global_prefix=GLOBAL
-#/ 
-#/ JMS for alarm messages (new alarms, acknowledge, ...)
-
-#/
-## org.csstudio.debugging.jmsmonitor 
-#/
-#/ Preferences
-#/ Final product can override in its plugin_preferences.ini
-#/ 
-#/ JMS for alarm messages (new alarms, acknowledge, ...)
-# org.csstudio.debugging.jmsmonitor/jms_url=failover:(tcp://localhost:61616)
-#/ 
-# org.csstudio.debugging.jmsmonitor/jms_user=
-# org.csstudio.debugging.jmsmonitor/jms_password=
-#/ 
-#/ Maximum number of messages to keep in ring buffer
-# org.csstudio.debugging.jmsmonitor/max_messages=500
-
-#<< org.csstudio.debugging.jmsmonitor/jms_password=
-#<< org.csstudio.debugging.jmsmonitor/jms_url=failover:(tcp://localhost:61616)
-org.csstudio.debugging.jmsmonitor/jms_url=failover:(tcp://localhost:61616)?randomize=false
-#<< org.csstudio.debugging.jmsmonitor/jms_user=
-org.csstudio.debugging.jmsmonitor/jms_user=alarm
-#<< org.csstudio.debugging.jmsmonitor/max_messages=500
-
-#/
-## org.csstudio.debugging.rdbshell 
-#/
-#/ Preference settings for the RDB Shell
-#/ 
-# org.csstudio.debugging.rdbshell/URL=jdbc:oracle:thin:@//172.31.73.122:1521/prod
-# org.csstudio.debugging.rdbshell/USER=sns_reports
-# org.csstudio.debugging.rdbshell/QUERY=select * from chan_arch.smpl_eng
-
-#<< org.csstudio.debugging.rdbshell/QUERY=select * from chan_arch.smpl_eng
-org.csstudio.debugging.rdbshell/QUERY=select * from smpl_eng
-#<< org.csstudio.debugging.rdbshell/URL=jdbc:oracle:thin:@//172.31.73.122:1521/prod
-org.csstudio.debugging.rdbshell/URL=jdbc:postgresql://localhost/css_archive_3_0_0
-#<< org.csstudio.debugging.rdbshell/USER=sns_reports
-org.csstudio.debugging.rdbshell/USER=archive_ro
-
-#/
-## org.csstudio.diag.epics.pvmanager.pvtree 
-#/
-#/ Preferences
-#/ Final product can override in its plugin_preferences.ini
-#/ 
-#/ (Max.) Update period in seconds
-# org.csstudio.diag.epics.pvmanager.pvtree/update_period=0.1
-#/ 
-#/ For each record type, list the fields to read and trace as 'links'.
-#/ Format: record_type (field1, field2) ; record_type (...)
-#/ 
-#/ Fields can simply be listed as 'INP', 'DOL'.
-#/ The syntax INPA-L is a shortcut for INPA, INPB, INPC, ..., INPL
-# org.csstudio.diag.epics.pvmanager.pvtree/fields=aai(INP);ai(INP);bi(INP);compress(INP);longin(INP);mbbi(INP);mbbiDirect(INP);mbboDirect(INP);scalcout(INPA-L);stringin(INP);subArray(INP);waveform(INP);aao(DOL);ao(DOL);bo(DOL);fanout(DOL);longout(DOL);mbbo(DOL);stringout(DOL);sub(INPA-L);genSub(INPA-L);calc(INPA-L);calcout(INPA-L);aSub(INPA-U);seq(SELN)
-#/ 
-
-#<< org.csstudio.diag.epics.pvmanager.pvtree/fields=aai(INP);ai(INP);bi(INP);compress(INP);longin(INP);mbbi(INP);mbbiDirect(INP);mbboDirect(INP);scalcout(INPA-L);stringin(INP);subArray(INP);waveform(INP);aao(DOL);ao(DOL);bo(DOL);fanout(DOL);longout(DOL);mbbo(DOL);stringout(DOL);sub(INPA-L);genSub(INPA-L);calc(INPA-L);calcout(INPA-L);aSub(INPA-U);seq(SELN)
-#<< org.csstudio.diag.epics.pvmanager.pvtree/update_period=0.1
-
-#/
-## org.csstudio.diirt.util.preferences 
-#/
-#/ diirt preferences
-# org.csstudio.diirt.util.preferences/diirt.home=configuration/diirt
-
-#<< org.csstudio.diirt.util.preferences/diirt.home=configuration/diirt
-org.csstudio.diirt.util.preferences/diirt.home=/opt/codac/css/css/configuration/diirt
-
-#/
-## org.csstudio.display.pace 
-#/
-#/ PACE Preferences
-#/ 
-#/ Default logbook used for PACE entries
-# org.csstudio.display.pace/default_logbook=Operations
-
-#<< org.csstudio.display.pace/default_logbook=Operations
-org.csstudio.display.pace/default_logbook=CODAC
-
-#/
-## org.csstudio.display.pvtable 
-#/
-#/ Default tolerance for newly created items
-# org.csstudio.display.pvtable/tolerance=0.01
-#/ 
-#/ Item count beyond which the whole table is updated.
-#/ If fewer items than this have changed, only
-#/ the changed items will be updated in the table.
-#/ 
-#/ Details depend on the OS and computer where this is running,
-#/ but overall there seems to be a threshold:
-#/ For a few elements, it's faster to update just them.
-#/ If many elements changed, best to refresh the whole table,
-#/ which will then take care of only redrawing the visible items.
-# org.csstudio.display.pvtable/update_item_threshold=50
-#/ 
-#/ Should byte array values be treated as a string?
-#/ EPICS often uses byte[] to transfer strings that exceed the
-#/ basic EPICS string length limitation.
-#/ With this option, the table will try to display byte array
-#/ data as strings as long as all chars are in the ASCII range.
-# org.csstudio.display.pvtable/treat_byte_array_as_string=true
-#/ 
-#/ Add a 'description' column?
-#/ Displays the *.DESC field of the PV on that line.
-# org.csstudio.display.pvtable/show_description=true
-#/ 
-#/ Show value with units?
-# org.csstudio.display.pvtable/show_units=true
-
-#<< org.csstudio.display.pvtable/show_description=true
-#<< org.csstudio.display.pvtable/show_units=true
-#<< org.csstudio.display.pvtable/tolerance=0.01
-#<< org.csstudio.display.pvtable/treat_byte_array_as_string=true
-#<< org.csstudio.display.pvtable/update_item_threshold=50
-
-#/
-## org.csstudio.email 
-#/
-#/ Default Preferences
-#/ 
-#/ Name of host that offers SMTP service for your site
-#/ smtp_host=smtp.your_site.org
-#/ Setting it to an empty string means: EMail is not supported.
-# org.csstudio.email/smtp_host=
-#/ 
-#/ Default sender address for JavaxMailSender
-# org.csstudio.email/smtp_sender=
-
-#<< org.csstudio.email/smtp_host=
-org.csstudio.email/smtp_host=mail.codac.iter.org
-#<< org.csstudio.email/smtp_sender=
-org.csstudio.email/smtp_sender=CSS Alarm Notifier <css-alarm-notifier@codac.iter.org>
-
-#/
-## org.csstudio.logbook.ui 
-#/
-#/ Default Preferences
-#/ 
-#/ Request Authentication credentials for each entry
-# org.csstudio.logbook.ui/Autenticate.user=true
-#/ 
-#/ Default logbook
-# org.csstudio.logbook.ui/Default.logbook=Operations
-#/ 
-#/ Default level
-# org.csstudio.logbook.ui/Default.level=Info
-#/ 
-#/ The maximum number or log entries to be fetched in each page
-# org.csstudio.logbook.ui/Result.size=
-#/ 
-#/ 
-# org.csstudio.logbook.ui/Show.history=false
-#/ 
-#/ the regular expression to discover pv's in a log entries text field
-# org.csstudio.logbook.ui/pvRegex=^.*pv.*?:(.*?)$
-#/ 
-#/ The preference that determines how to formatt a log entry into a URL
-#/ If the string has a {logId} it will be replaced with the actual log id
-# org.csstudio.logbook.ui/Log.url.format = http://localhost:8080/Olog/resources/logs/{logId}
-
-#<< org.csstudio.logbook.ui/Autenticate.user=true
-org.csstudio.logbook.ui/Autenticate.user=false
-#<< org.csstudio.logbook.ui/Default.level=Info
-#<< org.csstudio.logbook.ui/Default.logbook=Operations
-org.csstudio.logbook.ui/Default.logbook=CODAC
-#<< org.csstudio.logbook.ui/Log.url.format = http://localhost:8080/Olog/resources/logs/{logId}
-org.csstudio.logbook.ui/Log.url.format=http://localhost:8080/elog/#{logId}_1
-#<< org.csstudio.logbook.ui/Result.size=
-org.csstudio.logbook.ui/Result.size=50
-#<< org.csstudio.logbook.ui/Show.history=false
-org.csstudio.logbook.ui/Show.history=true
-#<< org.csstudio.logbook.ui/pvRegex=^.*pv.*?:(.*?)$
-
-#/
-## org.csstudio.logbook.viewer 
-#/
-#/ Default Preferences
-#/ 
-#/ define the rate at which the logs should be automaticallu refreshed with the view is active.
-#/ time is specified in minutes and 0 implies to disable auto refresh
-# org.csstudio.logbook.viewer/auto.refresh.rate=1
-#/ 
-#/ Display LogEntryTree and LogEntryTable in expanded format, each row is calculated so as to display the entire log entry
-# org.csstudio.logbook.viewer/expanded.view=false
-#/ 
-#/ If not using expanded view the maximum number of lines per row
-# org.csstudio.logbook.viewer/row.size=1
-
-#<< org.csstudio.logbook.viewer/auto.refresh.rate=1
-#<< org.csstudio.logbook.viewer/expanded.view=false
-#<< org.csstudio.logbook.viewer/row.size=1
 # org.csstudio.alarm.beast/jms_url=failover:(tcp://localhost:61616)
 # org.csstudio.alarm.beast/jms_user=alarm
 # org.csstudio.alarm.beast/jms_password=$alarm
@@ -1216,7 +299,7 @@ org.csstudio.alarm.beast.ui/default_email_sender=CSS Alarm UI <css-alarm-ui@coda
 # org.csstudio.alarm.beast.ui.alarmtable/severity_pair_colors=INVALID,255,255,255|MAJOR,255,255,255|MINOR,0,0,0
 
 #<< org.csstudio.alarm.beast.ui.alarmtable/alarm_table_columns=ICON,20,0|PV,80,50|DESCRIPTION,80,100|TIME,80,70|CURRENT_SEVERITY,50,30|CURRENT_STATUS,45,30|SEVERITY,50,30|STATUS,45,30|VALUE,45,30
-org.csstudio.alarm.beast.ui.alarmtable/alarm_table_columns=ACK,20,0,|ICON,20,0,|TIME,80,40,Date and Time|DESCRIPTION,80,100,Alarm Message|ACTION,80,100,Alarm Action|ID,80,100,Alarm ID
+org.csstudio.alarm.beast.ui.alarmtable/alarm_table_columns=ACK,40,0,|ICON,40,0,|TIME,80,40,Date and Time|DESCRIPTION,80,100,Alarm Message|ACTION,80,100,Alarm Action|ID,80,100,Alarm ID
 #<< org.csstudio.alarm.beast.ui.alarmtable/alarm_table_row_limit=2500
 #<< org.csstudio.alarm.beast.ui.alarmtable/background_alarm_sensitive=false
 org.csstudio.alarm.beast.ui.alarmtable/background_alarm_sensitive=true
@@ -1228,8 +311,582 @@ org.csstudio.alarm.beast.ui.alarmtable/combined_alarm_table=true
 org.csstudio.alarm.beast.ui.alarmtable/reverse_colors_cleared=true
 #<< org.csstudio.alarm.beast.ui.alarmtable/severity_pair_colors=INVALID,255,255,255|MAJOR,255,255,255|MINOR,0,0,0
 #>>
-org.csstudio.alarm.beast.ui.alarmtable/time_format=HH:mm:ss
+org.csstudio.alarm.beast.ui.alarmtable/time_format=yyyy-MM-dd'T'mm:hh.ssX
 
+#/
+## org.csstudio.alarm.beast.ui.alarmtree 
+#/
+#/ Default settings
+#/ Final product can override in its plugin_preferences.ini
+#/ 
+#/ Allow selecting multiple entries in the alarm tree?
+#/ I.e. using 'Ctrl' or 'Shift' when clicking on items?
+#/ 
+#/ Because of Bug 259141:
+#/ Tree.getSelection() is extremely slow with SWT.VIRTUAL and SWT.MULTI
+#/ https://bugs.eclipse.org/bugs/show_bug.cgi?id=259141
+#/ it is currently suggested to not allow multi-selection.
+#/ When enabling multi-selection, a workaround is used that is
+#/ still better than the original bug, but using a display without
+#/ support for multiple selections is fastest.
+# org.csstudio.alarm.beast.ui.alarmtree/allow_multi_selection=false
+
+#<< org.csstudio.alarm.beast.ui.alarmtree/allow_multi_selection=false
+
+#/
+## org.csstudio.alarm.beast.ui.areapanel 
+#/
+#/ Alarm Area Panel Settings
+#/ 
+#/ Select which level of the alarm tree hierarchy
+#/ is displayed by the panel
+#/ 0 - The alarm tree root (bad idea)
+#/ 1 - 'Area' items, 1st level of alarm tree (normal case)
+#/ 2 - 'System' items, 2nd level of alarm tree, one below 'areas' (possible)
+#/ 3 - 'Subsystem' items, 3rd level (unlikely)
+#/ higher - why?
+# org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=1
+#/ 
+#/ Number of columns to show in panel
+# org.csstudio.alarm.beast.ui.areapanel/columns=2
+
+#<< org.csstudio.alarm.beast.ui.areapanel/columns=2
+#<< org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=1
+org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=2
+
+#/
+## org.csstudio.archive.rdb 
+#/
+#/ Default RDB archive settings.
+#/ plugin_preferences.ini can override
+#/ @author Kay Kasemir
+#/ 
+#/ RDB URL for archived data
+#/ If your site uses the same settings everywhere, you
+#/ can specify them here.
+#/ If you switch between production and test setups, better set these
+#/ preferences in the
+#/ plugin_customization.ini
+#/ of the ArchiveEngine etc., or use the command-line
+#/ arguments of the products.
+#/ 
+#/ Oracle example
+#/ url=jdbc:oracle:thin:user/password@//172.31.73.122:1521/prod
+#/ 
+#/ MySQL example
+# org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
+#/ 
+#/ RDB user and password
+#/ Some applications also provide command-line option to override.
+# org.csstudio.archive.rdb/user=archive
+# org.csstudio.archive.rdb/password=$archive
+#/ 
+#/ Schema name. Used with an added "." as prefix for table names.
+#/ For now this is only used with Oracle URLs and ignored for MySQL
+# org.csstudio.archive.rdb/schema=
+#/ 
+#/ Timeout [seconds] for certain SQL queries
+#/ Fundamentally, the SQL queries for data take as long as they take
+#/ and any artificial timeout just breaks queries that would otherwise
+#/ have returned OK  few seconds after the timeout.
+#/ We've seen Oracle lockups, though, that caused JDBC to hang forever
+#/ because the SAMPLE table was locked. No error/exception, just hanging.
+#/ A timeout is used for operations other than getting the actual data,
+#/ for example the channel id-by-name query which _should_ return within
+#/ a shot time, to catch that type of RDB lockup.
+#/ timeout_secs=120
+#/ With PostgreSQL, the setQueryTimeout API is not implemented,
+#/ and calling it results in an exception.
+#/ Setting the timeout to 0 disables calls to setQueryTimeout.
+# org.csstudio.archive.rdb/timeout_secs=0
+#/ 
+#/ Use a blob to read/write array samples?
+#/ 
+#/ The original SAMPLE table did not contain an ARRAY_VAL column
+#/ for the array blob data, but instead used a separate ARRAY_VAL table.
+#/ When running against an old database, this parameter must be set to false.
+# org.csstudio.archive.rdb/use_array_blob=true
+#/ 
+
+#<< org.csstudio.archive.rdb/password=$archive
+org.csstudio.archive.rdb/password=
+#<< org.csstudio.archive.rdb/schema=
+#<< org.csstudio.archive.rdb/timeout_secs=0
+#<< org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
+org.csstudio.archive.rdb/url=jdbc:postgresql://localhost/css_archive_3_0_0
+#<< org.csstudio.archive.rdb/use_array_blob=true
+#<< org.csstudio.archive.rdb/user=archive
+org.csstudio.archive.rdb/user=archive_ro
+
+#/
+## org.csstudio.archive.reader.rdb 
+#/
+#/ Default RDB archive reader settings.
+#/ plugin_preferences.ini can override
+#/ @author Kay Kasemir
+#/ 
+#/ RDB user, password and schema
+#/ are provided by settings in
+#/ plugin org.csstudio.archive.rdb
+#/ 
+#/ Use stored procedure for 'optimized' data readout?
+#/ Set to procedure name, or nothing to disable stored procedure.
+#/ 
+#/ Stored procedure has to match the behavior of example in
+#/ chan_arch_sns.archive_reader_pkg.get_browser_data()
+#/ or the get_browser_data provided for MySQL
+#/ 
+#/ Example for complete path to the Oracle version:
+#/ use_stored_procedure=chan_arch.archive_reader_pkg.get_browser_data
+#/ 
+#/ JDBC Statement 'fetch size':
+#/ Number of samples to read in one network transfer.
+#/ 
+#/ For Oracle, the default is 10.
+#/ Tests resulted in a speed increase up to fetch sizes of 1000.
+#/ On the other hand, bigger numbers can result in java.lang.OutOfMemoryError.
+# org.csstudio.archive.reader.rdb/fetch_size=1000
+#/ 
+#/ MySQL:
+#/ use_stored_procedure=archive.get_browser_data
+#/ 
+#/ PostgreSQL
+#/ use_stored_procedure=public.get_browser_data
+#/ 
+#/ Oracle
+#/ use_stored_procedure=chan_arch.archive_reader_pkg.get_browser_data
+#/ use_starttime_function=SELECT chan_arch.archive_reader_pkg.get_actual_start_time (?, ?, ?)  FROM DUAL
+#/ 
+#/ Don't use stored procedure or function
+# org.csstudio.archive.reader.rdb/use_stored_procedure=
+# org.csstudio.archive.reader.rdb/use_starttime_function=
+
+#<< org.csstudio.archive.reader.rdb/fetch_size=1000
+#<< org.csstudio.archive.reader.rdb/use_starttime_function=
+#<< org.csstudio.archive.reader.rdb/use_stored_procedure=
+org.csstudio.archive.reader.rdb/use_stored_procedure=public.get_browser_data
+
+#/
+## org.csstudio.autocomplete 
+#/
+#/ # Default preferences for this plugin
+#/ 
+#/ Default max result per provider
+# org.csstudio.autocomplete/default_max_results=10
+#/ 
+#/ Define ordered provider list by type and maximum number of expected results by provider
+#/ providers.TYPE=provider_name[,max_results];provider_name[,max_results]...
+#/ providers.ANOTHER_TYPE=provider_name[,max_results];provider_name[,max_results]...
+#/ Example:
+#/ providers.PV= History; SDD Database, 5; DB Files, 5
+# org.csstudio.autocomplete/providers.PV=History,10
+# org.csstudio.autocomplete/providers.Formula=History,10
+#/ 
+#/ Top results separators
+# org.csstudio.autocomplete/max_top_results=3
+# org.csstudio.autocomplete/separators=-.(
+
+#<< org.csstudio.autocomplete/default_max_results=10
+#<< org.csstudio.autocomplete/max_top_results=3
+#<< org.csstudio.autocomplete/providers.Formula=History,10
+org.csstudio.autocomplete/providers.Formula=History,4; DB Files; Archive RDB
+#<< org.csstudio.autocomplete/providers.PV=History,10
+org.csstudio.autocomplete/providers.PV=History,4; DB Files; Archive RDB
+#<< org.csstudio.autocomplete/separators=-.(
+#>>
+org.csstudio.autocomplete/providers.LogentrySearch=Logbook,10; History,10
+
+#/
+## org.csstudio.autocomplete.ui 
+#/
+#/ # Default preferences for this plugin
+#/ 
+#/ Default history storage capacity per type
+# org.csstudio.autocomplete.ui/history_size=100
+
+#<< org.csstudio.autocomplete.ui/history_size=100
+
+#/
+## org.csstudio.debugging.jmsmonitor 
+#/
+#/ Preferences
+#/ Final product can override in its plugin_preferences.ini
+#/ 
+#/ JMS for alarm messages (new alarms, acknowledge, ...)
+# org.csstudio.debugging.jmsmonitor/jms_url=failover:(tcp://localhost:61616)
+#/ 
+# org.csstudio.debugging.jmsmonitor/jms_user=
+# org.csstudio.debugging.jmsmonitor/jms_password=
+#/ 
+#/ Maximum number of messages to keep in ring buffer
+# org.csstudio.debugging.jmsmonitor/max_messages=500
+
+#<< org.csstudio.debugging.jmsmonitor/jms_password=
+#<< org.csstudio.debugging.jmsmonitor/jms_url=failover:(tcp://localhost:61616)
+org.csstudio.debugging.jmsmonitor/jms_url=failover:(tcp://localhost:61616)?randomize=false
+#<< org.csstudio.debugging.jmsmonitor/jms_user=
+org.csstudio.debugging.jmsmonitor/jms_user=alarm
+#<< org.csstudio.debugging.jmsmonitor/max_messages=500
+
+#/
+## org.csstudio.debugging.rdbshell 
+#/
+#/ Preference settings for the RDB Shell
+#/ 
+# org.csstudio.debugging.rdbshell/URL=jdbc:oracle:thin:@//172.31.73.122:1521/prod
+# org.csstudio.debugging.rdbshell/USER=sns_reports
+# org.csstudio.debugging.rdbshell/QUERY=select * from chan_arch.smpl_eng
+
+#<< org.csstudio.debugging.rdbshell/QUERY=select * from chan_arch.smpl_eng
+org.csstudio.debugging.rdbshell/QUERY=select * from smpl_eng
+#<< org.csstudio.debugging.rdbshell/URL=jdbc:oracle:thin:@//172.31.73.122:1521/prod
+org.csstudio.debugging.rdbshell/URL=jdbc:postgresql://localhost/css_archive_3_0_0
+#<< org.csstudio.debugging.rdbshell/USER=sns_reports
+org.csstudio.debugging.rdbshell/USER=archive_ro
+
+#/
+## org.csstudio.diag.epics.pvmanager.pvtree 
+#/
+#/ Preferences
+#/ Final product can override in its plugin_preferences.ini
+#/ 
+#/ (Max.) Update period in seconds
+# org.csstudio.diag.epics.pvmanager.pvtree/update_period=0.1
+#/ 
+#/ For each record type, list the fields to read and trace as 'links'.
+#/ Format: record_type (field1, field2) ; record_type (...)
+#/ 
+#/ Fields can simply be listed as 'INP', 'DOL'.
+#/ The syntax INPA-L is a shortcut for INPA, INPB, INPC, ..., INPL
+# org.csstudio.diag.epics.pvmanager.pvtree/fields=aai(INP);ai(INP);bi(INP);compress(INP);longin(INP);mbbi(INP);mbbiDirect(INP);mbboDirect(INP);scalcout(INPA-L);stringin(INP);subArray(INP);waveform(INP);aao(DOL);ao(DOL);bo(DOL);fanout(DOL);longout(DOL);mbbo(DOL);stringout(DOL);sub(INPA-L);genSub(INPA-L);calc(INPA-L);calcout(INPA-L);aSub(INPA-U);seq(SELN)
+#/ 
+
+#<< org.csstudio.diag.epics.pvmanager.pvtree/fields=aai(INP);ai(INP);bi(INP);compress(INP);longin(INP);mbbi(INP);mbbiDirect(INP);mbboDirect(INP);scalcout(INPA-L);stringin(INP);subArray(INP);waveform(INP);aao(DOL);ao(DOL);bo(DOL);fanout(DOL);longout(DOL);mbbo(DOL);stringout(DOL);sub(INPA-L);genSub(INPA-L);calc(INPA-L);calcout(INPA-L);aSub(INPA-U);seq(SELN)
+#<< org.csstudio.diag.epics.pvmanager.pvtree/update_period=0.1
+
+#/
+## org.csstudio.diirt.util.core.preferences 
+#/
+#/ diirt preferences
+# org.csstudio.diirt.util.core.preferences/diirt.default.initialized=false
+# org.csstudio.diirt.util.core.preferences/diirt.home=@user.home/configuration/diirt
+# org.csstudio.diirt.util.core.preferences/diirt.ca.addr.list=localhost
+# org.csstudio.diirt.util.core.preferences/diirt.ca.auto.addr.list=true
+# org.csstudio.diirt.util.core.preferences/diirt.ca.beacon.period=30.0
+# org.csstudio.diirt.util.core.preferences/diirt.ca.connection.timeout=30.0
+# org.csstudio.diirt.util.core.preferences/diirt.ca.custom.mask=5
+# org.csstudio.diirt.util.core.preferences/diirt.ca.dbe.property.supported=false
+# org.csstudio.diirt.util.core.preferences/diirt.ca.honor.zero.precision=true
+# org.csstudio.diirt.util.core.preferences/diirt.ca.max.array.size=16384
+# org.csstudio.diirt.util.core.preferences/diirt.ca.monitor.mask=VALUE
+# org.csstudio.diirt.util.core.preferences/diirt.ca.pure.java=true
+# org.csstudio.diirt.util.core.preferences/diirt.ca.repeater.port=5065
+# org.csstudio.diirt.util.core.preferences/diirt.ca.server.port=5064
+# org.csstudio.diirt.util.core.preferences/diirt.ca.value.rtyp.monitor=false
+# org.csstudio.diirt.util.core.preferences/diirt.ca.variable.length.array=auto
+# org.csstudio.diirt.util.core.preferences/diirt.datasource.default=ca
+# org.csstudio.diirt.util.core.preferences/diirt.datasource.delimiter=\://
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.addr.list=localhost
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.auto.addr.list=true
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.beacon.period=30.0
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.connection.timeout=30.0
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.custom.mask=5
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.dbe.property.supported=false
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.honor.zero.precision=true
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.max.array.size=16384
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.monitor.mask=VALUE
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.pure.java=true
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.repeater.port=5065
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.server.port=5064
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.value.rtyp.monitor=false
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.variable.length.array=auto
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.datasource.default=ca
+# org.csstudio.diirt.util.core.preferences/_default_.diirt.datasource.delimiter=\://
+
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.addr.list=localhost
+org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.addr.list=
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.auto.addr.list=true
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.beacon.period=30.0
+org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.beacon.period=15.0
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.connection.timeout=30.0
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.custom.mask=5
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.dbe.property.supported=false
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.honor.zero.precision=true
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.max.array.size=16384
+org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.max.array.size=460000
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.monitor.mask=VALUE
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.pure.java=true
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.repeater.port=5065
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.server.port=5064
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.value.rtyp.monitor=false
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.ca.variable.length.array=auto
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.datasource.default=ca
+#<< org.csstudio.diirt.util.core.preferences/_default_.diirt.datasource.delimiter=\://
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.addr.list=localhost
+org.csstudio.diirt.util.core.preferences/diirt.ca.addr.list=
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.auto.addr.list=true
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.beacon.period=30.0
+org.csstudio.diirt.util.core.preferences/diirt.ca.beacon.period=15.0
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.connection.timeout=30.0
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.custom.mask=5
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.dbe.property.supported=false
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.honor.zero.precision=true
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.max.array.size=16384
+org.csstudio.diirt.util.core.preferences/diirt.ca.max.array.size=460000
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.monitor.mask=VALUE
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.pure.java=true
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.repeater.port=5065
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.server.port=5064
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.value.rtyp.monitor=false
+#<< org.csstudio.diirt.util.core.preferences/diirt.ca.variable.length.array=auto
+#<< org.csstudio.diirt.util.core.preferences/diirt.datasource.default=ca
+#<< org.csstudio.diirt.util.core.preferences/diirt.datasource.delimiter=\://
+#<< org.csstudio.diirt.util.core.preferences/diirt.default.initialized=false
+org.csstudio.diirt.util.core.preferences/diirt.default.initialized=true
+#<< org.csstudio.diirt.util.core.preferences/diirt.home=@user.home/configuration/diirt
+org.csstudio.diirt.util.core.preferences/diirt.home=/opt/codac/css/css/configuration/diirt
+#>>
+org.csstudio.diirt.util.core.preferences/_default_.diirt.home=/opt/codac/css/css/configuration/diirt
+
+#/
+## org.csstudio.display.pace 
+#/
+#/ PACE Preferences
+#/ 
+#/ Default logbook used for PACE entries
+# org.csstudio.display.pace/default_logbook=Operations
+
+#<< org.csstudio.display.pace/default_logbook=Operations
+org.csstudio.display.pace/default_logbook=CODAC
+
+#/
+## org.csstudio.display.pvtable 
+#/
+#/ Default tolerance for newly created items
+# org.csstudio.display.pvtable/tolerance=0.01
+#/ 
+#/ Item count beyond which the whole table is updated.
+#/ If fewer items than this have changed, only
+#/ the changed items will be updated in the table.
+#/ 
+#/ Details depend on the OS and computer where this is running,
+#/ but overall there seems to be a threshold:
+#/ For a few elements, it's faster to update just them.
+#/ If many elements changed, best to refresh the whole table,
+#/ which will then take care of only redrawing the visible items.
+# org.csstudio.display.pvtable/update_item_threshold=50
+#/ 
+#/ Should byte array values be treated as a string?
+#/ EPICS often uses byte[] to transfer strings that exceed the
+#/ basic EPICS string length limitation.
+#/ With this option, the table will try to display byte array
+#/ data as strings as long as all chars are in the ASCII range.
+# org.csstudio.display.pvtable/treat_byte_array_as_string=true
+#/ 
+#/ Add a 'description' column?
+#/ Displays the *.DESC field of the PV on that line.
+# org.csstudio.display.pvtable/show_description=true
+#/ 
+#/ Show value with units?
+# org.csstudio.display.pvtable/show_units=true
+#/ 
+#/ Show Saved Timestamp
+# org.csstudio.display.pvtable/show_save_timestamp=true
+
+#<< org.csstudio.display.pvtable/show_description=true
+#<< org.csstudio.display.pvtable/show_save_timestamp=true
+#<< org.csstudio.display.pvtable/show_units=true
+#<< org.csstudio.display.pvtable/tolerance=0.01
+#<< org.csstudio.display.pvtable/treat_byte_array_as_string=true
+#<< org.csstudio.display.pvtable/update_item_threshold=50
+
+#/
+## org.csstudio.email 
+#/
+#/ Default Preferences
+#/ 
+#/ Name of host that offers SMTP service for your site
+#/ smtp_host=smtp.your_site.org
+#/ Setting it to an empty string means: EMail is not supported.
+# org.csstudio.email/smtp_host=
+#/ 
+#/ Default sender address for JavaxMailSender
+# org.csstudio.email/smtp_sender=
+
+#<< org.csstudio.email/smtp_host=
+org.csstudio.email/smtp_host=mail.codac.iter.org
+#<< org.csstudio.email/smtp_sender=
+org.csstudio.email/smtp_sender=CSS Alarm Notifier <css-alarm-notifier@codac.iter.org>
+
+#/
+## org.csstudio.java 
+#/
+#/ Custom patterns can be defined for DATE_FORMATTER, TIME_FORMATTER, FULL_FORMATTER, MILLI_FORMATTER, SECONDS_FORMATTER
+#/ custom_date_formatter_pattern=yyyy-MM-dd
+#/ custom_short_date_formatter_pattern=yy-MM-dd
+#/ custom_month_formatter_pattern=MM-dd HH:mm
+#/ custom_time_formatter_pattern=HH:mm:ssX
+#/ custom_full_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.nnnnnnnnnX
+#/ custom_milli_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.SSSX
+#/ custom_seconds_formatter_pattern=yyyy-MM-dd'T'HH:mm:ssX
+#/ custom_datetime_formatter_pattern=yyyy-MM-dd'T'HH:mmX
+#/ custom_short_datetime_formatter_pattern=yy-MM-dd'T'HH:mmX
+
+#>>
+org.csstudio.java/custom_full_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.nnnnnnnnnX
+#>>
+org.csstudio.java/custom_date_formatter_pattern=yyyy-MM-dd
+#>>
+org.csstudio.java/custom_short_date_formatter_pattern=yy-MM-dd
+#>>
+org.csstudio.java/custom_time_formatter_pattern=HH:mm:ssX
+#>>
+org.csstudio.java/custom_short_datetime_formatter_pattern=yy-MM-dd'T'HH:mmX
+#>>
+org.csstudio.java/custom_datetime_formatter_pattern=yyyy-MM-dd'T'HH:mmX
+#>>
+org.csstudio.java/custom_seconds_formatter_pattern=yyyy-MM-dd'T'HH:mm:ssX
+#>>
+org.csstudio.java/custom_month_formatter_pattern=MM-dd HH:mm
+#>>
+org.csstudio.java/custom_milli_formatter_pattern=yyyy-MM-dd'T'HH:mm:ss.SSSX
+
+#/
+## org.csstudio.logbook.ui 
+#/
+#/ Default Preferences
+#/ 
+#/ Request Authentication credentials for each entry
+# org.csstudio.logbook.ui/Autenticate.user=true
+#/ 
+#/ Default logbook
+# org.csstudio.logbook.ui/Default.logbook=Operations
+#/ 
+#/ Default level
+# org.csstudio.logbook.ui/Default.level=Info
+#/ 
+#/ The maximum number or log entries to be fetched in each page
+# org.csstudio.logbook.ui/Result.size=
+#/ 
+#/ 
+# org.csstudio.logbook.ui/Show.history=false
+#/ 
+#/ the regular expression to discover pv's in a log entries text field
+# org.csstudio.logbook.ui/pvRegex=^.*pv.*?:(.*?)$
+#/ 
+#/ The preference that determines how to formatt a log entry into a URL
+#/ If the string has a {logId} it will be replaced with the actual log id
+# org.csstudio.logbook.ui/Log.url.format = http://localhost:8080/Olog/resources/logs/{logId}
+
+#<< org.csstudio.logbook.ui/Autenticate.user=true
+org.csstudio.logbook.ui/Autenticate.user=false
+#<< org.csstudio.logbook.ui/Default.level=Info
+#<< org.csstudio.logbook.ui/Default.logbook=Operations
+org.csstudio.logbook.ui/Default.logbook=CODAC
+#<< org.csstudio.logbook.ui/Log.url.format = http://localhost:8080/Olog/resources/logs/{logId}
+org.csstudio.logbook.ui/Log.url.format=http://localhost:8082/elog/#{logId}_1
+#<< org.csstudio.logbook.ui/Result.size=
+org.csstudio.logbook.ui/Result.size=50
+#<< org.csstudio.logbook.ui/Show.history=false
+org.csstudio.logbook.ui/Show.history=true
+#<< org.csstudio.logbook.ui/pvRegex=^.*pv.*?:(.*?)$
+
+#/
+## org.csstudio.logbook.viewer 
+#/
+#/ Default Preferences
+#/ 
+#/ define the rate at which the logs should be automaticallu refreshed with the view is active.
+#/ time is specified in minutes and 0 implies to disable auto refresh
+# org.csstudio.logbook.viewer/auto.refresh.rate=1
+#/ 
+#/ Display LogEntryTree and LogEntryTable in expanded format, each row is calculated so as to display the entire log entry
+# org.csstudio.logbook.viewer/expanded.view=false
+#/ 
+#/ If not using expanded view the maximum number of lines per row
+# org.csstudio.logbook.viewer/row.size=1
+
+#<< org.csstudio.logbook.viewer/auto.refresh.rate=1
+#<< org.csstudio.logbook.viewer/expanded.view=false
+#<< org.csstudio.logbook.viewer/row.size=1
+
+#/
+## org.csstudio.logging 
+#/
+#/ Logging preferences
+#/ 
+#/ Detail of message format: LOW, HIGH
+# org.csstudio.logging/detail=HIGH
+#/ 
+#/ Log level for console:
+#/ OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST, ALL
+#/ Technically also allows integer level as defined by java.util.logging.Level,
+#/ but suggestion is to use predefined level names
+# org.csstudio.logging/console_level=CONFIG
+#/ 
+#/ Log level for file:
+#/ OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST, ALL
+#/ Note that level for file cannot be higher than level for console
+# org.csstudio.logging/file_level=INFO
+#/ 
+#/ Path and pattern for log files
+#/ Leave empty to disable file logging
+# org.csstudio.logging/file_pattern=
+#/ 
+#/ Maximum number of bytes kept in file
+# org.csstudio.logging/file_bytes=8000
+#/ 
+#/ Maximum number of file kept in rotation
+# org.csstudio.logging/file_count=2
+#/ 
+#/ Log level for JMS:
+#/ OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST, ALL
+#/ Note that level for JMS cannot be higher than level for console
+# org.csstudio.logging/jms_level=INFO
+#/ 
+#/ URL of JMS used for logging: failover:(tcp://some_host.my.site.org:61616)
+#/ Leave empty to disable JMS logging
+# org.csstudio.logging/jms_url=
+#/ 
+#/ Topic to use for log messages
+# org.csstudio.logging/jms_topic=LOG
+
+#<< org.csstudio.logging/console_level=CONFIG
+#<< org.csstudio.logging/detail=HIGH
+#<< org.csstudio.logging/file_bytes=8000
+org.csstudio.logging/file_bytes=500000
+#<< org.csstudio.logging/file_count=2
+#<< org.csstudio.logging/file_level=INFO
+org.csstudio.logging/file_level=CONFIG
+#<< org.csstudio.logging/file_pattern=
+#<< org.csstudio.logging/jms_level=INFO
+org.csstudio.logging/jms_level=WARNING
+#<< org.csstudio.logging/jms_topic=LOG
+#<< org.csstudio.logging/jms_url=
+org.csstudio.logging/jms_url=failover:(tcp://localhost:61616)?randomize=false
+
+#/
+## org.csstudio.logging.ui 
+#/
+#/ Logging UI preferences.
+#/ This file provides the color scheme used for different message severities
+#/ Magenta
+# org.csstudio.logging.ui/color_severe=255,0,255
+#/ Red
+# org.csstudio.logging.ui/color_warning=255,0,0
+#/ Blue
+# org.csstudio.logging.ui/color_info=0,0,255
+#/ Black
+# org.csstudio.logging.ui/color_basic=0,0,0
+
+#<< org.csstudio.logging.ui/color_basic=0,0,0
+org.csstudio.logging.ui/color_basic=0, 255, 0
+#<< org.csstudio.logging.ui/color_info=0,0,255
+org.csstudio.logging.ui/color_info=20, 50, 202
+#<< org.csstudio.logging.ui/color_severe=255,0,255
+org.csstudio.logging.ui/color_severe=250, 12, 14
+#<< org.csstudio.logging.ui/color_warning=255,0,0
+org.csstudio.logging.ui/color_warning=250, 12, 14
 
 #/
 ## org.csstudio.opibuilder 
@@ -1273,6 +930,9 @@ org.csstudio.alarm.beast.ui.alarmtable/time_format=HH:mm:ss
 # org.csstudio.opibuilder/show_compact_mode_dialog = true
 # org.csstudio.opibuilder/show_fullscreen_dialog = true
 # org.csstudio.opibuilder/start_window_in_compact_mode = false
+# org.csstudio.opibuilder/start_window_in_full_screen_mode = false
+# org.csstudio.opibuilder/show_status_line_in_full_screen_mode = false
+# org.csstudio.opibuilder/show_status_line_in_compact_mode = false
 #/ 
 #/ Timeout in milliseconds for loading files from URLs (http://...)
 # org.csstudio.opibuilder/url_file_loading_timeout = 5000
@@ -1321,6 +981,7 @@ org.csstudio.alarm.beast.ui.alarmtable/time_format=HH:mm:ss
 #/ location.
 # org.csstudio.opibuilder/show_opi_runtime_stacks=false
 #/ 
+# org.csstudio.opibuilder/switch_to_opi_editor_perspective=prompt
 #/ There are more macros, see source code for
 #/ org.csstudio.opibuilder.preferences.PreferencesHelper
 #/ 
@@ -1354,6 +1015,7 @@ org.csstudio.alarm.beast.ui.alarmtable/time_format=HH:mm:ss
 # org.csstudio.opibuilder/about_show_links=true
 
 #<< org.csstudio.opibuilder/about_show_links=true
+org.csstudio.opibuilder/about_show_links=false
 #<< org.csstudio.opibuilder/auto_save = true
 #<< org.csstudio.opibuilder/default_email_sender=
 org.csstudio.opibuilder/default_email_sender=CSS OPI <css-opi@codac.iter.org>
@@ -1362,10 +1024,11 @@ org.csstudio.opibuilder/default_email_sender=CSS OPI <css-opi@codac.iter.org>
 #<< org.csstudio.opibuilder/java_script_engine=RHINO
 #<< org.csstudio.opibuilder/macros=
 #<< org.csstudio.opibuilder/mobile_startup_opi=/BOY Examples/main.opi
+org.csstudio.opibuilder/mobile_startup_opi=/opt/codac/opi/boy/resources/Demo/Demo.opi
 #<< org.csstudio.opibuilder/no_edit = false
 #<< org.csstudio.opibuilder/opi_gui_refresh_cycle = 100
 #<< org.csstudio.opibuilder/opi_repository=C:/Users/5hz/Work/java test/runtime-SNS_CSS.product
-org.csstudio.opibuilder/opi_repository=
+org.csstudio.opibuilder/opi_repository=/opt/codac/opi/boy/
 #<< org.csstudio.opibuilder/opi_search_path=
 org.csstudio.opibuilder/opi_search_path=/opt/codac/opi/boy
 #<< org.csstudio.opibuilder/popup_console = ALL
@@ -1378,11 +1041,16 @@ org.csstudio.opibuilder/schema_opi=/opt/codac/opi/boy/resources/IOschema.opi
 #<< org.csstudio.opibuilder/show_compact_mode_dialog = true
 #<< org.csstudio.opibuilder/show_fullscreen_dialog = true
 #<< org.csstudio.opibuilder/show_opi_runtime_stacks=false
+#<< org.csstudio.opibuilder/show_status_line_in_compact_mode = false
+#<< org.csstudio.opibuilder/show_status_line_in_full_screen_mode = false
 #<< org.csstudio.opibuilder/start_window_in_compact_mode = false
-org.csstudio.opibuilder/start_window_in_compact_mode=true
+#<< org.csstudio.opibuilder/start_window_in_full_screen_mode = false
+org.csstudio.opibuilder/start_window_in_full_screen_mode=true
 #<< org.csstudio.opibuilder/startup_opi=/BOY Examples/main.opi
+org.csstudio.opibuilder/startup_opi=/opt/codac/opi/boy/resources/Demo/Demo.opi
+#<< org.csstudio.opibuilder/switch_to_opi_editor_perspective=prompt
 #<< org.csstudio.opibuilder/top_opis = "/BOY Examples/main.opi", "Alias=BOY Examples"|/BOY Examples/10_widgets.opi, "Alias=BOY Widgets", "Position=Left"
-org.csstudio.opibuilder/top_opis="/opt/codac/opi/boy/resources/demo.opi", "Alias=Demo OPI" | "/opt/codac/opi/boy/resources/sine.plt", "Alias=Just a sine" | "/opt/codac/opi/boy/resources/probe.opi", "Alias=ITER OPI Probe", "probe_pv=sim://flipflop(3)"
+org.csstudio.opibuilder/top_opis="/opt/codac/opi/boy/resources/Demo/Demo.opi", "Alias=Demo OPI" | "/opt/codac/opi/boy/resources/sine.plt", "Alias=Just a sine" | "/opt/codac/opi/boy/resources/probe.opi", "Alias=ITER OPI Probe", "probe_pv=sim://flipflop(3)"
 #<< org.csstudio.opibuilder/url_file_loading_timeout = 5000
 #>>
 org.csstudio.opibuilder/font_file=/opt/codac/opi/boy/resources/IOfonts.def
@@ -1394,11 +1062,6 @@ org.csstudio.opibuilder/color_file=/opt/codac/opi/boy/resources/IOcolors.def
 org.csstudio.opibuilder/probe_opi=/opt/codac/opi/boy/resources/probe.opi
 #>>
 org.csstudio.opibuilder/opi_beast_alarms_blink_period=500
-
-#/
-## org.csstudio.opibuilder.imagelib 
-#/
-
 
 #/
 ## org.csstudio.opibuilder.validation 
@@ -1555,6 +1218,11 @@ org.csstudio.opibuilder.widgets.symbol/filter_regex=\\:([A-Z]+)
 #/ This check, however, needs to read the current value of the PV,
 #/ so it also needs some timeout
 # org.csstudio.scan/value_check_timeout=20
+#/ 
+#/ ---- Scan Monitor
+#/ 
+#/ Display the scan server memory status bar in the scan monitor?
+# org.csstudio.scan/show_memory_usage=true
 
 #<< org.csstudio.scan/data_logger_memory_threshold=80
 #<< org.csstudio.scan/log_command_read_timeout=20
@@ -1567,6 +1235,7 @@ org.csstudio.opibuilder.widgets.symbol/filter_regex=\\:([A-Z]+)
 #<< org.csstudio.scan/script_paths=platform:/plugin/org.csstudio.numjy/jython,platform:/plugin/org.csstudio.scan/examples
 #<< org.csstudio.scan/server_host=localhost
 #<< org.csstudio.scan/server_port=4810
+#<< org.csstudio.scan/show_memory_usage=true
 #<< org.csstudio.scan/status_pv_prefix=Demo:Scan:
 #<< org.csstudio.scan/value_check_timeout=20
 
@@ -1579,152 +1248,169 @@ org.csstudio.opibuilder.widgets.symbol/filter_regex=\\:([A-Z]+)
 #<< org.csstudio.scan.ui.plot/update_period_ms=1000
 
 #/
-## org.csstudio.alarm.beast.ui.alarmtree 
+## org.csstudio.security 
 #/
-#/ Default settings
-#/ Final product can override in its plugin_preferences.ini
+#/ Security Settings
 #/ 
-#/ Allow selecting multiple entries in the alarm tree?
-#/ I.e. using 'Ctrl' or 'Shift' when clicking on items?
+#/ #
+#/ # Authentication
+#/ #
 #/ 
-#/ Because of Bug 259141:
-#/ Tree.getSelection() is extremely slow with SWT.VIRTUAL and SWT.MULTI
-#/ https://bugs.eclipse.org/bugs/show_bug.cgi?id=259141
-#/ it is currently suggested to not allow multi-selection.
-#/ When enabling multi-selection, a workaround is used that is
-#/ still better than the original bug, but using a display without
-#/ support for multiple selections is fastest.
-# org.csstudio.alarm.beast.ui.alarmtree/allow_multi_selection=false
+#/ Option 1:
+#/ Use a JAAS config file as in normal use of JAAS
+#/ 
+#/ Path to JAAS configuration file
+#/ 
+#/ When located inside a plugin, use
+#/ "platform:/plugin/name.of.plugin/path/within/plugin.conf"
+#/ 
+#/ When a file "my_jaas_settings.conf" is placed
+#/ inside the product's "configuration/" directory, use
+#/ "platform:/config/my_jaas_settings.conf"
+#/ 
+#/ For plain files, use either
+#/ "file:/full/path/to/my_jaas_settings.conf"
+#/ or just
+#/ "/full/path/to/my_jaas_settings.conf"
+# org.csstudio.security/jaas_config_file=platform:/plugin/org.csstudio.security/jaas.conf
+#/ 
+#/ Name of a JAAS login configuration to use.
+#/ This must match the name of one of the entries
+#/ in the jaas_config_file.
+# org.csstudio.security/jaas_config_name=dummy
+#/ 
+#/ Option 2:
+#/ Do not use a JAAS config file.
+#/ Instead, provide what would the desired entry in the config file
+#/ as an Eclipse preference.
+#/ 
+#/ If the preference "jaas_config" is defined, it will have
+#/ precedence. "jaas_config_file" and "jaas_config_name" will
+#/ be ignored!
+#/ 
+#/ Format:
+#/ 	ModuleClass Flag option1=value1 option2=value2 ...; ModuleClass Flag ModuleOptions; ...
+#/ ModuleClass, Flag and value options are in the same format as in auth.conf, but all on one line.
+#/ Value strings must be quoted.
+#/ 
+#/ Examples:
+#/ jaas_config=com.sun.jmx.remote.security.FileLoginModule required debug="true" passwordFile="/path/to/my_passwords.conf";
+#/ jaas_config=com.sun.security.auth.module.LdapLoginModule required debug="true" useSSL="false" userProvider="ldap://localhost:389/ou=Users,dc=css-demo,dc=org" authIdentity="uid={USERNAME},ou=Users,dc=css-demo,dc=org";
+# org.csstudio.security/jaas_config=
+#/ 
+#/ #
+#/ # Authorization
+#/ #
+#/ 
+#/ Select authorization provider
+#/ 
+#/ Standard implementations:
+#/ FileBased, see org.csstudio.security.authorization.FileBasedAuthorizationProvider
+#/ LDAPGroup, see org.csstudio.security.authorization.LDAPGroupAuthorizationProvider
+#/ Script, see org.csstudio.security.authorization.ScriptAuthorizationProvider
+#/ 
+#/ Additional providers can be added via extension point,
+#/ see org.csstudio.security.authorization.AuthorizationProvider
+# org.csstudio.security/authorization_provider=FileBased
+#/ 
+#/ Path to FileBased authorization configuration file
+# org.csstudio.security/authorization_file_name=platform:/plugin/org.csstudio.security/authorization.conf
+#/ 
+#/ Settings for authorization_provider=LDAPGroup:
+#/ URL of LDAP server. May list several space-separated URLs.
+# org.csstudio.security/ldap_group_url=ldap://localhost/dc=css-demo,dc=org
+#/ Start of search for LDAPGroup-based authorization
+# org.csstudio.security/ldap_group_base=ou=Groups
+#/ 
+#/ The LDAP search will combine the group of interest with the 'base' and URL path.
+#/ 
+#/ Example:
+#/ ldap_group_url=ldap://localhost/dc=css-demo,dc=org
+#/ ldap_group_base=ou=Groups
+#/ 
+#/ Authorization for which to determine members: alarm_config
+#/ => Locate "cn=alarm_config,ou=Groups,dc=css-demo,dc=org"
+#/ and every "memberUid" will then provide a user name
+#/ who has the alarm_config authorization.
+#/ 
+#/ Path to command used by Script authorization
+# org.csstudio.security/authorization_script_name=/usr/local/bin/id_auth
+#/ 
+#/ 
+#/ #
+#/ # Secure Preferences
+#/ #
+#/ 
+#/ Where secure preferences are located.
+#/ 
+#/ "Default":
+#/ Use the default location, which is typically
+#/ the user's home directory.
+#/ @see SecurePreferencesFactory#getDefault()
+#/ 
+#/ Advantage: It's the default
+#/ Disadvantage: You won't always know where the preferences are.
+#/ 
+#/ "Instance":
+#/ Use the Eclipse 'instance', i.e. the workspace.
+#/ 
+#/ Advantage: You know where it is, and each workspace
+#/ will have its own settings.
+#/ Disadvantage: Each workspace has different settings.
+#/ 
+#/ "Install":
+#/ Use the Eclipse 'install' location, i.e. where the product is installed.
+#/ 
+#/ Advantage: You know where it is, and every workspace for that
+#/ product will have the same settings. Good for a "global" setup.
+#/ Disadvantage: Ordinary users cannot (should not) have write permissions.
+# org.csstudio.security/secure_preference_location=Default
 
-#<< org.csstudio.alarm.beast.ui.alarmtree/allow_multi_selection=false
+#<< org.csstudio.security/authorization_file_name=platform:/plugin/org.csstudio.security/authorization.conf
+#<< org.csstudio.security/authorization_provider=FileBased
+org.csstudio.security/authorization_provider=ITERAuthorization
+#<< org.csstudio.security/authorization_script_name=/usr/local/bin/id_auth
+#<< org.csstudio.security/jaas_config=
+#<< org.csstudio.security/jaas_config_file=platform:/plugin/org.csstudio.security/jaas.conf
+org.csstudio.security/jaas_config_file=platform:/plugin/org.csstudio.iter.css.product/jaas.conf
+#<< org.csstudio.security/jaas_config_name=dummy
+org.csstudio.security/jaas_config_name=ITER_CODAC_LDAP
+#<< org.csstudio.security/ldap_group_base=ou=Groups
+org.csstudio.security/ldap_group_base=
+#<< org.csstudio.security/ldap_group_url=ldap://localhost/dc=css-demo,dc=org
+org.csstudio.security/ldap_group_url=ldap://localhost/dc=codac,dc=iter,dc=org
+#<< org.csstudio.security/secure_preference_location=Default
+org.csstudio.security/secure_preference_location=Install
 
 #/
-## org.csstudio.alarm.beast.ui.areapanel 
+## org.csstudio.simplepv 
 #/
-#/ Alarm Area Panel Settings
-#/ 
-#/ Select which level of the alarm tree hierarchy
-#/ is displayed by the panel
-#/ 0 - The alarm tree root (bad idea)
-#/ 1 - 'Area' items, 1st level of alarm tree (normal case)
-#/ 2 - 'System' items, 2nd level of alarm tree, one below 'areas' (possible)
-#/ 3 - 'Subsystem' items, 3rd level (unlikely)
-#/ higher - why?
-# org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=1
-#/ 
-#/ Number of columns to show in panel
-# org.csstudio.alarm.beast.ui.areapanel/columns=2
+#/ Default PV Factory to use
+# org.csstudio.simplepv/default_pvfactory=pvmanager
 
-#<< org.csstudio.alarm.beast.ui.areapanel/columns=2
-#<< org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=1
-org.csstudio.alarm.beast.ui.areapanel/hierarchy_level=2
+#<< org.csstudio.simplepv/default_pvfactory=pvmanager
 
 #/
-## org.csstudio.archive.rdb 
+## org.csstudio.simplepv.pvmanager 
 #/
-#/ Default RDB archive settings.
-#/ plugin_preferences.ini can override
-#/ @author Kay Kasemir
+#/ logging level for PV write logging. Can be one of:
+#/ OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST, ALL
+# org.csstudio.simplepv.pvmanager/pv_write_log_level=OFF
 #/ 
-#/ RDB URL for archived data
-#/ If your site uses the same settings everywhere, you
-#/ can specify them here.
-#/ If you switch between production and test setups, better set these
-#/ preferences in the
-#/ plugin_customization.ini
-#/ of the ArchiveEngine etc., or use the command-line
-#/ arguments of the products.
+#/ message format for PV write logging. Needs to accept 3 parameters:
+#/ {0} = PV name, {1} = old PV value, {2} = new PV value
+# org.csstudio.simplepv.pvmanager/pv_write_log_message_format=PV write: {0}, New value: {1}, Old value: {2},
 #/ 
-#/ Oracle example
-#/ url=jdbc:oracle:thin:user/password@//172.31.73.122:1521/prod
-#/ 
-#/ MySQL example
-# org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
-#/ 
-#/ RDB user and password
-#/ Some applications also provide command-line option to override.
-# org.csstudio.archive.rdb/user=archive
-# org.csstudio.archive.rdb/password=$archive
-#/ 
-#/ Schema name. Used with an added "." as prefix for table names.
-#/ For now this is only used with Oracle URLs and ignored for MySQL
-# org.csstudio.archive.rdb/schema=
-#/ 
-#/ Timeout [seconds] for certain SQL queries
-#/ Fundamentally, the SQL queries for data take as long as they take
-#/ and any artificial timeout just breaks queries that would otherwise
-#/ have returned OK  few seconds after the timeout.
-#/ We've seen Oracle lockups, though, that caused JDBC to hang forever
-#/ because the SAMPLE table was locked. No error/exception, just hanging.
-#/ A timeout is used for operations other than getting the actual data,
-#/ for example the channel id-by-name query which _should_ return within
-#/ a shot time, to catch that type of RDB lockup.
-#/ timeout_secs=120
-#/ With PostgreSQL, the setQueryTimeout API is not implemented,
-#/ and calling it results in an exception.
-#/ Setting the timeout to 0 disables calls to setQueryTimeout.
-# org.csstudio.archive.rdb/timeout_secs=0
-#/ 
-#/ Use a blob to read/write array samples?
-#/ 
-#/ The original SAMPLE table did not contain an ARRAY_VAL column
-#/ for the array blob data, but instead used a separate ARRAY_VAL table.
-#/ When running against an old database, this parameter must be set to false.
-# org.csstudio.archive.rdb/use_array_blob=true
-#/ 
+#/ comma separated list of PV name prefixes whose PV writes shoudln't be logged
+# org.csstudio.simplepv.pvmanager/pv_write_log_exclude_pv_prefixes=loc://,sim://
 
-#<< org.csstudio.archive.rdb/password=$archive
-org.csstudio.archive.rdb/password=
-#<< org.csstudio.archive.rdb/schema=
-#<< org.csstudio.archive.rdb/timeout_secs=0
-#<< org.csstudio.archive.rdb/url=jdbc:mysql://localhost/archive?rewriteBatchedStatements=true
-org.csstudio.archive.rdb/url=jdbc:postgresql://localhost/css_archive_3_0_0
-#<< org.csstudio.archive.rdb/use_array_blob=true
-#<< org.csstudio.archive.rdb/user=archive
-org.csstudio.archive.rdb/user=archive_ro
+#<< org.csstudio.simplepv.pvmanager/pv_write_log_exclude_pv_prefixes=loc://,sim://
+#<< org.csstudio.simplepv.pvmanager/pv_write_log_level=OFF
+org.csstudio.simplepv.pvmanager/pv_write_log_level=WARNING
+#<< org.csstudio.simplepv.pvmanager/pv_write_log_message_format=PV write: {0}, New value: {1}, Old value: {2},
+org.csstudio.simplepv.pvmanager/pv_write_log_message_format=PV write: {0}, value: {1}
 
 #/
-## org.csstudio.archive.reader.rdb 
-#/
-#/ Default RDB archive reader settings.
-#/ plugin_preferences.ini can override
-#/ @author Kay Kasemir
-#/ 
-#/ RDB user, password and schema
-#/ are provided by settings in
-#/ plugin org.csstudio.archive.rdb
-#/ 
-#/ Use stored procedure for 'optimized' data readout?
-#/ Set to procedure name, or nothing to disable stored procedure.
-#/ 
-#/ Stored procedure has to match the behavior of example in
-#/ chan_arch_sns.archive_reader_pkg.get_browser_data()
-#/ or the get_browser_data provided for MySQL
-#/ 
-#/ Example for complete path to the Oracle version:
-#/ use_stored_procedure=chan_arch.archive_reader_pkg.get_browser_data
-#/ 
-#/ JDBC Statement 'fetch size':
-#/ Number of samples to read in one network transfer.
-#/ 
-#/ For Oracle, the default is 10.
-#/ Tests resulted in a speed increase up to fetch sizes of 1000.
-#/ On the other hand, bigger numbers can result in java.lang.OutOfMemoryError.
-# org.csstudio.archive.reader.rdb/fetch_size=1000
-#/ 
-#/ MySQL:
-#/ use_stored_procedure=archive.get_browser_data
-#/ 
-#/ PostgreSQL
-#/ use_stored_procedure=public.get_browser_data
-#/ 
-#/ Don't use stored procedure
-# org.csstudio.archive.reader.rdb/use_stored_procedure=
-
-#<< org.csstudio.archive.reader.rdb/fetch_size=1000
-#<< org.csstudio.archive.reader.rdb/use_stored_procedure=
-org.csstudio.archive.reader.rdb/use_stored_procedure=public.get_browser_data
-
 ## org.csstudio.swt.chart 
 #/
 #/ Default preferences for chart
@@ -1804,6 +1490,12 @@ org.csstudio.swt.xygraph/combine_labels_and_traces=true
 #/ Default line width
 # org.csstudio.trends.databrowser2/line_width=2
 #/ 
+#/ Opacity of 'area'
+#/ 0%: Area totally transparent
+#/ 20%: Area quite transparent (default value)
+#/ 100%: Area uses  solid color
+# org.csstudio.trends.databrowser2/opacity=20
+#/ 
 #/ Default trace type for newly created traces.
 #/ Allowed values are defined by org.csstudio.trends.databrowser2.model.TraceType:
 #/ AREA, ERROR_BARS, SINGLE_LINE, AREA_DIRECT, SINGLE_LINE_DIRECT, SQUARES, ...
@@ -1878,6 +1570,7 @@ org.csstudio.swt.xygraph/combine_labels_and_traces=true
 # org.csstudio.trends.databrowser2/use_trace_names = true
 
 #<< org.csstudio.trends.databrowser2/archive_fetch_delay=500
+org.csstudio.trends.databrowser2/archive_fetch_delay=1000
 #<< org.csstudio.trends.databrowser2/archive_rescale=NONE
 #<< org.csstudio.trends.databrowser2/archives=RDB|1|jdbc:mysql://localhost/archive*- All -|1|xnds://localhost/archive/cgi/ArchiveDataServer.cgi
 org.csstudio.trends.databrowser2/archives=Archive RDB|1|jdbc:postgresql://localhost/css_archive_3_0_0
@@ -1886,11 +1579,13 @@ org.csstudio.trends.databrowser2/archives=Archive RDB|1|jdbc:postgresql://localh
 org.csstudio.trends.databrowser2/email_default_sender=CSS Data Browser <css-databrowser@codac.iter.org>
 #<< org.csstudio.trends.databrowser2/line_width=2
 #<< org.csstudio.trends.databrowser2/live_buffer_size=5000
+#<< org.csstudio.trends.databrowser2/opacity=20
 #<< org.csstudio.trends.databrowser2/plot_bins=800
 org.csstudio.trends.databrowser2/plot_bins=9000
 #<< org.csstudio.trends.databrowser2/plt_repository=/opt/codac/opi/databrowser/
 #<< org.csstudio.trends.databrowser2/prompt_for_errors=false
 #<< org.csstudio.trends.databrowser2/rap.hide_properties_view=false
+org.csstudio.trends.databrowser2/rap.hide_properties_view=true
 #<< org.csstudio.trends.databrowser2/rap.hide_search_view=true
 #<< org.csstudio.trends.databrowser2/scan_period=0.0
 #<< org.csstudio.trends.databrowser2/scroll_step = 5
@@ -1899,6 +1594,7 @@ org.csstudio.trends.databrowser2/plot_bins=9000
 #<< org.csstudio.trends.databrowser2/time_span_shortcuts=30 Minutes,-30 min|1 Hour,-1 hour|12 Hours,-12 hour|1 Day,-1 days|7 Days,-7 days
 #<< org.csstudio.trends.databrowser2/trace_type=AREA
 #<< org.csstudio.trends.databrowser2/update_period=3.0
+org.csstudio.trends.databrowser2/update_period=2.0
 #<< org.csstudio.trends.databrowser2/urls=jdbc:mysql://localhost/archive|RDB*xnds://localhost/archive/cgi/ArchiveDataServer.cgi
 org.csstudio.trends.databrowser2/urls=jdbc:postgresql://localhost/css_archive_3_0_0|Archive RDB
 #<< org.csstudio.trends.databrowser2/use_auto_scale=false
@@ -1923,14 +1619,6 @@ org.csstudio.trends.databrowser2/use_default_archives=true
 org.csstudio.utility.batik/use_cache=true
 
 #/
-## org.csstudio.utility.clock 
-#/
-#/ Default preferences
-# org.csstudio.utility.clock/hours=25
-
-#<< org.csstudio.utility.clock/hours=25
-
-#/
 ## org.csstudio.utility.olog 
 #/
 #/ Default Preferences
@@ -1944,7 +1632,7 @@ org.csstudio.utility.batik/use_cache=true
 # org.csstudio.utility.olog/password=
 
 #<< org.csstudio.utility.olog/olog_url=https://localhost:8181/Olog/resources
-org.csstudio.utility.olog/olog_url=http://localhost:8080/Olog/resources
+org.csstudio.utility.olog/olog_url=http://localhost:8082/Olog/resources
 #<< org.csstudio.utility.olog/password=
 #<< org.csstudio.utility.olog/use_authentication=false
 #<< org.csstudio.utility.olog/user=username
@@ -1960,13 +1648,13 @@ org.csstudio.utility.olog/olog_url=http://localhost:8080/Olog/resources
 #/ by default the Position is set to bottom and the instance number is set to single
 #/ 
 # org.csstudio.utility.product/cs_studio_perspective=org.csstudio.diag.pvmanager.probe:org.csstudio.diag.pvmanager.probe:left:multiple;\
-#                     org.csstudio.diag.probe:org.csstudio.diag.probe.Probe:left:multiple;\
-#                     org.csstudio.utility.clock:org.csstudio.utility.clock.ClockView::;\
-#                     org.csstudio.trends.databrowser2:org.csstudio.trends.databrowser.archiveview.ArchiveView::;\
-#                     org.csstudio.alarm.beast:org.csstudio.alarm.beast.ui.alarmtree.View::;\
-#                     org.csstudio.alarm.beast:org.csstudio.alarm.beast.ui.alarmtable.view::;\
-#                     org.csstudio.diag.pvutil:org.csstudio.diag.pvutil.view.PVUtilView:left:;\
-#                     org.csstudio.opibuilder:org.csstudio.opibuilder.opiView:center:multiple;
+# 					  org.csstudio.diag.probe:org.csstudio.diag.probe.Probe:left:multiple;\
+# 					  org.csstudio.utility.clock:org.csstudio.utility.clock.ClockView::;\
+# 					  org.csstudio.trends.databrowser2:org.csstudio.trends.databrowser.archiveview.ArchiveView::;\
+# 					  org.csstudio.alarm.beast:org.csstudio.alarm.beast.ui.alarmtree.View::;\
+# 					  org.csstudio.alarm.beast:org.csstudio.alarm.beast.ui.alarmtable.view::;\
+# 					  org.csstudio.diag.pvutil:org.csstudio.diag.pvutil.view.PVUtilView:left:;\
+# 					  org.csstudio.opibuilder:org.csstudio.opibuilder.opiView:center:multiple;
 #/ 
 #/ list of perspectives to be added to the perspective shortcut
 #/ pluginId:perspectiveId;pluginId2:perspectiveId2
@@ -1978,16 +1666,15 @@ org.csstudio.utility.olog/olog_url=http://localhost:8080/Olog/resources
 
 #<< org.csstudio.utility.product/branding_plugin_id=org.csstudio.utility.product
 #<< org.csstudio.utility.product/cs_studio_perspective=org.csstudio.diag.pvmanager.probe:org.csstudio.diag.pvmanager.probe:left:multiple;\
-#<<                       org.csstudio.diag.probe:org.csstudio.diag.probe.Probe:left:multiple;\
-#<<                       org.csstudio.utility.clock:org.csstudio.utility.clock.ClockView::;\
-#<<                       org.csstudio.trends.databrowser2:org.csstudio.trends.databrowser.archiveview.ArchiveView::;\
-#<<                       org.csstudio.alarm.beast:org.csstudio.alarm.beast.ui.alarmtree.View::;\
-#<<                       org.csstudio.alarm.beast:org.csstudio.alarm.beast.ui.alarmtable.view::;\
-#<<                       org.csstudio.diag.pvutil:org.csstudio.diag.pvutil.view.PVUtilView:left:;\
-#<<                       org.csstudio.opibuilder:org.csstudio.opibuilder.opiView:center:multiple;
+#<< 					  org.csstudio.diag.probe:org.csstudio.diag.probe.Probe:left:multiple;\
+#<< 					  org.csstudio.utility.clock:org.csstudio.utility.clock.ClockView::;\
+#<< 					  org.csstudio.trends.databrowser2:org.csstudio.trends.databrowser.archiveview.ArchiveView::;\
+#<< 					  org.csstudio.alarm.beast:org.csstudio.alarm.beast.ui.alarmtree.View::;\
+#<< 					  org.csstudio.alarm.beast:org.csstudio.alarm.beast.ui.alarmtable.view::;\
+#<< 					  org.csstudio.diag.pvutil:org.csstudio.diag.pvutil.view.PVUtilView:left:;\
+#<< 					  org.csstudio.opibuilder:org.csstudio.opibuilder.opiView:center:multiple;
 org.csstudio.utility.product/cs_studio_perspective=org.csstudio.diag.pvmanager.probe:org.csstudio.diag.pvmanager.probe:left:multiple;\
     org.csstudio.diag.probe:org.csstudio.diag.probe.Probe:left:multiple;\
-    org.csstudio.utility.clock:org.csstudio.utility.clock.ClockView: : ;\
     org.csstudio.trends.databrowser2:org.csstudio.trends.databrowser.archiveview.ArchiveView:left: ;\
     org.csstudio.alarm.beast.ui.alarmtree:org.csstudio.alarm.beast.ui.alarmtree.View:left: ;\
     org.csstudio.alarm.beast.ui.alarmtable:org.csstudio.alarm.beast.ui.alarmtable.view: : ;
@@ -1999,15 +1686,6 @@ org.csstudio.utility.product/perspective_shortcut=org.csstudio.opibuilder.editor
 org.csstudio.utility.product/view_shortcut=org.csstudio.diag.pvmanager.probe:org.csstudio.diag.pvmanager.probe; \
     org.csstudio.diag.pvfields:org.csstudio.diag.pvfields.view.PVFieldsView; \
     org.csstudio.diag.epics.pvtree:org.csstudio.diag.epics.pvtree.PVTreeView;
-
-#/
-## org.csstudio.utility.pv 
-#/
-#/ Default PV type
-# org.csstudio.utility.pv/default_type=epics
-
-#<< org.csstudio.utility.pv/default_type=epics
-org.csstudio.utility.pv/default_type=ca
 
 #/
 ## org.csstudio.utility.speech 
@@ -2061,8 +1739,23 @@ org.csstudio.utility.pv/default_type=ca
 #/
 #/ Default PV Type
 # org.csstudio.vtype.pv/default_type=ca
+#/ 
+#/ MQTT Settings
+# org.csstudio.vtype.pv/mqtt_broker=tcp://localhost:1883
+#/ 
+#/ PVs for arrays of this size and larger use
+#/ a lower priority for the channel,
+#/ potentially lowering CPU load on IOCs
+# org.csstudio.vtype.pv/large_array_threshold=100000
+#/ 
+#/ #
+#/ # EPICS Channel Access Settings
+#/ #
+#/ See org.csstudio.diirt.util.core.preferences/preferences.ini
 
 #<< org.csstudio.vtype.pv/default_type=ca
+#<< org.csstudio.vtype.pv/large_array_threshold=100000
+#<< org.csstudio.vtype.pv/mqtt_broker=tcp://localhost:1883
 
 #/
 ## Core plugins preferences
@@ -2093,6 +1786,8 @@ org.python.pydev/PYDEV_FUNDING_SHOWN_2014=true
 #>>
 org.eclipse.help.base/help_home=/org.csstudio.iter.css.product/toc/iter_css.html
 #>>
+org.tigris.subversion.subclipse.ui/pref_svninterface=svnkit
+#>>
 org.eclipse.equinox.p2.ui.sdk.scheduler/schedule=on-startup
 #>>
 org.eclipse.ui.browser/browser-choice=1
@@ -2105,9 +1800,13 @@ org.python.pydev/PYDEV_FUNDING_SHOWN=true
 #>>
 org.eclipse.wst.xml.core/indicateNoGrammar=-1
 #>>
+org.tigris.subversion.subclipse.ui/ask_user_for_usage_report_preference=false
+#>>
+org.csstudio.utility.pv/default_type=ca
+#>>
 org.eclipse.ui.intro/INTRO_START_PAGE=root
 #>>
-org.eclipse.swt.browser.DefaultType=mozilla
+org.eclipse.help.base/always_external_browser=true
 #>>
 org.eclipse.ui/SHOW_PROGRESS_ON_STARTUP=true
 #>>
