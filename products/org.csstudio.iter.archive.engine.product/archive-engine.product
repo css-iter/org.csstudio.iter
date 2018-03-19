@@ -3,6 +3,7 @@
 
 <product name="Archive Engine" uid="org.csstudio.iter.product.archive.engine.product" id="org.csstudio.iter.archive.engine.product.product" application="org.csstudio.archive.engine.application" version="4.5.2.qualifier" useFeatures="true" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -11,7 +12,7 @@
       </programArgs>
       <vmArgs>-Djava.awt.headless=true
 -Xms64m
--Xmx256m
+-Xmx512m
 -Declipse.exitdata=
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
@@ -20,12 +21,14 @@
 
    <windowImages/>
 
+
    <launcher name="archive-engine">
       <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>
@@ -52,5 +55,12 @@ of the distribution package.
       <feature id="org.csstudio.iter.archive.engine.app.feature"/>
    </features>
 
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>
