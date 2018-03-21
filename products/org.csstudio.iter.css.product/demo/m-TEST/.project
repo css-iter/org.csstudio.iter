@@ -54,7 +54,7 @@
 		<link>
 			<name>boy/templates</name>
 			<type>2</type>
-			<location>/home/codac-dev/Css-Devel/org.csstudio.iter/products/org.csstudio.iter.css.product/resources_quad_hd/templates</location>
+			<location>/opt/codac/opi/boy/resources/templates</location>
 		</link>
 		<link>
 			<name>boy/Design_Guide/SymbolLibrary</name>
