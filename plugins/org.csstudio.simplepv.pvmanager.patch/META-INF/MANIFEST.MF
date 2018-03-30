@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PVManager Patch
+Bundle-SymbolicName: org.csstudio.simplepv.pvmanager.patch
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.csstudio.simplepv.pvmanager
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-PatchFragment: true
+Eclipse-ExtensibleAPI: true
+Bundle-ClassPath: superPatch.jar
