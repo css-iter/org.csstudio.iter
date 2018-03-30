@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
 /*******************************************************************************
-* Copyright (c) 2010-2018 ITER Organization.
+* Copyright (c) 2010-2017 ITER Organization.
 * All rights reserved. This program and the accompanying materials
 * are made available under the terms of the Eclipse Public License v1.0
 * which accompanies this distribution, and is available at
@@ -17,8 +17,8 @@
    id="svg2"
    version="1.1"
    viewBox="0 0 99 63"
-   height="78.75"
-   width="123.75">
+   height="84"
+   width="132">
   <metadata
      id="metadata21">
     <rdf:RDF>
