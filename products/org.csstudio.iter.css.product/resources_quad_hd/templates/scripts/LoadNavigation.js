@@ -309,8 +309,8 @@ function getOPI_FILE(elt) {
         // getting the opi file from the navigation xml configuration file
         attribute = elt.getAttributeValue("opi_file");
     } else {
-        // getting the top opi file from a macro
-        attribute = widget.getMacroValue("TOP_OPI");
+        // getting the top opi file for the Alarms List
+        attribute = top_opi;
     }
 
     if (attribute && attribute.search(".opi") > 0) {
