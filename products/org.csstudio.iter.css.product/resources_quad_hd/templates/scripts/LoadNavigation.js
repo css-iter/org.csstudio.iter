@@ -27,37 +27,38 @@ importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
 importPackage(Packages.java.lang)
 
     // getting the current cbs level for this screen ITER-CBS1-CBS2-CBS3
-    var current_level = (widget.getMacroValue("LEVEL") == null ? "" : 
+    var current_level = (widget.getMacroValue("LEVEL") == null ? "" :
             widget.getMacroValue("LEVEL").toUpperCase());
     var depth = getNavigationDepth(current_level);
     var path = "";
 
-    // getting if a canvas (frame) OPI is used to load mimics OPI
-    var canvas_opi = (widget.getMacroValue("CANVAS_OPI") == null ? "FALSE" : 
+    // getting if a canvas (frame) OPI is used to load mimics or file OPI
+    var canvas_opi = (widget.getMacroValue("CANVAS_OPI") == null ? "FALSE" :
             widget.getMacroValue("CANVAS_OPI").toUpperCase());
-    var opi_macro = "MIMIC_FILE";
-    if (canvas_opi != "TRUE") {
+    if (canvas_opi == "TRUE") {
+        opi_macro = "MIMIC_FILE";
+    } else {
         canvas_opi = "FALSE";
         opi_macro = "OPI_FILE";
     }
 
     // getting the type of OPI: USER or ALARMS LIST
-    var opi_type = (widget.getMacroValue("OPI_TYPE") == null ? "USER" : 
+    var opi_type = (widget.getMacroValue("OPI_TYPE") == null ? "USER" :
             widget.getMacroValue("OPI_TYPE").toUpperCase());
     if (opi_type != "ALARM") {
         opi_type = "USER";
     }
 
     // getting the top OPI
-    var top_opi = (widget.getMacroValue("TOP_OPI") == null ? "../ITER" : 
+    var top_opi = (widget.getMacroValue("TOP_OPI") == null ? "../ITER" :
             widget.getMacroValue("TOP_OPI"));
     if (opi_type == "ALARM") {
         top_opi = "AlarmsList";
     }
 
     // getting the input xml file path
-    var xml_input = (widget.getMacroValue("INPUT") == null ? 
-            "../navigation/Navigation.xml" : 
+    var xml_input = (widget.getMacroValue("INPUT") == null ?
+            "../navigation/Navigation.xml" :
             widget.getMacroValue("INPUT"));
 
     // loading XML document and getting the root element
@@ -188,7 +189,7 @@ function setNavigationButtonProperties(linkingContainer, elt, cbs_name) {
 
 function addHomeButton(elt) {
     // if no name defined, ITER is the default cbs name
-    var cbs_name = (!elt.getAttributeValue("name") ? "ITER" : 
+    var cbs_name = (!elt.getAttributeValue("name") ? "ITER" :
             elt.getAttributeValue("name")).toUpperCase();
 
     // creating the linking container that displays the HOME button
@@ -309,7 +310,7 @@ function getOPI_FILE(elt) {
         // getting the opi file from the navigation xml configuration file
         attribute = elt.getAttributeValue("opi_file");
     } else {
-        // getting the top opi file for the Alarms List
+        // getting the top opi file from a macro
         attribute = top_opi;
     }
 
