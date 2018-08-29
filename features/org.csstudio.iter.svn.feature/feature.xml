@@ -18,19 +18,6 @@ For the terms and conditions of redistribution or use of this software
 refer to the file ITER-LICENSE.TXT located in the top level directory
 of the distribution package.
    </license>
-
-   <includes
-         id="org.tigris.subversion.clientadapter.svnkit.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.tigris.subversion.subclipse"
-         version="0.0.0"/>
-
-   <includes
-         id="org.tmatesoft.svnkit"
-         version="0.0.0"/>
-
    <plugin
          id="org.tigris.subversion.subclipse.core"
          download-size="0"
@@ -40,6 +27,27 @@ of the distribution package.
 
    <plugin
          id="org.tigris.subversion.subclipse.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.tigris.subversion.subclipse.doc"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+ 
+   <plugin
+         id="org.tigris.subversion.clientadapter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.tigris.subversion.clientadapter.svnkit"
          download-size="0"
          install-size="0"
          version="0.0.0"
