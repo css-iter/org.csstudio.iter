@@ -21,8 +21,8 @@
         <tycho.version>1.0.0</tycho.version>
         <tycho-extras.version>${tycho.version}</tycho-extras.version>
         <tycho-groupid>org.eclipse.tycho</tycho-groupid>
-        <!-- pydev version 5.2.0 is last version supporting eclipse mars -->
-        <pydev.version>6.2.0</pydev.version>
+        <!-- pydev version 5.x.x is required -->
+        <pydev.version>5.9.2</pydev.version>
         <liclipsetext.version>2.1.1</liclipsetext.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <baselineMode>fail</baselineMode>
