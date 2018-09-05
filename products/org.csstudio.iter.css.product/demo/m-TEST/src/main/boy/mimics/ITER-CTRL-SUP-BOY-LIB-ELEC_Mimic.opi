@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.codac_core_6_0b6</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -777,7 +777,7 @@ $(pv_value)</tooltip>
             <color name="IO InputPV Fg" red="0" green="0" blue="0" />
           </foreground_color>
           <height>301</height>
-          <image_file>SymbolLibrary_deprecated/SVG/Electrical/Transformers/TP General Transformer.svg</image_file>
+          <image_file>SymbolLibrary/SVG/Electrical/Transformers/TS-TR General Transformer.svg</image_file>
           <items />
           <items_from_pv>true</items_from_pv>
           <name>TS-TR General Transformer</name>
@@ -859,7 +859,7 @@ $(pv_value)</tooltip>
             <color name="IO InputPV Fg" red="0" green="0" blue="0" />
           </foreground_color>
           <height>301</height>
-          <image_file>SymbolLibrary_deprecated/SVG/Electrical/Transformers/TP General Transformer.svg</image_file>
+          <image_file>SymbolLibrary/SVG/Electrical/Transformers/TS-TR General Transformer.svg</image_file>
           <items />
           <items_from_pv>true</items_from_pv>
           <name>TS-TR General Transformer</name>
@@ -880,7 +880,7 @@ $(pv_value)</tooltip>
               <col>1.0</col>
             </row>
           </permutation_matrix>
-          <pv_name>CTRL-SUP-BOY:BO</pv_name>
+          <pv_name>CTRL-SUP-BOY:BO2</pv_name>
           <pv_value />
           <rules />
           <scale_options>
@@ -982,8 +982,8 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>132</height>
-        <image_file>SymbolLibrary/SVG/Electrical/Protection_and_Cut-Shut_Off-On/JA Circuit Breaker Off.svg</image_file>
+        <height>79</height>
+        <image_file>SymbolLibrary/SVG/Electrical/Transformers/TP Voltage Transformer.svg</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
         <name>TP Voltage Transformer</name>
@@ -1004,7 +1004,7 @@ $(pv_value)</tooltip>
             <col>1.0</col>
           </row>
         </permutation_matrix>
-        <pv_name>CTRL-SUP-BOY:BO</pv_name>
+        <pv_name>CTRL-SUP-BOY:BO2</pv_name>
         <pv_value />
         <rules />
         <scale_options>
@@ -1020,9 +1020,9 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Monitor</widget_type>
-        <width>68</width>
+        <width>124</width>
         <wuid>4ca5cc5f:16150875596:-3fc1</wuid>
-        <x>484</x>
+        <x>340</x>
         <y>457</y>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.symbol.multistate.MultistateMonitorWidget" version="1.0.0">
@@ -1064,8 +1064,8 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>48</height>
-        <image_file>/home/codac-dev/Documents/SymbolLibrary_Generated/fullHD/SymbolLibrary/SVG/Electrical/Transformers/TP Voltage Transformer.svg</image_file>
+        <height>79</height>
+        <image_file>SymbolLibrary/SVG/Electrical/Transformers/TP Voltage Transformer.svg</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
         <name>TP Voltage Transformer</name>
@@ -1086,7 +1086,7 @@ $(pv_value)</tooltip>
             <col>1.0</col>
           </row>
         </permutation_matrix>
-        <pv_name>CTRL-SUP-BOY:BO2</pv_name>
+        <pv_name>CTRL-SUP-BOY:BO1</pv_name>
         <pv_value />
         <rules />
         <scale_options>
@@ -1102,92 +1102,10 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Monitor</widget_type>
-        <width>75</width>
+        <width>124</width>
         <wuid>4ca5cc5f:16150875596:-35b0</wuid>
-        <x>97</x>
-        <y>483</y>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.symbol.multistate.MultistateMonitorWidget" version="1.0.0">
-        <actions hook="true" hook_all="true">
-          <action type="WRITE_PV">
-            <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-            <value>faceplates/DigitalOutProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
-            <timeout>10</timeout>
-            <confirm_message></confirm_message>
-            <description>Load the component faceplate</description>
-          </action>
-        </actions>
-        <alarm_pulsing>false</alarm_pulsing>
-        <align_to_nearest_second>true</align_to_nearest_second>
-        <auto_size>true</auto_size>
-        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
-        <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
-        </background_color>
-        <boolean_label_position>5</boolean_label_position>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>2</border_width>
-        <crop_bottom>0</crop_bottom>
-        <crop_left>0</crop_left>
-        <crop_right>0</crop_right>
-        <crop_top>0</crop_top>
-        <degree>0</degree>
-        <enabled>true</enabled>
-        <flip_horizontal>false</flip_horizontal>
-        <flip_vertical>false</flip_vertical>
-        <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
-        </foreground_color>
-        <height>48</height>
-        <image_file>/home/codac-dev/Documents/SymbolLibrary_Generated/fullHD/SymbolLibrary/SVG/Electrical/Transformers/TP Voltage Transformer.svg</image_file>
-        <items />
-        <items_from_pv>true</items_from_pv>
-        <name>TP Voltage Transformer</name>
-        <no_animation>false</no_animation>
-        <off_color>
-          <color name="IO PV OFF" red="149" green="125" blue="71" />
-        </off_color>
-        <on_color>
-          <color name="IO PV ON" red="0" green="0" blue="255" />
-        </on_color>
-        <permutation_matrix>
-          <row>
-            <col>1.0</col>
-            <col>0.0</col>
-          </row>
-          <row>
-            <col>0.0</col>
-            <col>1.0</col>
-          </row>
-        </permutation_matrix>
-        <pv_name>CTRL-SUP-BOY:BO</pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>false</width_scalable>
-          <height_scalable>false</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <show_boolean_label>false</show_boolean_label>
-        <stretch_to_fit>false</stretch_to_fit>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <transparency>false</transparency>
-        <visible>true</visible>
-        <widget_type>Multistate Symbol Image Monitor</widget_type>
-        <width>75</width>
-        <wuid>4ca5cc5f:16150875596:-35ab</wuid>
-        <x>310</x>
-        <y>483</y>
+        <x>73</x>
+        <y>508</y>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -1228,7 +1146,7 @@ $(pv_value)</tooltip>
         <wrap_words>true</wrap_words>
         <wuid>4ca5cc5f:16150875596:-6183</wuid>
         <x>567</x>
-        <y>508</y>
+        <y>481</y>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.symbol.multistate.MultistateMonitorWidget" version="1.0.0">
         <actions hook="true" hook_all="true">
@@ -1270,7 +1188,7 @@ $(pv_value)</tooltip>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
         <height>48</height>
-        <image_file>../../../../boy/SymbolLibrary/SVG/Electrical/Transformers/TC Current transformer.svg</image_file>
+        <image_file>SymbolLibrary/SVG/Electrical/Transformers/TC Current transformer.svg</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
         <name>TC Current Transformer</name>
@@ -1291,7 +1209,7 @@ $(pv_value)</tooltip>
             <col>1.0</col>
           </row>
         </permutation_matrix>
-        <pv_name>CTRL-SUP-BOY:BO2</pv_name>
+        <pv_name>CTRL-SUP-BOY:BO1</pv_name>
         <pv_value />
         <rules />
         <scale_options>
@@ -1352,7 +1270,7 @@ $(pv_value)</tooltip>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
         <height>48</height>
-        <image_file>../../../../boy/SymbolLibrary/SVG/Electrical/Transformers/TC Current transformer.svg</image_file>
+        <image_file>SymbolLibrary/SVG/Electrical/Transformers/TC Current transformer.svg</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
         <name>TC Current Transformer</name>
@@ -1373,7 +1291,7 @@ $(pv_value)</tooltip>
             <col>1.0</col>
           </row>
         </permutation_matrix>
-        <pv_name>CTRL-SUP-BOY:BO</pv_name>
+        <pv_name>CTRL-SUP-BOY:BO2</pv_name>
         <pv_value />
         <rules />
         <scale_options>
@@ -1499,6 +1417,31 @@ $(pv_value)</tooltip>
     <name>Connection Template</name>
     <points />
     <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>662c2614:15231392d5a:-5633</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>662c2614:15231392d5a:-561e</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-3c54</src_path>
     <src_term>BOTTOM</src_term>
     <src_wuid>4ca5cc5f:16150875596:-b10</src_wuid>
@@ -1525,11 +1468,11 @@ $(pv_value)</tooltip>
     <points />
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-3c54</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>4ca5cc5f:16150875596:-35ab</src_wuid>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>662c2614:15231392d5a:-3c53</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-3c54</tgt_path>
-    <tgt_term>BOTTOM</tgt_term>
-    <tgt_wuid>4ca5cc5f:16150875596:-3fc1</tgt_wuid>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>662c2614:15231392d5a:-3c52</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -1574,36 +1517,11 @@ $(pv_value)</tooltip>
     <name>Connection Template</name>
     <points />
     <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>662c2614:15231392d5a:-5633</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>662c2614:15231392d5a:-561e</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-3c54</src_path>
-    <src_term>LEFT</src_term>
-    <src_wuid>4ca5cc5f:16150875596:-35ab</src_wuid>
+    <src_term>RIGHT</src_term>
+    <src_wuid>4ca5cc5f:16150875596:-35b0</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-3c54</tgt_path>
-    <tgt_term>TOP</tgt_term>
+    <tgt_term>BOTTOM</tgt_term>
     <tgt_wuid>4ca5cc5f:16150875596:-3fc1</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
@@ -1625,11 +1543,11 @@ $(pv_value)</tooltip>
     <points />
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-3c54</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>662c2614:15231392d5a:-3c53</src_wuid>
+    <src_term>LEFT</src_term>
+    <src_wuid>4ca5cc5f:16150875596:-35b0</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-3c54</tgt_path>
     <tgt_term>TOP</tgt_term>
-    <tgt_wuid>662c2614:15231392d5a:-3c52</tgt_wuid>
+    <tgt_wuid>4ca5cc5f:16150875596:-3fc1</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
