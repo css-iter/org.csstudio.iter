@@ -20,7 +20,6 @@
     <include_parent_macros>true</include_parent_macros>
     <TITLE>OPIs Map</TITLE>
     <CANVAS_OPI>TRUE</CANVAS_OPI>
-    <OPI_FILE>../CBSMap</OPI_FILE>
   </macros>
   <name>OPIs Map</name>
   <rules />
