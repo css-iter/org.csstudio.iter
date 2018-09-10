@@ -21,8 +21,8 @@ openFile
 --launcher.GTK_version
 2
       </programArgs>
-      <vmArgs>-Xmx3072m
--Xms2048m
+      <vmArgs>-Xmx2048m
+-Xms1024m
 -Djdbc.drivers=org.postgresql.Driver
 -Ddiirt.home=/opt/codac/css/css/configuration/diirt
 -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog
@@ -42,7 +42,6 @@ openFile
       startupForegroundColor="FFFFFF" />
    <launcher name="css">
       <linux icon="/org.csstudio.iter.css.product/icons/css48.xpm"/>
-      <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
