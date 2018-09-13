@@ -8,6 +8,11 @@
     <component name="CTRL">
         <component name="CTRL-SUP">
             <component name="CTRL-SUP-BOY">
+                <automated_action>
+                    <title>BOY Alarm Tree Node Severity PV Update</title>
+                    <details>sevrpv:CTRL-SUP-CSS:ALRM-BOY</details>
+                    <delay>0</delay>
+                </automated_action>
                 <component name="CTRL-SUP-BOY-PERF">
                     <pv name="CTRL-SUP-BOY:VC101-ALRM">
                         <description>VC101 {1} alarm</description>
@@ -39144,6 +39149,11 @@
                 </pv>
             </component>
             <component name="CTRL-SUP-BEAS">
+                <automated_action>
+                    <title>BEAST Alarm Tree Node Severity PV Update</title>
+                    <details>sevrpv:CTRL-SUP-CSS:ALRM-BEAS</details>
+                    <delay>0</delay>
+                </automated_action>
                 <pv name="CTRL-SUP-BEAS:HIGH-SWITCH">
                     <description>Tank level HIGH</description>
                     <latching>true</latching>
@@ -39232,6 +39242,11 @@
                 </pv>
             </component>
             <component name="CTRL-SUP-BEAU">
+                <automated_action>
+                    <title>BEAUTY Alarm Tree Node Severity PV Update</title>
+                    <details>sevrpv:CTRL-SUP-CSS:ALRM-BEAU</details>
+                    <delay>0</delay>
+                </automated_action>
                 <pv name="CTRL-SUP-BEAU:AI1">
                     <description>Analog Alarm Limits</description>
                     <latching>true</latching>
