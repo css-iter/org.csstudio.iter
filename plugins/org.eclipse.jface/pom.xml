@@ -13,14 +13,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>eclipse.platform.ui</artifactId>
-    <groupId>eclipse.platform.ui</groupId>
-    <version>4.7.3-SNAPSHOT</version>
-    <relativePath>../../</relativePath>
+    <artifactId>iter-plugins</artifactId>
+    <groupId>org.csstudio</groupId>
+    <version>1.0.0</version>
   </parent>
-  <groupId>org.eclipse.jface</groupId>
+  <groupId>org.csstudio</groupId>
   <artifactId>org.eclipse.jface</artifactId>
-  <version>3.13.2-SNAPSHOT</version>
+  <version>3.13.2.v20171022-1656</version>
   <packaging>eclipse-plugin</packaging>
 
   <properties>
