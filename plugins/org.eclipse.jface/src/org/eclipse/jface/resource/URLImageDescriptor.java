@@ -16,11 +16,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import org.eclipse.core.runtime.FileLocator;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Path;
 import org.eclipse.core.runtime.Status;
+import org.eclipse.core.runtime.preferences.DefaultScope;
+import org.eclipse.core.runtime.preferences.IEclipsePreferences;
 import org.eclipse.jface.internal.InternalPolicy;
 import org.eclipse.jface.util.Policy;
 import org.eclipse.swt.SWT;
@@ -182,7 +186,87 @@ class URLImageDescriptor extends ImageDescriptor {
 		return "URLImageDescriptor(" + url + ")"; //$NON-NLS-1$ //$NON-NLS-2$
 	}
 
+	/***
+	 * We check if files with bigger icons exist. If this files are present and
+	 * org.eclipse.jface/forceIconZoomLevel preference is set to more than 100,
+	 * then we force loading the bigger icons over the normal ones.
+	 *
+	 * @author Borut Terpinc
+	 *
+	 * @param url
+	 *            The URL of the image, that is to be loaded
+	 * @return zoom level if icons with "@x" exist
+	 */
+	private static int forceZoomIfBigIconsExist(final URL url) {
+
+		int zoom = 100;
+		zoom = getForcedZoomLevePreference();
+		if (zoom == 100) {
+			return zoom;
+		}
+
+		final String path = url.getPath();
+		String zoomedPath = path.replaceFirst("(.*)\\.(.*)", "$1@2x.$2"); //$NON-NLS-1$ //$NON-NLS-2$
+
+		if (zoom == 150) {
+			zoomedPath = path.replaceFirst("(.*)\\.(.*)", "$1@1.5x.$2"); //$NON-NLS-1$ //$NON-NLS-2$
+		}
+		if (zoom == 300) {
+			zoomedPath = path.replaceFirst("(.*)\\.(.*)", "$1@3x.$2"); //$NON-NLS-1$ //$NON-NLS-2$
+		}
+
+		try {
+			final URL urlpath = new URL(url.getProtocol(), url.getHost(), url.getPort(), zoomedPath);
+			final InputStream myStream = getStream(urlpath);
+			// the only sure way to check if icon really exist is to open it.
+			if (myStream == null) {
+				return 100;
+			}
+			myStream.close();
+		} catch (IOException e) {
+			Policy.getLog().log(new Status(IStatus.ERROR, Policy.JFACE, e.getLocalizedMessage(), e));
+		}
+		return zoom;
+	}
+
+	private static int forcedZoomLevelPreference = -1;
+
+	/**
+	 * Get zoom level from org.eclipse.jface/forceIconZoomLevel preference,
+	 * levels are rounded to 150, 200 and 300. We read this preference only
+	 * once.
+	 *
+	 * @author Borut Terpinc
+	 */
+	private static int getForcedZoomLevePreference() {
+		if (forcedZoomLevelPreference > 0)
+			return forcedZoomLevelPreference;
+
+		final IEclipsePreferences preferenceNode = DefaultScope.INSTANCE.getNode("org.eclipse.jface"); //$NON-NLS-1$
+		final int forcedZoomLevel = preferenceNode.getInt("forceIconZoomLevel", 100); //$NON-NLS-1$
+
+		if (forcedZoomLevel == 100)
+			return 100;
+		if (forcedZoomLevel <= 100) {
+			forcedZoomLevelPreference = 100;
+		}
+		if (forcedZoomLevel > 100) {
+			forcedZoomLevelPreference = 150;
+		}
+		if (forcedZoomLevel > 150) {
+			forcedZoomLevelPreference = 200;
+		}
+		if (forcedZoomLevel >= 300) {
+			forcedZoomLevelPreference = 300;
+		}
+
+		Logger.getLogger(URLImageDescriptor.class.getSimpleName()).log(Level.INFO,
+				"Forcing icons zoom level to: " + forcedZoomLevel); //$NON-NLS-1$
+		return forcedZoomLevelPreference;
+	}
+
 	private static URL getxURL(URL url, int zoom) {
+		zoom = forceZoomIfBigIconsExist(url);
 		if (zoom == 100) {
 			return url;
 		}
