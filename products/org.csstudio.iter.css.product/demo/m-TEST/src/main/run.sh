@@ -7,9 +7,18 @@
 # * http://www.eclipse.org/legal/epl-v10.html
 # ******************************************************************************
 
+function pause {
+    echo -e "\n\n\n"
+    read -p "$*"
+}
+
 function softIoc {
     ######################################################################
     # Run the IOCs
+    # If the IOC fails to start:
+    #     CAS: Listen error: Address already in use
+    #     Thread CAS-TCP (0x177fa20) suspended
+    # Just type in the console <CTRL>+C and then use the button Relaunch
     ######################################################################
     
     echo -e "\n\tStart the IOCs...\n"
@@ -54,7 +63,7 @@ function alarm {
     titles[2]="alarm-notifier -root demo"
     
     cmds[3]="bash -c 'alarm-configtool -root UTIL -import -file ./beast/UTIL-beast.xml ; alarm-server -root UTIL'"
-    titles[32]="alarm-server -root UTIL"
+    titles[3]="alarm-server -root UTIL"
     
     cmds[4]="bash -c 'jms2rdb -pluginCustomization ./beast/jms.ini'"
     titles[4]="jms2rdb topic demo"
@@ -92,7 +101,7 @@ function css {
     tab=" --tab"
     options=" --profile='default'"
     
-    cmds[1]="bash -c 'cp ./demo_beast.xml /tmp/demo_beast.xml; sudo cp /tmp/demo_beast.xml /opt/codac/css/css/configuration/diirt/datasources/beast/beast.xml; sudo boy-switch-resolution 4k; css'"
+    cmds[1]="bash -c 'cp ./demo_beast.xml /tmp/demo_beast.xml; sudo cp /tmp/demo_beast.xml /opt/codac/css/css/configuration/diirt/datasources/beast/beast.xml; sudo boy-switch-resolution 4k; rm -rf ~/CSS-Workspaces/Default; css -data ~/CSS-Workspaces/Default'"
     titles[1]="Start cs-studio"
     
     for i in {1..1}; do
@@ -101,6 +110,8 @@ function css {
 }
 
 date
+
+pause 'Press [Enter] key to continue. This will delete previous ~/CSS-Workspaces/Default workspace...'
 
 rm -Rf ~/.css
 
@@ -116,6 +127,11 @@ CMD="gnome-terminal "${options[@]}""
 echo -e "$CMD"
 eval "$CMD"
 
+pause 'Press [Enter] key when finished...'
 date
+
+echo -e '\n\n\n\tLooking for SEVERE messages\n\n'
+grep -r 'SEVERE' /var/opt/codac/css/
+grep -r 'SEVERE' ~/.css/
 
 exit 0
