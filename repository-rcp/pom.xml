@@ -47,9 +47,22 @@
                             <goal>run</goal>
                         </goals>
                     </execution>
-                    
-                   
- 					<!-- Copy the older verison of draw2d in realtion with https://github.com/ControlSystemStudio/cs-studio/issues/1818-->
+                    <!-- Used patched jface for @2x icons -->
+                    <execution>
+                        <id>org.eclipse.jface</id>
+                        <phase>process-resources</phase>
+                        <configuration>
+                            <failOnError>true</failOnError>
+                            <target>
+                                <echo message="Copying patched org.eclipse.jface plugin to ${project.build.directory}"/>
+                                <copy verbose="true" file="${project.build.directory}/../../plugins/org.eclipse.jface/target/org.eclipse.jface-3.13.2.v20171022-1656.jar" tofile="${project.build.directory}/products/org.csstudio.iter.product.css.product/org.eclipse.jface_3.13.2.v20171022-1656.jar"/>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                    </goals>
+                    </execution>
+                    <!-- Copy the older verison of draw2d in realtion with https://github.com/ControlSystemStudio/cs-studio/issues/1818-->
                     <execution>
                         <id>draw2d-bug-fix</id>
                         <phase>process-resources</phase>
