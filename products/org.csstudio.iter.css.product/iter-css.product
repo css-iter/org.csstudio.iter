@@ -24,7 +24,7 @@ openFile
       <vmArgs>-Xmx2048m
 -Xms1024m
 -Djdbc.drivers=org.postgresql.Driver
--Ddiirt.home=/opt/codac/css/css/configuration/diirt
+-Ddiirt.home=/etc/opt/codac/css/css/diirt
 -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog
 -Dorg.apache.commons.logging.simplelog.defaultlog=fatal
 -Dpython.cachedir.skip=true
