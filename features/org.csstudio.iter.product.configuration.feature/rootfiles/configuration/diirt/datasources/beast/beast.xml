@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beast version="1">
   <!-- 
-  Default BEAST datasource for cs-studio GUI. This file shall be in sync with:
-  m-css-common/src/main/conf/beast.xml SVN unit
+  Default BEAST datasource for cs-studio GUI
   -->
   <dataSourceOptions configName="CODAC_AlarmHandler"/>
 </beast>
