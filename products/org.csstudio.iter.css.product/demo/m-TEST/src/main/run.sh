@@ -79,6 +79,25 @@ function archive {
     ######################################################################
     
     echo -e "\n\tConfigure and start the archive system...\n"
+
+    echo -e '\n\tArchive demo CBS tables and tablespaces creation (requires root and postgres privileges)\n'
+    PGPASSWORD=""
+    if [ ! $PGPASSWORD ] ; then
+        read -s -p "Enter Password for RDB user postgres: " password
+        export PGPASSWORD="$password"
+    fi;
+
+    for tablespace in short_term_store medium_term_store long_term_store raw_store; do
+        sudo mkdir -pv /var/lib/pgsql/9.6/data_demo_$tablespace
+        sudo chown postgres:postgres /var/lib/pgsql/9.6/data_demo_$tablespace
+        psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "CREATE TABLESPACE sample_demo_$tablespace LOCATION '/var/lib/pgsql/9.6/data_demo_$tablespace'"
+    done
+    
+    sed 's/%cbs%/demo/g' /opt/codac/css/rdb/ARCHIVE_POSTGRES_SAMPLE_CBS_TABLES.sql > /tmp/sample_cbs_tables.sql
+    sudo /opt/codac/bin/initdb database css_archive_3_0_0 --file /tmp/sample_cbs_tables.sql
+    sudo /opt/codac/bin/initdb user "codac-dev" --create-or-update --password "md5d8db27cd68331cb86718b0bbd60179b4" --priv-all css_archive_3_0_0
+    sudo /opt/codac/bin/initdb user "archive" --create-or-update --password "md580ca812fc55d59c8b3c7bb624f24f6cd" --priv-all css_archive_3_0_0
+    sudo /opt/codac/bin/initdb user "archive_ro" --create-or-update --password "md5a70d8b53af6dba0fba197e905d84bfcc" --priv-ro css_archive_3_0_0
     
     tab=" --tab"
     options=" --profile='default'"
@@ -101,7 +120,7 @@ function css {
     tab=" --tab"
     options=" --profile='default'"
     
-    cmds[1]="bash -c 'cp ./demo_beast.xml /tmp/demo_beast.xml; sudo cp /tmp/demo_beast.xml /opt/codac/css/css/configuration/diirt/datasources/beast/beast.xml; sudo boy-switch-resolution 4k; rm -rf ~/CSS-Workspaces/Default; css -data ~/CSS-Workspaces/Default'"
+    cmds[1]="bash -c 'sudo boy-switch-resolution 4k; rm -rf ~/CSS-Workspaces/Default; css -data ~/CSS-Workspaces/Default'"
     titles[1]="Start cs-studio"
     
     for i in {1..1}; do
@@ -111,27 +130,46 @@ function css {
 
 date
 
-pause 'Press [Enter] key to continue. This will delete previous ~/CSS-Workspaces/Default workspace...'
+codac-version -f
 
+pause 'Press [Enter] key to continue. This will delete previous ~/CSS-Workspaces/Default workspace and reinitialise all databases...'
+
+# Delete .css metadata and log files
 rm -Rf ~/.css
 
+# Initialise all databases - requires rdb user password
+css-dbmanager -init all
+
+# Start all IOCs
 softIoc
 
+# Set CBS1 = demo
+codac-configure codac_cbs demo
+
+# Start the alarm services
 alarm
 
+# Start the archive services
 archive
 
+# Start cs-studio GUI
 css
 
 CMD="gnome-terminal "${options[@]}""
 echo -e "$CMD"
 eval "$CMD"
 
-pause 'Press [Enter] key when finished...'
+pause 'Press [Enter] key when finished - databases content will be saved...'
 date
 
 echo -e '\n\n\n\tLooking for SEVERE messages\n\n'
 grep -r 'SEVERE' /var/opt/codac/css/
 grep -r 'SEVERE' ~/.css/
+
+# Save all databases content
+css-dbmanager -save all
+
+# Restore default CODAC CBS1
+codac-configure codac_cbs CODAC
 
 exit 0
