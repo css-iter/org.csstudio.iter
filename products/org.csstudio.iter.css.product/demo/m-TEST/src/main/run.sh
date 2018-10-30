@@ -7,6 +7,8 @@
 # * http://www.eclipse.org/legal/epl-v10.html
 # ******************************************************************************
 
+PGSQL="/var/lib/pgsql/10"
+
 function pause {
     echo -e "\n\n\n"
     read -p "$*"
@@ -87,10 +89,18 @@ function archive {
         export PGPASSWORD="$password"
     fi;
 
+    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_demo CASCADE"
+    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_demo_month_raw CASCADE"
+    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_demo_year_raw CASCADE"
     for tablespace in short_term_store medium_term_store long_term_store raw_store; do
-        sudo mkdir -pv /var/lib/pgsql/9.6/data_demo_$tablespace
-        sudo chown postgres:postgres /var/lib/pgsql/9.6/data_demo_$tablespace
-        psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "CREATE TABLESPACE sample_demo_$tablespace LOCATION '/var/lib/pgsql/9.6/data_demo_$tablespace'"
+        if sudo test -d "$PGSQL"/data_demo_"$tablespace"; then
+            psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLESPACE IF EXISTS sample_demo_$tablespace"
+            sudo rm -rf $PGSQL/data_demo_$tablespace
+        fi
+
+        sudo mkdir -pv $PGSQL/data_demo_$tablespace
+        sudo chown postgres:postgres $PGSQL/data_demo_$tablespace
+        psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "CREATE TABLESPACE sample_demo_$tablespace LOCATION '$PGSQL/data_demo_$tablespace'"
     done
     
     sed 's/%cbs%/demo/g' /opt/codac/css/rdb/ARCHIVE_POSTGRES_SAMPLE_CBS_TABLES.sql > /tmp/sample_cbs_tables.sql
