@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.201707271421</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -1699,13 +1699,13 @@ $(pv_value)</tooltip>
         <axis_0_maximum>100.0</axis_0_maximum>
         <axis_0_minimum>0.0</axis_0_minimum>
         <axis_0_scale_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="20" style="0" pixels="false">IO Scale 3</opifont.name>
         </axis_0_scale_font>
         <axis_0_scale_format></axis_0_scale_format>
         <axis_0_show_grid>true</axis_0_show_grid>
         <axis_0_time_format>3</axis_0_time_format>
         <axis_0_title_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="20" style="0" pixels="false">IO Label 3</opifont.name>
         </axis_0_title_font>
         <axis_0_visible>true</axis_0_visible>
         <axis_1_auto_scale>false</axis_1_auto_scale>
@@ -1722,13 +1722,13 @@ $(pv_value)</tooltip>
         <axis_1_maximum>110.0</axis_1_maximum>
         <axis_1_minimum>-10.0</axis_1_minimum>
         <axis_1_scale_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="20" style="0" pixels="false">IO Scale 3</opifont.name>
         </axis_1_scale_font>
         <axis_1_scale_format></axis_1_scale_format>
         <axis_1_show_grid>true</axis_1_show_grid>
         <axis_1_time_format>0</axis_1_time_format>
         <axis_1_title_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="20" style="0" pixels="false">IO Label 3</opifont.name>
         </axis_1_title_font>
         <axis_1_visible>true</axis_1_visible>
         <axis_count>2</axis_count>
