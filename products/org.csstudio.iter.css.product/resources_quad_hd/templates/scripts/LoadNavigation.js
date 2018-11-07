@@ -322,15 +322,23 @@ function getOPI_FILE(elt) {
 }
 
 function getALARM_ROOT(elt) {
-    return elt.getAttributeValue("alarm_root");
+    var alarm_root=elt.getAttributeValue("alarm_root")
+    if (alarm_root) {
+        return elt.getAttributeValue("alarm_root");
+    } else {
+        return widget.getMacroValue("ALARM_ROOT");
+    }
 }
 
 function getALARM_FILTER(elt) {
     var filter = ""
-    var branches = elt.getAttributeValue("alarm_root").split("/");
-    var depth = branches.length;
-    if (depth > 2) {
-        filter = branches[depth-1];
+    var alarm_root=elt.getAttributeValue("alarm_root")
+    if (alarm_root) {
+        var branches = alarm_root.split("/");
+        var depth = branches.length;
+        if (depth > 2) {
+            filter = branches[depth-1];
+        }
     }
     return filter;
 }
