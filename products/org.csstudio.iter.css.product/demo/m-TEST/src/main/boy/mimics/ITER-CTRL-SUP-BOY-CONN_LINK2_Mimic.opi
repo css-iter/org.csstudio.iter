@@ -8,14 +8,14 @@
   </auto_scale_widgets>
   <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
   <background_color>
-    <color red="215" green="215" blue="170" />
+    <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.codac_core_6_0b4</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
-    <color red="192" green="192" blue="192" />
+    <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
   <grid_space>6</grid_space>
-  <height>220</height>
+  <height>230</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
@@ -28,24 +28,24 @@
   <show_ruler>true</show_ruler>
   <snap_to_geometry>false</snap_to_geometry>
   <widget_type>Display</widget_type>
-  <width>200</width>
+  <width>230</width>
   <wuid>1734b801:15c3f0cad35:-7fe5</wuid>
-  <x>-1</x>
-  <y>-1</y>
+  <x>0</x>
+  <y>0</y>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <alarm_pulsing>false</alarm_pulsing>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color red="240" green="240" blue="240" />
+      <color name="IO Background" red="235" green="235" blue="235" />
     </background_color>
     <bit>-1</bit>
-    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_color>
-      <color red="0" green="128" blue="255" />
+      <color name="IO Border" red="0" green="0" blue="0" />
     </border_color>
     <border_style>0</border_style>
-    <border_width>1</border_width>
+    <border_width>2</border_width>
     <bulb_border>3</bulb_border>
     <bulb_border_color>
       <color red="150" green="150" blue="150" />
@@ -54,29 +54,61 @@
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="192" green="192" blue="192" />
+      <color name="IO InputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <height>109</height>
     <name>LED</name>
     <off_color>
-      <color red="0" green="100" blue="0" />
+      <color name="IO PV OFF" red="149" green="125" blue="71" />
     </off_color>
     <off_label>OFF</off_label>
     <on_color>
-      <color red="0" green="255" blue="0" />
+      <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
     </on_color>
     <on_label>ON</on_label>
-    <pv_name></pv_name>
+    <pv_name>CTRL-SUP-BOY:BI</pv_name>
     <pv_value />
-    <rules />
+    <rules>
+      <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+        <exp bool_exp="pv0== 0">
+          <value>
+            <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0== 2">
+          <value>
+            <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0== 3">
+          <value>
+            <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+          </value>
+        </exp>
+        <pv trig="true">$(pv_name).SEVR</pv>
+      </rule>
+      <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+        <exp bool_exp="pv0== 3">
+          <value>
+            <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+          </value>
+        </exp>
+        <pv trig="true">$(pv_name).SEVR</pv>
+      </rule>
+    </rules>
     <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>true</keep_wh_ratio>
+      <width_scalable>false</width_scalable>
+      <height_scalable>false</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
     <show_boolean_label>false</show_boolean_label>
@@ -87,34 +119,34 @@ $(pv_value)</tooltip>
     <widget_type>LED</widget_type>
     <width>109</width>
     <wuid>1734b801:15c3f0cad35:-7fe0</wuid>
-    <x>40</x>
-    <y>40</y>
+    <x>66</x>
+    <y>12</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>true</auto_size>
     <background_color>
-      <color red="255" green="255" blue="255" />
+      <color name="IO Background" red="235" green="235" blue="235" />
     </background_color>
     <border_color>
-      <color red="0" green="128" blue="255" />
+      <color name="IO Border" red="0" green="0" blue="0" />
     </border_color>
     <border_style>0</border_style>
-    <border_width>1</border_width>
+    <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
       <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">Default</opifont.name>
     </font>
     <foreground_color>
-      <color red="0" green="0" blue="0" />
+      <color name="IO Text Fg" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>42</height>
+    <height>60</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label</name>
     <rules />
     <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
+      <width_scalable>false</width_scalable>
+      <height_scalable>false</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
@@ -125,10 +157,10 @@ child</text>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>72</width>
+    <width>96</width>
     <wrap_words>false</wrap_words>
     <wuid>-63e13c77:15c4381dc60:-7f80</wuid>
-    <x>53</x>
-    <y>157</y>
+    <x>73</x>
+    <y>129</y>
   </widget>
 </display>

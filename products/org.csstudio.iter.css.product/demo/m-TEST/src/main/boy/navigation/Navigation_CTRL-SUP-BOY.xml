@@ -108,7 +108,7 @@
 			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
 			xmlns:xi="http://www.w3.org/2001/XInclude" />
 	</CBS>
-	<CBS name="CONN" description="Widget Connection Testse" enabled="true"
+	<CBS name="CONN" description="Widget Connector Tests" enabled="true"
 		opi_file="./mimics/ITER-CTRL-SUP-BOY-CONN_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-CONN"
 		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
 		xmlns:xi="http://www.w3.org/2001/XInclude" />

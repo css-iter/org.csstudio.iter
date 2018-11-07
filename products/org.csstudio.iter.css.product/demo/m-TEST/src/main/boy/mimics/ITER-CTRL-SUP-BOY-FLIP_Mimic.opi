@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.codac_core_5_4b4</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -45,7 +45,7 @@
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -93,7 +93,7 @@
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -134,7 +134,7 @@
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -174,7 +174,7 @@
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -222,13 +222,13 @@
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Foreground" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>103</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>Image Flipped</name>
         <no_animation>false</no_animation>
         <permutation_matrix>
@@ -249,13 +249,13 @@
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -269,7 +269,7 @@
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Image</widget_type>
-        <width>64</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6c9</wuid>
         <x>88</x>
         <y>3</y>
@@ -295,13 +295,13 @@
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Foreground" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>103</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>Image</name>
         <no_animation>false</no_animation>
         <permutation_matrix>
@@ -319,7 +319,7 @@
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -333,7 +333,7 @@
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Image</widget_type>
-        <width>64</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6c6</wuid>
         <x>933</x>
         <y>0</y>
@@ -356,16 +356,16 @@
         <crop_top>0</crop_top>
         <degree>0</degree>
         <enabled>true</enabled>
-        <flip_horizontal>true</flip_horizontal>
+        <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Foreground" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>102</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>67</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>Image Flipped</name>
         <no_animation>false</no_animation>
         <permutation_matrix>
@@ -383,7 +383,7 @@
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -397,7 +397,7 @@
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Image</widget_type>
-        <width>63</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6c5</wuid>
         <x>1240</x>
         <y>3</y>
@@ -421,15 +421,15 @@
         <degree>0</degree>
         <enabled>true</enabled>
         <flip_horizontal>false</flip_horizontal>
-        <flip_vertical>true</flip_vertical>
+        <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Foreground" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>102</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>67</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>Image Flipped</name>
         <no_animation>false</no_animation>
         <permutation_matrix>
@@ -447,7 +447,7 @@
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -461,7 +461,7 @@
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Image</widget_type>
-        <width>63</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6c4</wuid>
         <x>1549</x>
         <y>5</y>
@@ -479,12 +479,12 @@
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Image</name>
         <rules />
@@ -520,12 +520,12 @@
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>66</height>
+        <height>60</height>
         <horizontal_alignment>1</horizontal_alignment>
         <name>Image Flipped</name>
         <rules />
@@ -562,12 +562,12 @@ Horizontal</text>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>66</height>
+        <height>60</height>
         <horizontal_alignment>1</horizontal_alignment>
         <name>Image Flipped</name>
         <rules />
@@ -612,13 +612,13 @@ Vertical</text>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Foreground" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>102</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>Image Flipped</name>
         <no_animation>false</no_animation>
         <permutation_matrix>
@@ -628,7 +628,7 @@ Vertical</text>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <rules>
@@ -639,13 +639,13 @@ Vertical</text>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -659,7 +659,7 @@ Vertical</text>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Image</widget_type>
-        <width>63</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6be</wuid>
         <x>458</x>
         <y>0</y>
@@ -677,12 +677,12 @@ Vertical</text>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip</name>
         <rules />
@@ -727,7 +727,7 @@ Vertical</text>
         <effect_3d>true</effect_3d>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -743,41 +743,9 @@ Vertical</text>
           <color name="IO PV ON" red="0" green="0" blue="255" />
         </on_color>
         <on_label>ON</on_label>
-        <pv_name>CTRL-SUP-BOY:BI</pv_name>
+        <pv_name>sim://ramp(0,1,1,3)</pv_name>
         <pv_value />
-        <rules>
-          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
-            <exp bool_exp="pv0== 0">
-              <value>
-                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 1">
-              <value>
-                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 2">
-              <value>
-                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-        </rules>
+        <rules />
         <scale_options>
           <width_scalable>false</width_scalable>
           <height_scalable>false</height_scalable>
@@ -808,12 +776,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_2</name>
         <rules />
@@ -849,12 +817,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_3</name>
         <rules />
@@ -891,7 +859,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -945,13 +913,13 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>68</height>
+        <height>67</height>
         <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
         <name>SVG</name>
         <no_animation>false</no_animation>
@@ -983,7 +951,7 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
@@ -1005,7 +973,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Monitor</widget_type>
-        <width>68</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6bc</wuid>
         <x>0</x>
         <y>63</y>
@@ -1023,12 +991,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>SVG</name>
         <rules />
@@ -1078,14 +1046,14 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>103</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>PNG</name>
         <no_animation>false</no_animation>
         <off_color>
@@ -1116,13 +1084,13 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -1138,7 +1106,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Monitor</widget_type>
-        <width>64</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6ba</wuid>
         <x>175</x>
         <y>63</y>
@@ -1156,12 +1124,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>PNG</name>
         <rules />
@@ -1197,12 +1165,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>SVG</name>
         <rules />
@@ -1238,12 +1206,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>PNG</name>
         <rules />
@@ -1279,12 +1247,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip</name>
         <rules />
@@ -1329,7 +1297,7 @@ $(pv_value)</tooltip>
         <effect_3d>true</effect_3d>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -1345,41 +1313,9 @@ $(pv_value)</tooltip>
           <color name="IO PV ON" red="0" green="0" blue="255" />
         </on_color>
         <on_label>ON</on_label>
-        <pv_name>CTRL-SUP-BOY:BI</pv_name>
+        <pv_name>sim://ramp(0,1,1,3)</pv_name>
         <pv_value />
-        <rules>
-          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
-            <exp bool_exp="pv0== 0">
-              <value>
-                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 1">
-              <value>
-                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 2">
-              <value>
-                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-        </rules>
+        <rules />
         <scale_options>
           <width_scalable>false</width_scalable>
           <height_scalable>false</height_scalable>
@@ -1424,13 +1360,13 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>68</height>
+        <height>67</height>
         <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
         <name>SVG</name>
         <no_animation>false</no_animation>
@@ -1449,7 +1385,7 @@ $(pv_value)</tooltip>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <pv_name>loc://bool(1)</pv_name>
@@ -1462,7 +1398,7 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
@@ -1484,7 +1420,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Monitor</widget_type>
-        <width>68</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:7f47</wuid>
         <x>646</x>
         <y>63</y>
@@ -1516,14 +1452,14 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>103</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>PNG</name>
         <no_animation>false</no_animation>
         <off_color>
@@ -1541,7 +1477,7 @@ $(pv_value)</tooltip>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <pv_name>loc://bool(1)</pv_name>
@@ -1554,13 +1490,13 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -1576,7 +1512,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Monitor</widget_type>
-        <width>64</width>
+        <width>68</width>
         <wuid>-7c21f2fb:15211561f9e:-7fa2</wuid>
         <x>817</x>
         <y>63</y>
@@ -1594,12 +1530,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_2</name>
         <rules />
@@ -1635,12 +1571,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_3</name>
         <rules />
@@ -1677,7 +1613,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -1717,12 +1653,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>SVG</name>
         <rules />
@@ -1758,12 +1694,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>PNG</name>
         <rules />
@@ -1799,12 +1735,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip</name>
         <rules />
@@ -1855,13 +1791,13 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>68</height>
+        <height>67</height>
         <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
         <name>SVG</name>
         <no_animation>false</no_animation>
@@ -1896,7 +1832,7 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
@@ -1920,7 +1856,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Control</widget_type>
-        <width>68</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6ab</wuid>
         <x>9</x>
         <y>60</y>
@@ -1953,14 +1889,14 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>103</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>PNG</name>
         <no_animation>false</no_animation>
         <off_color>
@@ -1994,13 +1930,13 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -2018,7 +1954,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Control</widget_type>
-        <width>64</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6aa</wuid>
         <x>208</x>
         <y>60</y>
@@ -2036,12 +1972,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>SVG</name>
         <rules />
@@ -2077,12 +2013,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>PNG</name>
         <rules />
@@ -2133,13 +2069,13 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>68</height>
+        <height>67</height>
         <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
         <name>SVG</name>
         <no_animation>false</no_animation>
@@ -2159,7 +2095,7 @@ $(pv_value)</tooltip>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <push_action_index>0</push_action_index>
@@ -2174,7 +2110,7 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
@@ -2198,7 +2134,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Control</widget_type>
-        <width>68</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6a5</wuid>
         <x>651</x>
         <y>61</y>
@@ -2231,14 +2167,14 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>102</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <name>PNG</name>
         <no_animation>false</no_animation>
         <off_color>
@@ -2257,7 +2193,7 @@ $(pv_value)</tooltip>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <push_action_index>0</push_action_index>
@@ -2272,13 +2208,13 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -2296,7 +2232,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Control</widget_type>
-        <width>63</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-6a4</wuid>
         <x>850</x>
         <y>61</y>
@@ -2318,7 +2254,7 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -2370,7 +2306,7 @@ $(pv_value)</tooltip>
         <effect_3d>true</effect_3d>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -2386,41 +2322,9 @@ $(pv_value)</tooltip>
           <color name="IO PV ON" red="0" green="0" blue="255" />
         </on_color>
         <on_label>ON</on_label>
-        <pv_name>CTRL-SUP-BOY:BI</pv_name>
+        <pv_name>sim://ramp(0,1,1,3)</pv_name>
         <pv_value />
-        <rules>
-          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
-            <exp bool_exp="pv0== 0">
-              <value>
-                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 1">
-              <value>
-                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 2">
-              <value>
-                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-        </rules>
+        <rules />
         <scale_options>
           <width_scalable>false</width_scalable>
           <height_scalable>false</height_scalable>
@@ -2451,12 +2355,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_3</name>
         <rules />
@@ -2492,12 +2396,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_2</name>
         <rules />
@@ -2534,7 +2438,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -2574,12 +2478,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>SVG</name>
         <rules />
@@ -2615,12 +2519,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>PNG</name>
         <rules />
@@ -2669,13 +2573,13 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>68</height>
+        <height>67</height>
         <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
@@ -2709,7 +2613,7 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
@@ -2732,7 +2636,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Control</widget_type>
-        <width>68</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-69e</wuid>
         <x>0</x>
         <y>48</y>
@@ -2763,14 +2667,14 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>103</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
         <name>PNG</name>
@@ -2803,13 +2707,13 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -2826,7 +2730,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Control</widget_type>
-        <width>64</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-69d</wuid>
         <x>208</x>
         <y>50</y>
@@ -2846,13 +2750,13 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>45</height>
+        <height>46</height>
         <items_from_pv>true</items_from_pv>
         <name>Combo Box Template_1</name>
         <pv_name>CTRL-SUP-BOY:COMPONENT0</pv_name>
@@ -2886,12 +2790,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>SVG</name>
         <rules />
@@ -2927,12 +2831,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>PNG</name>
         <rules />
@@ -2981,13 +2885,13 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>68</height>
+        <height>67</height>
         <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
@@ -3007,7 +2911,7 @@ $(pv_value)</tooltip>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <push_action_index>0</push_action_index>
@@ -3021,7 +2925,7 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
@@ -3044,7 +2948,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Control</widget_type>
-        <width>68</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-697</wuid>
         <x>651</x>
         <y>48</y>
@@ -3075,14 +2979,14 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>102</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
         <name>PNG</name>
@@ -3101,7 +3005,7 @@ $(pv_value)</tooltip>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <push_action_index>0</push_action_index>
@@ -3115,13 +3019,13 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -3138,7 +3042,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Control</widget_type>
-        <width>63</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-696</wuid>
         <x>850</x>
         <y>50</y>
@@ -3156,12 +3060,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip</name>
         <rules />
@@ -3206,7 +3110,7 @@ $(pv_value)</tooltip>
         <effect_3d>true</effect_3d>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -3222,41 +3126,9 @@ $(pv_value)</tooltip>
           <color name="IO PV ON" red="0" green="0" blue="255" />
         </on_color>
         <on_label>ON</on_label>
-        <pv_name>CTRL-SUP-BOY:BI</pv_name>
+        <pv_name>sim://ramp(0,1,1,3)</pv_name>
         <pv_value />
-        <rules>
-          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
-            <exp bool_exp="pv0== 0">
-              <value>
-                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 1">
-              <value>
-                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 2">
-              <value>
-                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-        </rules>
+        <rules />
         <scale_options>
           <width_scalable>false</width_scalable>
           <height_scalable>false</height_scalable>
@@ -3287,12 +3159,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_3</name>
         <rules />
@@ -3328,12 +3200,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_2</name>
         <rules />
@@ -3370,7 +3242,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -3397,96 +3269,6 @@ $(pv_value)</tooltip>
       <wuid>-7c21f2fb:1520c4b5b67:-695</wuid>
       <x>500</x>
       <y>1159</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.symbol.multistate.MultistateMonitorWidget" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <align_to_nearest_second>true</align_to_nearest_second>
-        <auto_size>true</auto_size>
-        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
-        <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
-        </background_color>
-        <boolean_label_position>5</boolean_label_position>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>2</border_width>
-        <crop_bottom>0</crop_bottom>
-        <crop_left>0</crop_left>
-        <crop_right>0</crop_right>
-        <crop_top>0</crop_top>
-        <degree>0</degree>
-        <enabled>true</enabled>
-        <flip_horizontal>false</flip_horizontal>
-        <flip_vertical>false</flip_vertical>
-        <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
-        </foreground_color>
-        <height>68</height>
-        <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
-        <items />
-        <items_from_pv>true</items_from_pv>
-        <name>Multistate Symbol Image Monitor Template</name>
-        <no_animation>false</no_animation>
-        <off_color>
-          <color name="IO PV OFF" red="149" green="125" blue="71" />
-        </off_color>
-        <on_color>
-          <color name="IO PV ON" red="0" green="0" blue="255" />
-        </on_color>
-        <permutation_matrix>
-          <row>
-            <col>1.0</col>
-            <col>0.0</col>
-          </row>
-          <row>
-            <col>0.0</col>
-            <col>1.0</col>
-          </row>
-        </permutation_matrix>
-        <pv_name>CTRL-SUP-BOY:COMPONENT0</pv_name>
-        <pv_value />
-        <rules>
-          <rule name="flip_horizontal" prop_id="flip_horizontal" out_exp="false">
-            <exp bool_exp="pv0==0">
-              <value>false</value>
-            </exp>
-            <exp bool_exp="pv0==1">
-              <value>true</value>
-            </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
-          </rule>
-          <rule name="image" prop_id="image_file" out_exp="true">
-            <exp bool_exp="true">
-              <value>pvStr0</value>
-            </exp>
-            <pv trig="true">loc://svg("SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg")</pv>
-          </rule>
-        </rules>
-        <scale_options>
-          <width_scalable>false</width_scalable>
-          <height_scalable>false</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <show_boolean_label>false</show_boolean_label>
-        <stretch_to_fit>false</stretch_to_fit>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <transparency>false</transparency>
-        <visible>true</visible>
-        <widget_type>Multistate Symbol Image Monitor</widget_type>
-        <width>68</width>
-        <wuid>-7c21f2fb:1520c4b5b67:-694</wuid>
-        <x>0</x>
-        <y>52</y>
-      </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false" />
         <auto_size>true</auto_size>
@@ -3500,12 +3282,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Label Template_10</name>
         <rules />
@@ -3541,12 +3323,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Label Template_11</name>
         <rules />
@@ -3594,14 +3376,14 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>103</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
         <name>Multistate Symbol Image Monitor Template_1</name>
@@ -3632,13 +3414,13 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -3654,7 +3436,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Monitor</widget_type>
-        <width>64</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-691</wuid>
         <x>175</x>
         <y>50</y>
@@ -3684,13 +3466,13 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>68</height>
+        <height>67</height>
         <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
@@ -3709,7 +3491,7 @@ $(pv_value)</tooltip>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <pv_name>CTRL-SUP-BOY:COMPONENT0</pv_name>
@@ -3722,7 +3504,7 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
@@ -3744,7 +3526,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Monitor</widget_type>
-        <width>68</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-68e</wuid>
         <x>565</x>
         <y>52</y>
@@ -3762,12 +3544,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Label Template_19</name>
         <rules />
@@ -3803,12 +3585,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Label Template_20</name>
         <rules />
@@ -3856,14 +3638,14 @@ $(pv_value)</tooltip>
         <flip_horizontal>false</flip_horizontal>
         <flip_vertical>false</flip_vertical>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>102</height>
-        <image_file>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</image_file>
+        <height>68</height>
+        <image_file>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</image_file>
         <items />
         <items_from_pv>true</items_from_pv>
         <name>Multistate Symbol Image Monitor Template_3</name>
@@ -3881,7 +3663,7 @@ $(pv_value)</tooltip>
           </row>
           <row>
             <col>0.0</col>
-            <col>-1.0</col>
+            <col>1.0</col>
           </row>
         </permutation_matrix>
         <pv_name>CTRL-SUP-BOY:COMPONENT0</pv_name>
@@ -3894,13 +3676,13 @@ $(pv_value)</tooltip>
             <exp bool_exp="pv0==1">
               <value>true</value>
             </exp>
-            <pv trig="true">CTRL-SUP-BOY:BI</pv>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
           </rule>
           <rule name="image" prop_id="image_file" out_exp="true">
             <exp bool_exp="true">
               <value>pvStr0</value>
             </exp>
-            <pv trig="true">loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv>
+            <pv trig="true">loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv>
           </rule>
         </rules>
         <scale_options>
@@ -3916,7 +3698,7 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Multistate Symbol Image Monitor</widget_type>
-        <width>63</width>
+        <width>68</width>
         <wuid>-7c21f2fb:1520c4b5b67:-68b</wuid>
         <x>740</x>
         <y>50</y>
@@ -3937,7 +3719,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -3986,12 +3768,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip</name>
         <rules />
@@ -4036,7 +3818,7 @@ $(pv_value)</tooltip>
         <effect_3d>true</effect_3d>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -4052,41 +3834,9 @@ $(pv_value)</tooltip>
           <color name="IO PV ON" red="0" green="0" blue="255" />
         </on_color>
         <on_label>ON</on_label>
-        <pv_name>CTRL-SUP-BOY:BI</pv_name>
+        <pv_name>sim://ramp(0,1,1,3)</pv_name>
         <pv_value />
-        <rules>
-          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
-            <exp bool_exp="pv0== 0">
-              <value>
-                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 1">
-              <value>
-                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 2">
-              <value>
-                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
-              </value>
-            </exp>
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
-            <exp bool_exp="pv0== 3">
-              <value>
-                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
-              </value>
-            </exp>
-            <pv trig="true">$(pv_name).SEVR</pv>
-          </rule>
-        </rules>
+        <rules />
         <scale_options>
           <width_scalable>false</width_scalable>
           <height_scalable>false</height_scalable>
@@ -4117,12 +3867,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_2</name>
         <rules />
@@ -4158,12 +3908,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Normal</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>33</height>
+        <height>30</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Flip_3</name>
         <rules />
@@ -4186,6 +3936,96 @@ $(pv_value)</tooltip>
         <x>632</x>
         <y>249</y>
       </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.symbol.multistate.MultistateMonitorWidget" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <align_to_nearest_second>true</align_to_nearest_second>
+        <auto_size>true</auto_size>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <boolean_label_position>5</boolean_label_position>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <crop_bottom>0</crop_bottom>
+        <crop_left>0</crop_left>
+        <crop_right>0</crop_right>
+        <crop_top>0</crop_top>
+        <degree>0</degree>
+        <enabled>true</enabled>
+        <flip_horizontal>false</flip_horizontal>
+        <flip_vertical>false</flip_vertical>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>67</height>
+        <image_file>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</image_file>
+        <items />
+        <items_from_pv>true</items_from_pv>
+        <name>Multistate Symbol Image Monitor Template</name>
+        <no_animation>false</no_animation>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <permutation_matrix>
+          <row>
+            <col>1.0</col>
+            <col>0.0</col>
+          </row>
+          <row>
+            <col>0.0</col>
+            <col>1.0</col>
+          </row>
+        </permutation_matrix>
+        <pv_name>CTRL-SUP-BOY:COMPONENT0</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="flip_horizontal" prop_id="flip_horizontal" out_exp="false">
+            <exp bool_exp="pv0==0">
+              <value>false</value>
+            </exp>
+            <exp bool_exp="pv0==1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">sim://ramp(0,1,1,3)</pv>
+          </rule>
+          <rule name="image" prop_id="image_file" out_exp="true">
+            <exp bool_exp="true">
+              <value>pvStr0</value>
+            </exp>
+            <pv trig="true">loc://svg("SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg")</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_boolean_label>false</show_boolean_label>
+        <stretch_to_fit>false</stretch_to_fit>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparency>false</transparency>
+        <visible>true</visible>
+        <widget_type>Multistate Symbol Image Monitor</widget_type>
+        <width>67</width>
+        <wuid>1d3208e8:166d4582f0b:-2a26</wuid>
+        <x>0</x>
+        <y>50</y>
+      </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -4200,7 +4040,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -4240,12 +4080,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="32" style="0" pixels="false">IO SubTitle</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>39</height>
+        <height>38</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Image Selector</name>
         <rules />
@@ -4262,7 +4102,7 @@ $(pv_value)</tooltip>
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>460</width>
+        <width>437</width>
         <wrap_words>true</wrap_words>
         <wuid>-7c21f2fb:1520c4b5b67:6d96</wuid>
         <x>0</x>
@@ -4281,12 +4121,12 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="32" style="0" pixels="false">IO SubTitle</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Text Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>39</height>
+        <height>38</height>
         <horizontal_alignment>0</horizontal_alignment>
         <name>Image Selector</name>
         <rules />
@@ -4303,7 +4143,7 @@ $(pv_value)</tooltip>
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>460</width>
+        <width>437</width>
         <wrap_words>true</wrap_words>
         <wuid>-7c21f2fb:1520c4b5b67:6d97</wuid>
         <x>5</x>
@@ -4324,15 +4164,15 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>45</height>
+        <height>46</height>
         <items>
-          <s>SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png</s>
+          <s>SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png</s>
           <s>SymbolLibrary/PNG/Fluid/Valves/VR Relief Device 0.png</s>
           <s>SymbolLibrary/PNG/Fluid/Pumps/PV Scroll Vacuum Pump 0.png</s>
           <s>SymbolLibrary/PNG/Fluid/Valves/VC On-Off 3-way Control Bottom Inlet Valve 0.png</s>
@@ -4340,7 +4180,7 @@ $(pv_value)</tooltip>
         </items>
         <items_from_pv>false</items_from_pv>
         <name>Image Selector</name>
-        <pv_name>loc://png("SymbolLibrary/PNG/Fluid/Separators/DS Separator General.png")</pv_name>
+        <pv_name>loc://png("SymbolLibrary/PNG/IandC/Host/PSH Plant System Host 0.png")</pv_name>
         <pv_value />
         <rules />
         <scale_options>
@@ -4373,13 +4213,13 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>45</height>
+        <height>46</height>
         <items>
           <s>SymbolLibrary/SVG/Fluid/Separators/DS Separator General.svg</s>
           <s>SymbolLibrary/SVG/Fluid/Valves/VR Relief Device 0.svg</s>
@@ -4425,7 +4265,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>

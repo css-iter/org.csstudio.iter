@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.codac_core_6_0b4</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -66,11 +66,11 @@
     <height>149</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
-      <color name="IO Invalid Entry" red="250" green="12" blue="14" />
+      <color name="Major" red="250" green="12" blue="14" />
     </line_color>
     <line_style>0</line_style>
     <line_width>3</line_width>
-    <name>Ellipse Template</name>
+    <name>Ellipse</name>
     <pv_name>CTRL-SUP-BOY:BI</pv_name>
     <pv_value />
     <rules />
@@ -121,7 +121,7 @@ $(pv_value)</tooltip>
     <horizontal_fill>true</horizontal_fill>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Polyline Template</name>
+    <name>Polyline</name>
     <points>
       <point x="500" y="194" />
       <point x="602" y="242" />
@@ -183,7 +183,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <height>75</height>
-    <name>LED Template</name>
+    <name>LED</name>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
     </off_color>
@@ -273,7 +273,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <height>75</height>
-    <name>LED Template_1</name>
+    <name>LED</name>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
     </off_color>
@@ -369,7 +369,7 @@ $(pv_value)</tooltip>
     <image_file>SymbolLibrary/SVG/Electrical/Accumulators/EB General.svg</image_file>
     <items />
     <items_from_pv>true</items_from_pv>
-    <name>Multistate Symbol Image Monitor Template</name>
+    <name>Multistate Symbol Image Monitor</name>
     <no_animation>false</no_animation>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
@@ -437,7 +437,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <height>40</height>
-    <name>LED Template_2</name>
+    <name>LED</name>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
     </off_color>
@@ -533,7 +533,7 @@ $(pv_value)</tooltip>
     <image_file>SymbolLibrary/SVG/Electrical/Accumulators/EB General.svg</image_file>
     <items />
     <items_from_pv>true</items_from_pv>
-    <name>Multistate Symbol Image Monitor Template_1</name>
+    <name>Multistate Symbol Image Monitor</name>
     <no_animation>false</no_animation>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
@@ -601,7 +601,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <height>40</height>
-    <name>LED Template_3</name>
+    <name>LED</name>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
     </off_color>
@@ -697,7 +697,7 @@ $(pv_value)</tooltip>
     <image_file>SymbolLibrary/SVG/Electrical/Accumulators/EB General.svg</image_file>
     <items />
     <items_from_pv>true</items_from_pv>
-    <name>Multistate Symbol Image Monitor Template_2</name>
+    <name>Multistate Symbol Image Monitor</name>
     <no_animation>false</no_animation>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
@@ -765,7 +765,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <height>40</height>
-    <name>LED Template_4</name>
+    <name>LED</name>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
     </off_color>
@@ -861,7 +861,7 @@ $(pv_value)</tooltip>
     <image_file>SymbolLibrary/SVG/Electrical/Accumulators/EB General.svg</image_file>
     <items />
     <items_from_pv>true</items_from_pv>
-    <name>Multistate Symbol Image Monitor Template_3</name>
+    <name>Multistate Symbol Image Monitor</name>
     <no_animation>false</no_animation>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
@@ -929,7 +929,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <height>40</height>
-    <name>LED Template_5</name>
+    <name>LED</name>
     <off_color>
       <color name="IO PV OFF" red="149" green="125" blue="71" />
     </off_color>
@@ -1106,7 +1106,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1123,7 +1123,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-460f</wuid>
       <x>153</x>
@@ -1147,7 +1147,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1164,7 +1164,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-4607</wuid>
       <x>153</x>
@@ -1188,7 +1188,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1205,7 +1205,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-45f7</wuid>
       <x>153</x>
@@ -1328,7 +1328,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1345,7 +1345,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-4603</wuid>
       <x>33</x>
@@ -1369,7 +1369,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1386,7 +1386,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-45ff</wuid>
       <x>92</x>
@@ -1410,7 +1410,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1427,7 +1427,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-45fb</wuid>
       <x>150</x>
@@ -1457,7 +1457,7 @@ $(pv_value)</tooltip>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
-    <name>Grouping Box_2</name>
+    <name>Grouping Box</name>
     <rules />
     <scale_options>
       <width_scalable>false</width_scalable>
@@ -1550,7 +1550,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1567,7 +1567,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-4149</wuid>
       <x>153</x>
@@ -1591,7 +1591,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1608,7 +1608,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-4148</wuid>
       <x>153</x>
@@ -1632,7 +1632,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1649,7 +1649,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-4147</wuid>
       <x>153</x>
@@ -1772,7 +1772,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1789,7 +1789,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-3e02</wuid>
       <x>111</x>
@@ -1813,7 +1813,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1830,7 +1830,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-3e01</wuid>
       <x>62</x>
@@ -1854,7 +1854,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1871,7 +1871,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-3e00</wuid>
       <x>12</x>
@@ -1895,7 +1895,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -1912,7 +1912,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-3c4d</wuid>
       <x>12</x>
@@ -2035,7 +2035,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -2052,7 +2052,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-3df0</wuid>
       <x>153</x>
@@ -2076,7 +2076,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -2093,7 +2093,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-3def</wuid>
       <x>153</x>
@@ -2117,7 +2117,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box</name>
       <rules />
@@ -2134,7 +2134,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-3dee</wuid>
       <x>153</x>
@@ -2158,7 +2158,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color name="Major" red="250" green="12" blue="14" />
       </foreground_color>
-      <height>29</height>
+      <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
       <name>Box_4</name>
       <rules />
@@ -2175,7 +2175,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>16</width>
       <wrap_words>true</wrap_words>
       <wuid>36544707:15d3bf1e454:-3c46</wuid>
       <x>24</x>
@@ -2185,39 +2185,39 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <background_color>
-      <color red="215" green="215" blue="215" />
+      <color name="IO Area Background" red="221" green="223" blue="229" />
     </background_color>
     <border_color>
-      <color red="0" green="128" blue="255" />
+      <color name="IO Border" red="0" green="0" blue="0" />
     </border_color>
-    <border_style>3</border_style>
-    <border_width>1</border_width>
+    <border_style>0</border_style>
+    <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
     </font>
     <foreground_color>
-      <color red="192" green="192" blue="192" />
+      <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
     <group_name></group_name>
-    <height>523</height>
+    <height>600</height>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
-    <name>Linking Container_1</name>
+    <name>Linking Container</name>
     <opi_file>ITER-CTRL-SUP-BOY-CONN_LINK1_Mimic.opi</opi_file>
     <resize_behaviour>2</resize_behaviour>
     <rules />
     <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
+      <width_scalable>false</width_scalable>
+      <height_scalable>false</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Linking Container</widget_type>
-    <width>661</width>
+    <width>700</width>
     <wuid>7dcb7ac3:16123168899:-7e40</wuid>
     <x>1722</x>
     <y>60</y>
@@ -2227,29 +2227,29 @@ $(pv_value)</tooltip>
     <alarm_pulsing>false</alarm_pulsing>
     <alpha>255</alpha>
     <anti_alias>true</anti_alias>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
     <background_color>
       <color name="Minor" red="255" green="255" blue="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_color>
-      <color red="0" green="128" blue="255" />
+      <color name="IO Border" red="0" green="0" blue="0" />
     </border_color>
     <border_style>0</border_style>
-    <border_width>1</border_width>
+    <border_width>2</border_width>
     <enabled>true</enabled>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">Default</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="255" green="0" blue="0" />
+      <color name="IO Shape Fill" red="166" green="166" blue="166" />
     </foreground_color>
     <height>135</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
-      <color red="128" green="0" blue="255" />
+      <color name="IO Line" red="0" green="0" blue="0" />
     </line_color>
     <line_style>0</line_style>
     <line_width>2</line_width>
@@ -2271,13 +2271,13 @@ $(pv_value)</tooltip>
         <exp bool_exp="true">
           <value>pv0</value>
         </exp>
-        <pv trig="true">sim://sine(370, 500, 60, 0.2)</pv>
+        <pv trig="true">sim://sine(375, 500, 60, 0.2)</pv>
       </rule>
     </rules>
     <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>true</keep_wh_ratio>
+      <width_scalable>false</width_scalable>
+      <height_scalable>false</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
     <tooltip>$(pv_name)
@@ -2296,26 +2296,22 @@ $(pv_value)</tooltip>
     <arrows>0</arrows>
     <fill_arrow>true</fill_arrow>
     <line_color>
-      <color name="IO Trace 3" red="33" green="179" blue="33" />
+      <color name="IO Trace 2" red="242" green="26" blue="26" />
     </line_color>
     <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
+    <line_jump_size>20</line_jump_size>
+    <line_jump_style>3</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points>
-      <point x="1058" y="675" />
-      <point x="1058" y="864" />
-      <point x="1307" y="864" />
-    </points>
+    <name>C20</name>
+    <points />
     <router>0</router>
     <src_path></src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-45f7</src_wuid>
+    <src_wuid>36544707:15d3bf1e454:-5d85</src_wuid>
     <tgt_path></tgt_path>
-    <tgt_term>BOTTOM</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-4603</tgt_wuid>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d77</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2332,7 +2328,36 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>Mx2</name>
+    <points>
+      <point x="1684" y="314" />
+      <point x="2322" y="314" />
+      <point x="2322" y="158" />
+    </points>
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>3</src_term>
+    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
+    <tgt_path>7dcb7ac3:16123168899:-7e40_7dcb7ac3:16123168899:-7bf1</tgt_path>
+    <tgt_term>RIGHT</tgt_term>
+    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 2" red="242" green="26" blue="26" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C6</name>
     <points />
     <router>0</router>
     <src_path></src_path>
@@ -2346,43 +2371,18 @@ $(pv_value)</tooltip>
   </connection>
   <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
     <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d7d</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d7e</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
     <arrow_length>30</arrow_length>
     <arrows>2</arrows>
     <fill_arrow>true</fill_arrow>
     <line_color>
-      <color name="IO Trace 8" red="243" green="132" blue="132" />
+      <color name="Invalid" red="255" green="0" blue="255" />
     </line_color>
     <line_jump_add>1</line_jump_add>
     <line_jump_size>10</line_jump_size>
     <line_jump_style>1</line_jump_style>
     <line_style>4</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>C3</name>
     <points>
       <point x="95" y="485" />
       <point x="95" y="700" />
@@ -2412,143 +2412,7 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points>
-      <point x="776" y="756" />
-      <point x="776" y="675" />
-    </points>
-    <router>0</router>
-    <src_path>36544707:15d3bf1e454:-414b</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-4149</src_wuid>
-    <tgt_path>36544707:15d3bf1e454:-415d</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-45f7</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Trace 7" red="255" green="0" blue="240" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>2</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points>
-      <point x="220" y="674" />
-      <point x="54" y="674" />
-      <point x="54" y="805" />
-    </points>
-    <router>0</router>
-    <src_path>36544707:15d3bf1e454:-3e04</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>36544707:15d3bf1e454:-3e01</src_wuid>
-    <tgt_path>36544707:15d3bf1e454:-3df2</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-3c46</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>6</src_term>
-    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
-    <tgt_path>7dcb7ac3:16123168899:-7e40_7dcb7ac3:16123168899:-7695</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>7dcb7ac3:16123168899:-7692</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Trace 1" red="21" green="21" blue="196" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d8c</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d90</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points>
-      <point x="1685" y="316" />
-      <point x="2298" y="316" />
-      <point x="2298" y="187" />
-    </points>
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>3</src_term>
-    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
-    <tgt_path>7dcb7ac3:16123168899:-7e40_7dcb7ac3:16123168899:-7bf1</tgt_path>
-    <tgt_term>RIGHT</tgt_term>
-    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>C8</name>
     <points />
     <router>0</router>
     <src_path></src_path>
@@ -2573,7 +2437,110 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>C2</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>3314aa80:15b8012fd39:-7fae</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>3</tgt_term>
+    <tgt_wuid>3314aa80:15b8012fd39:-7cee</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 1" red="21" green="21" blue="196" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C0</name>
+    <points>
+      <point x="1235" y="80" />
+      <point x="1235" y="476" />
+    </points>
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-5d90</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>RIGHT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d7e</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C7</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-5d7d</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d7e</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 2" red="242" green="26" blue="26" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Mx3</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>6</src_term>
+    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
+    <tgt_path>7dcb7ac3:16123168899:-7e40_7dcb7ac3:16123168899:-7695</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7dcb7ac3:16123168899:-7692</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C14</name>
     <points>
       <point x="846" y="855" />
       <point x="846" y="576" />
@@ -2601,15 +2568,123 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>C13</name>
+    <points />
+    <router>0</router>
+    <src_path>36544707:15d3bf1e454:-414b</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-4148</src_wuid>
+    <tgt_path>36544707:15d3bf1e454:-415d</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-4607</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 3" red="33" green="179" blue="33" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C11</name>
+    <points>
+      <point x="1058" y="675" />
+      <point x="1058" y="864" />
+      <point x="1307" y="864" />
+    </points>
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-45f7</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>BOTTOM</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-4603</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="Major" red="250" green="12" blue="14" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>2</line_style>
+    <line_width>4</line_width>
+    <name>C4</name>
+    <points>
+      <point x="220" y="674" />
+      <point x="54" y="674" />
+      <point x="54" y="805" />
+    </points>
+    <router>0</router>
+    <src_path>36544707:15d3bf1e454:-3e04</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>36544707:15d3bf1e454:-3e01</src_wuid>
+    <tgt_path>36544707:15d3bf1e454:-3df2</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-3c46</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 5" red="128" green="0" blue="255" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>3</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>L3X</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>LEFT</src_term>
+    <src_wuid>1734b801:15c3f0cad35:-7e4d</src_wuid>
+    <tgt_path>7dcb7ac3:16123168899:-7bf1</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 1" red="21" green="21" blue="196" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C5</name>
     <points />
     <router>0</router>
     <src_path></src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>3314aa80:15b8012fd39:-7fae</src_wuid>
+    <src_wuid>36544707:15d3bf1e454:-5d8c</src_wuid>
     <tgt_path></tgt_path>
-    <tgt_term>3</tgt_term>
-    <tgt_wuid>3314aa80:15b8012fd39:-7cee</tgt_wuid>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d90</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2626,7 +2701,7 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>C10</name>
     <points>
       <point x="1136" y="625" />
       <point x="1136" y="833" />
@@ -2648,25 +2723,25 @@ $(pv_value)</tooltip>
     <arrows>0</arrows>
     <fill_arrow>true</fill_arrow>
     <line_color>
-      <color name="IO Trace 1" red="21" green="21" blue="196" />
+      <color name="IO Link" red="0" green="0" blue="0" />
     </line_color>
     <line_jump_add>1</line_jump_add>
     <line_jump_size>10</line_jump_size>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>C12</name>
     <points>
-      <point x="1235" y="80" />
-      <point x="1235" y="476" />
+      <point x="776" y="756" />
+      <point x="776" y="675" />
     </points>
     <router>0</router>
-    <src_path></src_path>
+    <src_path>36544707:15d3bf1e454:-414b</src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d90</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>RIGHT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d7e</tgt_wuid>
+    <src_wuid>36544707:15d3bf1e454:-4149</src_wuid>
+    <tgt_path>36544707:15d3bf1e454:-415d</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-45f7</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2683,15 +2758,18 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
+    <name>Mx1</name>
+    <points>
+      <point x="1554" y="141" />
+      <point x="1794" y="141" />
+    </points>
     <router>0</router>
     <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d85</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d77</tgt_wuid>
+    <src_term>2</src_term>
+    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
+    <tgt_path>7dcb7ac3:16123168899:-7e40</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2708,15 +2786,15 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>C1</name>
     <points />
     <router>0</router>
-    <src_path>36544707:15d3bf1e454:-414b</src_path>
+    <src_path></src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-4148</src_wuid>
-    <tgt_path>36544707:15d3bf1e454:-415d</tgt_path>
+    <src_wuid>3314aa80:15b8012fd39:-7ca6</src_wuid>
+    <tgt_path></tgt_path>
     <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-4607</tgt_wuid>
+    <tgt_wuid>3314aa80:15b8012fd39:-7c9e</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2733,7 +2811,7 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Connection Template</name>
+    <name>C9</name>
     <points>
       <point x="1199" y="576" />
       <point x="1199" y="796" />
@@ -2746,31 +2824,6 @@ $(pv_value)</tooltip>
     <tgt_path></tgt_path>
     <tgt_term>BOTTOM</tgt_term>
     <tgt_wuid>36544707:15d3bf1e454:-45fb</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>3314aa80:15b8012fd39:-7ca6</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>3314aa80:15b8012fd39:-7c9e</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>

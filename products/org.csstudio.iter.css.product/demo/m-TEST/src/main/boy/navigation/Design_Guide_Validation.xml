@@ -2,4 +2,4 @@
 <CBS name="Validation" description="Operator Interface Validation"
 	enabled="true"
 	opi_file="./Design_Guide/mimics/Design_Guide_1_6_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-GUIDE-Validation"
-	alarm_root="/CODAC_AlarmHandler" deprecated="false" />
+	 deprecated="false" />
