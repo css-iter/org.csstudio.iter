@@ -130,7 +130,7 @@ function css {
     tab=" --tab"
     options=" --profile='default'"
     
-    cmds[1]="bash -c 'sudo boy-switch-resolution 4k; rm -rf ~/CSS-Workspaces/Default; css -data ~/CSS-Workspaces/Default'"
+    cmds[1]="bash -c 'sudo boy-switch-resolution 4k; rm -rf ~/CSS-Workspaces/Default; caput -a CTRL-SUP-BOY:SETPOINT 8 1 1 1 1 1 1 1 1; css -data ~/CSS-Workspaces/Default'"
     titles[1]="Start cs-studio"
     
     for i in {1..1}; do
