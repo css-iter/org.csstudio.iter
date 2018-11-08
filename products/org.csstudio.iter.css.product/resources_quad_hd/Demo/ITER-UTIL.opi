@@ -20,7 +20,7 @@
     <include_parent_macros>true</include_parent_macros>
     <TITLE>UTIL OVERVIEW</TITLE>
     <LEVEL>ITER-UTIL</LEVEL>
-    <ALARM_ROOT>/CODAC_AlarmHandler</ALARM_ROOT>
+    
   </macros>
   <name>${TITLE}</name>
   <rules />
