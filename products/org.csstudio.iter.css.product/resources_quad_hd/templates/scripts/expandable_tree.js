@@ -130,7 +130,12 @@ function getOPI_FILE(elt) {
 }
 
 function getALARM_ROOT(elt) {
-	return elt.getAttributeValue("alarm_root");
+    var alarm_root=elt.getAttributeValue("alarm_root")
+    if (alarm_root) {
+        return elt.getAttributeValue("alarm_root");
+    } else {
+        return widget.getMacroValue("ALARM_ROOT");
+    }
 }
 
 function addOPImacros(container, elt) {
