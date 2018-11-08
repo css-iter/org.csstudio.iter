@@ -2,7 +2,7 @@
 <navigation xmlns:xi="http://www.w3.org/2001/XInclude">
 	<CBS name="GUIDE" description="VDU Display Requirements" enabled="true"
 		opi_file="../Design_Guide/Design_Guide.opi LEVEL=GUIDE TOPIC='HMI Style Guide and Toolkit (3XLESZ)' CONTACT=codac-support@iter.org"
-		alarm_root="/CODAC_AlarmHandler">
+		>
 		<xi:include href="Design_Guide_General.xml">
 			<xi:fallback />
 		</xi:include>
