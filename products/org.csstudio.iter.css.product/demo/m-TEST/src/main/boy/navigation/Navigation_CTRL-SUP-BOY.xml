@@ -2,114 +2,114 @@
 
 
 <CBS name="BOY" description="OPI test" enabled="true"
-	opi_file="./mimics/ITER-CTRL-SUP-BOY_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY"
-	deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-	xmlns:xi="http://www.w3.org/2001/XInclude">
+    opi_file="./mimics/ITER-CTRL-SUP-BOY_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY"
+    deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
 
-	<CBS name="GUIDE" description="Design Guide" enabled="true"
-		opi_file="./Design_Guide/mimics/Design_Guide_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-GUIDE TOPIC='HMI Style Guide and Toolkit (3XLESZ)' CONTACT=codac-support@iter.org"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude">
-		<xi:include href="Design_Guide_General.xml">
-			<xi:fallback />
-		</xi:include>
-		<xi:include href="Design_Guide_Mimics.xml">
-			<xi:fallback />
-		</xi:include>
-		<xi:include href="Design_Guide_Faceplates.xml">
-			<xi:fallback />
-		</xi:include>
-		<xi:include href="Design_Guide_Navigation.xml">
-			<xi:fallback />
-		</xi:include>
-		<xi:include href="Design_Guide_Scripting.xml">
-			<xi:fallback />
-		</xi:include>
-		<xi:include href="Design_Guide_Validation.xml">
-			<xi:fallback />
-		</xi:include>
-	</CBS>
+    <CBS name="GUIDE" description="Design Guide" enabled="true"
+        opi_file="./Design_Guide/mimics/Design_Guide_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-GUIDE TOPIC='HMI Style Guide and Toolkit (3XLESZ)' CONTACT=codac-support@iter.org"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude">
+        <xi:include href="Design_Guide_General.xml">
+            <xi:fallback />
+        </xi:include>
+        <xi:include href="Design_Guide_Mimics.xml">
+            <xi:fallback />
+        </xi:include>
+        <xi:include href="Design_Guide_Faceplates.xml">
+            <xi:fallback />
+        </xi:include>
+        <xi:include href="Design_Guide_Navigation.xml">
+            <xi:fallback />
+        </xi:include>
+        <xi:include href="Design_Guide_Scripting.xml">
+            <xi:fallback />
+        </xi:include>
+        <xi:include href="Design_Guide_Validation.xml">
+            <xi:fallback />
+        </xi:include>
+    </CBS>
 
-	<CBS name="ROTATION" description="Symbol and Image widgets rotation"
-		enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-ROTATION_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-ROTATION"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<CBS name="FLIP" description="Symbol and Image widgets flip/flop"
-		enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-FLIP_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-FLIP"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<CBS name="SYMBOL" description="Dynamic Symbol update rule"
-		enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-SYMBOL_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-SYMBOL"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<CBS name="ON_OFF" description="On/Off Symbol Color" enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-ON_OFF_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-ON_OFF"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<CBS name="ALARM" description="Symbol Alarm Sensitive" enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-ALARM_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-ALARM"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<CBS name="ANIMATION" description="Animated Symbol" enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-ANIMATION_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-ANIMATION"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<CBS name="FILLING" description="Filling Color Symbol" enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-FILLING_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-FILLING"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<CBS name="LIB" description="New Symbol Library" enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude">
-		<CBS name="OBJECT" description="Super HMI Object" enabled="true"
-			opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-OBJECT_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-OBJECT"
-			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-			xmlns:xi="http://www.w3.org/2001/XInclude" />
-		<CBS name="CRYO" description="CRYO Symbol Library Update" enabled="true"
-			opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-CRYO_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-CRYO"
-			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-			xmlns:xi="http://www.w3.org/2001/XInclude" />
-		<CBS name="FLUID" description="FLUID Symbol Library Update" enabled="true"
-			opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-FLUID_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-FLUID"
-			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-			xmlns:xi="http://www.w3.org/2001/XInclude" />
-		<CBS name="ELEC" description="Electrical Symbol Library Update" enabled="true"
-			opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-ELEC_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-ELEC"
-			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-			xmlns:xi="http://www.w3.org/2001/XInclude" />
-		<CBS name="CODAC" description="CODAC Symbol Library Update" enabled="true"
-			opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-CODAC_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-CODAC"
-			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-			xmlns:xi="http://www.w3.org/2001/XInclude" />
-	</CBS>
-	<CBS name="PERF"
-		description="104 industrial-control/Field/Objects/VLV_CTRL (>600 PVs)"
-		enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-PERF_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-PERF"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude">
-		<CBS name="TEXT" description="208 VALVE TEXT UPDATE POSITIONS (2500 PVs)"
-			enabled="true"
-			opi_file="./mimics/ITER-CTRL-SUP-BOY-PERF-TEXT_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-PERF-TEXT"
-			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-			xmlns:xi="http://www.w3.org/2001/XInclude" />
-		<CBS name="BAR" description="104 VALVE PROGRESS BAR POSITIONS (2500 PVs)"
-			enabled="true"
-			opi_file="./mimics/ITER-CTRL-SUP-BOY-PERF-BAR_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-PERF-BAR"
-			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-			xmlns:xi="http://www.w3.org/2001/XInclude" />
-		<CBS name="GRAPH" description="104 VALVE XY GRAPH POSITIONS (>600 PVs)"
-			enabled="true"
-			opi_file="./mimics/ITER-CTRL-SUP-BOY-PERF-GRAPH_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-PERF-GRAPH"
-			deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-			xmlns:xi="http://www.w3.org/2001/XInclude" />
-	</CBS>
-	<CBS name="CONN" description="Widget Connector Tests" enabled="true"
-		opi_file="./mimics/ITER-CTRL-SUP-BOY-CONN_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-CONN"
-		deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
-		xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <CBS name="ROTATION" description="Symbol and Image widgets rotation"
+        enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-ROTATION_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-ROTATION"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <CBS name="FLIP" description="Symbol and Image widgets flip/flop"
+        enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-FLIP_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-FLIP"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <CBS name="SYMBOL" description="Dynamic Symbol update rule"
+        enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-SYMBOL_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-SYMBOL"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <CBS name="ON_OFF" description="On/Off Symbol Color" enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-ON_OFF_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-ON_OFF"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <CBS name="ALARM" description="Symbol Alarm Sensitive" enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-ALARM_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-ALARM"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <CBS name="ANIMATION" description="Animated Symbol" enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-ANIMATION_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-ANIMATION"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <CBS name="FILLING" description="Filling Color Symbol" enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-FILLING_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-FILLING"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <CBS name="LIB" description="New Symbol Library" enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude">
+        <CBS name="OBJECT" description="Super HMI Object" enabled="true"
+            opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-OBJECT_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-OBJECT"
+            deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+            xmlns:xi="http://www.w3.org/2001/XInclude" />
+        <CBS name="CRYO" description="CRYO Symbol Library Update" enabled="true"
+            opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-CRYO_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-CRYO"
+            deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+            xmlns:xi="http://www.w3.org/2001/XInclude" />
+        <CBS name="FLUID" description="FLUID Symbol Library Update" enabled="true"
+            opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-FLUID_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-FLUID"
+            deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+            xmlns:xi="http://www.w3.org/2001/XInclude" />
+        <CBS name="ELEC" description="Electrical Symbol Library Update" enabled="true"
+            opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-ELEC_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-ELEC"
+            deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+            xmlns:xi="http://www.w3.org/2001/XInclude" />
+        <CBS name="CODAC" description="CODAC Symbol Library Update" enabled="true"
+            opi_file="./mimics/ITER-CTRL-SUP-BOY-LIB-CODAC_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-LIB-CODAC"
+            deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+            xmlns:xi="http://www.w3.org/2001/XInclude" />
+    </CBS>
+    <CBS name="PERF"
+        description="104 industrial-control/Field/Objects/VLV_CTRL (>600 PVs)"
+        enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-PERF_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-PERF"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude">
+        <CBS name="TEXT" description="208 VALVE TEXT UPDATE POSITIONS (2500 PVs)"
+            enabled="true"
+            opi_file="./mimics/ITER-CTRL-SUP-BOY-PERF-TEXT_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-PERF-TEXT"
+            deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+            xmlns:xi="http://www.w3.org/2001/XInclude" />
+        <CBS name="BAR" description="104 VALVE PROGRESS BAR POSITIONS (2500 PVs)"
+            enabled="true"
+            opi_file="./mimics/ITER-CTRL-SUP-BOY-PERF-BAR_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-PERF-BAR"
+            deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+            xmlns:xi="http://www.w3.org/2001/XInclude" />
+        <CBS name="GRAPH" description="104 VALVE XY GRAPH POSITIONS (>600 PVs)"
+            enabled="true"
+            opi_file="./mimics/ITER-CTRL-SUP-BOY-PERF-GRAPH_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-PERF-GRAPH"
+            deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+            xmlns:xi="http://www.w3.org/2001/XInclude" />
+    </CBS>
+    <CBS name="CONN" description="Widget Connector Tests" enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BOY-CONN_Mimic.opi LEVEL=ITER-CTRL-SUP-BOY-CONN"
+        deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BOY"
+        xmlns:xi="http://www.w3.org/2001/XInclude" />
 </CBS>

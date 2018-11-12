@@ -2,7 +2,7 @@
 
 
 <CBS name="BEAU" description="Archive test" enabled="true"
-	opi_file="./mimics/ITER-CTRL-SUP-BEAU_Mimic.opi LEVEL=ITER-CTRL-SUP-BEAU"
-	deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BEAU"
-	xmlns:xi="http://www.w3.org/2001/XInclude">
+    opi_file="./mimics/ITER-CTRL-SUP-BEAU_Mimic.opi LEVEL=ITER-CTRL-SUP-BEAU"
+    deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BEAU"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
 </CBS>
