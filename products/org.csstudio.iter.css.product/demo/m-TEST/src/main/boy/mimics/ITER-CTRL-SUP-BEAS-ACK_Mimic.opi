@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.201707271421</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -83,16 +83,16 @@
       <border_style>0</border_style>
       <border_width>1</border_width>
       <columns>
-        <column id="ACK" weight="0" width="20" visible="true" />
-        <column id="ICON" weight="0" width="20" visible="true" />
-        <column id="TIME" weight="40" width="80" visible="true" />
-        <column id="PV" weight="50" width="80" visible="true" />
-        <column id="CURRENT_SEVERITY" weight="30" width="50" visible="true" />
-        <column id="CURRENT_STATUS" weight="30" width="45" visible="true" />
-        <column id="SEVERITY" weight="30" width="50" visible="true" />
-        <column id="STATUS" weight="30" width="45" visible="true" />
+        <column id="ACK" weight="0" width="40" visible="true" />
+        <column id="ICON" weight="0" width="40" visible="true" />
+        <column id="PV" weight="50" width="400" visible="true" />
+        <column id="CURRENT_SEVERITY" weight="30" width="160" visible="true" />
+        <column id="CURRENT_STATUS" weight="30" width="200" visible="true" />
+        <column id="DESCRIPTION" weight="100" width="100" visible="true" />
+        <column id="TIME" weight="40" width="320" visible="true" />
         <column id="VALUE" weight="30" width="45" visible="true" />
-        <column id="DESCRIPTION" weight="100" width="143" visible="true" />
+        <column id="STATUS" weight="30" width="90" visible="true" />
+        <column id="SEVERITY" weight="30" width="100" visible="true" />
         <column id="ACTION" weight="100" width="80" visible="true" />
         <column id="ID" weight="100" width="80" visible="true" />
       </columns>
@@ -2403,8 +2403,8 @@ $(pv_value)</tooltip>
   </widget>
   <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
     <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
     <fill_arrow>true</fill_arrow>
     <line_color>
       <color name="IO Link" red="0" green="0" blue="0" />
@@ -2416,16 +2416,70 @@ $(pv_value)</tooltip>
     <line_width>4</line_width>
     <name>Connection Template</name>
     <points>
-      <point x="2477" y="735" />
-      <point x="1575" y="735" />
+      <point x="2477" y="32" />
+      <point x="2041" y="32" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-753b</src_path>
+    <src_term>TOP</src_term>
+    <src_wuid>7769493c:155a056b0e9:-753a</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="2917" y="551" />
+      <point x="2917" y="32" />
+      <point x="2041" y="32" />
     </points>
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</src_path>
-    <src_term>BOTTOM</src_term>
+    <src_term>RIGHT</src_term>
     <src_wuid>7769493c:155a056b0e9:-7534</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</tgt_path>
-    <tgt_term>BOTTOM</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-75f1</tgt_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2474,11 +2528,11 @@ $(pv_value)</tooltip>
     <points />
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-752f</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-752e</tgt_wuid>
+    <src_term>RIGHT</src_term>
+    <src_wuid>1b489e7a:155a117a509:-65a0</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_1b489e7a:155a117a509:-659e</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>1b489e7a:155a117a509:-659d</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2498,12 +2552,12 @@ $(pv_value)</tooltip>
     <name>Connection Template</name>
     <points />
     <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-75f1</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-752f</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-752e</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2548,19 +2602,19 @@ $(pv_value)</tooltip>
     <name>Connection Template</name>
     <points />
     <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
+    <src_wuid>7769493c:155a056b0e9:-75f1</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
     <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
   <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
     <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
     <fill_arrow>true</fill_arrow>
     <line_color>
       <color name="IO Link" red="0" green="0" blue="0" />
@@ -2572,16 +2626,16 @@ $(pv_value)</tooltip>
     <line_width>4</line_width>
     <name>Connection Template</name>
     <points>
-      <point x="2477" y="32" />
-      <point x="2041" y="32" />
+      <point x="2477" y="735" />
+      <point x="1575" y="735" />
     </points>
     <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-753b</src_path>
-    <src_term>TOP</src_term>
-    <src_wuid>7769493c:155a056b0e9:-753a</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7534</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</tgt_path>
+    <tgt_term>BOTTOM</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-75f1</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2624,35 +2678,6 @@ $(pv_value)</tooltip>
     <line_style>0</line_style>
     <line_width>4</line_width>
     <name>Connection Template</name>
-    <points>
-      <point x="2917" y="551" />
-      <point x="2917" y="32" />
-      <point x="2041" y="32" />
-    </points>
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-7534</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
     <points />
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
@@ -2661,31 +2686,6 @@ $(pv_value)</tooltip>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
     <tgt_term>LEFT</tgt_term>
     <tgt_wuid>1b489e7a:155a117a509:-65a0</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>1b489e7a:155a117a509:-65a0</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_1b489e7a:155a117a509:-659e</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>1b489e7a:155a117a509:-659d</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>

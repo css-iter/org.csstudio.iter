@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CBS name="General" description="General" enabled="true"
-	opi_file="../Design_Guide/Design_Guide_1_1.opi LEVEL=GUIDE-General"
-	 deprecated="false">
-	<CBS name="Fonts" description="Fonts" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_1_1.opi LEVEL=GUIDE-General-Fonts"
-		 deprecated="false" />
-	<CBS name="Colors" description="Colors" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_1_2.opi LEVEL=GUIDE-General-Colors"
-		 deprecated="false" />
-	<xi:include href="Symbols.xml" />
-	<CBS name="Units" description="Units (measure)" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_1_4.opi LEVEL=GUIDE-General-Units"
-		 deprecated="false" />
-	<CBS name="Labelling" description="Labelling" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_1_5.opi LEVEL=GUIDE-General-Labelling"
-		 deprecated="false" />
+    opi_file="../Design_Guide/Design_Guide_1_1.opi LEVEL=GUIDE-General"
+     deprecated="false">
+    <CBS name="Fonts" description="Fonts" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_1_1.opi LEVEL=GUIDE-General-Fonts"
+         deprecated="false" />
+    <CBS name="Colors" description="Colors" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_1_2.opi LEVEL=GUIDE-General-Colors"
+         deprecated="false" />
+    <xi:include href="Symbols.xml" />
+    <CBS name="Units" description="Units (measure)" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_1_4.opi LEVEL=GUIDE-General-Units"
+         deprecated="false" />
+    <CBS name="Labelling" description="Labelling" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_1_5.opi LEVEL=GUIDE-General-Labelling"
+         deprecated="false" />
 </CBS>
 <CBS name="Mimics" description="Mimics" enabled="true"
-	opi_file="../Design_Guide/Design_Guide_1_2.opi LEVEL=GUIDE-Mimics"
-	 deprecated="false">
-	<CBS name="Schematics" description="Schematics Diagram" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_1.opi LEVEL=GUIDE-Mimics-Schematics"
-		 deprecated="false">
-		<CBS name="Switchgear" description="MV-2 Switchgear" enabled="true"
-			opi_file="../Design_Guide/Design_Guide_1_2_1_1.opi LEVEL=GUIDE-Mimics-Schematics-Switchgear"
-			 deprecated="false" />
-		<CBS name="WaterCooling" description="PID Water Cooling" enabled="true"
-			opi_file="../Design_Guide/Design_Guide_1_2_1_2.opi LEVEL=GUIDE-Mimics-Schematics-WaterCooling"
-			 deprecated="false" />
-	</CBS>
-	<CBS name="Isometric" description="Isometric Diagram" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_2.opi LEVEL=GUIDE-Mimics-Isometric"
-		 deprecated="false" />
-	<CBS name="Lists" description="Lists" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_3.opi LEVEL=GUIDE-Mimics-Lists"
-		 deprecated="false" />
-	<CBS name="Tables" description="Tables" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_4.opi LEVEL=GUIDE-Mimics-Tables"
-		 deprecated="false" />
-	<CBS name="Fields" description="Fields" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_5.opi LEVEL=GUIDE-Mimics-Fields"
-		 deprecated="false" />
-	<CBS name="Graphs" description="Graphs" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_6.opi LEVEL=GUIDE-Mimics-Graphs"
-		 deprecated="false" />
-	<CBS name="Widgets" description="Widgets" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_7.opi LEVEL=GUIDE-Mimics-Widgets"
-		 deprecated="false" />
-	<CBS name="Appearance" description="Appearance" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_8.opi LEVEL=GUIDE-Mimics-Appearance"
-		 deprecated="false" />
-	<CBS name="User_Input" description="User_Input" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_9.opi LEVEL=GUIDE-Mimics-User_Input"
-		 deprecated="false" />
-	<CBS name="Feedback" description="Feedback" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_2_A.opi LEVEL=GUIDE-Mimics-Feedback"
-		 deprecated="false" />
+    opi_file="../Design_Guide/Design_Guide_1_2.opi LEVEL=GUIDE-Mimics"
+     deprecated="false">
+    <CBS name="Schematics" description="Schematics Diagram" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_1.opi LEVEL=GUIDE-Mimics-Schematics"
+         deprecated="false">
+        <CBS name="Switchgear" description="MV-2 Switchgear" enabled="true"
+            opi_file="../Design_Guide/Design_Guide_1_2_1_1.opi LEVEL=GUIDE-Mimics-Schematics-Switchgear"
+             deprecated="false" />
+        <CBS name="WaterCooling" description="PID Water Cooling" enabled="true"
+            opi_file="../Design_Guide/Design_Guide_1_2_1_2.opi LEVEL=GUIDE-Mimics-Schematics-WaterCooling"
+             deprecated="false" />
+    </CBS>
+    <CBS name="Isometric" description="Isometric Diagram" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_2.opi LEVEL=GUIDE-Mimics-Isometric"
+         deprecated="false" />
+    <CBS name="Lists" description="Lists" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_3.opi LEVEL=GUIDE-Mimics-Lists"
+         deprecated="false" />
+    <CBS name="Tables" description="Tables" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_4.opi LEVEL=GUIDE-Mimics-Tables"
+         deprecated="false" />
+    <CBS name="Fields" description="Fields" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_5.opi LEVEL=GUIDE-Mimics-Fields"
+         deprecated="false" />
+    <CBS name="Graphs" description="Graphs" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_6.opi LEVEL=GUIDE-Mimics-Graphs"
+         deprecated="false" />
+    <CBS name="Widgets" description="Widgets" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_7.opi LEVEL=GUIDE-Mimics-Widgets"
+         deprecated="false" />
+    <CBS name="Appearance" description="Appearance" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_8.opi LEVEL=GUIDE-Mimics-Appearance"
+         deprecated="false" />
+    <CBS name="User_Input" description="User_Input" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_9.opi LEVEL=GUIDE-Mimics-User_Input"
+         deprecated="false" />
+    <CBS name="Feedback" description="Feedback" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_2_A.opi LEVEL=GUIDE-Mimics-Feedback"
+         deprecated="false" />
 </CBS>
 <CBS name="Faceplates" description="Faceplates" enabled="true"
-	opi_file="../Design_Guide/Design_Guide_1_3.opi LEVEL=GUIDE-Faceplates"
-	 deprecated="false">
-	<CBS name="Legend" description="Default Legend Faceplate" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_3_1.opi LEVEL=GUIDE-Faceplates-Legend"
-		 deprecated="false" />
-	<CBS name="Selection" description="Component Selection" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_3_2.opi LEVEL=GUIDE-Faceplates-Selection"
-		 deprecated="false" />
-	<CBS name="Objects" description="Additional Symbol Information"
-		enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_3_3.opi LEVEL=GUIDE-Faceplates-Objects"
-		 deprecated="false" />
-	<CBS name="Inputs" description="User Input Validation" enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_3_4.opi LEVEL=GUIDE-Faceplates-Inputs"
-		 deprecated="false" />
+    opi_file="../Design_Guide/Design_Guide_1_3.opi LEVEL=GUIDE-Faceplates"
+     deprecated="false">
+    <CBS name="Legend" description="Default Legend Faceplate" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_3_1.opi LEVEL=GUIDE-Faceplates-Legend"
+         deprecated="false" />
+    <CBS name="Selection" description="Component Selection" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_3_2.opi LEVEL=GUIDE-Faceplates-Selection"
+         deprecated="false" />
+    <CBS name="Objects" description="Additional Symbol Information"
+        enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_3_3.opi LEVEL=GUIDE-Faceplates-Objects"
+         deprecated="false" />
+    <CBS name="Inputs" description="User Input Validation" enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_3_4.opi LEVEL=GUIDE-Faceplates-Inputs"
+         deprecated="false" />
 </CBS>
 <CBS name="Navigation" description="Navigation" enabled="true"
-	opi_file="../Design_Guide/Design_Guide_1_4.opi LEVEL=GUIDE-Navigation"
-	 deprecated="false">
-	<CBS name="Configuration" description="Navigation Configuration"
-		enabled="true"
-		opi_file="../Design_Guide/Design_Guide_1_4_1.opi LEVEL=GUIDE-Navigation-Configuration"
-		 deprecated="false" />
+    opi_file="../Design_Guide/Design_Guide_1_4.opi LEVEL=GUIDE-Navigation"
+     deprecated="false">
+    <CBS name="Configuration" description="Navigation Configuration"
+        enabled="true"
+        opi_file="../Design_Guide/Design_Guide_1_4_1.opi LEVEL=GUIDE-Navigation-Configuration"
+         deprecated="false" />
 </CBS>
 <CBS name="Scripting" description="Scripting" enabled="true"
-	opi_file="../Design_Guide/Design_Guide_1_5.opi LEVEL=GUIDE-Scripting"
-	 deprecated="false" />
+    opi_file="../Design_Guide/Design_Guide_1_5.opi LEVEL=GUIDE-Scripting"
+     deprecated="false" />
 <CBS name="Validation" description="Operator Interface Validation"
-	enabled="true" opi_file="../Design_Guide/Design_Guide_1_6.opi LEVEL=GUIDE-Validation"
-	 deprecated="false" />
+    enabled="true" opi_file="../Design_Guide/Design_Guide_1_6.opi LEVEL=GUIDE-Validation"
+     deprecated="false" />

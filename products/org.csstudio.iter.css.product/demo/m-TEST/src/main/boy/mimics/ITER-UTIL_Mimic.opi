@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.201710020753</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -258,8 +258,65 @@
         <x>0</x>
         <y>0</y>
       </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+      <widget typeId="org.csstudio.opibuilder.widgets.scrollbar" version="1.0.0">
         <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <bar_length>10.0</bar_length>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>6</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Stick" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>45</height>
+        <horizontal>true</horizontal>
+        <limits_from_pv>true</limits_from_pv>
+        <maximum>100.0</maximum>
+        <minimum>0.0</minimum>
+        <name>POWER</name>
+        <page_increment>10.0</page_increment>
+        <pv_name>UTIL-S15-0000:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_value_tip>true</show_value_tip>
+        <step_increment>1.0</step_increment>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <visible>true</visible>
+        <widget_type>Scrollbar</widget_type>
+        <width>790</width>
+        <wuid>-3454f774:16711cbda38:-7f80</wuid>
+        <x>14</x>
+        <y>94</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="WRITE_PV">
+            <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+            <value>faceplates/AnalogProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
+            <timeout>10</timeout>
+            <confirm_message></confirm_message>
+            <description>Load the component faceplate</description>
+          </action>
+        </actions>
         <alarm_pulsing>false</alarm_pulsing>
         <auto_size>false</auto_size>
         <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
@@ -274,16 +331,16 @@
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
         <format_type>0</format_type>
-        <height>102</height>
+        <height>35</height>
         <horizontal_alignment>0</horizontal_alignment>
-        <name>Text Update Template</name>
+        <name>POWER</name>
         <precision>0</precision>
         <precision_from_pv>true</precision_from_pv>
         <pv_name>UTIL-S15-0000:15KV_ACT_POWER</pv_name>
@@ -304,11 +361,11 @@ $(pv_value)</tooltip>
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Text Update</widget_type>
-        <width>378</width>
+        <width>228</width>
         <wrap_words>false</wrap_words>
-        <wuid>-206cf28b:15f2456875e:-ef0</wuid>
-        <x>10</x>
-        <y>10</y>
+        <wuid>-3454f774:16711cbda38:-7f7c</wuid>
+        <x>14</x>
+        <y>27</y>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0.0">
