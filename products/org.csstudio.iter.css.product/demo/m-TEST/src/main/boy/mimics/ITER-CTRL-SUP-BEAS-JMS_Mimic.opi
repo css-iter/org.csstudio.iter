@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.codac_core_6_0_0</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -43,7 +43,7 @@
     <border_style>0</border_style>
     <border_width>1</border_width>
     <enabled>true</enabled>
-    <fc>false</fc>
+    <fc>true</fc>
     <font>
       <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
     </font>
@@ -75,7 +75,7 @@
     <widget typeId="org.csstudio.alarm.beast.ui.alarmtable" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <background_color>
-        <color name="IO Area Background" red="221" green="223" blue="229" />
+        <color name="IO Background" red="235" green="235" blue="235" />
       </background_color>
       <border_color>
         <color name="IO Border" red="0" green="0" blue="0" />
@@ -98,15 +98,15 @@
       </columns>
       <columns_headers_visible>true</columns_headers_visible>
       <enabled>true</enabled>
-      <filter_item>${ALARM_ROOT}</filter_item>
+      <filter_item>/ITER</filter_item>
       <font>
         <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
       </font>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
       </foreground_color>
-      <height>450</height>
-      <max_number_of_alarms>20</max_number_of_alarms>
+      <height>950</height>
+      <max_number_of_alarms>4000</max_number_of_alarms>
       <name>Full Alarm Table</name>
       <rules />
       <scale_options>
@@ -122,15 +122,15 @@
       <table_weight_acknowledge>80</table_weight_acknowledge>
       <table_weight_unacknowledge>20</table_weight_unacknowledge>
       <time_format>yyyy-MM-dd HH:mm:ss</time_format>
-      <tooltip>List of active alarms</tooltip>
+      <tooltip>List of all ITER active alarms</tooltip>
       <unacknowledged_blinking>true</unacknowledged_blinking>
       <visible>true</visible>
       <widget_type>Alarm Table</widget_type>
       <width>3150</width>
       <writable>true</writable>
       <wuid>7769493c:155a056b0e9:-7b3d</wuid>
-      <x>-216</x>
-      <y>1286</y>
+      <x>0</x>
+      <y>785</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
       <actions hook="true" hook_all="true">
@@ -171,7 +171,7 @@
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
-        <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        <color name="IO Foreground" red="0" green="0" blue="0" />
       </foreground_color>
       <height>68</height>
       <image_file>SymbolLibrary/SVG/Electrical/Protection_and_Cut-Shut_Off-On/JA Withdrawable Circuit Breaker On.svg</image_file>
@@ -231,7 +231,7 @@
         <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
       </font>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="0" blue="0" />
+        <color name="IO Foreground" red="0" green="0" blue="0" />
       </foreground_color>
       <height>30</height>
       <horizontal_alignment>0</horizontal_alignment>
@@ -1200,7 +1200,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>un-Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://CTRL-SUP-BEAS:HIGH-SWITCH</pv_name>
+      <pv_name>beast://demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS:HIGH-SWITCH</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1248,7 +1248,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://CTRL-SUP-BEAS:HIGH-SWITCH</pv_name>
+      <pv_name>beast://demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS:HIGH-SWITCH</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1296,7 +1296,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://CTRL-SUP-BEAS:HIGH-SWITCH</pv_name>
+      <pv_name>beast://demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS:HIGH-SWITCH</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1337,12 +1337,12 @@ $(pv_value)</tooltip>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="0" blue="0" />
+        <color name="IO Foreground" red="0" green="0" blue="0" />
       </foreground_color>
       <height>41</height>
       <label>Acknowledged</label>
       <name>Ack</name>
-      <pv_name>beast://CTRL-SUP-BEAS:HIGH-SWITCH.Acknowledge</pv_name>
+      <pv_name>beast://demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS:HIGH-SWITCH.Acknowledge</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1384,12 +1384,12 @@ $(pv_value)</tooltip>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
-        <color name="IO Text Fg" red="0" green="0" blue="0" />
+        <color name="IO Foreground" red="0" green="0" blue="0" />
       </foreground_color>
       <height>41</height>
       <label>Enabled</label>
       <name>Enable</name>
-      <pv_name>beast://CTRL-SUP-BEAS:HIGH-SWITCH.Enable</pv_name>
+      <pv_name>beast://demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS:HIGH-SWITCH.Enable</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1409,276 +1409,6 @@ $(pv_value)</tooltip>
       <wuid>-5dd0a518:15d84963889:3022</wuid>
       <x>1250</x>
       <y>419</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <background_color>
-        <color name="IO Background" red="235" green="235" blue="235" />
-      </background_color>
-      <border_color>
-        <color name="IO Border" red="0" green="0" blue="0" />
-      </border_color>
-      <border_style>13</border_style>
-      <border_width>2</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
-      </font>
-      <foreground_color>
-        <color name="IO Foreground" red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>206</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>Disabling Alarms Nodes</name>
-      <rules />
-      <scale_options>
-        <width_scalable>false</width_scalable>
-        <height_scalable>false</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>true</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>1183</width>
-      <wuid>-144ff5a8:16707676496:-70fe</wuid>
-      <x>0</x>
-      <y>200</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <auto_size>false</auto_size>
-        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
-        <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
-        </background_color>
-        <bit>0</bit>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>2</border_width>
-        <enabled>true</enabled>
-        <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color name="IO Text Fg" red="0" green="0" blue="0" />
-        </foreground_color>
-        <height>41</height>
-        <label>$(name)</label>
-        <name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BOY</name>
-        <pv_name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BOY.Enable</pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>false</width_scalable>
-          <height_scalable>false</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <selected_color>
-          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
-        </selected_color>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <visible>true</visible>
-        <widget_type>Check Box</widget_type>
-        <width>1100</width>
-        <wuid>-5dd0a518:15d84963889:-2e88</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <auto_size>false</auto_size>
-        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
-        <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
-        </background_color>
-        <bit>0</bit>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>2</border_width>
-        <enabled>true</enabled>
-        <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color name="IO Text Fg" red="0" green="0" blue="0" />
-        </foreground_color>
-        <height>41</height>
-        <label>$(name)</label>
-        <name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BEAU</name>
-        <pv_name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BEAU.Enable</pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>false</width_scalable>
-          <height_scalable>false</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <selected_color>
-          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
-        </selected_color>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <visible>true</visible>
-        <widget_type>Check Box</widget_type>
-        <width>1100</width>
-        <wuid>-144ff5a8:16707676496:-75bd</wuid>
-        <x>0</x>
-        <y>41</y>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <auto_size>false</auto_size>
-        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
-        <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
-        </background_color>
-        <bit>0</bit>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>2</border_width>
-        <enabled>true</enabled>
-        <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color name="IO Text Fg" red="0" green="0" blue="0" />
-        </foreground_color>
-        <height>41</height>
-        <label>$(name)</label>
-        <name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-CSS</name>
-        <pv_name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-CSS.Enable</pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>false</width_scalable>
-          <height_scalable>false</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <selected_color>
-          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
-        </selected_color>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <visible>true</visible>
-        <widget_type>Check Box</widget_type>
-        <width>1100</width>
-        <wuid>-144ff5a8:16707676496:-75ab</wuid>
-        <x>0</x>
-        <y>82</y>
-      </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <background_color>
-        <color name="IO Background" red="235" green="235" blue="235" />
-      </background_color>
-      <border_color>
-        <color name="IO Border" red="0" green="0" blue="0" />
-      </border_color>
-      <border_style>13</border_style>
-      <border_width>2</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
-      </font>
-      <foreground_color>
-        <color name="IO Foreground" red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>124</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>Enabling Alarms Nodes</name>
-      <rules />
-      <scale_options>
-        <width_scalable>false</width_scalable>
-        <height_scalable>false</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>true</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>1183</width>
-      <wuid>394adbf:16708144e44:-75b4</wuid>
-      <x>0</x>
-      <y>0</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <auto_size>false</auto_size>
-        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
-        <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
-        </background_color>
-        <bit>0</bit>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>2</border_width>
-        <enabled>true</enabled>
-        <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color name="IO Text Fg" red="0" green="0" blue="0" />
-        </foreground_color>
-        <height>41</height>
-        <label>$(name)</label>
-        <name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS</name>
-        <pv_name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS.Enable</pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>false</width_scalable>
-          <height_scalable>false</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <selected_color>
-          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
-        </selected_color>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <visible>true</visible>
-        <widget_type>Check Box</widget_type>
-        <width>1100</width>
-        <wuid>394adbf:16708144e44:-75b3</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
@@ -1727,32 +1457,190 @@ $(pv_value)</tooltip>
       <x>0</x>
       <y>500</y>
     </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>13</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>366</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Enabling/Disabling Alarm Nodes</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>1208</width>
+      <wuid>5c0cd08:1670db1f629:-7e78</wuid>
+      <x>0</x>
+      <y>10</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>6</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>46</height>
+        <items>
+          <s>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-CSS</s>
+          <s>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BOY</s>
+          <s>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BEAU</s>
+          <s>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS</s>
+          <s>beast:///UTIL/UTIL/UTIL-S15/UTIL-S15-0000</s>
+        </items>
+        <items_from_pv>false</items_from_pv>
+        <name>Alarm Node Selector</name>
+        <pv_name>loc://$(DID)_ALARM_NODE("beast://demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS")</pv_name>
+        <pv_value />
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <visible>true</visible>
+        <widget_type>Combo</widget_type>
+        <width>937</width>
+        <wuid>-662a03ab:1670c9a8536:-76c3</wuid>
+        <x>50</x>
+        <y>90</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
+        </background_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>6</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>46</height>
+        <items>
+          <s>enable</s>
+          <s>disable</s>
+        </items>
+        <items_from_pv>false</items_from_pv>
+        <name>Enable/Disable</name>
+        <pv_name>beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-CSS</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="PVName Rule" prop_id="pv_name" out_exp="true">
+            <exp bool_exp="true">
+              <value>pvStr0</value>
+            </exp>
+            <pv trig="true">loc://$(DID)_ALARM_NODE("beast:///demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS")</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(number_alarms) alarm(s)</tooltip>
+        <visible>true</visible>
+        <widget_type>Combo</widget_type>
+        <width>440</width>
+        <wuid>5c0cd08:1670db1f629:-7ed4</wuid>
+        <x>50</x>
+        <y>190</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>72</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Instructions</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>Select an alarm node and then use the drop down menu to enable/disable it</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>651</width>
+        <wrap_words>true</wrap_words>
+        <wuid>5c0cd08:1670db1f629:-7ea4</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
   </widget>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-752f</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-752e</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
   <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
     <anti_alias>true</anti_alias>
     <arrow_length>30</arrow_length>
@@ -1792,14 +1680,18 @@ $(pv_value)</tooltip>
     <line_style>0</line_style>
     <line_width>4</line_width>
     <name>Connection Template</name>
-    <points />
+    <points>
+      <point x="2917" y="551" />
+      <point x="2917" y="32" />
+      <point x="2041" y="32" />
+    </points>
     <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>7769493c:155a056b0e9:-753b</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7534</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
     <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -1828,56 +1720,6 @@ $(pv_value)</tooltip>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
     <tgt_term>TOP</tgt_term>
     <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-75f1</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -1923,18 +1765,14 @@ $(pv_value)</tooltip>
     <line_style>0</line_style>
     <line_width>4</line_width>
     <name>Connection Template</name>
-    <points>
-      <point x="2917" y="551" />
-      <point x="2917" y="32" />
-      <point x="2041" y="32" />
-    </points>
+    <points />
     <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-7534</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-753b</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
     <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -1963,6 +1801,81 @@ $(pv_value)</tooltip>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</tgt_path>
     <tgt_term>BOTTOM</tgt_term>
     <tgt_wuid>7769493c:155a056b0e9:-75f1</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-752f</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-752e</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-75f1</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
