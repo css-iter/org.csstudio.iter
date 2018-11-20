@@ -42,8 +42,11 @@ function softIoc {
     
     cmds[5]="bash -c 'softIoc -d ./epics/UTIL-S15App/Db/PSH0-UTIL-S15-0000.db'"
     titles[5]="PSH0-UTIL-S15-0000.db"
+    
+    cmds[6]="bash -c 'softIoc -d ./epics/BUILApp/Db/PSH0-BUIL.db'"
+    titles[6]="PSH0-BUIL.db"
      
-    for i in {1..5}; do
+    for i in {1..6}; do
         options+=($tab -t "\"${titles[i]}\"" -e "\"${cmds[i]}\"")
     done
 }
@@ -64,13 +67,22 @@ function alarm {
     cmds[2]="bash -c 'alarm-notifier -root demo'"
     titles[2]="alarm-notifier -root demo"
     
-    cmds[3]="bash -c 'alarm-configtool -root UTIL -import -file ./beast/UTIL-beast.xml ; alarm-server -root UTIL'"
-    titles[3]="alarm-server -root UTIL"
+    cmds[3]="bash -c 'alarm-annunciator'"
+    titles[3]="alarm-annunciator"
     
-    cmds[4]="bash -c 'jms2rdb -pluginCustomization ./beast/jms.ini'"
-    titles[4]="jms2rdb topic demo"
+    cmds[4]="bash -c 'alarm-configtool -root UTIL -import -file ./beast/UTIL-beast.xml ; alarm-server -root UTIL'"
+    titles[4]="alarm-server -root UTIL"
     
-    for i in {1..4}; do
+    cmds[5]="bash -c 'alarm-configtool -root BUIL -import -file ./beast/BUIL-beast.xml ; alarm-server -root BUIL'"
+    titles[5]="alarm-server -root BUIL"
+    
+    cmds[6]="bash -c 'alarm-notifier -root BUIL'"
+    titles[6]="alarm-notifier -root BUIL"
+    
+    cmds[7]="bash -c 'jms2rdb -pluginCustomization ./beast/jms.ini'"
+    titles[7]="jms2rdb topic demo"
+    
+    for i in {1..7}; do
         options+=($tab -t "\"${titles[i]}\"" -e "\"${cmds[i]}\"")
     done
 }
