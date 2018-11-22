@@ -731,9 +731,11 @@ public class XMLUtil {
             ConnectionModel result = new ConnectionModel(displayModel);
             if (failedConnectors == null) {
                 setPropertiesFromXML(element, result);
+                result.setLoadedFromLinkedOpi(displayModel.getParentDisplayModel()!=null);
             } else {
                 try {
                     setConnectorPropertiesFromXML(element, result);
+                    result.setLoadedFromLinkedOpi(displayModel.getParentDisplayModel()!=null);
                 } catch (Exception e) {
                     failedConnectors.add(element);
                 }
