@@ -1,6 +1,6 @@
-CSS: 4.6.0~20181112
+CSS: 4.6.0~20181120
 maven-osgi-bundles: 87bbacb
 cs-studio-thirdparty: d0ec544
 diirt: 6303dbb
-cs-studio: 300e31a
-org.csstudio.iter: d119398
+cs-studio: a55950c
+org.csstudio.iter: 2152d08

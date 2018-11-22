@@ -1,0 +1,4682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <actions hook="false" hook_all="false" />
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <background_color>
+    <color name="IO Background" red="235" green="235" blue="235" />
+  </background_color>
+  <boy_version>5.1.0</boy_version>
+  <foreground_color>
+    <color name="IO Grid" red="215" green="215" blue="215" />
+  </foreground_color>
+  <grid_space>1</grid_space>
+  <height>1760</height>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+  </macros>
+  <name>MAIN DISPLAY AREA - MIMIC</name>
+  <rules />
+  <scripts />
+  <show_close_button>true</show_close_button>
+  <show_edit_range>true</show_edit_range>
+  <show_grid>true</show_grid>
+  <show_ruler>true</show_ruler>
+  <snap_to_geometry>true</snap_to_geometry>
+  <widget_type>Display</widget_type>
+  <width>3236</width>
+  <wuid>-14a921ec:134b2495e46:-7f53</wuid>
+  <x>0</x>
+  <y>0</y>
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color name="IO Background" red="235" green="235" blue="235" />
+    </background_color>
+    <border_color>
+      <color name="IO Border" red="0" green="0" blue="0" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <fc>true</fc>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+    </font>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>1760</height>
+    <lock_children>false</lock_children>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <name>MAIN DISPLAY AREA - MIMIC</name>
+    <rules />
+    <scale_options>
+      <width_scalable>false</width_scalable>
+      <height_scalable>false</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_scrollbar>false</show_scrollbar>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <visible>true</visible>
+    <widget_type>Grouping Container</widget_type>
+    <width>3236</width>
+    <wuid>-28c93393:14b0cb4ebee:-6a50</wuid>
+    <x>0</x>
+    <y>0</y>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>200</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>No alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>200</width>
+      <wuid>7769493c:155a056b0e9:-75f7</wuid>
+      <x>50</x>
+      <y>96</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>192</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>No alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>7769493c:155a056b0e9:-75f1</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:INTLK</name>
+        <pv_name>BUIL:INTLK</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="NoAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 == 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 == &quot;OK&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-5dd0a518:15d84963889:5060</wuid>
+        <x>10</x>
+        <y>10</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>200</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Un-ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>200</width>
+      <wuid>7769493c:155a056b0e9:-7541</wuid>
+      <x>516</x>
+      <y>96</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="Major" red="250" green="12" blue="14" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+        </foreground_color>
+        <height>192</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Un-ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>7769493c:155a056b0e9:-7540</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:INTLK</name>
+        <pv_name>BUIL:INTLK</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 != 0 &amp;&amp; !pv1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-5dd0a518:15d84963889:55c1</wuid>
+        <x>10</x>
+        <y>10</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>200</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Cleared un-ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>false</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>200</width>
+      <wuid>7769493c:155a056b0e9:-753b</wuid>
+      <x>952</x>
+      <y>96</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="Major" red="250" green="12" blue="14" />
+        </foreground_color>
+        <height>192</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Cleared un-ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>7769493c:155a056b0e9:-753a</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:INTLK</name>
+        <pv_name>BUIL:INTLK</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="ClearedUn-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 == 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 != &quot;OK&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-5dd0a518:15d84963889:5a0f</wuid>
+        <x>19</x>
+        <y>16</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>200</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Cleared ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>200</width>
+      <wuid>7769493c:155a056b0e9:-7535</wuid>
+      <x>952</x>
+      <y>397</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>192</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Cleared ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>7769493c:155a056b0e9:-7534</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>200</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>200</width>
+      <wuid>7769493c:155a056b0e9:-752f</wuid>
+      <x>516</x>
+      <y>397</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="Major" red="250" green="12" blue="14" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+        </foreground_color>
+        <height>192</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>7769493c:155a056b0e9:-752e</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:INTLK</name>
+        <pv_name>BUIL:INTLK</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="AcknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 != 0 &amp;&amp; pv1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-5dd0a518:15d84963889:5c3d</wuid>
+        <x>10</x>
+        <y>10</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>New alarm initiates</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>NEW</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:INTLK</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to initiate a new HIGH alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>7769493c:155a056b0e9:-7106</wuid>
+      <x>286</x>
+      <y>119</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>0</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Alarm clears</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>CLEAR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:INTLK</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to clear the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>1b489e7a:155a117a509:-7df5</wuid>
+      <x>750</x>
+      <y>119</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>New alarm initiates</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>RE-INIT</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:INTLK</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to initiate a new alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>1b489e7a:155a117a509:-7d31</wuid>
+      <x>1236</x>
+      <y>427</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>New alarm initiates</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>RE-INIT</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:INTLK</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to initiate a new alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>1b489e7a:155a117a509:-7d2b</wuid>
+      <x>1072</x>
+      <y>13</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>0</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Alarm clears</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>CLEAR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:INTLK</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to clear the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>1b489e7a:155a117a509:-7b63</wuid>
+      <x>750</x>
+      <y>426</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>unack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>unAck</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>un-Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:INTLK</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the HIGH alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>105</width>
+      <wuid>-5dd0a518:15d84963889:-52d6</wuid>
+      <x>388</x>
+      <y>425</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Ack</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:INTLK</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the HIGH alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-5dd0a518:15d84963889:-54ab</wuid>
+      <x>641</x>
+      <y>314</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Ack</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:INTLK</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the HIGH alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-5dd0a518:15d84963889:-53c5</wuid>
+      <x>1072</x>
+      <y>314</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <auto_size>false</auto_size>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <background_color>
+        <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Button" red="178" green="178" blue="178" />
+      </border_color>
+      <border_style>1</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+      </foreground_color>
+      <format_type>0</format_type>
+      <height>35</height>
+      <horizontal_alignment>0</horizontal_alignment>
+      <name>BUIL:INTLK</name>
+      <precision>0</precision>
+      <precision_from_pv>true</precision_from_pv>
+      <pv_name>BUIL:INTLK</pv_name>
+      <pv_value />
+      <rotation_angle>0.0</rotation_angle>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_units>true</show_units>
+      <text>######</text>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <visible>true</visible>
+      <widget_type>Text Update</widget_type>
+      <width>227</width>
+      <wrap_words>false</wrap_words>
+      <wuid>-3f6ea216:16717674b54:-7095</wuid>
+      <x>20</x>
+      <y>28</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <auto_size>false</auto_size>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <background_color>
+        <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Button" red="178" green="178" blue="178" />
+      </border_color>
+      <border_style>1</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+      </foreground_color>
+      <format_type>0</format_type>
+      <height>35</height>
+      <horizontal_alignment>0</horizontal_alignment>
+      <name>BUIL:15KV_ACT_POWER</name>
+      <precision>0</precision>
+      <precision_from_pv>true</precision_from_pv>
+      <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+      <pv_value />
+      <rotation_angle>0.0</rotation_angle>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_units>true</show_units>
+      <text>######</text>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <visible>true</visible>
+      <widget_type>Text Update</widget_type>
+      <width>227</width>
+      <wrap_words>false</wrap_words>
+      <wuid>-3f6ea216:16717674b54:-6b7b</wuid>
+      <x>20</x>
+      <y>780</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Un-ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-657d</wuid>
+      <x>516</x>
+      <y>1185</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="Major" red="250" green="12" blue="14" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Un-ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-657c</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 != 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 == &quot;MAJOR&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-657b</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Un-ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-6575</wuid>
+      <x>515</x>
+      <y>807</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="Invalid" red="255" green="0" blue="255" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Un-ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-6574</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 != 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 == &quot;INVALID&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-6573</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Un-ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-655f</wuid>
+      <x>516</x>
+      <y>1563</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Un-ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-655e</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 != 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 == &quot;MINOR&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-655d</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>New alarm initiates</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>NEW</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-IOERR</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to initiate a new INVALID alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-6559</wuid>
+      <x>279</x>
+      <y>807</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>100</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>New alarm initiates</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>NEW</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to initiate a new HIGH alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-6555</wuid>
+      <x>286</x>
+      <y>1256</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>70</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>New alarm initiates</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>NEW</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to initiate a new MINOR alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-6551</wuid>
+      <x>279</x>
+      <y>1626</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>0</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Alarm clears</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>CLEAR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-IOERR</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to clear the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-5c01</wuid>
+      <x>750</x>
+      <y>689</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>40</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Alarm clears</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>CLEAR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to clear the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-5bfd</wuid>
+      <x>750</x>
+      <y>1067</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>40</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Alarm clears</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>CLEAR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to clear the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-5bf9</wuid>
+      <x>750</x>
+      <y>1444</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Cleared un-ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-59f0</wuid>
+      <x>952</x>
+      <y>689</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="Invalid" red="255" green="0" blue="255" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Cleared un-ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-59ef</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="ClearedUn-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 == 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 == &quot;INVALID&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-59ee</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Cleared un-ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-59e8</wuid>
+      <x>952</x>
+      <y>1067</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="Major" red="250" green="12" blue="14" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Cleared un-ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-59e7</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="ClearedUn-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 == 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 == &quot;MAJOR&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-59e6</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>No alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-5404</wuid>
+      <x>49</x>
+      <y>1185</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Text Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>No alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-5403</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="NoAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 == 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 == &quot;OK&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-5402</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-2cd5</wuid>
+      <x>952</x>
+      <y>1256</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="Major" red="250" green="12" blue="14" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-2cd4</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 != 0 &amp;&amp; pv1 &amp;&amp; pvStr2 == &quot;major-ack'ed&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-2cd3</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-2cd2</wuid>
+      <x>952</x>
+      <y>878</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="Invalid" red="255" green="0" blue="255" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Stopped Symbol Fill" red="255" green="255" blue="255" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-2cd1</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 != 0 &amp;&amp; pv1 &amp;&amp; pvStr2 == &quot;invalid-ack'ed&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-2cd0</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Load the component faceplate</description>
+        </action>
+      </actions>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>14</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>119</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>201</width>
+      <wuid>-3f6ea216:16717674b54:-2ccf</wuid>
+      <x>952</x>
+      <y>1634</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color name="Minor" red="255" green="255" blue="0" />
+        </background_color>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>false</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <foreground_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>110</height>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>Ack'ed alarm</name>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>$(name)</text>
+        <tooltip></tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>192</width>
+        <wrap_words>true</wrap_words>
+        <wuid>-3f6ea216:16717674b54:-2cce</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <alpha>255</alpha>
+        <anti_alias>true</anti_alias>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </bg_gradient_color>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fg_gradient_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </fg_gradient_color>
+        <fill_level>100.0</fill_level>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </foreground_color>
+        <gradient>false</gradient>
+        <height>40</height>
+        <horizontal_fill>true</horizontal_fill>
+        <line_color>
+          <color name="IO Line" red="0" green="0" blue="0" />
+        </line_color>
+        <line_style>0</line_style>
+        <line_width>0</line_width>
+        <name>BUIL:15KV_ACT_POWER</name>
+        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+            <exp bool_exp="pv0 != 0 &amp;&amp; pv1 &amp;&amp; pvStr2 == &quot;minor-ack'ed&quot;">
+              <value>true</value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+            <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+            <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <widget_type>Ellipse</widget_type>
+        <width>40</width>
+        <wuid>-3f6ea216:16717674b54:-2ccd</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Ack</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-3f6ea216:16717674b54:-1b88</wuid>
+      <x>795</x>
+      <y>945</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Ack</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-3f6ea216:16717674b54:-1b84</wuid>
+      <x>795</x>
+      <y>1323</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Ack</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-3f6ea216:16717674b54:-1b80</wuid>
+      <x>795</x>
+      <y>1701</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>0</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Alarm clears</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>CLEAR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-IOERR</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to clear the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-13b9</wuid>
+      <x>1251</x>
+      <y>912</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Ack</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-3f6ea216:16717674b54:-13b5</wuid>
+      <x>1296</x>
+      <y>722</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>40</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Alarm clears</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>CLEAR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to clear the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-11ba</wuid>
+      <x>1251</x>
+      <y>1290</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Ack</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-3f6ea216:16717674b54:-11b9</wuid>
+      <x>1296</x>
+      <y>1100</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>${pv_name}</pv_name>
+          <value>40</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Alarm clears</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>CLEAR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(name)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to clear the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>165</width>
+      <wuid>-3f6ea216:16717674b54:-11b4</wuid>
+      <x>1251</x>
+      <y>1668</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Ack</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Click to acknowledge the alarm</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-3f6ea216:16717674b54:-11b3</wuid>
+      <x>1296</x>
+      <y>1478</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <alpha>255</alpha>
+      <anti_alias>true</anti_alias>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <bg_gradient_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </bg_gradient_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fg_gradient_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </fg_gradient_color>
+      <fill_level>100.0</fill_level>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </foreground_color>
+      <gradient>false</gradient>
+      <height>40</height>
+      <horizontal_fill>true</horizontal_fill>
+      <line_color>
+        <color name="IO Line" red="0" green="0" blue="0" />
+      </line_color>
+      <line_style>0</line_style>
+      <line_width>0</line_width>
+      <name>BUIL:15KV_ACT_POWER_1</name>
+      <pv_name></pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Ellipse</widget_type>
+      <width>40</width>
+      <wuid>-3f6ea216:16717674b54:-bad</wuid>
+      <x>1576</x>
+      <y>1225</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="EXECUTE_CMD">
+          <command>sh ./scripts/ioerr_set.sh</command>
+          <command_directory>$(opi.dir)</command_directory>
+          <wait_time>10</wait_time>
+          <description>Generate 6000 IOERR alarms</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>75</height>
+      <image></image>
+      <name>Set 6000 IOERR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name></pv_name>
+      <pv_value />
+      <release_action_index>0</release_action_index>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>true</toggle_button>
+      <tooltip>Generate 6000 IOERR alarms</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>500</width>
+      <wuid>-eb6e141:16730c0fd38:-7f53</wuid>
+      <x>1953</x>
+      <y>740</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="EXECUTE_CMD">
+          <command>sh ./scripts/ioerr_reset.sh</command>
+          <command_directory>$(opi.dir)</command_directory>
+          <wait_time>10</wait_time>
+          <description>Clear 6000 IOERR alarms</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>75</height>
+      <image></image>
+      <name>Reset 6000 IOERR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name></pv_name>
+      <pv_value />
+      <release_action_index>0</release_action_index>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>true</toggle_button>
+      <tooltip>Clear 6000 IOERR alarms</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>500</width>
+      <wuid>-eb6e141:16730c0fd38:-5701</wuid>
+      <x>1953</x>
+      <y>945</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>ack</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description>Acknowledge 6000 alarms</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>52</height>
+      <image></image>
+      <name>Ack 6000 IOERR</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>beast://BUIL/Automation/Flurry</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>1</style>
+      <text>$(actions)</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Acknowledge 6000 IOERR alarms</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>75</width>
+      <wuid>-eb6e141:16730c0fd38:-56fb</wuid>
+      <x>2165</x>
+      <y>1157</y>
+    </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <actions hook="true" hook_all="true">
+      <action type="WRITE_PV">
+        <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+        <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+        <timeout>10</timeout>
+        <confirm_message></confirm_message>
+        <description>Load the component faceplate</description>
+      </action>
+    </actions>
+    <background_color>
+      <color name="IO Background" red="235" green="235" blue="235" />
+    </background_color>
+    <border_color>
+      <color name="IO Border" red="0" green="0" blue="0" />
+    </border_color>
+    <border_style>14</border_style>
+    <border_width>2</border_width>
+    <enabled>true</enabled>
+    <fc>false</fc>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
+    </font>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>119</height>
+    <lock_children>false</lock_children>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <name>Cleared un-ack'ed alarm</name>
+    <rules />
+    <scale_options>
+      <width_scalable>false</width_scalable>
+      <height_scalable>false</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_scrollbar>false</show_scrollbar>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <visible>true</visible>
+    <widget_type>Grouping Container</widget_type>
+    <width>201</width>
+    <wuid>-3f6ea216:16717674b54:-59e0</wuid>
+    <x>954</x>
+    <y>1445</y>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <auto_size>false</auto_size>
+      <background_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </background_color>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>2</border_width>
+      <enabled>false</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <foreground_color>
+        <color name="Minor" red="255" green="255" blue="0" />
+      </foreground_color>
+      <height>110</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <name>Cleared un-ack'ed alarm</name>
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <text>$(name)</text>
+      <tooltip></tooltip>
+      <transparent>false</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <visible>true</visible>
+      <widget_type>Label</widget_type>
+      <width>192</width>
+      <wrap_words>true</wrap_words>
+      <wuid>-3f6ea216:16717674b54:-59df</wuid>
+      <x>0</x>
+      <y>0</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Ellipse" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <alpha>255</alpha>
+      <anti_alias>true</anti_alias>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
+      <bg_gradient_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </bg_gradient_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <fg_gradient_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </fg_gradient_color>
+      <fill_level>100.0</fill_level>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+      </foreground_color>
+      <gradient>false</gradient>
+      <height>40</height>
+      <horizontal_fill>true</horizontal_fill>
+      <line_color>
+        <color name="IO Line" red="0" green="0" blue="0" />
+      </line_color>
+      <line_style>0</line_style>
+      <line_width>0</line_width>
+      <name>BUIL:15KV_ACT_POWER</name>
+      <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+      <pv_value />
+      <rules>
+        <rule name="ClearedUn-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0 == 0 &amp;&amp; !pv1 &amp;&amp; pvStr2 == &quot;MINOR&quot;">
+            <value>true</value>
+          </exp>
+          <pv trig="true">$(pv_name).SEVR</pv>
+          <pv trig="true">beast://$(pv_name).Acknowledge</pv>
+          <pv trig="true">beast://$(pv_name).AlarmSeverity</pv>
+        </rule>
+      </rules>
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
+      <visible>false</visible>
+      <widget_type>Ellipse</widget_type>
+      <width>40</width>
+      <wuid>-3f6ea216:16717674b54:-59de</wuid>
+      <x>0</x>
+      <y>0</y>
+    </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="IO Background" red="235" green="235" blue="235" />
+    </background_color>
+    <bit>0</bit>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color name="IO Border" red="0" green="0" blue="0" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>2</border_width>
+    <bulb_border>3</bulb_border>
+    <bulb_border_color>
+      <color name="IO Button" red="178" green="178" blue="178" />
+    </bulb_border_color>
+    <data_type>0</data_type>
+    <effect_3d>true</effect_3d>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>40</height>
+    <name>LED Template</name>
+    <off_color>
+      <color name="IO PV OFF" red="149" green="125" blue="71" />
+    </off_color>
+    <off_label>OFF</off_label>
+    <on_color>
+      <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+    </on_color>
+    <on_label>ON</on_label>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules>
+      <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+        <exp bool_exp="pv0== 0">
+          <value>
+            <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0== 1">
+          <value>
+            <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0== 2">
+          <value>
+            <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0== 3">
+          <value>
+            <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+          </value>
+        </exp>
+        <pv trig="true">$(pv_name).SEVR</pv>
+      </rule>
+      <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+        <exp bool_exp="pv0== 3">
+          <value>
+            <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+          </value>
+        </exp>
+        <pv trig="true">$(pv_name).SEVR</pv>
+      </rule>
+    </rules>
+    <scale_options>
+      <width_scalable>false</width_scalable>
+      <height_scalable>false</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_boolean_label>false</show_boolean_label>
+    <square_led>false</square_led>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <visible>true</visible>
+    <widget_type>LED</widget_type>
+    <width>40</width>
+    <wuid>-3f6ea216:16717674b54:-5bd</wuid>
+    <x>1721</x>
+    <y>1877</y>
+  </widget>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-5404</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-655f</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1596" y="1759" />
+      <point x="27" y="1759" />
+      <point x="27" y="1244" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-bad</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_-3f6ea216:16717674b54:-5404</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-5403</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-753b</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-2cd5</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-11ba</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-655f</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-2ccf</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-11b9</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-59e8</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-11b9</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-657d</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-59e8</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1052" y="7" />
+      <point x="616" y="7" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-753b</src_path>
+    <src_term>TOP</src_term>
+    <src_wuid>7769493c:155a056b0e9:-753a</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1597" y="1315" />
+      <point x="1597" y="1214" />
+      <point x="1596" y="1214" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-11ba</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-75f1</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-753b</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-753a</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-5404</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-657d</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-657d</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-2cd5</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-6575</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-59f0</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-5404</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_-3f6ea216:16717674b54:-6575</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-6574</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1596" y="1504" />
+      <point x="1596" y="1214" />
+      <point x="1596" y="1214" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-11b3</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1597" y="1692" />
+      <point x="1597" y="1214" />
+      <point x="1596" y="1214" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-11b4</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-2ccf</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-11b4</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-6575</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-2cd2</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-13b5</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-752f</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-752e</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-59e0</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-11b3</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1052" y="670" />
+      <point x="150" y="670" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7534</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</tgt_path>
+    <tgt_term>BOTTOM</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-75f1</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-2cd2</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-13b9</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-13b9</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1469" y="497" />
+      <point x="1469" y="7" />
+      <point x="616" y="7" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7534</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="340" y="497" />
+      <point x="340" y="196" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>LEFT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-655f</src_wuid>
+    <tgt_path>-3f6ea216:16717674b54:-59e0</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-59df</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-59f0</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-13b5</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+</display>

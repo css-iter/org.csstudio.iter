@@ -2,8 +2,8 @@
 <!-- BOY Files Navigation -->
 
 <CBS name="BUIL" description="Buildings, PBS{61,62,63,65,69,70}"
-    enabled="false" opi_file="./mimics/ITER-BUIL.opi LEVEL=ITER-BUIL"
-    deprecated="false" alarm_root="/demo/BUIL" xmlns:xi="http://www.w3.org/2001/XInclude">
+    enabled="true" opi_file="./mimics/ITER-BUIL_Mimic.opi LEVEL=ITER-BUIL"
+    deprecated="false" alarm_root="/BUIL" xmlns:xi="http://www.w3.org/2001/XInclude">
     <xi:include href="Navigation_BUIL-ACCS.xml">
         <xi:fallback></xi:fallback>
     </xi:include>
