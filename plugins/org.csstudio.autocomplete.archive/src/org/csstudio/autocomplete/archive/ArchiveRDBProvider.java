@@ -33,6 +33,7 @@ import org.eclipse.core.runtime.preferences.InstanceScope;
 import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.jface.util.IPropertyChangeListener;
 import org.eclipse.jface.util.PropertyChangeEvent;
+import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.preferences.ScopedPreferenceStore;
 
 /**
@@ -50,32 +51,39 @@ public class ArchiveRDBProvider implements IAutoCompleteProvider {
     private final IPreferenceStore dataBrowserStore;
 
     public static void startInitTask() {
-        new Thread(() -> {
-            synchronized (readers) {
-                for (ArchiveReader reader : readers.values())
-                    reader.close();
-                readers.clear();
-            }
-            ArchiveDataSource[] dataSources = org.csstudio.trends.databrowser2.preferences.Preferences.getArchives();
-            if (dataSources != null && dataSources.length > 0) {
-                ArchiveReader reader = null;
-                for (ArchiveDataSource ds : dataSources) {
-                    try {
-                        reader = ArchiveRepository.getInstance().getArchiveReader(ds.getUrl());
-                        readers.put(ds, reader);
-                        AutoCompletePlugin.getLogger().log(Level.CONFIG,
-                                "Successfully created archive reader for " + ds.getUrl());
-                    } catch (final Exception ex) {
-                        AutoCompletePlugin.getLogger().log(Level.SEVERE,
-                                "Failed to create archive reader for " + ds.getUrl() + ": " + ex.getMessage());
-                    }
+
+        // Bug 11169 (See https://bugzilla.iter.org/codac/show_bug.cgi?id=11169)
+        // this initalitzation cannot be run on a created thread, because Activator of org.csstudio.trends.databrowser2 plugin needs access to current Display object. 
+        // running in UI Thread is a safe way to grant access to it.
+        Display.getCurrent().asyncExec(new Runnable() {
+            @Override
+            public void run() {
+                synchronized (readers) {
+                    for (ArchiveReader reader : readers.values())
+                        reader.close();
+                    readers.clear();
                 }
-            } else {
-                AutoCompletePlugin.getLogger().log(Level.WARNING,
-                        "Failed to read URLs from Preference Store of "
-                                + ARCHIVE_PLUGIN_ID + ": empty list");
+                ArchiveDataSource[] dataSources = org.csstudio.trends.databrowser2.preferences.Preferences.getArchives();
+                if (dataSources != null && dataSources.length > 0) {
+                    ArchiveReader reader = null;
+                    for (ArchiveDataSource ds : dataSources) {
+                        try {
+                            reader = ArchiveRepository.getInstance().getArchiveReader(ds.getUrl());
+                            readers.put(ds, reader);
+                            AutoCompletePlugin.getLogger().log(Level.CONFIG,
+                                    "Successfully created archive reader for " + ds.getUrl());
+                        } catch (final Exception ex) {
+                            AutoCompletePlugin.getLogger().log(Level.SEVERE,
+                                    "Failed to create archive reader for " + ds.getUrl() + ": " + ex.getMessage());
+                        }
+                    }
+                } else {
+                    AutoCompletePlugin.getLogger().log(Level.WARNING,
+                            "Failed to read URLs from Preference Store of "
+                                    + ARCHIVE_PLUGIN_ID + ": empty list");
+                }
             }
-        }).start();
+        });
     }
 
     public ArchiveRDBProvider() {
