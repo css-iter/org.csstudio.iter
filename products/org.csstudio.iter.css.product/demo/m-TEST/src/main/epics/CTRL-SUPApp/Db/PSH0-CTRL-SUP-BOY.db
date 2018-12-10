@@ -65385,3 +65385,45 @@ record (ao,"CTRL-SUP-BOY:PERF-LOOP")
     field(PINI, "YES")
     field(PREC, "0")
 }
+
+record (mbbi,"CTRL-SUP-BOY:JA4000-ZC01")
+{
+    field(DESC, "JA4000-ZC01 MBBI")
+    field(ONST, "OPEN")
+    field(ONVL, "1")
+    field(THST, "ERROR")
+    field(THVL, "3")
+    field(THSV, "INVALID")
+    field(TWST, "CLOSE")
+    field(TWVL, "2")
+    field(ZRST, "TRAVEL")
+    field(ZRVL, "0")
+}
+
+record (mbbi,"CTRL-SUP-BOY:JA4001-ZC01")
+{
+    field(DESC, "JA4001-ZC01 MBBI")
+    field(ONST, "OPEN")
+    field(ONVL, "1")
+    field(THST, "ERROR")
+    field(THVL, "3")
+    field(THSV, "INVALID")
+    field(TWST, "CLOSE")
+    field(TWVL, "2")
+    field(ZRST, "TRAVEL")
+    field(ZRVL, "0")
+}
+
+record (mbbi,"CTRL-SUP-BOY:JA4002-ZC01")
+{
+    field(DESC, "JA4002-ZC01 MBBI")
+    field(ONST, "OPEN")
+    field(ONVL, "1")
+    field(THST, "ERROR")
+    field(THVL, "3")
+    field(THSV, "INVALID")
+    field(TWST, "CLOSE")
+    field(TWVL, "2")
+    field(ZRST, "TRAVEL")
+    field(ZRVL, "0")
+}
