@@ -240,6 +240,11 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
             pvMap.get(pvPropID).removeListener(entry.getValue());
         }
 
+        // PVs added in RUN_MODE must be removed from ConnectionHandler
+        for(IPV pv : pvMap.values()) {
+            editpart.removeFromConnectionHandler(pv.getName());
+        }
+
         pvMap.clear();
         pvListenerMap.clear();
         stopPulsing();
