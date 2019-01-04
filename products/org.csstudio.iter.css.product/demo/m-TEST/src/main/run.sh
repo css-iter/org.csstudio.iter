@@ -67,22 +67,26 @@ function alarm {
     cmds[2]="bash -c 'alarm-notifier -root demo'"
     titles[2]="alarm-notifier -root demo"
     
-    cmds[3]="bash -c 'alarm-annunciator'"
-    titles[3]="alarm-annunciator"
+    cmds[3]="bash -c 'alarm-configtool -root UTIL -import -file ./beast/UTIL-beast.xml ; alarm-server -root UTIL'"
+    titles[3]="alarm-server -root UTIL"
     
-    cmds[4]="bash -c 'alarm-configtool -root UTIL -import -file ./beast/UTIL-beast.xml ; alarm-server -root UTIL'"
-    titles[4]="alarm-server -root UTIL"
+    cmds[4]="bash -c 'alarm-configtool -root BUIL -import -file ./beast/BUIL-beast.xml ; alarm-server -root BUIL'"
+    titles[4]="alarm-server -root BUIL"
     
-    cmds[5]="bash -c 'alarm-configtool -root BUIL -import -file ./beast/BUIL-beast.xml ; alarm-server -root BUIL'"
-    titles[5]="alarm-server -root BUIL"
+    cmds[5]="bash -c 'alarm-notifier -root BUIL'"
+    titles[5]="alarm-notifier -root BUIL"
     
-    cmds[6]="bash -c 'alarm-notifier -root BUIL'"
-    titles[6]="alarm-notifier -root BUIL"
+    cmds[6]="bash -c 'alarm-annunciator'"
+    titles[6]="alarm-annunciator"
     
-    cmds[7]="bash -c 'jms2rdb -pluginCustomization ./beast/jms.ini'"
-    titles[7]="jms2rdb topic demo"
+    ##
+    ## with codac-configure, some services are started automatically
+    ##
+    ##cmds[7]="bash -c 'jms2rdb -pluginCustomization ./beast/jms.ini'"
+    ##titles[7]="jms2rdb topic demo"
+    ##
     
-    for i in {1..7}; do
+    for i in {1..6}; do
         options+=($tab -t "\"${titles[i]}\"" -e "\"${cmds[i]}\"")
     done
 }
@@ -100,22 +104,29 @@ function archive {
         read -s -p "Enter Password for RDB user postgres: " password
         export PGPASSWORD="$password"
     fi;
+    
+    SCOPE="tcr36"
+    CBS="demo"
 
-    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_demo CASCADE"
-    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_demo_month_raw CASCADE"
-    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_demo_year_raw CASCADE"
+    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_"$CBS" CASCADE"
+    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_"$CBS"_month_raw CASCADE"
+    psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLE IF EXISTS sample_"$CBS"_year_raw CASCADE"
     for tablespace in short_term_store medium_term_store long_term_store raw_store; do
-        if sudo test -d "$PGSQL"/data_demo_"$tablespace"; then
-            psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLESPACE IF EXISTS sample_demo_$tablespace"
-            sudo rm -rf $PGSQL/data_demo_$tablespace
+        if sudo test -d "$PGSQL"/data_"$SCOPE"_"$CBS"_"$tablespace"; then
+            psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "DROP TABLESPACE IF EXISTS sample_"$CBS"_"$tablespace""
+            sudo rm -rf $PGSQL/data_"$SCOPE"_"$CBS"_"$tablespace"
         fi
 
-        sudo mkdir -pv $PGSQL/data_demo_$tablespace
-        sudo chown postgres:postgres $PGSQL/data_demo_$tablespace
-        psql -v ON_ERROR_STOP=1 -U postgres -d css_archive_3_0_0 -h localhost -c "CREATE TABLESPACE sample_demo_$tablespace LOCATION '$PGSQL/data_demo_$tablespace'"
+        sudo mkdir -pv $PGSQL/data_"$SCOPE"_"$CBS"_"$tablespace"
+        sudo chown postgres:postgres $PGSQL/data_"$SCOPE"_"$CBS"_"$tablespace"
     done
     
-    sed 's/%cbs%/demo/g' /opt/codac/css/rdb/ARCHIVE_POSTGRES_SAMPLE_CBS_TABLES.sql > /tmp/sample_cbs_tables.sql
+    sed 's/%pgsql_version%/10/g' /opt/codac/css/rdb/ARCHIVE_POSTGRES_SAMPLE_TABLESPACES.sql > /tmp/sample_psql_version_tablespaces.sql
+    sed 's/%cbs%/'$CBS'/g' /tmp/sample_psql_version_tablespaces.sql > /tmp/sample_cbs_tablespaces.sql
+    sed 's/%scope%/'$SCOPE'/g' /tmp/sample_cbs_tablespaces.sql > /tmp/sample_scope_cbs_tablespaces.sql
+    sudo /opt/codac/bin/initdb database css_archive_3_0_0 --file /tmp/sample_scope_cbs_tablespaces.sql
+    
+    sed 's/%cbs%/'$CBS'/g' /opt/codac/css/rdb/ARCHIVE_POSTGRES_SAMPLE_CBS_TABLES.sql > /tmp/sample_cbs_tables.sql
     sudo /opt/codac/bin/initdb database css_archive_3_0_0 --file /tmp/sample_cbs_tables.sql
     sudo /opt/codac/bin/initdb user "codac-dev" --create-or-update --password "md5d8db27cd68331cb86718b0bbd60179b4" --priv-all css_archive_3_0_0
     sudo /opt/codac/bin/initdb user "archive" --create-or-update --password "md580ca812fc55d59c8b3c7bb624f24f6cd" --priv-all css_archive_3_0_0
@@ -192,6 +203,6 @@ grep -r 'SEVERE' ~/.css/
 css-dbmanager -save all
 
 # Restore default CODAC CBS1
-codac-configure codac_cbs CODAC
+codac-configure codac_cbs
 
 exit 0
