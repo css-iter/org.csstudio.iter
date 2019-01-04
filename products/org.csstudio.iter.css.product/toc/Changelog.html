@@ -7,6 +7,32 @@
 <body>
     <h1>ITER CSS Changelog</h1>
     <p>Version numbers in here refer to CODAC Core System.</p>
+    <h2>Version 6.1 - 2019-02-15</h2>
+    <ul>
+        <li>
+            CSS enhancements:
+            <ul>
+                <li>Integration of CS-Studio 4.6</li>
+                <li>Support and upgrade to jca 2.4.1, pvaccess 5.1.1, pvdata 6.1.1</li>
+                <li>New CSS project shortcuts to Demo and Design_Guide OPIs</li>
+                <li>Improvement of the PV connection delay when running OPI</li>
+                <li>Performance optimisation of the archive configuration import function</li>
+                <li>The alarm pane lists the alarm and log messages from -1 hour to now</li>
+                <li>The alarm pane lists the PV Write messages from -1 hour to now</li>
+                <li>Starting/stopping CS-Studio services generate a log JMS message</li>
+                <li>css-dbmanager privileges extended to codac-dev user for all databases</li>
+            </ul>
+        </li>
+        <li>
+            CSS fixes:
+            <ul>
+                <li>ISO time format issues fixed on the alarm table and message history</li>
+                <li>Archived sample timestamps were rounded up to the nearest second by PostgreSQL</li>
+                <li>some issues with BOY connectors have been fixed</li>
+                <li>Subclipse usage reporting popup at startup has been removed</li>
+            </ul>
+        </li>
+    </ul>
     <h2>Version 6.0 - 2018-02-15</h2>
     <ul>
         <li>
