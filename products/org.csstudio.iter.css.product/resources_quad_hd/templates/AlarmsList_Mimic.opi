@@ -219,7 +219,7 @@
           <show_scrollbar>true</show_scrollbar>
           <tooltip></tooltip>
           <transparent>true</transparent>
-          <visible>false</visible>
+          <visible>true</visible>
           <widget_type>Grouping Container</widget_type>
           <width>3810</width>
           <wuid>1e1f3736:1604f961e11:-74dc</wuid>
@@ -274,7 +274,7 @@
             <table_header_visible>true</table_header_visible>
             <table_weight_acknowledge>80</table_weight_acknowledge>
             <table_weight_unacknowledge>20</table_weight_unacknowledge>
-            <time_format>yyyy-MM-dd'T'HH:mmX</time_format>
+            <time_format>yyyy-MM-dd'T'HH:mm:ssX</time_format>
             <tooltip>List of active alarms on ${ALARM_ROOT}</tooltip>
             <unacknowledged_blinking>true</unacknowledged_blinking>
             <visible>true</visible>
@@ -320,7 +320,7 @@
           <show_scrollbar>true</show_scrollbar>
           <tooltip></tooltip>
           <transparent>true</transparent>
-          <visible>true</visible>
+          <visible>false</visible>
           <widget_type>Grouping Container</widget_type>
           <width>3810</width>
           <wuid>1e1f3736:1604f961e11:-74db</wuid>
