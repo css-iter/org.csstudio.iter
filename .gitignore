@@ -18,7 +18,7 @@ workspace/
 # ignore all log files ?
 logs/*.log
 log/*.log
-
+*.log
 
 # ignore the mvn repo produced by the build
 */mvn/repo*
