@@ -1645,7 +1645,7 @@ $(pv_value)</tooltip>
         <color name="IO InputPV Fg" red="0" green="0" blue="0" />
       </foreground_color>
       <height>132</height>
-      <image_file>SymbolLibrary_deprecated/SVG/Electrical/Protection_and_Cut-Shut_Off-On/JS Disconnecting Switch Off.svg</image_file>
+      <image_file>SymbolLibrary/SVG/Electrical/Protection_and_Cut-Shut_Off-On/JS Disconnecting Switch 2.svg</image_file>
       <items />
       <items_from_pv>true</items_from_pv>
       <name>JS Disconnecting Switch</name>
@@ -1727,7 +1727,7 @@ $(pv_value)</tooltip>
         <color name="IO InputPV Fg" red="0" green="0" blue="0" />
       </foreground_color>
       <height>132</height>
-      <image_file>SymbolLibrary_deprecated/SVG/Electrical/Protection_and_Cut-Shut_Off-On/JS Disconnecting Switch On.svg</image_file>
+      <image_file>SymbolLibrary/SVG/Electrical/Protection_and_Cut-Shut_Off-On/JS Disconnecting Switch 1.svg</image_file>
       <items />
       <items_from_pv>true</items_from_pv>
       <name>JS Disconnecting Switch</name>
@@ -1827,12 +1827,37 @@ $(pv_value)</tooltip>
     <name>Connection Template</name>
     <points />
     <router>0</router>
-    <src_path>662c2614:15231392d5a:-3c54_4ca5cc5f:16150875596:-61aa</src_path>
+    <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</src_path>
     <src_term>BOTTOM</src_term>
-    <src_wuid>662c2614:15231392d5a:-3c53</src_wuid>
-    <tgt_path>662c2614:15231392d5a:-3c54_4ca5cc5f:16150875596:-61aa</tgt_path>
+    <src_wuid>4ca5cc5f:16150875596:-b05</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</tgt_path>
     <tgt_term>TOP</tgt_term>
-    <tgt_wuid>662c2614:15231392d5a:-3c52</tgt_wuid>
+    <tgt_wuid>4ca5cc5f:16150875596:-495</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>662c2614:15231392d5a:-5633</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>662c2614:15231392d5a:-561e</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -1902,31 +1927,6 @@ $(pv_value)</tooltip>
     <name>Connection Template</name>
     <points />
     <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>4e38f5d4:167978537cf:-646d</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>4e38f5d4:167978537cf:-646c</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
     <src_path>662c2614:15231392d5a:-3c54</src_path>
     <src_term>BOTTOM</src_term>
     <src_wuid>4e38f5d4:167978537cf:-5210</src_wuid>
@@ -1952,12 +1952,12 @@ $(pv_value)</tooltip>
     <name>Connection Template</name>
     <points />
     <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</src_path>
+    <src_path>662c2614:15231392d5a:-3c54_4ca5cc5f:16150875596:-61aa</src_path>
     <src_term>BOTTOM</src_term>
-    <src_wuid>662c2614:15231392d5a:-5633</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</tgt_path>
+    <src_wuid>662c2614:15231392d5a:-3c53</src_wuid>
+    <tgt_path>662c2614:15231392d5a:-3c54_4ca5cc5f:16150875596:-61aa</tgt_path>
     <tgt_term>TOP</tgt_term>
-    <tgt_wuid>662c2614:15231392d5a:-561e</tgt_wuid>
+    <tgt_wuid>662c2614:15231392d5a:-3c52</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -1979,10 +1979,10 @@ $(pv_value)</tooltip>
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</src_path>
     <src_term>BOTTOM</src_term>
-    <src_wuid>4ca5cc5f:16150875596:-b05</src_wuid>
+    <src_wuid>4e38f5d4:167978537cf:-646d</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a4d_662c2614:15231392d5a:-5634</tgt_path>
     <tgt_term>TOP</tgt_term>
-    <tgt_wuid>4ca5cc5f:16150875596:-495</tgt_wuid>
+    <tgt_wuid>4e38f5d4:167978537cf:-646c</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
