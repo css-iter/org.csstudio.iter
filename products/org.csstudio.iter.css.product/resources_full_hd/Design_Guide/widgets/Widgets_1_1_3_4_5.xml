@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbols xmlns:xi="http://www.w3.org/2001/XInclude">
-		<symbol name="Activated Carbon Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Activated Carbon Filter.svg" height="101" width="64" x="70" y="59" statesCount="1" >
+		<symbol name="Activated Carbon Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Activated Carbon Filter.svg" height="101" width="64" x="70" y="59" statesCount="1" >
 		<label name="Activated Carbon Filter label" text="Activated Carbon Filter" height="16" width="162" x="204" y="101" />
 	</symbol>
-		<symbol name="Bag Filter-Cartridge Filter for Gases" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Bag Filter-Cartridge Filter for Gases.svg" height="101" width="64" x="470" y="59" statesCount="1" >
+		<symbol name="Bag Filter-Cartridge Filter for Gases" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Bag Filter-Cartridge Filter for Gases.svg" height="101" width="64" x="470" y="59" statesCount="1" >
 		<label name="Bag Filter-Cartridge Filter for Gases label" text="Bag Filter-Cartridge Filter for Gases" height="16" width="248" x="604" y="101" />
 	</symbol>
-		<symbol name="Belt Filter for Gases" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Belt Filter for Gases.svg" height="120" width="105" x="902" y="50" statesCount="1" >
+		<symbol name="Belt Filter for Gases" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Belt Filter for Gases.svg" height="120" width="105" x="902" y="50" statesCount="1" >
 		<label name="Belt Filter for Gases label" text="Belt Filter for Gases" height="16" width="138" x="1057" y="102" />
 	</symbol>
-		<symbol name="Cartridge Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Cartridge Filter.svg" height="124" width="104" x="50" y="220" statesCount="1" >
+		<symbol name="Cartridge Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Cartridge Filter.svg" height="124" width="104" x="50" y="220" statesCount="1" >
 		<label name="Cartridge Filter label" text="Cartridge Filter" height="16" width="106" x="204" y="274" />
 	</symbol>
-		<symbol name="Filter General" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Filter General.svg" height="124" width="104" x="450" y="220" statesCount="1" >
+		<symbol name="Filter General" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Filter General.svg" height="124" width="104" x="450" y="220" statesCount="1" >
 		<label name="Filter General label" text="Filter General" height="16" width="96" x="604" y="274" />
 	</symbol>
-		<symbol name="Filter Press" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Filter Press.svg" height="124" width="104" x="902" y="220" statesCount="1" >
+		<symbol name="Filter Press" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Filter Press.svg" height="124" width="104" x="902" y="220" statesCount="1" >
 		<label name="Filter Press label" text="Filter Press" height="16" width="76" x="1057" y="274" />
 	</symbol>
-		<symbol name="Fixed-Bed Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Fixed-Bed Filter.svg" height="124" width="104" x="50" y="394" statesCount="1" >
+		<symbol name="Fixed-Bed Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Fixed-Bed Filter.svg" height="124" width="104" x="50" y="394" statesCount="1" >
 		<label name="Fixed-Bed Filter label" text="Fixed-Bed Filter" height="16" width="109" x="204" y="448" />
 	</symbol>
-		<symbol name="Gaz Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Gaz Filter.svg" height="124" width="104" x="450" y="394" statesCount="1" >
+		<symbol name="Gaz Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Gaz Filter.svg" height="124" width="104" x="450" y="394" statesCount="1" >
 		<label name="Gaz Filter label" text="Gaz Filter" height="16" width="66" x="604" y="448" />
 	</symbol>
-		<symbol name="HEPA Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI HEPA Filter.svg" height="124" width="104" x="902" y="394" statesCount="1" >
+		<symbol name="HEPA Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI HEPA Filter.svg" height="124" width="104" x="902" y="394" statesCount="1" >
 		<label name="HEPA Filter label" text="HEPA Filter" height="16" width="76" x="1057" y="448" />
 	</symbol>
-		<symbol name="HEPA Filter with Sparkguard" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI HEPA Filter with Sparkguard.svg" height="124" width="104" x="50" y="568" statesCount="1" >
+		<symbol name="HEPA Filter with Sparkguard" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI HEPA Filter with Sparkguard.svg" height="124" width="104" x="50" y="568" statesCount="1" >
 		<label name="HEPA Filter with Sparkguard label" text="HEPA Filter with Sparkguard" height="16" width="196" x="204" y="622" />
 	</symbol>
-		<symbol name="In Line Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/In Line Filter.svg" height="44" width="44" x="480" y="608" statesCount="1" >
+		<symbol name="In Line Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/In Line Filter.svg" height="44" width="44" x="480" y="608" statesCount="1" >
 		<label name="In Line Filter label" text="In Line Filter" height="16" width="86" x="604" y="622" />
 	</symbol>
-		<symbol name="Ion Exchange Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Ion Exchange Filter.svg" height="124" width="104" x="902" y="568" statesCount="1" >
+		<symbol name="Ion Exchange Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Ion Exchange Filter.svg" height="124" width="104" x="902" y="568" statesCount="1" >
 		<label name="Ion Exchange Filter label" text="Ion Exchange Filter" height="16" width="135" x="1057" y="622" />
 	</symbol>
-		<symbol name="Liquid Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Liquid Filter.svg" height="101" width="64" x="70" y="753" statesCount="1" >
+		<symbol name="Liquid Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Liquid Filter.svg" height="101" width="64" x="70" y="753" statesCount="1" >
 		<label name="Liquid Filter label" text="Liquid Filter" height="16" width="82" x="204" y="795" />
 	</symbol>
-		<symbol name="Packed Bed Filter For Gases" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Packed Bed Filter For Gases.svg" height="124" width="104" x="450" y="742" statesCount="1" >
+		<symbol name="Packed Bed Filter For Gases" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Packed Bed Filter For Gases.svg" height="124" width="104" x="450" y="742" statesCount="1" >
 		<label name="Packed Bed Filter For Gases label" text="Packed Bed Filter For Gases" height="16" width="195" x="604" y="796" />
 	</symbol>
-		<symbol name="Suction Filter" image_file="../SymbolLibrary/SVG/Fluid/Filters/FI Suction Filter.svg" height="124" width="104" x="902" y="742" statesCount="1" >
+		<symbol name="Suction Filter" image_file="../../SymbolLibrary/SVG/Fluid/Filters/FI Suction Filter.svg" height="124" width="104" x="902" y="742" statesCount="1" >
 		<label name="Suction Filter label" text="Suction Filter" height="16" width="92" x="1057" y="796" />
 	</symbol>
 	</symbols>

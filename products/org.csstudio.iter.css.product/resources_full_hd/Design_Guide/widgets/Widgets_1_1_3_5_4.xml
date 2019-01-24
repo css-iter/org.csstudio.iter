@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbols xmlns:xi="http://www.w3.org/2001/XInclude">
-		<symbol name="Auxiliary Location" image_file="../SymbolLibrary/SVG/IandC/Pilot Light/Auxiliary Location.svg" height="64" width="64" x="50" y="50" statesCount="1" >
+		<symbol name="Auxiliary Location" image_file="../../SymbolLibrary/SVG/IandC/Pilot Light/Auxiliary Location.svg" height="64" width="64" x="50" y="50" statesCount="1" >
 		<label name="Auxiliary Location label" text="Auxiliary Location" height="16" width="127" x="164" y="74" />
 	</symbol>
-		<symbol name="Field Mounted" image_file="../SymbolLibrary/SVG/IandC/Pilot Light/Field Mounted.svg" height="64" width="64" x="341" y="50" statesCount="1" >
+		<symbol name="Field Mounted" image_file="../../SymbolLibrary/SVG/IandC/Pilot Light/Field Mounted.svg" height="64" width="64" x="341" y="50" statesCount="1" >
 		<label name="Field Mounted label" text="Field Mounted" height="16" width="99" x="455" y="74" />
 	</symbol>
-		<symbol name="Primary Location" image_file="../SymbolLibrary/SVG/IandC/Pilot Light/Primary Location.svg" height="64" width="64" x="604" y="50" statesCount="1" >
+		<symbol name="Primary Location" image_file="../../SymbolLibrary/SVG/IandC/Pilot Light/Primary Location.svg" height="64" width="64" x="604" y="50" statesCount="1" >
 		<label name="Primary Location label" text="Primary Location" height="16" width="120" x="718" y="74" />
 	</symbol>
 	</symbols>

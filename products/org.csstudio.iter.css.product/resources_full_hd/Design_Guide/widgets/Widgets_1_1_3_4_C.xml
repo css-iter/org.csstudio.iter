@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbols xmlns:xi="http://www.w3.org/2001/XInclude">
-		<symbol name="Cryo Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PV Cryo Pump 0.svg" height="63" width="63" x="50" y="50" statesCount="5" >
+		<symbol name="Cryo Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PV Cryo Pump 0.svg" height="63" width="63" x="50" y="50" statesCount="5" >
 		<label name="Cryo Pump label" text="Cryo Pump" height="16" width="77" x="163" y="73" />
 	</symbol>
-		<symbol name="General Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PL General Pump 0.svg" height="63" width="63" x="392" y="50" statesCount="5" >
+		<symbol name="General Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PL General Pump 0.svg" height="63" width="63" x="392" y="50" statesCount="5" >
 		<label name="General Pump label" text="General Pump" height="16" width="101" x="536" y="73" />
 	</symbol>
-		<symbol name="Getter Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PV Getter Pump 0.svg" height="63" width="63" x="786" y="50" statesCount="5" >
+		<symbol name="Getter Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PV Getter Pump 0.svg" height="63" width="63" x="786" y="50" statesCount="5" >
 		<label name="Getter Pump label" text="Getter Pump" height="16" width="89" x="899" y="73" />
 	</symbol>
-		<symbol name="Ion Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PV Ion Pump 0.svg" height="63" width="63" x="50" y="163" statesCount="5" >
+		<symbol name="Ion Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PV Ion Pump 0.svg" height="63" width="63" x="50" y="163" statesCount="5" >
 		<label name="Ion Pump label" text="Ion Pump" height="16" width="66" x="163" y="186" />
 	</symbol>
-		<symbol name="Positive Displacement Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PL Positive Displacement Pump 0.svg" height="63" width="63" x="392" y="163" statesCount="5" >
+		<symbol name="Positive Displacement Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PL Positive Displacement Pump 0.svg" height="63" width="63" x="392" y="163" statesCount="5" >
 		<label name="Positive Displacement Pump label" text="Positive Displacement Pump" height="16" width="200" x="536" y="186" />
 	</symbol>
-		<symbol name="Root Vacuum Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PV Root Vacuum Pump 0.svg" height="63" width="63" x="786" y="163" statesCount="5" >
+		<symbol name="Root Vacuum Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PV Root Vacuum Pump 0.svg" height="63" width="63" x="786" y="163" statesCount="5" >
 		<label name="Root Vacuum Pump label" text="Root Vacuum Pump" height="16" width="138" x="899" y="186" />
 	</symbol>
-		<symbol name="Screw Vacuum Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PV Screw Vacuum Pump 0.svg" height="63" width="63" x="50" y="276" statesCount="5" >
+		<symbol name="Screw Vacuum Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PV Screw Vacuum Pump 0.svg" height="63" width="63" x="50" y="276" statesCount="5" >
 		<label name="Screw Vacuum Pump label" text="Screw Vacuum Pump" height="16" width="149" x="163" y="299" />
 	</symbol>
-		<symbol name="Scroll Vacuum Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PV Scroll Vacuum Pump 0.svg" height="63" width="63" x="392" y="276" statesCount="5" >
+		<symbol name="Scroll Vacuum Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PV Scroll Vacuum Pump 0.svg" height="63" width="63" x="392" y="276" statesCount="5" >
 		<label name="Scroll Vacuum Pump label" text="Scroll Vacuum Pump" height="16" width="146" x="536" y="299" />
 	</symbol>
-		<symbol name="Turbo molecular Vacuum Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PV Turbo molecular Vacuum Pump 0.svg" height="63" width="63" x="786" y="276" statesCount="5" >
+		<symbol name="Turbo molecular Vacuum Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PV Turbo molecular Vacuum Pump 0.svg" height="63" width="63" x="786" y="276" statesCount="5" >
 		<label name="Turbo molecular Vacuum Pump label" text="Turbo molecular Vacuum Pump" height="16" width="222" x="899" y="299" />
 	</symbol>
-		<symbol name="Vacuum Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump 0.svg" height="63" width="63" x="50" y="439" statesCount="5" >
+		<symbol name="Vacuum Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump 0.svg" height="63" width="63" x="50" y="439" statesCount="5" >
 		<label name="Vacuum Pump label" text="Vacuum Pump" height="16" width="102" x="163" y="462" />
 	</symbol>
-		<symbol name="Vertical Pump" image_file="../SymbolLibrary/SVG/Fluid/Pumps/PL Vertical Pump.svg" height="163" width="124" x="362" y="389" statesCount="2" >
+		<symbol name="Vertical Pump" image_file="../../SymbolLibrary/SVG/Fluid/Pumps/PL Vertical Pump.svg" height="163" width="124" x="362" y="389" statesCount="2" >
 		<label name="Vertical Pump label" text="Vertical Pump" height="16" width="98" x="536" y="462" />
 	</symbol>
 	</symbols>

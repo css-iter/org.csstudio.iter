@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbols xmlns:xi="http://www.w3.org/2001/XInclude">
-		<symbol name="Auto-Transformer" image_file="../SymbolLibrary/SVG/Electrical/Transformers/TV Auto-Transformer.svg" height="283" width="203" x="51" y="50" statesCount="1" >
+		<symbol name="Auto-Transformer" image_file="../../SymbolLibrary/SVG/Electrical/Transformers/TV Auto-Transformer.svg" height="283" width="203" x="51" y="50" statesCount="1" >
 		<label name="Auto-Transformer label" text="Auto-Transformer" height="16" width="124" x="305" y="183" />
 	</symbol>
-		<symbol name="Current transformer" image_file="../SymbolLibrary/SVG/Electrical/Transformers/TC Current transformer.svg" height="45" width="45" x="816" y="169" statesCount="1" >
+		<symbol name="Current transformer" image_file="../../SymbolLibrary/SVG/Electrical/Transformers/TC Current transformer.svg" height="45" width="45" x="816" y="169" statesCount="1" >
 		<label name="Current transformer label" text="Current transformer" height="16" width="143" x="990" y="183" />
 	</symbol>
-		<symbol name="General Transformer" image_file="../SymbolLibrary/SVG/Electrical/Transformers/TS-TR General Transformer.svg" height="283" width="203" x="1275" y="50" statesCount="1" >
+		<symbol name="General Transformer" image_file="../../SymbolLibrary/SVG/Electrical/Transformers/TS-TR General Transformer.svg" height="283" width="203" x="1275" y="50" statesCount="1" >
 		<label name="General Transformer label" text="General Transformer" height="16" width="148" x="1529" y="183" />
 	</symbol>
-		<symbol name="Multiple Coils Transformer" image_file="../SymbolLibrary/SVG/Electrical/Transformers/TP Multiple Coils Transformer.svg" height="85" width="85" x="110" y="482" statesCount="1" >
+		<symbol name="Multiple Coils Transformer" image_file="../../SymbolLibrary/SVG/Electrical/Transformers/TP Multiple Coils Transformer.svg" height="85" width="85" x="110" y="482" statesCount="1" >
 		<label name="Multiple Coils Transformer label" text="Multiple Coils Transformer" height="16" width="185" x="305" y="516" />
 	</symbol>
-		<symbol name="Transformer with Earthed Screen" image_file="../SymbolLibrary/SVG/Electrical/Transformers/TP Transformer with Earthed Screen.svg" height="283" width="203" x="737" y="383" statesCount="1" >
+		<symbol name="Transformer with Earthed Screen" image_file="../../SymbolLibrary/SVG/Electrical/Transformers/TP Transformer with Earthed Screen.svg" height="283" width="203" x="737" y="383" statesCount="1" >
 		<label name="Transformer with Earthed Screen label" text="Transformer with Earthed Screen" height="16" width="234" x="990" y="516" />
 	</symbol>
-		<symbol name="Transformer with Three Windings" image_file="../SymbolLibrary/SVG/Electrical/Transformers/TV Transformer with Three Windings.svg" height="284" width="205" x="1274" y="383" statesCount="1" >
+		<symbol name="Transformer with Three Windings" image_file="../../SymbolLibrary/SVG/Electrical/Transformers/TV Transformer with Three Windings.svg" height="284" width="205" x="1274" y="383" statesCount="1" >
 		<label name="Transformer with Three Windings label" text="Transformer with Three Windings" height="16" width="235" x="1529" y="517" />
 	</symbol>
-		<symbol name="Transformer with Three Windings with Earthed Screen" image_file="../SymbolLibrary/SVG/Electrical/Transformers/TP Transformer with Three Windings with Earthed Screen.svg" height="284" width="205" x="50" y="717" statesCount="1" >
+		<symbol name="Transformer with Three Windings with Earthed Screen" image_file="../../SymbolLibrary/SVG/Electrical/Transformers/TP Transformer with Three Windings with Earthed Screen.svg" height="284" width="205" x="50" y="717" statesCount="1" >
 		<label name="Transformer with Three Windings with Earthed Screen label" text="Transformer with Three Windings with Earthed Screen" height="16" width="382" x="305" y="851" />
 	</symbol>
-		<symbol name="Voltage Transformer" image_file="../SymbolLibrary/SVG/Electrical/Transformers/TP Voltage Transformer.svg" height="84" width="132" x="772" y="817" statesCount="1" >
+		<symbol name="Voltage Transformer" image_file="../../SymbolLibrary/SVG/Electrical/Transformers/TP Voltage Transformer.svg" height="84" width="132" x="772" y="817" statesCount="1" >
 		<label name="Voltage Transformer label" text="Voltage Transformer" height="16" width="145" x="990" y="851" />
 	</symbol>
 	</symbols>
