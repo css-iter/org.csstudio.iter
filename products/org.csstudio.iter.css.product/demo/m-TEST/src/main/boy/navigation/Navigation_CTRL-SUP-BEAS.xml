@@ -11,4 +11,7 @@
     <CBS name="JMS" description="JMS Monitoring" enabled="true"
         opi_file="./mimics/ITER-CTRL-SUP-BEAS-JMS_Mimic.opi LEVEL=ITER-CTRL-SUP-BEAS-JMS"
         deprecated="false" alarm_root="/demo/CTRL/CTRL-SUP/CTRL-SUP-BEAS" />
+    <CBS name="MBDS" description="Multibeast Datasources" enabled="true"
+        opi_file="./mimics/ITER-CTRL-SUP-BEAS-MBDS_Mimic.opi LEVEL=ITER-CTRL-SUP-BEAS-MBDS"
+        deprecated="false" alarm_root="/ITER" />
 </CBS>
