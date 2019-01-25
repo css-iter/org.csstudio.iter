@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.201708220714</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -4468,7 +4468,7 @@
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
     <height>51</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -4685,6 +4685,65 @@
       <width>225</width>
       <wuid>-323a0a84:15e2d6af8d2:-11be</wuid>
       <x>2500</x>
+      <y>0</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="EXECUTE_CMD">
+          <command>python ./valve_control.py</command>
+          <command_directory>$(shellScript.dir)</command_directory>
+          <wait_time>10</wait_time>
+          <description>START</description>
+        </action>
+      </actions>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color name="IO Border" red="0" green="0" blue="0" />
+      </border_color>
+      <border_style>6</border_style>
+      <border_width>2</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color name="IO Foreground" red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>45</height>
+      <image></image>
+      <name>Start</name>
+      <push_action_index>0</push_action_index>
+      <pv_name></pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts>
+        <path pathString="EmbeddedPy" checkConnect="true" sfe="false" seoe="false">
+          <scriptName>AbsoluteWorkspacePathToSystemPath</scriptName>
+          <scriptText><![CDATA[from org.csstudio.opibuilder.scriptUtil import PVUtil, FileUtil
+from java.lang import System
+
+
+sysPath = FileUtil.workspacePathToSysPath("/m-TEST/src/main/boy/mimics/scripts")
+System.setProperty("shellScript.dir", sysPath)
+]]></scriptText>
+          <pv trig="true">=1</pv>
+        </path>
+      </scripts>
+      <style>1</style>
+      <text>START</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>Start the control valve simulation python script</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>199</width>
+      <wuid>-45f1efa8:16880254ecd:-6bd4</wuid>
+      <x>1500</x>
       <y>0</y>
     </widget>
   </widget>
