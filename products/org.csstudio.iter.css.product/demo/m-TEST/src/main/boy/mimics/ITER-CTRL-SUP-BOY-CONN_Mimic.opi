@@ -2214,7 +2214,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <tooltip></tooltip>
+    <tooltip>Test of Bug 10700</tooltip>
     <visible>true</visible>
     <widget_type>Linking Container</widget_type>
     <width>700</width>
@@ -2296,296 +2296,6 @@ $(pv_value)</tooltip>
     <arrows>0</arrows>
     <fill_arrow>true</fill_arrow>
     <line_color>
-      <color name="IO Trace 2" red="242" green="26" blue="26" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>20</line_jump_size>
-    <line_jump_style>3</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>C20</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d85</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d77</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Trace 2" red="242" green="26" blue="26" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Mx2</name>
-    <points>
-      <point x="1684" y="314" />
-      <point x="2322" y="314" />
-      <point x="2322" y="158" />
-    </points>
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>3</src_term>
-    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
-    <tgt_path>7dcb7ac3:16123168899:-7e40_7dcb7ac3:16123168899:-7bf1</tgt_path>
-    <tgt_term>RIGHT</tgt_term>
-    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Trace 2" red="242" green="26" blue="26" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>C6</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d84</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d85</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="Invalid" red="255" green="0" blue="255" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>4</line_style>
-    <line_width>4</line_width>
-    <name>C3</name>
-    <points>
-      <point x="95" y="485" />
-      <point x="95" y="700" />
-      <point x="399" y="700" />
-      <point x="399" y="805" />
-    </points>
-    <router>0</router>
-    <src_path>36544707:15d3bf1e454:-3e04</src_path>
-    <src_term>LEFT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-3c4d</src_wuid>
-    <tgt_path>36544707:15d3bf1e454:-3df2</tgt_path>
-    <tgt_term>RIGHT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-3def</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>C8</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d77</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d76</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>C2</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>3314aa80:15b8012fd39:-7fae</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>3</tgt_term>
-    <tgt_wuid>3314aa80:15b8012fd39:-7cee</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Trace 1" red="21" green="21" blue="196" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>C0</name>
-    <points>
-      <point x="1235" y="80" />
-      <point x="1235" y="476" />
-    </points>
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d90</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>RIGHT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d7e</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>C7</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-5d7d</src_wuid>
-    <tgt_path></tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-5d7e</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Trace 2" red="242" green="26" blue="26" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Mx3</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>6</src_term>
-    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
-    <tgt_path>7dcb7ac3:16123168899:-7e40_7dcb7ac3:16123168899:-7695</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>7dcb7ac3:16123168899:-7692</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>C14</name>
-    <points>
-      <point x="846" y="855" />
-      <point x="846" y="576" />
-    </points>
-    <router>0</router>
-    <src_path>36544707:15d3bf1e454:-414b</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-4147</src_wuid>
-    <tgt_path>36544707:15d3bf1e454:-415d</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-460f</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>C13</name>
-    <points />
-    <router>0</router>
-    <src_path>36544707:15d3bf1e454:-414b</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-4148</src_wuid>
-    <tgt_path>36544707:15d3bf1e454:-415d</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-4607</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
       <color name="IO Trace 3" red="33" green="179" blue="33" />
     </line_color>
     <line_jump_add>1</line_jump_add>
@@ -2611,60 +2321,6 @@ $(pv_value)</tooltip>
   </connection>
   <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
     <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="Major" red="250" green="12" blue="14" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>2</line_style>
-    <line_width>4</line_width>
-    <name>C4</name>
-    <points>
-      <point x="220" y="674" />
-      <point x="54" y="674" />
-      <point x="54" y="805" />
-    </points>
-    <router>0</router>
-    <src_path>36544707:15d3bf1e454:-3e04</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>36544707:15d3bf1e454:-3e01</src_wuid>
-    <tgt_path>36544707:15d3bf1e454:-3df2</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-3c46</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Trace 5" red="128" green="0" blue="255" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>3</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>L3X</name>
-    <points />
-    <router>0</router>
-    <src_path></src_path>
-    <src_term>LEFT</src_term>
-    <src_wuid>1734b801:15c3f0cad35:-7e4d</src_wuid>
-    <tgt_path>7dcb7ac3:16123168899:-7bf1</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
     <arrow_length>15</arrow_length>
     <arrows>0</arrows>
     <fill_arrow>true</fill_arrow>
@@ -2685,6 +2341,31 @@ $(pv_value)</tooltip>
     <tgt_path></tgt_path>
     <tgt_term>LEFT</tgt_term>
     <tgt_wuid>36544707:15d3bf1e454:-5d90</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 2" red="242" green="26" blue="26" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C6</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-5d84</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d85</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2754,22 +2435,103 @@ $(pv_value)</tooltip>
       <color name="IO Trace 2" red="242" green="26" blue="26" />
     </line_color>
     <line_jump_add>1</line_jump_add>
+    <line_jump_size>20</line_jump_size>
+    <line_jump_style>3</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C20</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-5d85</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d77</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
     <line_jump_size>10</line_jump_size>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>Mx1</name>
+    <name>C8</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-5d77</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d76</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 1" red="21" green="21" blue="196" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C9</name>
     <points>
-      <point x="1554" y="141" />
-      <point x="1794" y="141" />
+      <point x="1199" y="576" />
+      <point x="1199" y="796" />
+      <point x="1424" y="796" />
     </points>
     <router>0</router>
     <src_path></src_path>
-    <src_term>2</src_term>
-    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
-    <tgt_path>7dcb7ac3:16123168899:-7e40</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-460f</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>BOTTOM</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-45fb</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="Invalid" red="255" green="0" blue="255" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>4</line_style>
+    <line_width>4</line_width>
+    <name>C3</name>
+    <points>
+      <point x="95" y="485" />
+      <point x="95" y="700" />
+      <point x="399" y="700" />
+      <point x="399" y="805" />
+    </points>
+    <router>0</router>
+    <src_path>36544707:15d3bf1e454:-3e04</src_path>
+    <src_term>LEFT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-3c4d</src_wuid>
+    <tgt_path>36544707:15d3bf1e454:-3df2</tgt_path>
+    <tgt_term>RIGHT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-3def</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -2804,6 +2566,138 @@ $(pv_value)</tooltip>
     <arrows>0</arrows>
     <fill_arrow>true</fill_arrow>
     <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C14</name>
+    <points>
+      <point x="846" y="855" />
+      <point x="846" y="576" />
+    </points>
+    <router>0</router>
+    <src_path>36544707:15d3bf1e454:-414b</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-4147</src_wuid>
+    <tgt_path>36544707:15d3bf1e454:-415d</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-460f</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C13</name>
+    <points />
+    <router>0</router>
+    <src_path>36544707:15d3bf1e454:-414b</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-4148</src_wuid>
+    <tgt_path>36544707:15d3bf1e454:-415d</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-4607</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="Major" red="250" green="12" blue="14" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>2</line_style>
+    <line_width>4</line_width>
+    <name>C4</name>
+    <points>
+      <point x="220" y="674" />
+      <point x="54" y="674" />
+      <point x="54" y="805" />
+    </points>
+    <router>0</router>
+    <src_path>36544707:15d3bf1e454:-3e04</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>36544707:15d3bf1e454:-3e01</src_wuid>
+    <tgt_path>36544707:15d3bf1e454:-3df2</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-3c46</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 2" red="242" green="26" blue="26" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Mx3</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>6</src_term>
+    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
+    <tgt_path>7dcb7ac3:16123168899:-7e40_7dcb7ac3:16123168899:-7695</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7dcb7ac3:16123168899:-7692</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C7</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>36544707:15d3bf1e454:-5d7d</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d7e</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
       <color name="IO Trace 1" red="21" green="21" blue="196" />
     </line_color>
     <line_jump_add>1</line_jump_add>
@@ -2811,19 +2705,100 @@ $(pv_value)</tooltip>
     <line_jump_style>1</line_jump_style>
     <line_style>0</line_style>
     <line_width>4</line_width>
-    <name>C9</name>
+    <name>C0</name>
     <points>
-      <point x="1199" y="576" />
-      <point x="1199" y="796" />
-      <point x="1424" y="796" />
+      <point x="1235" y="80" />
+      <point x="1235" y="476" />
     </points>
     <router>0</router>
     <src_path></src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>36544707:15d3bf1e454:-460f</src_wuid>
+    <src_wuid>36544707:15d3bf1e454:-5d90</src_wuid>
     <tgt_path></tgt_path>
-    <tgt_term>BOTTOM</tgt_term>
-    <tgt_wuid>36544707:15d3bf1e454:-45fb</tgt_wuid>
+    <tgt_term>RIGHT</tgt_term>
+    <tgt_wuid>36544707:15d3bf1e454:-5d7e</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 2" red="242" green="26" blue="26" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Mx2</name>
+    <points>
+      <point x="1684" y="314" />
+      <point x="2322" y="314" />
+      <point x="2322" y="158" />
+    </points>
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>3</src_term>
+    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
+    <tgt_path>7dcb7ac3:16123168899:-7e40_7dcb7ac3:16123168899:-7bf1</tgt_path>
+    <tgt_term>RIGHT</tgt_term>
+    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Trace 2" red="242" green="26" blue="26" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Mx1</name>
+    <points>
+      <point x="1554" y="141" />
+      <point x="1794" y="141" />
+    </points>
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>2</src_term>
+    <src_wuid>7dcb7ac3:16123168899:-7dfd</src_wuid>
+    <tgt_path>7dcb7ac3:16123168899:-7e40</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>1734b801:15c3f0cad35:-7fe0</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>C2</name>
+    <points />
+    <router>0</router>
+    <src_path></src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>3314aa80:15b8012fd39:-7fae</src_wuid>
+    <tgt_path></tgt_path>
+    <tgt_term>3</tgt_term>
+    <tgt_wuid>3314aa80:15b8012fd39:-7cee</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
