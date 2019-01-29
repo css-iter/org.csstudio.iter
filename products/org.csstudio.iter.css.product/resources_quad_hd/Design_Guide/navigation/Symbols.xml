@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CBS name="Symbols" description="Symbols" enabled="true" opi_file="../Design_Guide/Design_Guide_1_1_3.opi LEVEL=GUIDE-General-Symbols SYMBOLS_XML=NONE" deprecated="false" >
-    <CBS name="CivilEngineering" description="CivilEngineering" enabled="true" opi_file="../Design_Guide/Design_Guide_1_1_3_1.opi LEVEL=GUIDE-General-Symbols-CivilEngineering SYMBOLS_XML=NONE" deprecated="false" >
-        <CBS name="Penetration" description="Penetration" enabled="true" opi_file="../Design_Guide/Design_Guide_1_1_3_1_1.opi LEVEL=GUIDE-General-Symbols-CivilEngineering-Penetration SYMBOLS_XML=../widgets/Widgets_1_1_3_1_1.xml" deprecated="false" />
+    <CBS name="CivilEngineering" description="CivilEngineering" enabled="true" opi_file="../Design_Guide/Design_Guide_1_1_3.opi LEVEL=GUIDE-General-Symbols-CivilEngineering SYMBOLS_XML=NONE" deprecated="false" >
+        <CBS name="Penetration" description="Penetration" enabled="true" opi_file="../Design_Guide/Design_Guide_1_1_3.opi LEVEL=GUIDE-General-Symbols-CivilEngineering-Penetration SYMBOLS_XML=../widgets/Widgets_1_1_3_1_1.xml" deprecated="false" />
       </CBS>
     <CBS name="Electrical" description="Electrical" enabled="true" opi_file="../Design_Guide/Design_Guide_1_1_3.opi LEVEL=GUIDE-General-Symbols-Electrical SYMBOLS_XML=NONE" deprecated="false" >
         <CBS name="Accumulators" description="Accumulators" enabled="true" opi_file="../Design_Guide/Design_Guide_1_1_3.opi LEVEL=GUIDE-General-Symbols-Electrical-Accumulators SYMBOLS_XML=../widgets/Widgets_1_1_3_2_1.xml" deprecated="false" />
