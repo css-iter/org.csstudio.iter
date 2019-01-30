@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beast version="1">
+<beast version="2">
   <!-- 
   Default BEAST datasource for cs-studio GUI
+  Additional BEAST datasources can be added after the default one
   -->
-  <dataSourceOptions configName="CODAC_AlarmHandler"/>
+  <dataSourceOptions configName="CODAC_AlarmHandler" default="true"/>
 </beast>
