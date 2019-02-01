@@ -1,4 +1,4 @@
-ITER Control System Studio version ITER-CODAC-CORE-6.1.0-b6-4.6.1-20190130
+ITER Control System Studio version ITER-CODAC-CORE-6.1.0-b6-4.6.1-20190201
 
 Control System Studio is an Eclipse-based collection of tools
 to monitor and operate large scale control systems, such as the
@@ -7,8 +7,8 @@ between different laboratories and universities.
 
 In order to build these sources the following repositories are required:
 
-org.csstudio.iter: a1e0f8d  
-<https://github.com/css-iter/org.csstudio.iter/tree/a1e0f8d>  
+org.csstudio.iter: a2b3010  
+<https://github.com/css-iter/org.csstudio.iter/tree/a2b3010>  
 maven-osgi-bundles: 87bbacb  
 <https://github.com/css-iter/maven-osgi-bundles/tree/87bbacb>  
 cs-studio-thirdparty: d0ec544  
