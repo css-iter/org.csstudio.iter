@@ -177,12 +177,17 @@ css-dbmanager -init all
 softIoc
 
 # Set CBS1 = demo
-codac-configure codac_cbs demo
+codac-configure codac_cbs "demo BUIL UTIL"
 
-# Start the alarm services
+# stop CODAC Core System services
+css-alarm-server stop
+css-alarm-notifier stop
+css-archive-engine stop
+
+# Start the emo alarm services
 alarm
 
-# Start the archive services
+# Start the demo archive services
 archive
 
 # Start cs-studio GUI
