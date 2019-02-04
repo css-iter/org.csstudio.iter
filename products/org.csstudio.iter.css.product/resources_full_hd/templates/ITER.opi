@@ -9,7 +9,7 @@
   <background_color>
     <color blue="235" green="235" name="IO Background" red="235"/>
   </background_color>
-  <boy_version>5.1.0.201708220714</boy_version>
+  <boy_version>5.1.0.codac_core_6_0b6</boy_version>
   <foreground_color>
     <color blue="215" green="215" name="IO Grid" red="215"/>
   </foreground_color>
@@ -513,7 +513,7 @@
         <tooltip>$(name)</tooltip>
         <visible>true</visible>
         <widget_type>Linking Container</widget_type>
-        <width>288</width>
+        <width>287</width>
         <wuid>-77568aca:14ee42ff2b8:-7d06</wuid>
         <x>0</x>
         <y>0</y>
@@ -596,8 +596,8 @@
         <widget_type>Linking Container</widget_type>
         <width>287</width>
         <wuid>-45a5416a:14dddc61744:-6d89</wuid>
-        <x>2</x>
-        <y>7</y>
+        <x>0</x>
+        <y>0</y>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">

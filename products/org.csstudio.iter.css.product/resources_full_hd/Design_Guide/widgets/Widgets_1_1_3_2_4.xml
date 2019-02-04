@@ -1,42 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbols xmlns:xi="http://www.w3.org/2001/XInclude">
-		<symbol name="Ammeter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Ammeter.svg" height="85" width="85" x="50" y="69" statesCount="1" >
-		<label name="Ammeter label" text="Ammeter" height="16" width="67" x="185" y="103" />
+	<symbol name="Ammeter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Ammeter.svg"
+		height="85" width="85" x="100" y="119" statesCount="1">
+		<label name="Ammeter label" text="Ammeter" height="44" width="174"
+			x="285" y="139" />
 	</symbol>
-		<symbol name="Ampere Hour" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Ampere Hour.svg" height="124" width="85" x="472" y="50" statesCount="1" >
-		<label name="Ampere Hour label" text="Ampere Hour" height="16" width="96" x="607" y="104" />
+	<symbol name="Ampere Hour"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Ampere Hour.svg"
+		height="124" width="85" x="1003" y="100" statesCount="1">
+		<label name="Ampere Hour label" text="Ampere Hour" height="44"
+			width="248" x="1188" y="140" />
 	</symbol>
-		<symbol name="Frequency" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Frequency.svg" height="83" width="84" x="775" y="70" statesCount="1" >
-		<label name="Frequency label" text="Frequency" height="16" width="74" x="910" y="103" />
+	<symbol name="Frequency"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Frequency.svg"
+		height="83" width="84" x="1597" y="120" statesCount="1">
+		<label name="Frequency label" text="Frequency" height="44"
+			width="193" x="1782" y="139" />
 	</symbol>
-		<symbol name="Frequency Meter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Frequency Meter.svg" height="85" width="85" x="50" y="224" statesCount="1" >
-		<label name="Frequency Meter label" text="Frequency Meter" height="16" width="119" x="185" y="258" />
+	<symbol name="Frequency Meter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Frequency Meter.svg"
+		height="85" width="85" x="100" y="324" statesCount="1">
+		<label name="Frequency Meter label" text="Frequency Meter"
+			height="44" width="313" x="285" y="344" />
 	</symbol>
-		<symbol name="Phase Meter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Phase Meter.svg" height="85" width="85" x="472" y="224" statesCount="1" >
-		<label name="Phase Meter label" text="Phase Meter" height="16" width="87" x="607" y="258" />
+	<symbol name="Phase Meter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Phase Meter.svg"
+		height="85" width="85" x="1003" y="324" statesCount="1">
+		<label name="Phase Meter label" text="Phase Meter" height="44"
+			width="232" x="1188" y="344" />
 	</symbol>
-		<symbol name="Power Factor Meter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Power Factor Meter.svg" height="85" width="85" x="775" y="224" statesCount="1" >
-		<label name="Power Factor Meter label" text="Power Factor Meter" height="16" width="136" x="910" y="258" />
+	<symbol name="Power Factor Meter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Power Factor Meter.svg"
+		height="85" width="85" x="1597" y="324" statesCount="1">
+		<label name="Power Factor Meter label" text="Power Factor Meter"
+			height="44" width="361" x="1782" y="344" />
 	</symbol>
-		<symbol name="Schedule" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Schedule.svg" height="124" width="85" x="50" y="359" statesCount="1" >
-		<label name="Schedule label" text="Schedule" height="16" width="66" x="185" y="413" />
+	<symbol name="Schedule"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Schedule.svg"
+		height="124" width="85" x="100" y="509" statesCount="1">
+		<label name="Schedule label" text="Schedule" height="44" width="173"
+			x="285" y="549" />
 	</symbol>
-		<symbol name="Synchronoscope" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Synchronoscope.svg" height="85" width="85" x="472" y="378" statesCount="1" >
-		<label name="Synchronoscope label" text="Synchronoscope" height="16" width="118" x="607" y="412" />
+	<symbol name="Synchronoscope"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Synchronoscope.svg"
+		height="85" width="85" x="1003" y="528" statesCount="1">
+		<label name="Synchronoscope label" text="Synchronoscope" height="44"
+			width="309" x="1188" y="548" />
 	</symbol>
-		<symbol name="Volt Ampere Meter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Volt Ampere Meter.svg" height="85" width="85" x="775" y="378" statesCount="1" >
-		<label name="Volt Ampere Meter label" text="Volt Ampere Meter" height="16" width="133" x="910" y="412" />
+	<symbol name="Volt Ampere Meter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Volt Ampere Meter.svg"
+		height="85" width="85" x="1597" y="528" statesCount="1">
+		<label name="Volt Ampere Meter label" text="Volt Ampere Meter"
+			height="44" width="349" x="1782" y="548" />
 	</symbol>
-		<symbol name="Volt-Ampere reactive Hour meter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Volt-Ampere reactive Hour meter.svg" height="124" width="85" x="50" y="533" statesCount="1" >
-		<label name="Volt-Ampere reactive Hour meter label" text="Volt-Ampere reactive Hour meter" height="16" width="237" x="185" y="587" />
+	<symbol name="Volt-Ampere reactive Hour meter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Volt-Ampere reactive Hour meter.svg"
+		height="124" width="85" x="100" y="733" statesCount="1">
+		<label name="Volt-Ampere reactive Hour meter label" text="Volt-Ampere reactive Hour meter"
+			height="44" width="618" x="285" y="773" />
 	</symbol>
-		<symbol name="Voltmeter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Voltmeter.svg" height="85" width="85" x="472" y="552" statesCount="1" >
-		<label name="Voltmeter label" text="Voltmeter" height="16" width="70" x="607" y="586" />
+	<symbol name="Voltmeter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Voltmeter.svg"
+		height="85" width="85" x="1003" y="752" statesCount="1">
+		<label name="Voltmeter label" text="Voltmeter" height="44"
+			width="183" x="1188" y="772" />
 	</symbol>
-		<symbol name="Watt-Hour Meter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Watt-Hour Meter.svg" height="124" width="85" x="775" y="533" statesCount="1" >
-		<label name="Watt-Hour Meter label" text="Watt-Hour Meter" height="16" width="117" x="910" y="587" />
+	<symbol name="Watt-Hour Meter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Watt-Hour Meter.svg"
+		height="124" width="85" x="1597" y="733" statesCount="1">
+		<label name="Watt-Hour Meter label" text="Watt-Hour Meter"
+			height="44" width="311" x="1782" y="773" />
 	</symbol>
-		<symbol name="Wattmeter" image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Wattmeter.svg" height="85" width="85" x="50" y="707" statesCount="1" >
-		<label name="Wattmeter label" text="Wattmeter" height="16" width="75" x="185" y="741" />
+	<symbol name="Wattmeter"
+		image_file="../../SymbolLibrary/SVG/Electrical/Measuring_Instruments_and_Sensors/Wattmeter.svg"
+		height="85" width="85" x="100" y="957" statesCount="1">
+		<label name="Wattmeter label" text="Wattmeter" height="44"
+			width="200" x="285" y="977" />
 	</symbol>
-	</symbols>
+</symbols>

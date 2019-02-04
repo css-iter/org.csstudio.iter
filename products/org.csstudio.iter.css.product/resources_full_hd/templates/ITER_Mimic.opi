@@ -9,7 +9,7 @@
   <background_color>
     <color blue="235" green="235" name="IO Background" red="235"/>
   </background_color>
-  <boy_version>5.1.0.201708220714</boy_version>
+  <boy_version>5.1.0.codac_core_6_0b5</boy_version>
   <foreground_color>
     <color blue="215" green="215" name="IO Grid" red="215"/>
   </foreground_color>
@@ -130,7 +130,7 @@
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
         <height>49</height>
-        <horizontal_alignment>1</horizontal_alignment>
+        <horizontal_alignment>0</horizontal_alignment>
         <name>PLANT SYSTEM AUXILIARIES STATUSES</name>
         <rules/>
         <scale_options>
@@ -139,7 +139,7 @@
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <scripts/>
-        <text>PLANT SYSTEM AUXILIARIES STATUSES</text>
+        <text>PLANT SYSTEM AUXILIARIES</text>
         <tooltip>$(name)</tooltip>
         <transparent>true</transparent>
         <vertical_alignment>1</vertical_alignment>

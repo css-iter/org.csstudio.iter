@@ -1,5 +1,5 @@
 /*
-Copyright (c) : 2010-2019 ITER Organization,
+Copyright (c) : 2010-2018 ITER Organization,
 CS 90 046
 13067 St. Paul-lez-Durance Cedex
 France
@@ -43,7 +43,7 @@ function validate() {
 	var valid = OK;
 	
 	// Check bad input
-	if (!request) {
+	if (isNaN(request)) {
 			valid = BADINPUT;	
 	} else {
 		// Check out of range input
