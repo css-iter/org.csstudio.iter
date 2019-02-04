@@ -116,9 +116,9 @@ fill_arrow=RO
 arrow_length=RW
 
 #! CONNECTION
-line_jump_add=RO
+line_jump_add=RW
 line_jump_size=RW
-line_jump_style=RO
+line_jump_style=RW
 
 #! ROUNDED RECTANGLE
 corner_height=RW
