@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 /*******************************************************************************
 * Copyright (c) 2010-2019 ITER Organization. 
@@ -8,43 +8,9 @@
 * http://www.eclipse.org/legal/epl-v10.html
 ******************************************************************************/
 -->
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   id="svg2"
-   version="1.1"
-   viewBox="0 0 36 36"
-   height="36pt"
-   width="36pt">
-  <metadata
-     id="metadata11">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs9" />
-  <g
-     style="stroke-width:2.974823;stroke-miterlimit:3;stroke-dasharray:none"
-     transform="matrix(0.62955006,0,0,0.62955006,6.7812192,6.7812194)"
-     id="surface1">
-    <path
-       id="path5"
-       transform="matrix(1.874996,0,0,1.874996,1.874996,-1.874996)"
-       d="m 17.008375,10.504189 c 0,-4.695845 -3.808342,-8.504187 -8.504186,-8.504187 -4.695845,0 -8.50418668517,3.808342 -8.50418668517,8.504187 0,4.695844 3.80834168517,8.504186 8.50418668517,8.504186 4.695844,0 8.504186,-3.808342 8.504186,-8.504186 z"
-       style="fill:none;stroke:#000000;stroke-width:1.58657565;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-opacity:1;stroke-dasharray:none" />
-  </g>
-  <path
-     id="path10-3-1-1-7"
-     d="M 18,0.73442719 18,35.265573"
-     style="fill:none;stroke:#000000;stroke-width:1.87279999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3;stroke-opacity:1;stroke-dasharray:none" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21pt" height="21pt" viewBox="0 0 21 21" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:1.586576;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 17.008013 10.504188 C 17.008013 5.806946 13.201431 2.000365 8.504189 2.000365 C 3.806946 2.000365 0.000364729 5.806946 0.000364729 10.504188 C 0.000364729 15.201431 3.806946 19.008012 8.504189 19.008012 C 13.201431 19.008012 17.008013 15.201431 17.008013 10.504188 Z M 17.008013 10.504188 " transform="matrix(0.688569,0,0,0.688569,4.64428,3.267142)"/>
+<path style="fill:none;stroke-width:1.8728;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 18 0.736607 L 18 35.263393 " transform="matrix(0.583333,0,0,0.583333,0,0)"/>
+</g>
 </svg>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 /*******************************************************************************
 * Copyright (c) 2010-2019 ITER Organization. 
@@ -8,55 +8,12 @@
 * http://www.eclipse.org/legal/epl-v10.html
 ******************************************************************************/
 -->
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   width="50pt"
-   height="50pt"
-   viewBox="0 0 50 50"
-   version="1.1"
-   id="svg2">
-  <metadata
-     id="metadata15">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs13" />
-  <g
-     id="surface1">
-    <path
-       id="path10-3"
-       d="m 0,25 8,0"
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       id="path10-3-3"
-       d="m 42,25 8,0"
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1" />
-    <ellipse
-       cx="25"
-       cy="25"
-       id="circle6"
-       style="fill:#a6a6a6;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
-       rx="16.322002"
-       ry="16.359455" />
-    <path
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 12.635593,34.532668 C 25,50 49.635593,33.523305 37.561839,15.910968"
-       id="path4326" />
-    <path
-       id="path3339"
-       d="m 18.153313,34.668694 0.08653,-17.68706 7.009456,7.190533 6.576773,-6.694635 -0.173074,17.60441"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.69400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29pt" height="29pt" viewBox="0 0 29 29" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 0 25.003125 L 7.997198 25.003125 " transform="matrix(0.575397,0,0,0.575397,0,0)"/>
+<path style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 42.002263 25.003125 L 49.999461 25.003125 " transform="matrix(0.575397,0,0,0.575397,0,0)"/>
+<path style="fill-rule:nonzero;fill:rgb(65.098039%,65.098039%,65.098039%);fill-opacity:1;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 41.323384 25.003125 C 41.323384 15.967241 34.011853 8.642134 25.003125 8.642134 C 15.987608 8.642134 8.676078 15.967241 8.676078 25.003125 C 8.676078 34.03222 15.987608 41.357328 25.003125 41.357328 C 34.011853 41.357328 41.323384 34.03222 41.323384 25.003125 Z M 41.323384 25.003125 " transform="matrix(0.575397,0,0,0.575397,0,0)"/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 7.269531 19.871094 C 14.386719 28.769531 28.558594 19.289062 21.613281 9.15625 "/>
+<path style="fill:none;stroke-width:1.694;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 18.153233 34.670366 L 18.241487 16.978772 L 25.247522 24.174892 L 31.825862 17.474353 L 31.656142 35.084483 " transform="matrix(0.575397,0,0,0.575397,0,0)"/>
+</g>
 </svg>

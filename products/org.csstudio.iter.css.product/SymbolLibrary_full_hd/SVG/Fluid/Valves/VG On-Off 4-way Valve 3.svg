@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 /*******************************************************************************
 * Copyright (c) 2010-2019 ITER Organization. 
@@ -8,75 +8,14 @@
 * http://www.eclipse.org/legal/epl-v10.html
 ******************************************************************************/
 -->
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   id="svg2"
-   version="1.1"
-   viewBox="0 0 50 50"
-   height="50pt"
-   width="50pt">
-  <metadata
-     id="metadata23">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs21" />
-  <g
-     transform="translate(-0.400397,-0.400397)"
-     id="surface1">
-    <path
-       id="path5"
-       d="m 1.347656,1.347656 0.027344,0 0,0.027344 -0.027344,0 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-    <path
-       id="path7"
-       d="m 48.964844,48.964844 0.02734,0 0,0.02734 -0.02734,0 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-    <path
-       id="path9"
-       transform="matrix(1.867678,0,0,1.867678,9.286039,-9.286039)"
-       d="m 0.00161877,22.699533 0,-8.49986 17.00808623,8.49986 0,-8.49986 z m 12.75815623,4.249931 -8.508226,0 8.508226,-17.008087 -8.508226,0 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.72000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-opacity:1" />
-    <path
-       id="path11"
-       transform="scale(0.996094,0.996094)"
-       d="m 25.498039,41.764706 0,8.560784"
-       style="fill:none;stroke:#000000;stroke-width:1.35119998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-opacity:1" />
-    <path
-       id="path13"
-       transform="scale(0.996094,0.996094)"
-       d="m 41.792157,25.498039 8.533333,0"
-       style="fill:none;stroke:#000000;stroke-width:1.35119998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-opacity:1" />
-    <path
-       id="path15"
-       transform="scale(0.996094,0.996094)"
-       d="m 25.498039,9.235294 0,-8.560784"
-       style="fill:none;stroke:#000000;stroke-width:1.35119998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-opacity:1" />
-    <path
-       id="path17"
-       transform="scale(0.996094,0.996094)"
-       d="m 9.207843,25.498039 -8.533333,0"
-       style="fill:none;stroke:#000000;stroke-width:1.35119998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-opacity:1" />
-  </g>
-  <animate
-     id="animate12"
-     repeatCount="indefinite"
-     fill="freeze"
-     begin="0s"
-     dur="1000ms"
-     calcMode="discrete"
-     values="1;0"
-     attributeName="opacity" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29pt" height="29pt" viewBox="0 0 29 29" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 0.546875 0.546875 L 0.5625 0.546875 L 0.5625 0.5625 L 0.546875 0.5625 Z M 0.546875 0.546875 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 27.945312 27.945312 L 27.960938 27.945312 L 27.960938 27.960938 L 27.945312 27.960938 Z M 27.945312 27.945312 "/>
+<path style="fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 0.000475549 22.699224 L 0.000475549 14.200865 L 17.008098 22.699224 L 17.008098 14.200865 Z M 12.758919 26.948403 L 4.25329 26.948403 L 12.758919 9.940781 L 4.25329 9.940781 Z M 12.758919 26.948403 " transform="matrix(1.074656,0,0,1.074656,5.11277,-5.573545)"/>
+<path style="fill:none;stroke-width:1.3512;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 25.496322 41.764715 L 25.496322 50.324875 " transform="matrix(0.573149,0,0,0.573149,-0.230387,-0.230387)"/>
+<path style="fill:none;stroke-width:1.3512;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 41.791977 25.496322 L 50.324875 25.496322 " transform="matrix(0.573149,0,0,0.573149,-0.230387,-0.230387)"/>
+<path style="fill:none;stroke-width:1.3512;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 25.496322 9.234744 L 25.496322 0.674584 " transform="matrix(0.573149,0,0,0.573149,-0.230387,-0.230387)"/>
+<path style="fill:none;stroke-width:1.3512;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 9.207482 25.496322 L 0.674584 25.496322 " transform="matrix(0.573149,0,0,0.573149,-0.230387,-0.230387)"/>
+</g>
 </svg>

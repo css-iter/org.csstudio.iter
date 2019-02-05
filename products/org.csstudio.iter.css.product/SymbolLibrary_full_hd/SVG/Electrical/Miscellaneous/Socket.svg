@@ -8,11 +8,11 @@
 * http://www.eclipse.org/legal/epl-v10.html
 ******************************************************************************/
 -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36pt" height="67pt" viewBox="0 0 36 67" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21pt" height="39pt" viewBox="0 0 21 39" version="1.1">
 <g id="surface1">
-<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 1.789063 1.339844 L 1.808594 1.339844 L 1.808594 1.378906 L 1.789063 1.378906 Z "/>
-<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 33.660156 64.605469 L 33.679688 64.605469 L 33.679688 64.648438 L 33.660156 64.648438 Z "/>
-<path style="fill:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 8.500022 27.609662 L 8.500022 2.099808 " transform="matrix(1.874996,0,0,1.861107,1.874996,-1.861092)"/>
-<path style="fill:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 0.00000231483 36.110148 C 0.00000231483 31.412842 3.808344 27.605464 8.504189 27.605464 C 13.202116 27.605464 17.010458 31.412842 17.010458 36.110148 " transform="matrix(1.874996,0,0,1.861107,1.874996,-1.861092)"/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 1.042969 0.777344 L 1.054688 0.777344 L 1.054688 0.800781 L 1.042969 0.800781 Z M 1.042969 0.777344 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 19.636719 37.496094 L 19.648438 37.496094 L 19.648438 37.519531 L 19.636719 37.519531 Z M 19.636719 37.496094 "/>
+<path style="fill:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 8.50002 27.610498 L 8.50002 2.09942 " transform="matrix(1.093748,0,0,1.080107,1.093748,-1.080098)"/>
+<path style="fill:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 0.00000213334 36.109369 C 0.00000213334 31.411483 3.807153 27.606882 8.503592 27.606882 C 13.203602 27.606882 17.010753 31.411483 17.010753 36.109369 " transform="matrix(1.093748,0,0,1.080107,1.093748,-1.080098)"/>
 </g>
 </svg>

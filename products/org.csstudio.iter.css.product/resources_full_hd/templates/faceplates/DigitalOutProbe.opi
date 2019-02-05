@@ -871,7 +871,7 @@ $(pv_value)</tooltip>
           <path checkConnect="true" pathString="EmbeddedJs" seoe="false" sfe="false">
             <scriptName>getTime</scriptName>
             <scriptText><![CDATA[/*
-Copyright (c) : 2010-2018 ITER Organization,
+Copyright (c) : 2010-2019 ITER Organization,
 CS 90 046
 13067 St. Paul-lez-Durance Cedex
 France
@@ -1007,7 +1007,7 @@ widget.setPropertyValue("text", pv_time)]]></scriptText>
           <path checkConnect="true" pathString="EmbeddedJs" seoe="false" sfe="false">
             <scriptName>getAlarm</scriptName>
             <scriptText><![CDATA[/*
-Copyright (c) : 2010-2018 ITER Organization,
+Copyright (c) : 2010-2019 ITER Organization,
 CS 90 046
 13067 St. Paul-lez-Durance Cedex
 France
