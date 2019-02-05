@@ -421,7 +421,7 @@
           <include_parent_macros>true</include_parent_macros>
         </macros>
         <name>ALARM PAGE</name>
-        <opi_file>ITER-SYSM-EVTHLTS_AlarmPage.opi</opi_file>
+        <opi_file>ITER-HWCF-PXIe6363-STATUS_AlarmPage.opi</opi_file>
         <resize_behaviour>1</resize_behaviour>
         <rules/>
         <scale_options>
