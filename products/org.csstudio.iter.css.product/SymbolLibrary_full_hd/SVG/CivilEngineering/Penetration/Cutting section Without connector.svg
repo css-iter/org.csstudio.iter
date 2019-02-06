@@ -8,9 +8,9 @@
 * http://www.eclipse.org/legal/epl-v10.html
 ******************************************************************************/
 -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35pt" height="35pt" viewBox="0 0 35 35" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20pt" height="20pt" viewBox="0 0 20 20" version="1.1">
 <g id="surface1">
-<path style="fill:none;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M -0.000872827 18.450353 L -0.000872827 14.760074 L 17.010968 14.760074 L 17.010968 18.450353 " transform="matrix(-1.902168,0.000000000000000233,-0.000000000000000233,-1.902168,33.74834,45.626917)"/>
-<path style="fill:none;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M 0.000965939 18.449746 L 0.000965939 14.759466 L 17.010753 14.759466 L 17.010753 18.449746 " transform="matrix(1.902168,0,0,1.902168,1.3966,-10.535917)"/>
+<path style="fill:none;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M -0.000544116 18.449694 L -0.000544116 14.759497 L 17.011952 14.759497 L 17.011952 18.449694 " transform="matrix(-1.080777,0.000000000000000132,-0.000000000000000132,-1.080777,19.175193,25.924385)"/>
+<path style="fill:none;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:3;" d="M -0.000512573 18.449168 L -0.000512573 14.758971 L 17.011983 14.758971 L 17.011983 18.449168 " transform="matrix(1.080777,0,0,1.080777,0.793523,-5.986316)"/>
 </g>
 </svg>

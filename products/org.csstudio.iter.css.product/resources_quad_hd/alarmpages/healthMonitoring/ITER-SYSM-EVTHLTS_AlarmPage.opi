@@ -561,7 +561,7 @@
             <name>Text Update Template</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS1)-$(CBS2)-SYSM:$(CTRLTYPE)$(IDX)-EVTHLTS</pv_name>
+            <pv_name>$(CBS1)-$(CBS2)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-EVTHLTS</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -818,7 +818,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_1</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS1)-$(CBS2)-SYSM:$(CTRLTYPE)$(IDX)-FVERS</pv_name>
+            <pv_name>$(CBS1)-$(CBS2)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-FVERS</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -1086,7 +1086,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_2</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS1)-$(CBS2)-SYSM:$(CTRLTYPE)$(IDX)-TIME</pv_name>
+            <pv_name>$(CBS1)-$(CBS2)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TIME</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -1424,7 +1424,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS1)-$(CBS2)-SYSM:$(CTRLTYPE)$(IDX)-FRAMEC</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS1)-$(CBS2)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-FRAMEC</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1546,7 +1546,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS1)-$(CBS2)-SYSM:$(CTRLTYPE)$(IDX)-EVTBC</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS1)-$(CBS2)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-EVTBC</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1668,7 +1668,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS1)-$(CBS2)-SYSM:$(CTRLTYPE)$(IDX)-EFLOST</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS1)-$(CBS2)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-EFLOST</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>

@@ -9,7 +9,7 @@
   <background_color>
     <color blue="235" green="235" name="IO Background" red="235"/>
   </background_color>
-  <boy_version>5.1.0.201708220714</boy_version>
+  <boy_version>5.1.0.codac_core_6_0b6</boy_version>
   <foreground_color>
     <color blue="215" green="215" name="IO Grid" red="215"/>
   </foreground_color>
@@ -93,7 +93,7 @@
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>92</height>
+      <height>94</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -134,7 +134,7 @@
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>92</height>
+      <height>94</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -152,7 +152,7 @@
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>1238</width>
+      <width>1240</width>
       <wuid>5a6cdd3b:14ba14b8319:-7b61</wuid>
       <x>380</x>
       <y>0</y>
@@ -192,7 +192,7 @@
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>1236</width>
+        <width>1238</width>
         <wuid>4138734d:14ba27a630d:-7ce2</wuid>
         <x>0</x>
         <y>0</y>
@@ -233,7 +233,7 @@
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>1236</width>
+        <width>1238</width>
         <wuid>4138734d:14ba27a630d:-7cd4</wuid>
         <x>0</x>
         <y>45</y>
