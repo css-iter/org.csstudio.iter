@@ -53,6 +53,7 @@ import org.diirt.vtype.AlarmSeverity;
 import org.diirt.vtype.VTable;
 import org.diirt.vtype.VType;
 import org.eclipse.core.runtime.ListenerList;
+import org.eclipse.core.runtime.Platform;
 import org.eclipse.draw2d.AbstractBorder;
 import org.eclipse.draw2d.Border;
 import org.eclipse.draw2d.Cursors;
@@ -215,7 +216,9 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
             }
         }
 
-        if (opiBeastAlarmsEnabled && editpart.getExecutionMode() == ExecutionMode.RUN_MODE) {
+        String normalizedPvName = getPVNameWithSchema().trim().toLowerCase();
+        boolean needsBeastListener = (normalizedPvName.startsWith(CA_SCHEMA) || normalizedPvName.startsWith(BEAST_SCHEMA));
+        if (opiBeastAlarmsEnabled && editpart.getExecutionMode() == ExecutionMode.RUN_MODE && needsBeastListener) {
             createBeastAlarmListener(null);
         }
     }
@@ -865,7 +868,15 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
     }
 
     private static final Logger log = Logger.getLogger(PVWidgetEditpartDelegate.class.getName());
-    private static final String BEAST_SCHEMA = "beast://";
+    private static final String CA_SCHEMA_PREFIX = "ca";
+    private static final String BEAST_SCHEMA_PREFIX = "beast";
+    public static final String DIIRT_PREFERENCES_NODE = "org.csstudio.diirt.util.core.preferences";
+    public static final String PREF_NAME_DEFAULT_DATASOURCE = "diirt.datasource.default";
+    public static final String PREF_NAME_SCHEMA_DELIMITER = "diirt.datasource.delimiter";
+    public static final String PREF_DEFVAL_DEFAULT_DATASOURCE = CA_SCHEMA_PREFIX;
+    public static final String PREF_DEFVAL_SCHEMA_DELIMITER = "://";
+    private static final String CA_SCHEMA = CA_SCHEMA_PREFIX + PREF_DEFVAL_SCHEMA_DELIMITER;
+    private static final String BEAST_SCHEMA = BEAST_SCHEMA_PREFIX + PREF_DEFVAL_SCHEMA_DELIMITER;
     // (secondary) PV on which we listen for BEAST events
     private final boolean opiBeastAlarmsEnabled = BeastPreferencesHelper.isOpiBeastAlarmsEnabled();
     private PV<?, Object> alarmPV;
@@ -896,6 +907,19 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
             return isBeastAlarm && beastInfo.isBeastChannelConnected()
                     && beastInfo.getLatchedSeverity() != BeastAlarmSeverityLevel.OK;
         }
+    }
+
+    public String getPVNameWithSchema() {
+        String result;
+        String pvName = getPVName();
+        String DEFAULT_DATASOURCE = Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_DEFAULT_DATASOURCE, PREF_DEFVAL_DEFAULT_DATASOURCE, null);
+        String SCHEMA_DELIMITER = Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_SCHEMA_DELIMITER, PREF_DEFVAL_SCHEMA_DELIMITER, null);
+        if (pvName.indexOf(SCHEMA_DELIMITER) < 0) {
+            result = DEFAULT_DATASOURCE + SCHEMA_DELIMITER + pvName;
+        } else {
+            result = pvName;
+        }
+        return result;
     }
 
     /**
