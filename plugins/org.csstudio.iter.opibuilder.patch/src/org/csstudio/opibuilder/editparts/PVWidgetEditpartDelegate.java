@@ -875,8 +875,10 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
     public static final String PREF_NAME_SCHEMA_DELIMITER = "diirt.datasource.delimiter";
     public static final String PREF_DEFVAL_DEFAULT_DATASOURCE = CA_SCHEMA_PREFIX;
     public static final String PREF_DEFVAL_SCHEMA_DELIMITER = "://";
-    private static final String CA_SCHEMA = CA_SCHEMA_PREFIX + PREF_DEFVAL_SCHEMA_DELIMITER;
-    private static final String BEAST_SCHEMA = BEAST_SCHEMA_PREFIX + PREF_DEFVAL_SCHEMA_DELIMITER;
+    public static final String PREF_CURVAL_DEFAULT_DATASOURCE = Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_DEFAULT_DATASOURCE, PREF_DEFVAL_DEFAULT_DATASOURCE, null);
+    public static final String PREF_CURVAL_SCHEMA_DELIMITER = Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_SCHEMA_DELIMITER, PREF_DEFVAL_SCHEMA_DELIMITER, null);
+    private static final String CA_SCHEMA = CA_SCHEMA_PREFIX + PREF_CURVAL_SCHEMA_DELIMITER;
+    private static final String BEAST_SCHEMA = BEAST_SCHEMA_PREFIX + PREF_CURVAL_SCHEMA_DELIMITER;
     // (secondary) PV on which we listen for BEAST events
     private final boolean opiBeastAlarmsEnabled = BeastPreferencesHelper.isOpiBeastAlarmsEnabled();
     private PV<?, Object> alarmPV;
@@ -912,10 +914,8 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
     public String getPVNameWithSchema() {
         String result;
         String pvName = getPVName();
-        String DEFAULT_DATASOURCE = Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_DEFAULT_DATASOURCE, PREF_DEFVAL_DEFAULT_DATASOURCE, null);
-        String SCHEMA_DELIMITER = Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_SCHEMA_DELIMITER, PREF_DEFVAL_SCHEMA_DELIMITER, null);
-        if (pvName.indexOf(SCHEMA_DELIMITER) < 0) {
-            result = DEFAULT_DATASOURCE + SCHEMA_DELIMITER + pvName;
+        if (pvName.indexOf(PREF_CURVAL_SCHEMA_DELIMITER) < 0) {
+            result = PREF_CURVAL_DEFAULT_DATASOURCE + PREF_CURVAL_SCHEMA_DELIMITER + pvName;
         } else {
             result = pvName;
         }
