@@ -14,9 +14,10 @@
     <color blue="215" green="215" name="IO Grid" red="215"/>
   </foreground_color>
   <grid_space>1</grid_space>
-  <height>520</height>
+  <height>1040</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
+    
   </macros>
   <name>Alarm Page Demonstration</name>
   <rules/>
@@ -27,7 +28,7 @@
   <show_ruler>true</show_ruler>
   <snap_to_geometry>true</snap_to_geometry>
   <widget_type>Display</widget_type>
-  <width>957</width>
+  <width>1915</width>
   <wuid>-14a921ec:134b2495e46:-7f53</wuid>
   <x>0</x>
   <y>0</y>
@@ -58,7 +59,7 @@
     <foreground_color>
       <color blue="0" green="0" name="IO Foreground" red="0"/>
     </foreground_color>
-    <height>515</height>
+    <height>1030</height>
     <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
@@ -76,7 +77,7 @@
     <transparent>true</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
-    <width>955</width>
+    <width>1910</width>
     <wuid>-57352fd0:149859b9257:-3adf</wuid>
     <x>0</x>
     <y>0</y>
@@ -98,7 +99,7 @@
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>26</height>
+      <height>53</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -116,7 +117,7 @@
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>955</width>
+      <width>1910</width>
       <wuid>-2d92a996:148f9384590:-7f84</wuid>
       <x>0</x>
       <y>0</y>
@@ -138,7 +139,7 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>25</height>
+        <height>51</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -156,7 +157,7 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>285</width>
+        <width>571</width>
         <wuid>-2d92a996:148f9384590:-7f7d</wuid>
         <x>0</x>
         <y>0</y>
@@ -178,7 +179,7 @@
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>24</height>
+          <height>49</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -195,7 +196,7 @@
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>284</width>
+          <width>569</width>
           <wrap_words>false</wrap_words>
           <wuid>3b161333:14909e4682c:-7f26</wuid>
           <x>0</x>
@@ -219,7 +220,7 @@
             <color blue="0" green="0" name="IO Foreground" red="0"/>
           </foreground_color>
           <group_name/>
-          <height>24</height>
+          <height>49</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -236,7 +237,7 @@
           <tooltip/>
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
-          <width>284</width>
+          <width>569</width>
           <wuid>-57352fd0:149859b9257:-3092</wuid>
           <x>0</x>
           <y>0</y>
@@ -260,7 +261,7 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>25</height>
+        <height>51</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -278,9 +279,9 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>524</width>
+        <width>1048</width>
         <wuid>-ae3bbd7:148fa0f526e:-7f7b</wuid>
-        <x>285</x>
+        <x>571</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
           <actions hook="false" hook_all="false"/>
@@ -300,7 +301,7 @@
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>24</height>
+          <height>49</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -317,7 +318,7 @@
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>523</width>
+          <width>1046</width>
           <wrap_words>false</wrap_words>
           <wuid>-ae3bbd7:148fa0f526e:-7f3f</wuid>
           <x>0</x>
@@ -342,7 +343,7 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>25</height>
+        <height>51</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -360,9 +361,9 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>144</width>
+        <width>288</width>
         <wuid>-2d92a996:148f9384590:-7f6e</wuid>
-        <x>809</x>
+        <x>1619</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
           <actions hook="false" hook_all="false"/>
@@ -382,7 +383,7 @@
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>24</height>
+          <height>49</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -399,7 +400,7 @@
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>143</width>
+          <width>286</width>
           <wrap_words>false</wrap_words>
           <wuid>56bdcf55:1490ddf160e:-7e1d</wuid>
           <x>0</x>
@@ -423,7 +424,7 @@
             <color blue="0" green="0" name="IO Foreground" red="0"/>
           </foreground_color>
           <group_name/>
-          <height>24</height>
+          <height>49</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -440,7 +441,7 @@
           <tooltip/>
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
-          <width>143</width>
+          <width>286</width>
           <wuid>-57352fd0:149859b9257:-309c</wuid>
           <x>0</x>
           <y>0</y>
@@ -465,7 +466,7 @@
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>441</height>
+      <height>882</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -483,10 +484,10 @@
       <transparent>true</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>810</width>
+      <width>1620</width>
       <wuid>-ae3bbd7:148fa0f526e:-7efd</wuid>
       <x>0</x>
-      <y>26</y>
+      <y>52</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <actions hook="false" hook_all="false"/>
         <background_color>
@@ -505,7 +506,7 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>440</height>
+        <height>880</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -523,7 +524,7 @@
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>809</width>
+        <width>1618</width>
         <wuid>-57352fd0:149859b9257:-6f78</wuid>
         <x>0</x>
         <y>0</y>
@@ -545,8 +546,8 @@
           <foreground_color>
             <color blue="0" green="0" name="IO Foreground" red="0"/>
           </foreground_color>
-          <height>439</height>
-          <lock_children>false</lock_children>
+          <height>878</height>
+          <lock_children>true</lock_children>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -563,9 +564,9 @@
           <transparent>false</transparent>
           <visible>true</visible>
           <widget_type>Grouping Container</widget_type>
-          <width>523</width>
+          <width>1047</width>
           <wuid>-68708558:149998477ee:-7188</wuid>
-          <x>285</x>
+          <x>571</x>
           <y>0</y>
           <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -682,7 +683,7 @@
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 1</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -1133,7 +1134,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-7187</wuid>
             <x>0</x>
             <y>0</y>
@@ -1253,7 +1254,7 @@ $(trace_0_y_pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 2</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -1704,9 +1705,9 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-7186</wuid>
-            <x>174</x>
+            <x>349</x>
             <y>0</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
@@ -1824,7 +1825,7 @@ $(trace_0_y_pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 3</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -2275,9 +2276,9 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-7185</wuid>
-            <x>349</x>
+            <x>698</x>
             <y>0</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
@@ -2395,7 +2396,7 @@ $(trace_0_y_pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 4</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -2846,10 +2847,10 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-7184</wuid>
             <x>0</x>
-            <y>146</y>
+            <y>292</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -2966,7 +2967,7 @@ $(trace_0_y_pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 5</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -3417,10 +3418,10 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-7183</wuid>
-            <x>174</x>
-            <y>146</y>
+            <x>349</x>
+            <y>292</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -3537,7 +3538,7 @@ $(trace_0_y_pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 6</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -3988,10 +3989,10 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-7182</wuid>
-            <x>349</x>
-            <y>146</y>
+            <x>698</x>
+            <y>292</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -4108,7 +4109,7 @@ $(trace_0_y_pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 7</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -4559,10 +4560,10 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-7181</wuid>
             <x>0</x>
-            <y>292</y>
+            <y>585</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -4679,7 +4680,7 @@ $(trace_0_y_pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 8</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -5130,10 +5131,10 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-7180</wuid>
-            <x>174</x>
-            <y>292</y>
+            <x>349</x>
+            <y>585</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -5250,7 +5251,7 @@ $(trace_0_y_pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
             </foreground_color>
-            <height>146</height>
+            <height>292</height>
             <name>XY Graph 9</name>
             <plot_area_background_color>
               <color blue="235" green="235" name="IO Background" red="235"/>
@@ -5701,10 +5702,10 @@ $(trace_0_y_pv_value)</tooltip>
             <trigger_pv_value/>
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
-            <width>174</width>
+            <width>349</width>
             <wuid>-68708558:149998477ee:-717f</wuid>
-            <x>349</x>
-            <y>292</y>
+            <x>698</x>
+            <y>585</y>
           </widget>
         </widget>
       </widget>
@@ -5726,7 +5727,7 @@ $(trace_0_y_pv_value)</tooltip>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>440</height>
+        <height>880</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -5744,51 +5745,10 @@ $(trace_0_y_pv_value)</tooltip>
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>285</width>
+        <width>571</width>
         <wuid>333eae9e:14951f153e9:-6053</wuid>
         <x>0</x>
         <y>0</y>
-        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-          <actions hook="false" hook_all="false"/>
-          <auto_size>false</auto_size>
-          <background_color>
-            <color blue="235" green="235" name="IO Background" red="235"/>
-          </background_color>
-          <border_color>
-            <color blue="0" green="0" name="IO Border" red="0"/>
-          </border_color>
-          <border_style>0</border_style>
-          <border_width>2</border_width>
-          <enabled>true</enabled>
-          <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
-          </font>
-          <foreground_color>
-            <color blue="0" green="0" name="IO Text Fg" red="0"/>
-          </foreground_color>
-          <height>438</height>
-          <horizontal_alignment>1</horizontal_alignment>
-          <name>Comment</name>
-          <rules/>
-          <scale_options>
-            <width_scalable>false</width_scalable>
-            <height_scalable>false</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts/>
-          <show_scrollbar>false</show_scrollbar>
-          <text/>
-          <tooltip>PLANT SYSTEM AUXILIARIES STATUSES</tooltip>
-          <transparent>true</transparent>
-          <vertical_alignment>1</vertical_alignment>
-          <visible>true</visible>
-          <widget_type>Label</widget_type>
-          <width>284</width>
-          <wrap_words>false</wrap_words>
-          <wuid>333eae9e:14951f153e9:-6052</wuid>
-          <x>0</x>
-          <y>0</y>
-        </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
           <actions hook="false" hook_all="false"/>
           <background_color>
@@ -5797,7 +5757,7 @@ $(trace_0_y_pv_value)</tooltip>
           <border_color>
             <color blue="0" green="0" name="IO Border" red="0"/>
           </border_color>
-          <border_style>5</border_style>
+          <border_style>13</border_style>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <fc>false</fc>
@@ -5807,12 +5767,12 @@ $(trace_0_y_pv_value)</tooltip>
           <foreground_color>
             <color blue="0" green="0" name="IO Foreground" red="0"/>
           </foreground_color>
-          <height>146</height>
+          <height>585</height>
           <lock_children>false</lock_children>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
-          <name>Alarm Description</name>
+          <name>ALARM PROCEDURE</name>
           <rules/>
           <scale_options>
             <width_scalable>false</width_scalable>
@@ -5825,183 +5785,10 @@ $(trace_0_y_pv_value)</tooltip>
           <transparent>true</transparent>
           <visible>true</visible>
           <widget_type>Grouping Container</widget_type>
-          <width>284</width>
-          <wuid>-68708558:149998477ee:-5c46</wuid>
-          <x>0</x>
-          <y>0</y>
-          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-            <actions hook="false" hook_all="false"/>
-            <auto_size>false</auto_size>
-            <background_color>
-              <color blue="235" green="235" name="IO Background" red="235"/>
-            </background_color>
-            <border_color>
-              <color blue="0" green="0" name="IO Border" red="0"/>
-            </border_color>
-            <border_style>0</border_style>
-            <border_width>2</border_width>
-            <enabled>false</enabled>
-            <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
-            </font>
-            <foreground_color>
-              <color blue="0" green="0" name="IO Text Fg" red="0"/>
-            </foreground_color>
-            <height>123</height>
-            <horizontal_alignment>0</horizontal_alignment>
-            <name>Comment</name>
-            <rules/>
-            <scale_options>
-              <width_scalable>false</width_scalable>
-              <height_scalable>false</height_scalable>
-              <keep_wh_ratio>false</keep_wh_ratio>
-            </scale_options>
-            <scripts/>
-            <show_scrollbar>false</show_scrollbar>
-            <text>The control system automatically acts to mitigate disturbances to keep the plant close to target operating conditions.
-Significant disturbances may put the plant into an upset state from which the control system cannot recover without operator intervention.
-
-This alarm requires operator intervention/action.
-
-Some information is required to train the operator to respond to the alarm:
-
-- consequence of deviation
-- corrective action brief description
-- time for response</text>
-            <tooltip/>
-            <transparent>true</transparent>
-            <vertical_alignment>1</vertical_alignment>
-            <visible>true</visible>
-            <widget_type>Label</widget_type>
-            <width>283</width>
-            <wrap_words>true</wrap_words>
-            <wuid>-68708558:149998477ee:-5a77</wuid>
-            <x>0</x>
-            <y>22</y>
-          </widget>
-          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-            <actions hook="false" hook_all="false"/>
-            <auto_size>false</auto_size>
-            <background_color>
-              <color blue="235" green="235" name="IO Background" red="235"/>
-            </background_color>
-            <border_color>
-              <color blue="0" green="0" name="IO Border" red="0"/>
-            </border_color>
-            <border_style>0</border_style>
-            <border_width>2</border_width>
-            <enabled>false</enabled>
-            <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
-            </font>
-            <foreground_color>
-              <color blue="0" green="0" name="IO Text Fg" red="0"/>
-            </foreground_color>
-            <height>20</height>
-            <horizontal_alignment>1</horizontal_alignment>
-            <name>Label Template</name>
-            <rules/>
-            <scale_options>
-              <width_scalable>false</width_scalable>
-              <height_scalable>false</height_scalable>
-              <keep_wh_ratio>false</keep_wh_ratio>
-            </scale_options>
-            <scripts/>
-            <show_scrollbar>false</show_scrollbar>
-            <text>ALARM 10 DESCRIPTION</text>
-            <tooltip/>
-            <transparent>true</transparent>
-            <vertical_alignment>1</vertical_alignment>
-            <visible>true</visible>
-            <widget_type>Label</widget_type>
-            <width>283</width>
-            <wrap_words>true</wrap_words>
-            <wuid>76c11b47:149cdfc99f3:-7c42</wuid>
-            <x>0</x>
-            <y>0</y>
-          </widget>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-          <actions hook="false" hook_all="false"/>
-          <background_color>
-            <color blue="235" green="235" name="IO Background" red="235"/>
-          </background_color>
-          <border_color>
-            <color blue="0" green="0" name="IO Border" red="0"/>
-          </border_color>
-          <border_style>5</border_style>
-          <border_width>1</border_width>
-          <enabled>true</enabled>
-          <fc>false</fc>
-          <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
-          </font>
-          <foreground_color>
-            <color blue="0" green="0" name="IO Foreground" red="0"/>
-          </foreground_color>
-          <height>292</height>
-          <lock_children>false</lock_children>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <name>Alarm Procedure</name>
-          <rules/>
-          <scale_options>
-            <width_scalable>false</width_scalable>
-            <height_scalable>false</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts/>
-          <show_scrollbar>false</show_scrollbar>
-          <tooltip/>
-          <transparent>true</transparent>
-          <visible>true</visible>
-          <widget_type>Grouping Container</widget_type>
-          <width>284</width>
+          <width>569</width>
           <wuid>-68708558:149998477ee:-5c42</wuid>
           <x>0</x>
-          <y>146</y>
-          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-            <actions hook="false" hook_all="false"/>
-            <auto_size>false</auto_size>
-            <background_color>
-              <color blue="235" green="235" name="IO Background" red="235"/>
-            </background_color>
-            <border_color>
-              <color blue="0" green="0" name="IO Border" red="0"/>
-            </border_color>
-            <border_style>0</border_style>
-            <border_width>2</border_width>
-            <enabled>false</enabled>
-            <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
-            </font>
-            <foreground_color>
-              <color blue="0" green="0" name="IO Text Fg" red="0"/>
-            </foreground_color>
-            <height>12</height>
-            <horizontal_alignment>1</horizontal_alignment>
-            <name>Title</name>
-            <rules/>
-            <scale_options>
-              <width_scalable>false</width_scalable>
-              <height_scalable>false</height_scalable>
-              <keep_wh_ratio>false</keep_wh_ratio>
-            </scale_options>
-            <scripts/>
-            <show_scrollbar>false</show_scrollbar>
-            <text>Alarm Response Procedure</text>
-            <tooltip/>
-            <transparent>true</transparent>
-            <vertical_alignment>1</vertical_alignment>
-            <visible>true</visible>
-            <widget_type>Label</widget_type>
-            <width>283</width>
-            <wrap_words>true</wrap_words>
-            <wuid>-68708558:149998477ee:-57c3</wuid>
-            <x>0</x>
-            <y>0</y>
-          </widget>
+          <y>290</y>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false"/>
             <auto_size>true</auto_size>
@@ -6020,7 +5807,7 @@ Some information is required to train the operator to respond to the alarm:
             <foreground_color>
               <color blue="0" green="0" name="IO Text Fg" red="0"/>
             </foreground_color>
-            <height>8</height>
+            <height>16</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 1</name>
             <rules/>
@@ -6037,11 +5824,11 @@ Some information is required to train the operator to respond to the alarm:
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>120</width>
+            <width>240</width>
             <wrap_words>true</wrap_words>
             <wuid>-68708558:149998477ee:-57c0</wuid>
-            <x>0</x>
-            <y>29</y>
+            <x>1</x>
+            <y>58</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -6061,7 +5848,7 @@ Some information is required to train the operator to respond to the alarm:
             <foreground_color>
               <color blue="0" green="0" name="IO Text Fg" red="0"/>
             </foreground_color>
-            <height>8</height>
+            <height>16</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 2</name>
             <rules/>
@@ -6078,11 +5865,11 @@ Some information is required to train the operator to respond to the alarm:
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>156</width>
+            <width>312</width>
             <wrap_words>true</wrap_words>
             <wuid>-68708558:149998477ee:-57bc</wuid>
             <x>0</x>
-            <y>64</y>
+            <y>129</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
             <actions hook="false" hook_all="false">
@@ -6113,7 +5900,7 @@ Some information is required to train the operator to respond to the alarm:
             <foreground_color>
               <color blue="0" green="0" name="IO Foreground" red="0"/>
             </foreground_color>
-            <height>15</height>
+            <height>30</height>
             <image/>
             <name>Action 1</name>
             <push_action_index>0</push_action_index>
@@ -6133,10 +5920,10 @@ Some information is required to train the operator to respond to the alarm:
 $(pv_value)</tooltip>
             <visible>true</visible>
             <widget_type>Action Button</widget_type>
-            <width>71</width>
+            <width>143</width>
             <wuid>-68708558:149998477ee:-57ae</wuid>
-            <x>206</x>
-            <y>61</y>
+            <x>376</x>
+            <y>122</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -6156,7 +5943,7 @@ $(pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO Text Fg" red="0"/>
             </foreground_color>
-            <height>8</height>
+            <height>16</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 3</name>
             <rules/>
@@ -6173,11 +5960,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>160</width>
+            <width>320</width>
             <wrap_words>true</wrap_words>
             <wuid>-68708558:149998477ee:-57a6</wuid>
             <x>0</x>
-            <y>92</y>
+            <y>185</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
             <actions hook="false" hook_all="false">
@@ -6208,7 +5995,7 @@ $(pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO Foreground" red="0"/>
             </foreground_color>
-            <height>15</height>
+            <height>30</height>
             <image/>
             <name>Action 2</name>
             <push_action_index>0</push_action_index>
@@ -6228,10 +6015,10 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
             <visible>true</visible>
             <widget_type>Action Button</widget_type>
-            <width>71</width>
+            <width>143</width>
             <wuid>-68708558:149998477ee:-57a0</wuid>
-            <x>206</x>
-            <y>89</y>
+            <x>376</x>
+            <y>178</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
             <actions hook="false" hook_all="false"/>
@@ -6251,7 +6038,7 @@ $(pv_value)</tooltip>
             <foreground_color>
               <color blue="0" green="0" name="IO Foreground" red="0"/>
             </foreground_color>
-            <height>27</height>
+            <height>54</height>
             <lock_children>true</lock_children>
             <macros>
               <include_parent_macros>true</include_parent_macros>
@@ -6269,10 +6056,10 @@ $(pv_value)</tooltip>
             <transparent>true</transparent>
             <visible>true</visible>
             <widget_type>Grouping Container</widget_type>
-            <width>45</width>
+            <width>90</width>
             <wuid>3a1bdc54:15269923a2c:-7bd1</wuid>
-            <x>212</x>
-            <y>20</y>
+            <x>403</x>
+            <y>39</y>
             <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
               <actions hook="true" hook_all="true">
                 <action type="WRITE_PV">
@@ -6314,7 +6101,7 @@ $(pv_value)</tooltip>
               <foreground_color>
                 <color blue="0" green="0" name="IO InputPV Fg" red="0"/>
               </foreground_color>
-              <height>17</height>
+              <height>34</height>
               <image_file>../SymbolLibrary/SVG/Fluid/Valves/VC On-Off 2-way Control Valve 0.svg</image_file>
               <name>Component Tag</name>
               <no_animation>false</no_animation>
@@ -6353,9 +6140,9 @@ $(pv_value)</tooltip>
               <transparency>false</transparency>
               <visible>true</visible>
               <widget_type>Boolean Symbol Image Monitor</widget_type>
-              <width>17</width>
+              <width>34</width>
               <wuid>-68708558:149998477ee:-569f</wuid>
-              <x>14</x>
+              <x>29</x>
               <y>0</y>
             </widget>
             <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -6376,7 +6163,7 @@ $(pv_value)</tooltip>
               <foreground_color>
                 <color blue="0" green="0" name="IO Text Fg" red="0"/>
               </foreground_color>
-              <height>8</height>
+              <height>16</height>
               <horizontal_alignment>0</horizontal_alignment>
               <name>Component Tag</name>
               <rules/>
@@ -6393,12 +6180,103 @@ $(pv_value)</tooltip>
               <vertical_alignment>1</vertical_alignment>
               <visible>true</visible>
               <widget_type>Label</widget_type>
-              <width>28</width>
+              <width>56</width>
               <wrap_words>true</wrap_words>
               <wuid>3a1bdc54:15269923a2c:-7c12</wuid>
-              <x>9</x>
-              <y>19</y>
+              <x>18</x>
+              <y>38</y>
             </widget>
+          </widget>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+          <actions hook="false" hook_all="false"/>
+          <background_color>
+            <color blue="235" green="235" name="IO Background" red="235"/>
+          </background_color>
+          <border_color>
+            <color blue="0" green="0" name="IO Border" red="0"/>
+          </border_color>
+          <border_style>13</border_style>
+          <border_width>2</border_width>
+          <enabled>true</enabled>
+          <fc>false</fc>
+          <font>
+            <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
+          </font>
+          <foreground_color>
+            <color blue="0" green="0" name="IO Foreground" red="0"/>
+          </foreground_color>
+          <height>290</height>
+          <lock_children>false</lock_children>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+          </macros>
+          <name>ALARM DESCRIPTION</name>
+          <rules/>
+          <scale_options>
+            <width_scalable>false</width_scalable>
+            <height_scalable>false</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts/>
+          <show_scrollbar>false</show_scrollbar>
+          <tooltip/>
+          <transparent>true</transparent>
+          <visible>true</visible>
+          <widget_type>Grouping Container</widget_type>
+          <width>569</width>
+          <wuid>3d76fbac:15461ea55d0:-7025</wuid>
+          <x>0</x>
+          <y>0</y>
+          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+            <actions hook="false" hook_all="false"/>
+            <auto_size>false</auto_size>
+            <background_color>
+              <color blue="235" green="235" name="IO Background" red="235"/>
+            </background_color>
+            <border_color>
+              <color blue="0" green="0" name="IO Border" red="0"/>
+            </border_color>
+            <border_style>0</border_style>
+            <border_width>2</border_width>
+            <enabled>false</enabled>
+            <font>
+              <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
+            </font>
+            <foreground_color>
+              <color blue="0" green="0" name="IO Text Fg" red="0"/>
+            </foreground_color>
+            <height>246</height>
+            <horizontal_alignment>0</horizontal_alignment>
+            <name>ALARM DESCRIPTION</name>
+            <rules/>
+            <scale_options>
+              <width_scalable>false</width_scalable>
+              <height_scalable>false</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts/>
+            <show_scrollbar>false</show_scrollbar>
+            <text>The control system automatically acts to mitigate disturbances to keep the plant close to target operating conditions.
+Significant disturbances may put the plant into an upset state from which the control system cannot recover without operator intervention.
+
+This alarm requires operator intervention/action.
+
+Some information is required to train the operator to respond to the alarm:
+
+- consequence of deviation
+- corrective action brief description
+- time for response</text>
+            <tooltip/>
+            <transparent>true</transparent>
+            <vertical_alignment>1</vertical_alignment>
+            <visible>true</visible>
+            <widget_type>Label</widget_type>
+            <width>523</width>
+            <wrap_words>true</wrap_words>
+            <wuid>-68708558:149998477ee:-5a77</wuid>
+            <x>0</x>
+            <y>0</y>
           </widget>
         </widget>
       </widget>
@@ -6421,7 +6299,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>251</height>
+      <height>503</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -6439,10 +6317,10 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>144</width>
+      <width>289</width>
       <wuid>-ae3bbd7:148fa0f526e:-7f3c</wuid>
-      <x>810</x>
-      <y>26</y>
+      <x>1620</x>
+      <y>52</y>
       <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
         <actions hook="false" hook_all="false"/>
         <background_color>
@@ -6461,7 +6339,7 @@ $(pv_value)</tooltip>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
         <group_name/>
-        <height>250</height>
+        <height>501</height>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -6478,7 +6356,7 @@ $(pv_value)</tooltip>
         <tooltip/>
         <visible>true</visible>
         <widget_type>Linking Container</widget_type>
-        <width>144</width>
+        <width>288</width>
         <wuid>-4dd0cfa9:150a847eb4f:-9b4</wuid>
         <x>0</x>
         <y>0</y>
@@ -6502,7 +6380,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>236</height>
+      <height>473</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -6520,10 +6398,10 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>144</width>
+      <width>289</width>
       <wuid>-ae3bbd7:148fa0f526e:-7f30</wuid>
-      <x>810</x>
-      <y>277</y>
+      <x>1620</x>
+      <y>555</y>
       <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
         <actions hook="true" hook_all="false"/>
         <background_color>
@@ -6542,7 +6420,7 @@ $(pv_value)</tooltip>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
         <group_name/>
-        <height>235</height>
+        <height>471</height>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <LEGEND>AlarmFaceplate.opi</LEGEND>
@@ -6560,7 +6438,7 @@ $(pv_value)</tooltip>
         <tooltip/>
         <visible>true</visible>
         <widget_type>Linking Container</widget_type>
-        <width>143</width>
+        <width>287</width>
         <wuid>-57352fd0:149859b9257:-16fb</wuid>
         <x>0</x>
         <y>0</y>
@@ -6584,7 +6462,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>47</height>
+      <height>94</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -6602,10 +6480,10 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>810</width>
+      <width>1620</width>
       <wuid>-ae3bbd7:148fa0f526e:-7f18</wuid>
       <x>0</x>
-      <y>467</y>
+      <y>934</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <actions hook="false" hook_all="false"/>
         <background_color>
@@ -6624,7 +6502,7 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>46</height>
+        <height>92</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -6642,7 +6520,7 @@ $(pv_value)</tooltip>
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>190</width>
+        <width>380</width>
         <wuid>-ae3bbd7:148fa0f526e:-7f0d</wuid>
         <x>0</x>
         <y>0</y>
@@ -6664,7 +6542,7 @@ $(pv_value)</tooltip>
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>45</height>
+          <height>90</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -6681,7 +6559,7 @@ $(pv_value)</tooltip>
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>189</width>
+          <width>378</width>
           <wrap_words>true</wrap_words>
           <wuid>-57352fd0:149859b9257:-6eb3</wuid>
           <x>0</x>
@@ -6706,7 +6584,7 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>46</height>
+        <height>92</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -6724,9 +6602,9 @@ $(pv_value)</tooltip>
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>619</width>
+        <width>1238</width>
         <wuid>-ae3bbd7:148fa0f526e:-7f06</wuid>
-        <x>190</x>
+        <x>380</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
           <actions hook="false" hook_all="false"/>
@@ -6746,7 +6624,7 @@ $(pv_value)</tooltip>
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>45</height>
+          <height>90</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -6763,7 +6641,7 @@ $(pv_value)</tooltip>
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>618</width>
+          <width>1236</width>
           <wrap_words>false</wrap_words>
           <wuid>333eae9e:14951f153e9:-5c66</wuid>
           <x>0</x>

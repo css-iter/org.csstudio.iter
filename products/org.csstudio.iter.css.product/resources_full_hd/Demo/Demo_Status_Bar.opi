@@ -14,9 +14,10 @@
     <color blue="215" green="215" name="IO Grid" red="215"/>
   </foreground_color>
   <grid_space>1</grid_space>
-  <height>520</height>
+  <height>1040</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
+    
   </macros>
   <name>Status Bar Demonstration</name>
   <rules/>
@@ -27,7 +28,7 @@
   <show_ruler>true</show_ruler>
   <snap_to_geometry>true</snap_to_geometry>
   <widget_type>Display</widget_type>
-  <width>957</width>
+  <width>1915</width>
   <wuid>-14a921ec:134b2495e46:-7f53</wuid>
   <x>0</x>
   <y>0</y>
@@ -58,7 +59,7 @@
     <foreground_color>
       <color blue="0" green="0" name="IO Foreground" red="0"/>
     </foreground_color>
-    <height>515</height>
+    <height>1030</height>
     <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
@@ -76,7 +77,7 @@
     <transparent>true</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
-    <width>955</width>
+    <width>1910</width>
     <wuid>-57352fd0:149859b9257:-3adf</wuid>
     <x>0</x>
     <y>0</y>
@@ -98,7 +99,7 @@
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>26</height>
+      <height>53</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -116,7 +117,7 @@
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>955</width>
+      <width>1910</width>
       <wuid>-2d92a996:148f9384590:-7f84</wuid>
       <x>0</x>
       <y>0</y>
@@ -138,7 +139,7 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>25</height>
+        <height>51</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -156,7 +157,7 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>285</width>
+        <width>571</width>
         <wuid>-2d92a996:148f9384590:-7f7d</wuid>
         <x>0</x>
         <y>0</y>
@@ -178,7 +179,7 @@
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>24</height>
+          <height>49</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -195,7 +196,7 @@
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>284</width>
+          <width>569</width>
           <wrap_words>false</wrap_words>
           <wuid>3b161333:14909e4682c:-7f26</wuid>
           <x>0</x>
@@ -219,7 +220,7 @@
             <color blue="0" green="0" name="IO Foreground" red="0"/>
           </foreground_color>
           <group_name/>
-          <height>24</height>
+          <height>49</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -236,7 +237,7 @@
           <tooltip/>
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
-          <width>283</width>
+          <width>567</width>
           <wuid>-57352fd0:149859b9257:-3092</wuid>
           <x>0</x>
           <y>0</y>
@@ -260,7 +261,7 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>25</height>
+        <height>51</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -278,9 +279,9 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>524</width>
+        <width>1048</width>
         <wuid>-ae3bbd7:148fa0f526e:-7f7b</wuid>
-        <x>285</x>
+        <x>571</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
           <actions hook="false" hook_all="false"/>
@@ -300,7 +301,7 @@
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>24</height>
+          <height>49</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -317,7 +318,7 @@
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>523</width>
+          <width>1046</width>
           <wrap_words>false</wrap_words>
           <wuid>-ae3bbd7:148fa0f526e:-7f3f</wuid>
           <x>0</x>
@@ -342,7 +343,7 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>25</height>
+        <height>51</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -360,9 +361,9 @@
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>144</width>
+        <width>288</width>
         <wuid>-2d92a996:148f9384590:-7f6e</wuid>
-        <x>809</x>
+        <x>1619</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
           <actions hook="false" hook_all="false"/>
@@ -382,7 +383,7 @@
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>24</height>
+          <height>49</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -399,7 +400,7 @@
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>143</width>
+          <width>286</width>
           <wrap_words>false</wrap_words>
           <wuid>56bdcf55:1490ddf160e:-7e1d</wuid>
           <x>0</x>
@@ -423,7 +424,7 @@
             <color blue="0" green="0" name="IO Foreground" red="0"/>
           </foreground_color>
           <group_name/>
-          <height>24</height>
+          <height>49</height>
           <macros>
             <include_parent_macros>true</include_parent_macros>
           </macros>
@@ -440,7 +441,7 @@
           <tooltip/>
           <visible>true</visible>
           <widget_type>Linking Container</widget_type>
-          <width>143</width>
+          <width>287</width>
           <wuid>-57352fd0:149859b9257:-309c</wuid>
           <x>0</x>
           <y>0</y>
@@ -465,7 +466,7 @@
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>441</height>
+      <height>882</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -483,10 +484,10 @@
       <transparent>true</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>810</width>
+      <width>1620</width>
       <wuid>-ae3bbd7:148fa0f526e:-7efd</wuid>
       <x>0</x>
-      <y>26</y>
+      <y>52</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <actions hook="false" hook_all="false"/>
         <background_color>
@@ -495,8 +496,8 @@
         <border_color>
           <color blue="0" green="0" name="IO Border" red="0"/>
         </border_color>
-        <border_style>5</border_style>
-        <border_width>1</border_width>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
@@ -505,12 +506,12 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>25</height>
+        <height>880</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
-        <name>PLANT SYSTEM AUXILIARIES STATUSES</name>
+        <name>Static Data Layer</name>
         <rules/>
         <scale_options>
           <width_scalable>false</width_scalable>
@@ -523,8 +524,8 @@
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>285</width>
-        <wuid>333eae9e:14951f153e9:-6053</wuid>
+        <width>1618</width>
+        <wuid>-1e0f3b69:149c8d6d12f:-411e</wuid>
         <x>0</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -538,15 +539,15 @@
           </border_color>
           <border_style>0</border_style>
           <border_width>2</border_width>
-          <enabled>true</enabled>
+          <enabled>false</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
           </font>
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>24</height>
-          <horizontal_alignment>1</horizontal_alignment>
+          <height>880</height>
+          <horizontal_alignment>0</horizontal_alignment>
           <name>Comment</name>
           <rules/>
           <scale_options>
@@ -556,15 +557,25 @@
           </scale_options>
           <scripts/>
           <show_scrollbar>false</show_scrollbar>
-          <text/>
-          <tooltip>PLANT SYSTEM AUXILIARIES STATUSES</tooltip>
+          <text>The primary purpose of the Status Bar is to provide the user with a high-level overview of ITER's overall status and to "set the context" for the workstation.
+
+Content:
+
+- on top left, global statuses are given - CODAC, Central Safety System (CSS), Central Interlock System (CIS) and Global Operational States (GOS) *
+
+- in the middle, each mimic title has to be configured
+
+- on top right of the status bar, the ITER Logo and the date and time in UTC are displayed *
+
+* these 2 sub-panels are provided in standard and are subject to change</text>
+          <tooltip>MAIN DISPLAY AREA - MIMIC</tooltip>
           <transparent>true</transparent>
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>284</width>
-          <wrap_words>false</wrap_words>
-          <wuid>333eae9e:14951f153e9:-6052</wuid>
+          <width>1618</width>
+          <wrap_words>true</wrap_words>
+          <wuid>-1e0f3b69:149c8d6d12f:-40f8</wuid>
           <x>0</x>
           <y>0</y>
         </widget>
@@ -578,7 +589,7 @@
           <color blue="0" green="0" name="IO Border" red="0"/>
         </border_color>
         <border_style>0</border_style>
-        <border_width>1</border_width>
+        <border_width>2</border_width>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
@@ -587,12 +598,12 @@
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>440</height>
-        <lock_children>false</lock_children>
+        <height>880</height>
+        <lock_children>true</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
-        <name>MAIN DISPLAY AREA - MIMIC</name>
+        <name>Information Layer</name>
         <rules/>
         <scale_options>
           <width_scalable>false</width_scalable>
@@ -605,184 +616,51 @@
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>809</width>
-        <wuid>-57352fd0:149859b9257:-6f78</wuid>
+        <width>1618</width>
+        <wuid>-1e0f3b69:149c8d6d12f:-411c</wuid>
         <x>0</x>
         <y>0</y>
-        <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-          <actions hook="false" hook_all="false"/>
-          <background_color>
-            <color blue="235" green="235" name="IO Background" red="235"/>
-          </background_color>
-          <border_color>
-            <color blue="0" green="0" name="IO Border" red="0"/>
-          </border_color>
-          <border_style>0</border_style>
-          <border_width>2</border_width>
-          <enabled>true</enabled>
-          <fc>false</fc>
-          <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
-          </font>
-          <foreground_color>
-            <color blue="0" green="0" name="IO Foreground" red="0"/>
-          </foreground_color>
-          <height>440</height>
-          <lock_children>false</lock_children>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <name>Static Data Layer</name>
-          <rules/>
-          <scale_options>
-            <width_scalable>false</width_scalable>
-            <height_scalable>false</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts/>
-          <show_scrollbar>false</show_scrollbar>
-          <tooltip/>
-          <transparent>true</transparent>
-          <visible>true</visible>
-          <widget_type>Grouping Container</widget_type>
-          <width>809</width>
-          <wuid>-1e0f3b69:149c8d6d12f:-411e</wuid>
-          <x>0</x>
-          <y>0</y>
-          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-            <actions hook="false" hook_all="false"/>
-            <auto_size>false</auto_size>
-            <background_color>
-              <color blue="235" green="235" name="IO Background" red="235"/>
-            </background_color>
-            <border_color>
-              <color blue="0" green="0" name="IO Border" red="0"/>
-            </border_color>
-            <border_style>0</border_style>
-            <border_width>2</border_width>
-            <enabled>false</enabled>
-            <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
-            </font>
-            <foreground_color>
-              <color blue="0" green="0" name="IO Text Fg" red="0"/>
-            </foreground_color>
-            <height>440</height>
-            <horizontal_alignment>0</horizontal_alignment>
-            <name>Comment</name>
-            <rules/>
-            <scale_options>
-              <width_scalable>false</width_scalable>
-              <height_scalable>false</height_scalable>
-              <keep_wh_ratio>false</keep_wh_ratio>
-            </scale_options>
-            <scripts/>
-            <show_scrollbar>false</show_scrollbar>
-            <text>The primary purpose of the Status Bar is to provide the user with a high-level overview of ITER's overall status and to "set the context" for the workstation.
-
-Content:
-
-- on top left, global statuses are given - CODAC, Central Safety System (CSS), Central Interlock System (CIS) and Global Operational States (GOS) *
-
-- in the middle, each mimic title has to be configured
-
-- on top right of the status bar, the ITER Logo and the date and time in UTC are displayed *
-
-* these 2 sub-panels are provided in standard and are subject to change</text>
-            <tooltip>MAIN DISPLAY AREA - MIMIC</tooltip>
-            <transparent>true</transparent>
-            <vertical_alignment>1</vertical_alignment>
-            <visible>true</visible>
-            <widget_type>Label</widget_type>
-            <width>809</width>
-            <wrap_words>true</wrap_words>
-            <wuid>-1e0f3b69:149c8d6d12f:-40f8</wuid>
-            <x>0</x>
-            <y>0</y>
-          </widget>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-          <actions hook="false" hook_all="false"/>
-          <background_color>
-            <color blue="235" green="235" name="IO Background" red="235"/>
-          </background_color>
-          <border_color>
-            <color blue="0" green="0" name="IO Border" red="0"/>
-          </border_color>
-          <border_style>0</border_style>
-          <border_width>2</border_width>
-          <enabled>true</enabled>
-          <fc>false</fc>
-          <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
-          </font>
-          <foreground_color>
-            <color blue="0" green="0" name="IO Foreground" red="0"/>
-          </foreground_color>
-          <height>440</height>
-          <lock_children>true</lock_children>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <name>Information Layer</name>
-          <rules/>
-          <scale_options>
-            <width_scalable>false</width_scalable>
-            <height_scalable>false</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts/>
-          <show_scrollbar>false</show_scrollbar>
-          <tooltip/>
-          <transparent>true</transparent>
-          <visible>true</visible>
-          <widget_type>Grouping Container</widget_type>
-          <width>809</width>
-          <wuid>-1e0f3b69:149c8d6d12f:-411c</wuid>
-          <x>0</x>
-          <y>0</y>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-          <actions hook="false" hook_all="false"/>
-          <background_color>
-            <color blue="235" green="235" name="IO Background" red="235"/>
-          </background_color>
-          <border_color>
-            <color blue="0" green="0" name="IO Border" red="0"/>
-          </border_color>
-          <border_style>0</border_style>
-          <border_width>2</border_width>
-          <enabled>true</enabled>
-          <fc>false</fc>
-          <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
-          </font>
-          <foreground_color>
-            <color blue="0" green="0" name="IO Foreground" red="0"/>
-          </foreground_color>
-          <height>440</height>
-          <lock_children>true</lock_children>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <name>Priority Layer</name>
-          <rules/>
-          <scale_options>
-            <width_scalable>false</width_scalable>
-            <height_scalable>false</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts/>
-          <show_scrollbar>false</show_scrollbar>
-          <tooltip/>
-          <transparent>true</transparent>
-          <visible>true</visible>
-          <widget_type>Grouping Container</widget_type>
-          <width>809</width>
-          <wuid>-1e0f3b69:149c8d6d12f:-411b</wuid>
-          <x>0</x>
-          <y>0</y>
-        </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="false" hook_all="false"/>
+        <background_color>
+          <color blue="235" green="235" name="IO Background" red="235"/>
+        </background_color>
+        <border_color>
+          <color blue="0" green="0" name="IO Border" red="0"/>
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
+        </font>
+        <foreground_color>
+          <color blue="0" green="0" name="IO Foreground" red="0"/>
+        </foreground_color>
+        <height>880</height>
+        <lock_children>true</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>Priority Layer</name>
+        <rules/>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts/>
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip/>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>1618</width>
+        <wuid>-1e0f3b69:149c8d6d12f:-411b</wuid>
+        <x>0</x>
+        <y>0</y>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -803,7 +681,7 @@ Content:
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>251</height>
+      <height>503</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -822,10 +700,10 @@ Content:
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>144</width>
+      <width>289</width>
       <wuid>-ae3bbd7:148fa0f526e:-7f3c</wuid>
-      <x>810</x>
-      <y>26</y>
+      <x>1620</x>
+      <y>52</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false"/>
         <auto_size>false</auto_size>
@@ -844,7 +722,7 @@ Content:
         <foreground_color>
           <color blue="0" green="0" name="IO Text Fg" red="0"/>
         </foreground_color>
-        <height>250</height>
+        <height>500</height>
         <horizontal_alignment>1</horizontal_alignment>
         <name>Comment</name>
         <rules/>
@@ -861,7 +739,7 @@ Content:
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>143</width>
+        <width>287</width>
         <wrap_words>false</wrap_words>
         <wuid>333eae9e:14951f153e9:-5583</wuid>
         <x>0</x>
@@ -886,7 +764,7 @@ Content:
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>236</height>
+      <height>473</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -904,10 +782,10 @@ Content:
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>144</width>
+      <width>289</width>
       <wuid>-ae3bbd7:148fa0f526e:-7f30</wuid>
-      <x>810</x>
-      <y>277</y>
+      <x>1620</x>
+      <y>555</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false"/>
         <auto_size>false</auto_size>
@@ -926,7 +804,7 @@ Content:
         <foreground_color>
           <color blue="0" green="0" name="IO Text Fg" red="0"/>
         </foreground_color>
-        <height>235</height>
+        <height>470</height>
         <horizontal_alignment>1</horizontal_alignment>
         <name>Comment</name>
         <rules/>
@@ -943,7 +821,7 @@ Content:
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>143</width>
+        <width>287</width>
         <wrap_words>false</wrap_words>
         <wuid>-ae3bbd7:148fa0f526e:-7ed6</wuid>
         <x>0</x>
@@ -968,7 +846,7 @@ Content:
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
       </foreground_color>
-      <height>47</height>
+      <height>94</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -986,10 +864,10 @@ Content:
       <transparent>false</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>810</width>
+      <width>1620</width>
       <wuid>-ae3bbd7:148fa0f526e:-7f18</wuid>
       <x>0</x>
-      <y>467</y>
+      <y>934</y>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <actions hook="false" hook_all="false"/>
         <background_color>
@@ -1008,7 +886,7 @@ Content:
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>46</height>
+        <height>92</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -1026,7 +904,7 @@ Content:
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>190</width>
+        <width>380</width>
         <wuid>-ae3bbd7:148fa0f526e:-7f0d</wuid>
         <x>0</x>
         <y>0</y>
@@ -1048,7 +926,7 @@ Content:
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>45</height>
+          <height>90</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -1065,7 +943,7 @@ Content:
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>189</width>
+          <width>378</width>
           <wrap_words>true</wrap_words>
           <wuid>-57352fd0:149859b9257:-6eb3</wuid>
           <x>0</x>
@@ -1090,7 +968,7 @@ Content:
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
         </foreground_color>
-        <height>46</height>
+        <height>92</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -1108,9 +986,9 @@ Content:
         <transparent>false</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>619</width>
+        <width>1238</width>
         <wuid>-ae3bbd7:148fa0f526e:-7f06</wuid>
-        <x>190</x>
+        <x>380</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
           <actions hook="false" hook_all="false"/>
@@ -1130,7 +1008,7 @@ Content:
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>45</height>
+          <height>90</height>
           <horizontal_alignment>1</horizontal_alignment>
           <name>Comment</name>
           <rules/>
@@ -1147,7 +1025,7 @@ Content:
           <vertical_alignment>1</vertical_alignment>
           <visible>true</visible>
           <widget_type>Label</widget_type>
-          <width>618</width>
+          <width>1236</width>
           <wrap_words>false</wrap_words>
           <wuid>333eae9e:14951f153e9:-5c66</wuid>
           <x>0</x>

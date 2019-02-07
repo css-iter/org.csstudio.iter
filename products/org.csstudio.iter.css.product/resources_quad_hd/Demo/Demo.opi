@@ -813,46 +813,6 @@
       <wuid>-ae3bbd7:148fa0f526e:-7f30</wuid>
       <x>3241</x>
       <y>1110</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <background_color>
-          <color name="IO Area Background" red="221" green="223" blue="229" />
-        </background_color>
-        <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>2</border_width>
-        <enabled>true</enabled>
-        <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
-        </font>
-        <foreground_color>
-          <color name="IO Foreground" red="0" green="0" blue="0" />
-        </foreground_color>
-        <group_name></group_name>
-        <height>1</height>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-        </macros>
-        <name>Faceplate</name>
-        <opi_file></opi_file>
-        <resize_behaviour>2</resize_behaviour>
-        <rules />
-        <scale_options>
-          <width_scalable>false</width_scalable>
-          <height_scalable>false</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <tooltip></tooltip>
-        <visible>true</visible>
-        <widget_type>Linking Container</widget_type>
-        <width>1</width>
-        <wuid>-57352fd0:149859b9257:-177b</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false" />
         <auto_size>false</auto_size>

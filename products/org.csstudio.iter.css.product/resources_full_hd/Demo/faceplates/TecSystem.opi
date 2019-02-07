@@ -9,7 +9,7 @@
   <background_color>
     <color blue="235" green="235" name="IO Background" red="235"/>
   </background_color>
-  <boy_version>5.1.0.201603301601</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color blue="215" green="215" name="IO Grid" red="215"/>
   </foreground_color>
@@ -66,7 +66,7 @@
     </tab_0_background_color>
     <tab_0_enabled>true</tab_0_enabled>
     <tab_0_font>
-      <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
     </tab_0_font>
     <tab_0_foreground_color>
       <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -78,7 +78,7 @@
     </tab_1_background_color>
     <tab_1_enabled>true</tab_1_enabled>
     <tab_1_font>
-      <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
     </tab_1_font>
     <tab_1_foreground_color>
       <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -90,7 +90,7 @@
     </tab_2_background_color>
     <tab_2_enabled>true</tab_2_enabled>
     <tab_2_font>
-      <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
     </tab_2_font>
     <tab_2_foreground_color>
       <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -102,7 +102,7 @@
     </tab_3_background_color>
     <tab_3_enabled>true</tab_3_enabled>
     <tab_3_font>
-      <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
     </tab_3_font>
     <tab_3_foreground_color>
       <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -130,7 +130,7 @@
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -170,7 +170,7 @@
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
         </font>
         <foreground_color>
           <color blue="0" green="0" name="IO Text Fg" red="0"/>
@@ -210,7 +210,7 @@
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
         </font>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -272,7 +272,7 @@
           </fill_color>
           <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -293,7 +293,7 @@
           <pv_value/>
           <rules/>
           <scale_font>
-            <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="20" pixels="false" style="0">IO Scale</opifont.name>
           </scale_font>
           <scale_format/>
           <scale_options>
@@ -335,12 +335,12 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>false</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>16</height>
+          <height>15</height>
           <horizontal_alignment>0</horizontal_alignment>
           <name>TT1</name>
           <rules/>
@@ -377,7 +377,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
         </font>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -439,7 +439,7 @@ $(pv_value)</tooltip>
           </fill_color>
           <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -460,7 +460,7 @@ $(pv_value)</tooltip>
           <pv_value/>
           <rules/>
           <scale_font>
-            <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="20" pixels="false" style="0">IO Scale</opifont.name>
           </scale_font>
           <scale_format/>
           <scale_options>
@@ -502,12 +502,12 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>false</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>16</height>
+          <height>15</height>
           <horizontal_alignment>0</horizontal_alignment>
           <name>TT2</name>
           <rules/>
@@ -544,7 +544,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
         </font>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -606,7 +606,7 @@ $(pv_value)</tooltip>
           </fill_color>
           <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -627,7 +627,7 @@ $(pv_value)</tooltip>
           <pv_value/>
           <rules/>
           <scale_font>
-            <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="20" pixels="false" style="0">IO Scale</opifont.name>
           </scale_font>
           <scale_format/>
           <scale_options>
@@ -669,12 +669,12 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>false</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>16</height>
+          <height>15</height>
           <horizontal_alignment>0</horizontal_alignment>
           <name>TT3</name>
           <rules/>
@@ -711,7 +711,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
         </font>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -773,7 +773,7 @@ $(pv_value)</tooltip>
           </fill_color>
           <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -794,7 +794,7 @@ $(pv_value)</tooltip>
           <pv_value/>
           <rules/>
           <scale_font>
-            <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="20" pixels="false" style="0">IO Scale</opifont.name>
           </scale_font>
           <scale_format/>
           <scale_options>
@@ -836,12 +836,12 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>false</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
           </foreground_color>
-          <height>16</height>
+          <height>15</height>
           <horizontal_alignment>0</horizontal_alignment>
           <name>TT4</name>
           <rules/>
@@ -878,7 +878,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
         </font>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -918,7 +918,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>false</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <foreground_color>
             <color blue="0" green="0" name="IO Text Fg" red="0"/>
@@ -970,7 +970,7 @@ $(pv_value)</tooltip>
           </fg_gradient_color>
           <fill_level>0.0</fill_level>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1019,7 +1019,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -1040,7 +1040,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>false</show_scrollbar>
       <tooltip/>
       <transparent>true</transparent>
-      <visible>false</visible>
+      <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
       <width>284</width>
       <wuid>-c8fae15:14918e4e678:-7ada</wuid>
@@ -1063,13 +1063,13 @@ $(pv_value)</tooltip>
         <axis_0_maximum>100.0</axis_0_maximum>
         <axis_0_minimum>0.0</axis_0_minimum>
         <axis_0_scale_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale 3</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="20" pixels="false" style="0">IO Scale 3</opifont.name>
         </axis_0_scale_font>
         <axis_0_scale_format/>
         <axis_0_show_grid>true</axis_0_show_grid>
         <axis_0_time_format>3</axis_0_time_format>
         <axis_0_title_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Label 3</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="20" pixels="false" style="0">IO Label 3</opifont.name>
         </axis_0_title_font>
         <axis_0_visible>true</axis_0_visible>
         <axis_1_auto_scale>true</axis_1_auto_scale>
@@ -1086,13 +1086,13 @@ $(pv_value)</tooltip>
         <axis_1_maximum>100.0</axis_1_maximum>
         <axis_1_minimum>0.0</axis_1_minimum>
         <axis_1_scale_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale 3</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="20" pixels="false" style="0">IO Scale 3</opifont.name>
         </axis_1_scale_font>
         <axis_1_scale_format/>
         <axis_1_show_grid>true</axis_1_show_grid>
         <axis_1_time_format>0</axis_1_time_format>
         <axis_1_title_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Normal</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="20" pixels="false" style="0">IO Label 3</opifont.name>
         </axis_1_title_font>
         <axis_1_visible>true</axis_1_visible>
         <axis_count>2</axis_count>
@@ -1132,7 +1132,7 @@ $(pv_value)</tooltip>
         <time_span>3600</time_span>
         <title>Active and Reactive Power</title>
         <title_font>
-          <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
         </title_font>
         <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
@@ -1245,7 +1245,7 @@ $(trace_0_y_pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -1266,7 +1266,7 @@ $(trace_0_y_pv_value)</tooltip>
       <show_scrollbar>false</show_scrollbar>
       <tooltip/>
       <transparent>true</transparent>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
       <width>284</width>
       <wuid>-4f7e792e:14d24101041:-2c30</wuid>
@@ -1285,7 +1285,7 @@ $(trace_0_y_pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="32" pixels="false" style="0">IO SubTitle</opifont.name>
         </font>
         <foreground_color>
           <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -1330,7 +1330,7 @@ $(trace_0_y_pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1398,7 +1398,7 @@ $(trace_0_y_pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1465,7 +1465,7 @@ $(trace_0_y_pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1530,7 +1530,7 @@ $(pv_value)</tooltip>
           <enabled>true</enabled>
           <fc>false</fc>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
           </font>
           <foreground_color>
             <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -1570,7 +1570,7 @@ $(pv_value)</tooltip>
             <enabled>true</enabled>
             <fc>false</fc>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
             </font>
             <foreground_color>
               <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -1613,7 +1613,7 @@ $(pv_value)</tooltip>
               <border_width>1</border_width>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -1688,7 +1688,7 @@ $(pv_value)</tooltip>
               <border_width>1</border_width>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -1745,7 +1745,7 @@ $(pv_value)</tooltip>
               <confirm_message/>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -1759,7 +1759,7 @@ $(pv_value)</tooltip>
                 <color blue="0" green="0" name="IO Foreground" red="0"/>
               </label_color>
               <label_font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </label_font>
               <label_gap>10</label_gap>
               <label_position>1</label_position>
@@ -1858,7 +1858,7 @@ $(pv_value)</tooltip>
             <enabled>true</enabled>
             <fc>false</fc>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
             </font>
             <foreground_color>
               <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -1898,7 +1898,7 @@ $(pv_value)</tooltip>
               <border_width>2</border_width>
               <enabled>false</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="1">IO Label bold</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="1">IO Label bold</opifont.name>
               </font>
               <foreground_color>
                 <color blue="0" green="0" name="IO Text Fg" red="0"/>
@@ -1941,7 +1941,7 @@ Setpoint</text>
               <border_width>2</border_width>
               <enabled>false</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="1">IO Label bold</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="1">IO Label bold</opifont.name>
               </font>
               <foreground_color>
                 <color blue="0" green="0" name="IO Text Fg" red="0"/>
@@ -1984,7 +1984,7 @@ Setpoint</text>
               <border_width>2</border_width>
               <enabled>false</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="1">IO Label bold</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="1">IO Label bold</opifont.name>
               </font>
               <foreground_color>
                 <color blue="0" green="0" name="IO Text Fg" red="0"/>
@@ -2027,7 +2027,7 @@ Setpoint</text>
             <enabled>true</enabled>
             <fc>false</fc>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
             </font>
             <foreground_color>
               <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -2070,7 +2070,7 @@ Setpoint</text>
               <border_width>1</border_width>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2145,7 +2145,7 @@ $(pv_value)</tooltip>
               <border_width>1</border_width>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2202,7 +2202,7 @@ $(pv_value)</tooltip>
               <confirm_message/>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2216,7 +2216,7 @@ $(pv_value)</tooltip>
                 <color blue="0" green="0" name="IO Foreground" red="0"/>
               </label_color>
               <label_font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </label_font>
               <label_gap>10</label_gap>
               <label_position>1</label_position>
@@ -2315,7 +2315,7 @@ $(pv_value)</tooltip>
             <enabled>true</enabled>
             <fc>false</fc>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
             </font>
             <foreground_color>
               <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -2358,7 +2358,7 @@ $(pv_value)</tooltip>
               <border_width>1</border_width>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2433,7 +2433,7 @@ $(pv_value)</tooltip>
               <border_width>1</border_width>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2490,7 +2490,7 @@ $(pv_value)</tooltip>
               <confirm_message/>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2504,7 +2504,7 @@ $(pv_value)</tooltip>
                 <color blue="0" green="0" name="IO Foreground" red="0"/>
               </label_color>
               <label_font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </label_font>
               <label_gap>10</label_gap>
               <label_position>1</label_position>
@@ -2603,7 +2603,7 @@ $(pv_value)</tooltip>
             <enabled>true</enabled>
             <fc>false</fc>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
             </font>
             <foreground_color>
               <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -2646,7 +2646,7 @@ $(pv_value)</tooltip>
               <border_width>1</border_width>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2721,7 +2721,7 @@ $(pv_value)</tooltip>
               <border_width>1</border_width>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2778,7 +2778,7 @@ $(pv_value)</tooltip>
               <confirm_message/>
               <enabled>true</enabled>
               <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </font>
               <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
               <foreground_color>
@@ -2792,7 +2792,7 @@ $(pv_value)</tooltip>
                 <color blue="0" green="0" name="IO Foreground" red="0"/>
               </label_color>
               <label_font>
-                <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+                <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
               </label_font>
               <label_gap>10</label_gap>
               <label_position>1</label_position>
@@ -2894,7 +2894,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color blue="0" green="0" name="IO Foreground" red="0"/>
@@ -2934,7 +2934,7 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>false</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" pixels="false" style="0">IO Label</opifont.name>
         </font>
         <foreground_color>
           <color blue="0" green="0" name="IO Text Fg" red="0"/>
@@ -2980,7 +2980,7 @@ FAULT relay switches when the meter is fed, while gets de-energised when a fault
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="36" pixels="false" style="0">IO Title</opifont.name>
     </font>
     <foreground_color>
       <color blue="0" green="0" name="IO Text Fg" red="0"/>
