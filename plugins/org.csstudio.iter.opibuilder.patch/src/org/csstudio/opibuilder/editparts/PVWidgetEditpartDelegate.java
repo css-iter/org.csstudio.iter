@@ -216,8 +216,8 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
             }
         }
 
-        String normalizedPvName = getPVNameWithSchema().trim().toLowerCase();
-        boolean needsBeastListener = (normalizedPvName.startsWith(CA_SCHEMA) || normalizedPvName.startsWith(BEAST_SCHEMA));
+        String normalizedPvName = getPVNameWithSchema();
+        boolean needsBeastListener = (normalizedPvName.startsWith(getCaSchema()) || normalizedPvName.startsWith(getBeastSchema()));
         if (opiBeastAlarmsEnabled && editpart.getExecutionMode() == ExecutionMode.RUN_MODE && needsBeastListener) {
             createBeastAlarmListener(null);
         }
@@ -870,15 +870,11 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
     private static final Logger log = Logger.getLogger(PVWidgetEditpartDelegate.class.getName());
     private static final String CA_SCHEMA_PREFIX = "ca";
     private static final String BEAST_SCHEMA_PREFIX = "beast";
-    public static final String DIIRT_PREFERENCES_NODE = "org.csstudio.diirt.util.core.preferences";
-    public static final String PREF_NAME_DEFAULT_DATASOURCE = "diirt.datasource.default";
-    public static final String PREF_NAME_SCHEMA_DELIMITER = "diirt.datasource.delimiter";
-    public static final String PREF_DEFVAL_DEFAULT_DATASOURCE = CA_SCHEMA_PREFIX;
-    public static final String PREF_DEFVAL_SCHEMA_DELIMITER = "://";
-    public static final String PREF_CURVAL_DEFAULT_DATASOURCE = Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_DEFAULT_DATASOURCE, PREF_DEFVAL_DEFAULT_DATASOURCE, null);
-    public static final String PREF_CURVAL_SCHEMA_DELIMITER = Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_SCHEMA_DELIMITER, PREF_DEFVAL_SCHEMA_DELIMITER, null);
-    private static final String CA_SCHEMA = CA_SCHEMA_PREFIX + PREF_CURVAL_SCHEMA_DELIMITER;
-    private static final String BEAST_SCHEMA = BEAST_SCHEMA_PREFIX + PREF_CURVAL_SCHEMA_DELIMITER;
+    private static final String DIIRT_PREFERENCES_NODE = "org.csstudio.diirt.util.core.preferences";
+    private static final String PREF_NAME_DEFAULT_DATASOURCE = "diirt.datasource.default";
+    private static final String PREF_NAME_SCHEMA_DELIMITER = "diirt.datasource.delimiter";
+    private static final String PREF_DEFVAL_DEFAULT_DATASOURCE = CA_SCHEMA_PREFIX;
+    private static final String PREF_DEFVAL_SCHEMA_DELIMITER = "://";
     // (secondary) PV on which we listen for BEAST events
     private final boolean opiBeastAlarmsEnabled = BeastPreferencesHelper.isOpiBeastAlarmsEnabled();
     private PV<?, Object> alarmPV;
@@ -886,6 +882,22 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
     private boolean isBeastAlarmNode = false; // is this an Alarm Node instead of a PV ?
     private final BeastAlarmInfo beastInfo = new BeastAlarmInfo();
     private static final String PROP_NUMBER_ALARMS = "number_alarms";//$NON-NLS-1$
+
+    private String getDefaultDatasource() {
+        return Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_DEFAULT_DATASOURCE, PREF_DEFVAL_DEFAULT_DATASOURCE, null);
+    }
+
+    private String getDelimiter() {
+        return Platform.getPreferencesService().getString(DIIRT_PREFERENCES_NODE, PREF_NAME_SCHEMA_DELIMITER, PREF_DEFVAL_SCHEMA_DELIMITER, null);
+    }
+
+    private String getCaSchema() {
+        return CA_SCHEMA_PREFIX + getDelimiter();
+    }
+
+    private String getBeastSchema() {
+        return BEAST_SCHEMA_PREFIX + getDelimiter();
+    }
 
     /**
      * Returns whether BEAST Alarm functionality is enabled and available (listener connected to the BeastDataSource).
@@ -913,9 +925,11 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
 
     public String getPVNameWithSchema() {
         String result;
-        String pvName = getPVName();
-        if (pvName.indexOf(PREF_CURVAL_SCHEMA_DELIMITER) < 0) {
-            result = PREF_CURVAL_DEFAULT_DATASOURCE + PREF_CURVAL_SCHEMA_DELIMITER + pvName;
+        String pvName = getPVName().trim();
+        String dsName = getDefaultDatasource();
+        String delimiter = getDelimiter();
+        if (pvName.indexOf(delimiter) < 0) {
+            result = dsName + delimiter + pvName;
         } else {
             result = pvName;
         }
@@ -1018,9 +1032,9 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
             return "";
         pvName = pvName.trim();
         if (pvName.indexOf("://") < 0) {
-            return BEAST_SCHEMA + pvName;
+            return getBeastSchema() + pvName;
         } else {
-            return BEAST_SCHEMA + pvName.substring(pvName.indexOf("://") + 3);
+            return getBeastSchema() + pvName.substring(pvName.indexOf("://") + 3);
         }
     }
 
@@ -1113,7 +1127,7 @@ public class PVWidgetEditpartDelegate implements IPVWidgetEditpart {
         beastInfo.setBeastChannelName(alarmPVName);
         // pre-agreed to have PVName start with the channel protocol ("beast://") if
         // it is for an Alarm Tree node instead of actual PV
-        isBeastAlarmNode = getPVName().toLowerCase().startsWith(BEAST_SCHEMA);
+        isBeastAlarmNode = getPVName().toLowerCase().startsWith(getBeastSchema());
         PVWidgetEditpartDelegate pvWidget = this;
 
         DesiredRateReadWriteExpression<?, Object> expr = formula(alarmPVName);
