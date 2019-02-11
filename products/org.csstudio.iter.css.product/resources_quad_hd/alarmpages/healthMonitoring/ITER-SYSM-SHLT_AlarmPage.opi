@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Background" red="235" green="235" blue="235" />
   </background_color>
-  <boy_version>5.1.0.codac_core_5_3b2</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -46,7 +46,7 @@
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="18" style="0" pixels="false">IO Title</opifont.name>
     </font>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -86,7 +86,7 @@
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="18" style="0" pixels="false">IO Title</opifont.name>
       </font>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -126,7 +126,7 @@
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="18" style="0" pixels="false">IO Title</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -167,7 +167,7 @@
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="18" style="0" pixels="false">IO Title</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -219,7 +219,7 @@
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -261,7 +261,7 @@
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="18" style="0" pixels="false">IO Title</opifont.name>
         </font>
         <foreground_color>
           <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -301,7 +301,7 @@
           <enabled>true</enabled>
           <fc>false</fc>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="18" style="0" pixels="false">IO Title</opifont.name>
           </font>
           <foreground_color>
             <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -341,7 +341,7 @@
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="16" style="0" pixels="false">IO SubTitle</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
@@ -382,7 +382,7 @@
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
@@ -424,7 +424,7 @@
           <enabled>true</enabled>
           <fc>false</fc>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="18" style="0" pixels="false">IO Title</opifont.name>
           </font>
           <foreground_color>
             <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -464,12 +464,54 @@
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="1" pixels="false">IO Label bold</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>38</height>
+            <horizontal_alignment>0</horizontal_alignment>
+            <name>Step 1_11</name>
+            <rules />
+            <scale_options>
+              <width_scalable>false</width_scalable>
+              <height_scalable>false</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <show_scrollbar>false</show_scrollbar>
+            <text>- If any load remains high continuously, 
+  please contact maintenance service.</text>
+            <tooltip></tooltip>
+            <transparent>true</transparent>
+            <vertical_alignment>1</vertical_alignment>
+            <visible>true</visible>
+            <widget_type>Label</widget_type>
+            <width>410</width>
+            <wrap_words>true</wrap_words>
+            <wuid>7428fafb:154ce056b2d:-6b13</wuid>
+            <x>2</x>
+            <y>516</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <auto_size>true</auto_size>
+            <background_color>
+              <color name="IO Background" red="235" green="235" blue="235" />
+            </background_color>
+            <border_color>
+              <color name="IO Border" red="0" green="0" blue="0" />
+            </border_color>
+            <border_style>0</border_style>
+            <border_width>2</border_width>
+            <enabled>false</enabled>
+            <font>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
+            </font>
+            <foreground_color>
+              <color name="IO Text Fg" red="0" green="0" blue="0" />
+            </foreground_color>
+            <height>19</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 1</name>
             <rules />
@@ -486,7 +528,7 @@
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>688</width>
+            <width>430</width>
             <wrap_words>true</wrap_words>
             <wuid>3d76fbac:15461ea55d0:7797</wuid>
             <x>2</x>
@@ -508,7 +550,7 @@
             <border_width>1</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -557,12 +599,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 1_1</name>
             <rules />
@@ -579,7 +621,7 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>640</width>
+            <width>400</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-6c1e</wuid>
             <x>2</x>
@@ -601,7 +643,7 @@ $(pv_value)</tooltip>
             <border_width>1</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -650,12 +692,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 1_3</name>
             <rules />
@@ -672,7 +714,7 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>688</width>
+            <width>430</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-6be5</wuid>
             <x>2</x>
@@ -694,7 +736,7 @@ $(pv_value)</tooltip>
             <border_width>1</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -743,12 +785,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 1_6</name>
             <rules />
@@ -765,7 +807,7 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>624</width>
+            <width>390</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-6bb0</wuid>
             <x>2</x>
@@ -787,7 +829,7 @@ $(pv_value)</tooltip>
             <border_width>1</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -836,12 +878,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 1_7</name>
             <rules />
@@ -858,7 +900,7 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>656</width>
+            <width>410</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-6bae</wuid>
             <x>2</x>
@@ -880,7 +922,7 @@ $(pv_value)</tooltip>
             <border_width>1</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -892,7 +934,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_7</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-DISKUTL</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-PROCSTS</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -914,7 +956,7 @@ $(pv_value)</tooltip>
             <wrap_words>false</wrap_words>
             <wuid>7428fafb:154ce056b2d:-6bad</wuid>
             <x>698</x>
-            <y>329</y>
+            <y>441</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -929,12 +971,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 1_10</name>
             <rules />
@@ -951,7 +993,7 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>960</width>
+            <width>600</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-6b1f</wuid>
             <x>30</x>
@@ -970,12 +1012,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>66</height>
+            <height>38</height>
             <horizontal_alignment>0</horizontal_alignment>
             <name>Step 1_12</name>
             <rules />
@@ -993,53 +1035,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>848</width>
+            <width>530</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-69e0</wuid>
             <x>2</x>
-            <y>517</y>
-          </widget>
-          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-            <actions hook="false" hook_all="false" />
-            <auto_size>true</auto_size>
-            <background_color>
-              <color name="IO Background" red="235" green="235" blue="235" />
-            </background_color>
-            <border_color>
-              <color name="IO Border" red="0" green="0" blue="0" />
-            </border_color>
-            <border_style>0</border_style>
-            <border_width>2</border_width>
-            <enabled>false</enabled>
-            <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="1">IO Label bold</opifont.name>
-            </font>
-            <foreground_color>
-              <color name="IO Text Fg" red="0" green="0" blue="0" />
-            </foreground_color>
-            <height>66</height>
-            <horizontal_alignment>0</horizontal_alignment>
-            <name>Step 1_11</name>
-            <rules />
-            <scale_options>
-              <width_scalable>false</width_scalable>
-              <height_scalable>false</height_scalable>
-              <keep_wh_ratio>false</keep_wh_ratio>
-            </scale_options>
-            <scripts />
-            <show_scrollbar>false</show_scrollbar>
-            <text>- If any load remains high continuously, 
-  please contact maintenance service.</text>
-            <tooltip></tooltip>
-            <transparent>true</transparent>
-            <vertical_alignment>1</vertical_alignment>
-            <visible>true</visible>
-            <widget_type>Label</widget_type>
-            <width>656</width>
-            <wrap_words>true</wrap_words>
-            <wuid>7428fafb:154ce056b2d:-6b13</wuid>
-            <x>2</x>
-            <y>396</y>
+            <y>568</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <actions hook="false" hook_all="false" />
@@ -1062,7 +1062,7 @@ $(pv_value)</tooltip>
             <confirm_message></confirm_message>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -1076,7 +1076,7 @@ $(pv_value)</tooltip>
               <color name="IO Foreground" red="0" green="0" blue="0" />
             </label_color>
             <label_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </label_font>
             <label_gap>5</label_gap>
             <label_position>0</label_position>
@@ -1115,8 +1115,8 @@ $(pv_value)</tooltip>
             <widget_type>Text Input</widget_type>
             <width>200</width>
             <wuid>7428fafb:154ce056b2d:-69b4</wuid>
-            <x>321</x>
-            <y>979</y>
+            <x>244</x>
+            <y>969</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <actions hook="false" hook_all="false" />
@@ -1139,7 +1139,7 @@ $(pv_value)</tooltip>
             <confirm_message></confirm_message>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -1153,7 +1153,7 @@ $(pv_value)</tooltip>
               <color name="IO Foreground" red="0" green="0" blue="0" />
             </label_color>
             <label_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </label_font>
             <label_gap>5</label_gap>
             <label_position>0</label_position>
@@ -1192,8 +1192,8 @@ $(pv_value)</tooltip>
             <widget_type>Text Input</widget_type>
             <width>200</width>
             <wuid>7428fafb:154ce056b2d:-699d</wuid>
-            <x>542</x>
-            <y>979</y>
+            <x>465</x>
+            <y>969</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <actions hook="false" hook_all="false" />
@@ -1216,7 +1216,7 @@ $(pv_value)</tooltip>
             <confirm_message></confirm_message>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -1230,7 +1230,7 @@ $(pv_value)</tooltip>
               <color name="IO Foreground" red="0" green="0" blue="0" />
             </label_color>
             <label_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </label_font>
             <label_gap>5</label_gap>
             <label_position>0</label_position>
@@ -1269,8 +1269,8 @@ $(pv_value)</tooltip>
             <widget_type>Text Input</widget_type>
             <width>200</width>
             <wuid>7428fafb:154ce056b2d:-699c</wuid>
-            <x>764</x>
-            <y>979</y>
+            <x>687</x>
+            <y>969</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <actions hook="false" hook_all="false" />
@@ -1293,7 +1293,7 @@ $(pv_value)</tooltip>
             <confirm_message></confirm_message>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -1307,7 +1307,7 @@ $(pv_value)</tooltip>
               <color name="IO Foreground" red="0" green="0" blue="0" />
             </label_color>
             <label_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </label_font>
             <label_gap>5</label_gap>
             <label_position>0</label_position>
@@ -1346,8 +1346,8 @@ $(pv_value)</tooltip>
             <widget_type>Text Input</widget_type>
             <width>200</width>
             <wuid>7428fafb:154ce056b2d:-695a</wuid>
-            <x>77</x>
-            <y>783</y>
+            <x>0</x>
+            <y>773</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <actions hook="false" hook_all="false" />
@@ -1370,7 +1370,7 @@ $(pv_value)</tooltip>
             <confirm_message></confirm_message>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -1384,7 +1384,7 @@ $(pv_value)</tooltip>
               <color name="IO Foreground" red="0" green="0" blue="0" />
             </label_color>
             <label_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </label_font>
             <label_gap>5</label_gap>
             <label_position>0</label_position>
@@ -1423,8 +1423,8 @@ $(pv_value)</tooltip>
             <widget_type>Text Input</widget_type>
             <width>200</width>
             <wuid>7428fafb:154ce056b2d:-6959</wuid>
-            <x>313</x>
-            <y>783</y>
+            <x>236</x>
+            <y>773</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <actions hook="false" hook_all="false" />
@@ -1447,7 +1447,7 @@ $(pv_value)</tooltip>
             <confirm_message></confirm_message>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -1461,7 +1461,7 @@ $(pv_value)</tooltip>
               <color name="IO Foreground" red="0" green="0" blue="0" />
             </label_color>
             <label_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </label_font>
             <label_gap>5</label_gap>
             <label_position>0</label_position>
@@ -1500,8 +1500,8 @@ $(pv_value)</tooltip>
             <widget_type>Text Input</widget_type>
             <width>200</width>
             <wuid>7428fafb:154ce056b2d:-6958</wuid>
-            <x>534</x>
-            <y>783</y>
+            <x>457</x>
+            <y>773</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <actions hook="false" hook_all="false" />
@@ -1524,7 +1524,7 @@ $(pv_value)</tooltip>
             <confirm_message></confirm_message>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -1538,7 +1538,7 @@ $(pv_value)</tooltip>
               <color name="IO Foreground" red="0" green="0" blue="0" />
             </label_color>
             <label_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </label_font>
             <label_gap>5</label_gap>
             <label_position>0</label_position>
@@ -1577,8 +1577,8 @@ $(pv_value)</tooltip>
             <widget_type>Text Input</widget_type>
             <width>200</width>
             <wuid>7428fafb:154ce056b2d:-6957</wuid>
-            <x>762</x>
-            <y>783</y>
+            <x>685</x>
+            <y>773</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1595,13 +1595,13 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
               <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>45</height>
+            <height>36</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template</name>
             <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-CPUUTL.HSV</pv_name>
@@ -1619,8 +1619,8 @@ $(pv_value)</tooltip>
             <widget_type>Combo</widget_type>
             <width>128</width>
             <wuid>7428fafb:154ce056b2d:-68ef</wuid>
-            <x>107</x>
-            <y>886</y>
+            <x>30</x>
+            <y>876</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1635,12 +1635,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template</name>
             <rules />
@@ -1657,11 +1657,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>160</width>
+            <width>100</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-6864</wuid>
-            <x>90</x>
-            <y>847</y>
+            <x>13</x>
+            <y>837</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1678,13 +1678,13 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
               <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>45</height>
+            <height>36</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_1</name>
             <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-MEMUTL.HSV</pv_name>
@@ -1702,8 +1702,8 @@ $(pv_value)</tooltip>
             <widget_type>Combo</widget_type>
             <width>128</width>
             <wuid>7428fafb:154ce056b2d:-6840</wuid>
-            <x>349</x>
-            <y>886</y>
+            <x>272</x>
+            <y>876</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1718,12 +1718,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_1</name>
             <rules />
@@ -1740,11 +1740,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>160</width>
+            <width>100</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-683f</wuid>
-            <x>332</x>
-            <y>847</y>
+            <x>255</x>
+            <y>837</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1761,13 +1761,13 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
               <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>45</height>
+            <height>36</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_1</name>
             <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-FDUTL.HSV</pv_name>
@@ -1785,8 +1785,8 @@ $(pv_value)</tooltip>
             <widget_type>Combo</widget_type>
             <width>128</width>
             <wuid>7428fafb:154ce056b2d:-6834</wuid>
-            <x>570</x>
-            <y>886</y>
+            <x>493</x>
+            <y>876</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1801,12 +1801,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_1</name>
             <rules />
@@ -1823,11 +1823,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>144</width>
+            <width>90</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-6833</wuid>
-            <x>562</x>
-            <y>847</y>
+            <x>485</x>
+            <y>837</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1844,13 +1844,13 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
               <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>45</height>
+            <height>36</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_1</name>
             <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-DISKUTL.HSV</pv_name>
@@ -1868,8 +1868,8 @@ $(pv_value)</tooltip>
             <widget_type>Combo</widget_type>
             <width>128</width>
             <wuid>7428fafb:154ce056b2d:-682c</wuid>
-            <x>804</x>
-            <y>886</y>
+            <x>727</x>
+            <y>876</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1884,12 +1884,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_1</name>
             <rules />
@@ -1906,11 +1906,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>176</width>
+            <width>110</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-682b</wuid>
-            <x>774</x>
-            <y>847</y>
+            <x>697</x>
+            <y>837</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1927,13 +1927,13 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
               <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>45</height>
+            <height>36</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_4</name>
             <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-CPUUTL.HHSV</pv_name>
@@ -1951,8 +1951,8 @@ $(pv_value)</tooltip>
             <widget_type>Combo</widget_type>
             <width>128</width>
             <wuid>7428fafb:154ce056b2d:-67ef</wuid>
-            <x>106</x>
-            <y>676</y>
+            <x>29</x>
+            <y>666</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -1967,12 +1967,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_4</name>
             <rules />
@@ -1989,11 +1989,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>176</width>
+            <width>110</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-67ee</wuid>
-            <x>89</x>
-            <y>638</y>
+            <x>12</x>
+            <y>628</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2010,13 +2010,13 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
               <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>45</height>
+            <height>36</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_5</name>
             <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-MEMUTL.HHSV</pv_name>
@@ -2034,8 +2034,8 @@ $(pv_value)</tooltip>
             <widget_type>Combo</widget_type>
             <width>128</width>
             <wuid>7428fafb:154ce056b2d:-67ed</wuid>
-            <x>348</x>
-            <y>676</y>
+            <x>271</x>
+            <y>666</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2050,12 +2050,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_5</name>
             <rules />
@@ -2072,11 +2072,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>176</width>
+            <width>110</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-67ec</wuid>
-            <x>333</x>
-            <y>638</y>
+            <x>256</x>
+            <y>628</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2093,13 +2093,13 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
               <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>45</height>
+            <height>36</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_6</name>
             <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-FDUTL.HHSV</pv_name>
@@ -2117,8 +2117,8 @@ $(pv_value)</tooltip>
             <widget_type>Combo</widget_type>
             <width>128</width>
             <wuid>7428fafb:154ce056b2d:-67eb</wuid>
-            <x>569</x>
-            <y>676</y>
+            <x>492</x>
+            <y>666</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2133,12 +2133,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_6</name>
             <rules />
@@ -2155,11 +2155,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>160</width>
+            <width>100</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-67ea</wuid>
-            <x>553</x>
-            <y>638</y>
+            <x>476</x>
+            <y>628</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2176,13 +2176,13 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
               <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>45</height>
+            <height>36</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_7</name>
             <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-DISKUTL.HHSV</pv_name>
@@ -2200,8 +2200,8 @@ $(pv_value)</tooltip>
             <widget_type>Combo</widget_type>
             <width>128</width>
             <wuid>7428fafb:154ce056b2d:-67e9</wuid>
-            <x>803</x>
-            <y>676</y>
+            <x>726</x>
+            <y>666</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2216,12 +2216,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_7</name>
             <rules />
@@ -2238,11 +2238,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>192</width>
+            <width>120</width>
             <wrap_words>true</wrap_words>
             <wuid>7428fafb:154ce056b2d:-67e8</wuid>
-            <x>769</x>
-            <y>638</y>
+            <x>692</x>
+            <y>628</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
             <actions hook="false" hook_all="false" />
@@ -2265,7 +2265,7 @@ $(pv_value)</tooltip>
             <confirm_message></confirm_message>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -2279,7 +2279,7 @@ $(pv_value)</tooltip>
               <color name="IO Foreground" red="0" green="0" blue="0" />
             </label_color>
             <label_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </label_font>
             <label_gap>5</label_gap>
             <label_position>0</label_position>
@@ -2318,8 +2318,8 @@ $(pv_value)</tooltip>
             <widget_type>Text Input</widget_type>
             <width>200</width>
             <wuid>7428fafb:154ce056b2d:-69cc</wuid>
-            <x>85</x>
-            <y>979</y>
+            <x>8</x>
+            <y>969</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2334,12 +2334,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_8</name>
             <rules />
@@ -2356,11 +2356,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>176</width>
+            <width>110</width>
             <wrap_words>true</wrap_words>
             <wuid>7aad0d0a:154e7fcd9b8:-55de</wuid>
-            <x>97</x>
-            <y>947</y>
+            <x>20</x>
+            <y>937</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2375,12 +2375,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_9</name>
             <rules />
@@ -2397,11 +2397,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>176</width>
+            <width>110</width>
             <wrap_words>true</wrap_words>
             <wuid>7aad0d0a:154e7fcd9b8:-55dd</wuid>
-            <x>333</x>
-            <y>947</y>
+            <x>256</x>
+            <y>937</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2416,12 +2416,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_10</name>
             <rules />
@@ -2438,11 +2438,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>160</width>
+            <width>100</width>
             <wrap_words>true</wrap_words>
             <wuid>7aad0d0a:154e7fcd9b8:-55dc</wuid>
-            <x>562</x>
-            <y>947</y>
+            <x>485</x>
+            <y>937</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2457,12 +2457,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_11</name>
             <rules />
@@ -2479,11 +2479,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>192</width>
+            <width>120</width>
             <wrap_words>true</wrap_words>
             <wuid>7aad0d0a:154e7fcd9b8:-55db</wuid>
-            <x>768</x>
-            <y>947</y>
+            <x>691</x>
+            <y>937</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2498,12 +2498,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_12</name>
             <rules />
@@ -2520,11 +2520,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>176</width>
+            <width>110</width>
             <wrap_words>true</wrap_words>
             <wuid>7aad0d0a:154e7fcd9b8:-5522</wuid>
-            <x>89</x>
-            <y>749</y>
+            <x>12</x>
+            <y>739</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2539,12 +2539,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_13</name>
             <rules />
@@ -2561,11 +2561,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>176</width>
+            <width>110</width>
             <wrap_words>true</wrap_words>
             <wuid>7aad0d0a:154e7fcd9b8:-5521</wuid>
-            <x>325</x>
-            <y>749</y>
+            <x>248</x>
+            <y>739</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2580,12 +2580,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_14</name>
             <rules />
@@ -2602,11 +2602,11 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>160</width>
+            <width>100</width>
             <wrap_words>true</wrap_words>
             <wuid>7aad0d0a:154e7fcd9b8:-5520</wuid>
-            <x>554</x>
-            <y>749</y>
+            <x>477</x>
+            <y>739</y>
           </widget>
           <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
             <actions hook="false" hook_all="false" />
@@ -2621,12 +2621,12 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>false</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
             </foreground_color>
-            <height>33</height>
+            <height>19</height>
             <horizontal_alignment>1</horizontal_alignment>
             <name>Label Template_15</name>
             <rules />
@@ -2643,11 +2643,186 @@ $(pv_value)</tooltip>
             <vertical_alignment>1</vertical_alignment>
             <visible>true</visible>
             <widget_type>Label</widget_type>
-            <width>192</width>
+            <width>120</width>
             <wrap_words>true</wrap_words>
             <wuid>7aad0d0a:154e7fcd9b8:-551f</wuid>
-            <x>766</x>
-            <y>749</y>
+            <x>689</x>
+            <y>739</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <auto_size>true</auto_size>
+            <background_color>
+              <color name="IO Background" red="235" green="235" blue="235" />
+            </background_color>
+            <border_color>
+              <color name="IO Border" red="0" green="0" blue="0" />
+            </border_color>
+            <border_style>0</border_style>
+            <border_width>2</border_width>
+            <enabled>false</enabled>
+            <font>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
+            </font>
+            <foreground_color>
+              <color name="IO Text Fg" red="0" green="0" blue="0" />
+            </foreground_color>
+            <height>19</height>
+            <horizontal_alignment>0</horizontal_alignment>
+            <name>Step 1_14</name>
+            <rules />
+            <scale_options>
+              <width_scalable>false</width_scalable>
+              <height_scalable>false</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <show_scrollbar>false</show_scrollbar>
+            <text>- Check if the process/service/daemon are running correctly</text>
+            <tooltip></tooltip>
+            <transparent>true</transparent>
+            <vertical_alignment>1</vertical_alignment>
+            <visible>true</visible>
+            <widget_type>Label</widget_type>
+            <width>590</width>
+            <wrap_words>true</wrap_words>
+            <wuid>1c51b404:16894dff6a5:-7436</wuid>
+            <x>2</x>
+            <y>390</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <alarm_pulsing>false</alarm_pulsing>
+            <auto_size>false</auto_size>
+            <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+            <background_color>
+              <color name="IO InputPV Bg" red="235" green="235" blue="235" />
+            </background_color>
+            <border_alarm_sensitive>false</border_alarm_sensitive>
+            <border_color>
+              <color name="IO Button" red="178" green="178" blue="178" />
+            </border_color>
+            <border_style>1</border_style>
+            <border_width>1</border_width>
+            <enabled>true</enabled>
+            <font>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
+            </font>
+            <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+            <foreground_color>
+              <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+            </foreground_color>
+            <format_type>0</format_type>
+            <height>36</height>
+            <horizontal_alignment>0</horizontal_alignment>
+            <name>Text Update Template_9</name>
+            <precision>0</precision>
+            <precision_from_pv>true</precision_from_pv>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-PS</pv_name>
+            <pv_value />
+            <rotation_angle>0.0</rotation_angle>
+            <rules />
+            <scale_options>
+              <width_scalable>false</width_scalable>
+              <height_scalable>false</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <show_units>true</show_units>
+            <text>######</text>
+            <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+            <transparent>false</transparent>
+            <vertical_alignment>1</vertical_alignment>
+            <visible>true</visible>
+            <widget_type>Text Update</widget_type>
+            <width>186</width>
+            <wrap_words>false</wrap_words>
+            <wuid>-2fea2e2a:168c2b8f2af:-78d3</wuid>
+            <x>697</x>
+            <y>382</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <auto_size>true</auto_size>
+            <background_color>
+              <color name="IO Background" red="235" green="235" blue="235" />
+            </background_color>
+            <border_color>
+              <color name="IO Border" red="0" green="0" blue="0" />
+            </border_color>
+            <border_style>0</border_style>
+            <border_width>2</border_width>
+            <enabled>false</enabled>
+            <font>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
+            </font>
+            <foreground_color>
+              <color name="IO Text Fg" red="0" green="0" blue="0" />
+            </foreground_color>
+            <height>19</height>
+            <horizontal_alignment>0</horizontal_alignment>
+            <name>Step 1_15</name>
+            <rules />
+            <scale_options>
+              <width_scalable>false</width_scalable>
+              <height_scalable>false</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <show_scrollbar>false</show_scrollbar>
+            <text>PS</text>
+            <tooltip></tooltip>
+            <transparent>true</transparent>
+            <vertical_alignment>1</vertical_alignment>
+            <visible>true</visible>
+            <widget_type>Label</widget_type>
+            <width>44</width>
+            <wrap_words>true</wrap_words>
+            <wuid>-2fea2e2a:168c2b8f2af:-78c3</wuid>
+            <x>629</x>
+            <y>390</y>
+          </widget>
+          <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+            <actions hook="false" hook_all="false" />
+            <auto_size>true</auto_size>
+            <background_color>
+              <color name="IO Background" red="235" green="235" blue="235" />
+            </background_color>
+            <border_color>
+              <color name="IO Border" red="0" green="0" blue="0" />
+            </border_color>
+            <border_style>0</border_style>
+            <border_width>2</border_width>
+            <enabled>false</enabled>
+            <font>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
+            </font>
+            <foreground_color>
+              <color name="IO Text Fg" red="0" green="0" blue="0" />
+            </foreground_color>
+            <height>19</height>
+            <horizontal_alignment>0</horizontal_alignment>
+            <name>Step 1_16</name>
+            <rules />
+            <scale_options>
+              <width_scalable>false</width_scalable>
+              <height_scalable>false</height_scalable>
+              <keep_wh_ratio>false</keep_wh_ratio>
+            </scale_options>
+            <scripts />
+            <show_scrollbar>false</show_scrollbar>
+            <text>PROCSTS</text>
+            <tooltip></tooltip>
+            <transparent>true</transparent>
+            <vertical_alignment>1</vertical_alignment>
+            <visible>true</visible>
+            <widget_type>Label</widget_type>
+            <width>70</width>
+            <wrap_words>true</wrap_words>
+            <wuid>-2fea2e2a:168c2b8f2af:-78ae</wuid>
+            <x>603</x>
+            <y>449</y>
           </widget>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2663,7 +2838,7 @@ $(pv_value)</tooltip>
           <enabled>true</enabled>
           <fc>false</fc>
           <font>
-            <opifont.name fontName="DejaVu Sans Mono" height="36" style="0">IO Title</opifont.name>
+            <opifont.name fontName="DejaVu Sans Mono" height="18" style="0" pixels="false">IO Title</opifont.name>
           </font>
           <foreground_color>
             <color name="IO Foreground" red="0" green="0" blue="0" />
@@ -2703,7 +2878,7 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
@@ -2747,7 +2922,7 @@ $(pv_value)</tooltip>
             <border_width>1</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -2796,7 +2971,7 @@ $(pv_value)</tooltip>
             <border_width>2</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <foreground_color>
               <color name="IO Text Fg" red="0" green="0" blue="0" />
@@ -2840,7 +3015,7 @@ $(pv_value)</tooltip>
             <border_width>1</border_width>
             <enabled>true</enabled>
             <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="26" style="0">IO Label</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="12" style="0" pixels="false">IO Label</opifont.name>
             </font>
             <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
             <foreground_color>
@@ -2893,13 +3068,13 @@ $(pv_value)</tooltip>
             <axis_0_maximum>100.0</axis_0_maximum>
             <axis_0_minimum>0.0</axis_0_minimum>
             <axis_0_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_scale_font>
             <axis_0_scale_format></axis_0_scale_format>
             <axis_0_show_grid>true</axis_0_show_grid>
             <axis_0_time_format>3</axis_0_time_format>
             <axis_0_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_title_font>
             <axis_0_visible>true</axis_0_visible>
             <axis_1_auto_scale>false</axis_1_auto_scale>
@@ -2916,13 +3091,13 @@ $(pv_value)</tooltip>
             <axis_1_maximum>100.0</axis_1_maximum>
             <axis_1_minimum>0.0</axis_1_minimum>
             <axis_1_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_scale_font>
             <axis_1_scale_format></axis_1_scale_format>
             <axis_1_show_grid>true</axis_1_show_grid>
             <axis_1_time_format>0</axis_1_time_format>
             <axis_1_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_title_font>
             <axis_1_visible>true</axis_1_visible>
             <axis_count>2</axis_count>
@@ -2962,7 +3137,7 @@ $(pv_value)</tooltip>
             <time_span>3600</time_span>
             <title>CPU Utilization(%)</title>
             <title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="16" style="0" pixels="false">IO SubTitle</opifont.name>
             </title_font>
             <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
@@ -3015,13 +3190,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_0_maximum>100.0</axis_0_maximum>
             <axis_0_minimum>0.0</axis_0_minimum>
             <axis_0_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_scale_font>
             <axis_0_scale_format></axis_0_scale_format>
             <axis_0_show_grid>true</axis_0_show_grid>
             <axis_0_time_format>3</axis_0_time_format>
             <axis_0_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_title_font>
             <axis_0_visible>true</axis_0_visible>
             <axis_1_auto_scale>false</axis_1_auto_scale>
@@ -3038,13 +3213,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_1_maximum>100.0</axis_1_maximum>
             <axis_1_minimum>0.0</axis_1_minimum>
             <axis_1_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_scale_font>
             <axis_1_scale_format></axis_1_scale_format>
             <axis_1_show_grid>true</axis_1_show_grid>
             <axis_1_time_format>0</axis_1_time_format>
             <axis_1_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_title_font>
             <axis_1_visible>true</axis_1_visible>
             <axis_count>2</axis_count>
@@ -3084,7 +3259,7 @@ $(trace_0_y_pv_value)</tooltip>
             <time_span>3600</time_span>
             <title>Memory Utilization(%)</title>
             <title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="16" style="0" pixels="false">IO SubTitle</opifont.name>
             </title_font>
             <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
@@ -3137,13 +3312,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_0_maximum>100.0</axis_0_maximum>
             <axis_0_minimum>0.0</axis_0_minimum>
             <axis_0_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_scale_font>
             <axis_0_scale_format></axis_0_scale_format>
             <axis_0_show_grid>true</axis_0_show_grid>
             <axis_0_time_format>3</axis_0_time_format>
             <axis_0_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_title_font>
             <axis_0_visible>true</axis_0_visible>
             <axis_1_auto_scale>true</axis_1_auto_scale>
@@ -3160,13 +3335,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_1_maximum>100.0</axis_1_maximum>
             <axis_1_minimum>0.0</axis_1_minimum>
             <axis_1_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_scale_font>
             <axis_1_scale_format></axis_1_scale_format>
             <axis_1_show_grid>true</axis_1_show_grid>
             <axis_1_time_format>0</axis_1_time_format>
             <axis_1_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_title_font>
             <axis_1_visible>true</axis_1_visible>
             <axis_count>2</axis_count>
@@ -3206,7 +3381,7 @@ $(trace_0_y_pv_value)</tooltip>
             <time_span>3600</time_span>
             <title>Memory Free (KB)</title>
             <title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="16" style="0" pixels="false">IO SubTitle</opifont.name>
             </title_font>
             <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
@@ -3259,13 +3434,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_0_maximum>100.0</axis_0_maximum>
             <axis_0_minimum>0.0</axis_0_minimum>
             <axis_0_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_scale_font>
             <axis_0_scale_format></axis_0_scale_format>
             <axis_0_show_grid>true</axis_0_show_grid>
             <axis_0_time_format>3</axis_0_time_format>
             <axis_0_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_title_font>
             <axis_0_visible>true</axis_0_visible>
             <axis_1_auto_scale>false</axis_1_auto_scale>
@@ -3282,13 +3457,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_1_maximum>100.0</axis_1_maximum>
             <axis_1_minimum>0.0</axis_1_minimum>
             <axis_1_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_scale_font>
             <axis_1_scale_format></axis_1_scale_format>
             <axis_1_show_grid>true</axis_1_show_grid>
             <axis_1_time_format>0</axis_1_time_format>
             <axis_1_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_title_font>
             <axis_1_visible>true</axis_1_visible>
             <axis_count>2</axis_count>
@@ -3328,7 +3503,7 @@ $(trace_0_y_pv_value)</tooltip>
             <time_span>3600</time_span>
             <title>FD Utilization(%)</title>
             <title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="16" style="0" pixels="false">IO SubTitle</opifont.name>
             </title_font>
             <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
@@ -3381,13 +3556,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_0_maximum>100.0</axis_0_maximum>
             <axis_0_minimum>0.0</axis_0_minimum>
             <axis_0_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_scale_font>
             <axis_0_scale_format></axis_0_scale_format>
             <axis_0_show_grid>true</axis_0_show_grid>
             <axis_0_time_format>3</axis_0_time_format>
             <axis_0_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_title_font>
             <axis_0_visible>true</axis_0_visible>
             <axis_1_auto_scale>false</axis_1_auto_scale>
@@ -3404,13 +3579,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_1_maximum>100.0</axis_1_maximum>
             <axis_1_minimum>0.0</axis_1_minimum>
             <axis_1_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_scale_font>
             <axis_1_scale_format></axis_1_scale_format>
             <axis_1_show_grid>true</axis_1_show_grid>
             <axis_1_time_format>0</axis_1_time_format>
             <axis_1_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_title_font>
             <axis_1_visible>true</axis_1_visible>
             <axis_count>2</axis_count>
@@ -3450,7 +3625,7 @@ $(trace_0_y_pv_value)</tooltip>
             <time_span>3600</time_span>
             <title>Disk Utilization(%)</title>
             <title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="16" style="0" pixels="false">IO SubTitle</opifont.name>
             </title_font>
             <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
@@ -3503,13 +3678,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_0_maximum>100.0</axis_0_maximum>
             <axis_0_minimum>0.0</axis_0_minimum>
             <axis_0_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_scale_font>
             <axis_0_scale_format></axis_0_scale_format>
             <axis_0_show_grid>true</axis_0_show_grid>
             <axis_0_time_format>3</axis_0_time_format>
             <axis_0_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_0_title_font>
             <axis_0_visible>true</axis_0_visible>
             <axis_1_auto_scale>true</axis_1_auto_scale>
@@ -3526,13 +3701,13 @@ $(trace_0_y_pv_value)</tooltip>
             <axis_1_maximum>100.0</axis_1_maximum>
             <axis_1_minimum>0.0</axis_1_minimum>
             <axis_1_scale_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_scale_font>
             <axis_1_scale_format></axis_1_scale_format>
             <axis_1_show_grid>true</axis_1_show_grid>
             <axis_1_time_format>0</axis_1_time_format>
             <axis_1_title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="20" style="0">IO Scale</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="10" style="0" pixels="false">IO Scale</opifont.name>
             </axis_1_title_font>
             <axis_1_visible>true</axis_1_visible>
             <axis_count>2</axis_count>
@@ -3572,7 +3747,7 @@ $(trace_0_y_pv_value)</tooltip>
             <time_span>3600</time_span>
             <title>Disk Available Size (MB)</title>
             <title_font>
-              <opifont.name fontName="DejaVu Sans Mono" height="32" style="0">IO SubTitle</opifont.name>
+              <opifont.name fontName="DejaVu Sans Mono" height="16" style="0" pixels="false">IO SubTitle</opifont.name>
             </title_font>
             <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>

@@ -520,7 +520,7 @@
             <name>Text Update Template</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-IOCHLTS</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-IOCHLTS</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -613,7 +613,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_1</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -706,7 +706,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_3</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -799,7 +799,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_6</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -997,7 +997,7 @@ $(pv_value)</tooltip>
             <password_input>false</password_input>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL.HIGH</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL.HIGH</pv_name>
             <pv_value />
             <read_only>false</read_only>
             <rotation_angle>0.0</rotation_angle>
@@ -1074,7 +1074,7 @@ $(pv_value)</tooltip>
             <password_input>false</password_input>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL.HIGH</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL.HIGH</pv_name>
             <pv_value />
             <read_only>false</read_only>
             <rotation_angle>0.0</rotation_angle>
@@ -1151,7 +1151,7 @@ $(pv_value)</tooltip>
             <password_input>false</password_input>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL.HIHI</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL.HIHI</pv_name>
             <pv_value />
             <read_only>false</read_only>
             <rotation_angle>0.0</rotation_angle>
@@ -1228,7 +1228,7 @@ $(pv_value)</tooltip>
             <password_input>false</password_input>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL.HIHI</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL.HIHI</pv_name>
             <pv_value />
             <read_only>false</read_only>
             <rotation_angle>0.0</rotation_angle>
@@ -1305,7 +1305,7 @@ $(pv_value)</tooltip>
             <password_input>false</password_input>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL.HIHI</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL.HIHI</pv_name>
             <pv_value />
             <read_only>false</read_only>
             <rotation_angle>0.0</rotation_angle>
@@ -1357,7 +1357,7 @@ $(pv_value)</tooltip>
             <height>45</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template</name>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL.HSV</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL.HSV</pv_name>
             <pv_value />
             <rules />
             <scale_options>
@@ -1440,7 +1440,7 @@ $(pv_value)</tooltip>
             <height>45</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_1</name>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL.HSV</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL.HSV</pv_name>
             <pv_value />
             <rules />
             <scale_options>
@@ -1523,7 +1523,7 @@ $(pv_value)</tooltip>
             <height>45</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_1</name>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL.HSV</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL.HSV</pv_name>
             <pv_value />
             <rules />
             <scale_options>
@@ -1606,7 +1606,7 @@ $(pv_value)</tooltip>
             <height>45</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_4</name>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL.HHSV</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL.HHSV</pv_name>
             <pv_value />
             <rules />
             <scale_options>
@@ -1689,7 +1689,7 @@ $(pv_value)</tooltip>
             <height>45</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_5</name>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL.HHSV</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL.HHSV</pv_name>
             <pv_value />
             <rules />
             <scale_options>
@@ -1772,7 +1772,7 @@ $(pv_value)</tooltip>
             <height>45</height>
             <items_from_pv>true</items_from_pv>
             <name>Combo Template_6</name>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL.HHSV</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL.HHSV</pv_name>
             <pv_value />
             <rules />
             <scale_options>
@@ -1880,7 +1880,7 @@ $(pv_value)</tooltip>
             <password_input>false</password_input>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL.HIGH</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL.HIGH</pv_name>
             <pv_value />
             <read_only>false</read_only>
             <rotation_angle>0.0</rotation_angle>
@@ -2304,11 +2304,11 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-CPUUTL</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
-            <trigger_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-HB</trigger_pv>
+            <trigger_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-HB</trigger_pv>
             <trigger_pv_value />
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
@@ -2426,11 +2426,11 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-MEMUTL</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
-            <trigger_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-HB</trigger_pv>
+            <trigger_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-HB</trigger_pv>
             <trigger_pv_value />
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>
@@ -2548,11 +2548,11 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-FDUTL</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
-            <trigger_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-HB</trigger_pv>
+            <trigger_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-$(IOCTYPE)-HB</trigger_pv>
             <trigger_pv_value />
             <visible>true</visible>
             <widget_type>XY Graph</widget_type>

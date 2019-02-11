@@ -520,7 +520,7 @@
             <name>Text Update Template</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-CUBHLTS</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-CUBHLTS</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -736,7 +736,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_1</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-CY1</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-CY1</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -870,7 +870,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_4</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-PLCHLTS</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-PLCHLTS</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -923,7 +923,7 @@ $(pv_value)</tooltip>
             </scale_options>
             <scripts />
             <show_scrollbar>false</show_scrollbar>
-            <text>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-PLCHLTS</text>
+            <text>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-PLCHLTS</text>
             <tooltip></tooltip>
             <transparent>true</transparent>
             <vertical_alignment>1</vertical_alignment>
@@ -1004,7 +1004,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_5</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-CY2</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-CY2</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -1056,7 +1056,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_6</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-FAN</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-FAN</pv_name>
             <pv_value />
             <rotation_angle>0.0</rotation_angle>
             <rules />
@@ -1436,7 +1436,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-CY1</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-CY1</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1558,7 +1558,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-CY2</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-CY2</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1680,7 +1680,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-FAN</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-FAN</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1802,7 +1802,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-TT</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-HTH-TT</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1924,7 +1924,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-CUBHLTS</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-CUBHLTS</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -2046,7 +2046,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv></trace_0_x_pv>
             <trace_0_x_pv_value />
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-PLCHLTS</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-PLCHLTS</trace_0_y_pv>
             <trace_0_y_pv_value />
             <trace_count>1</trace_count>
             <transparent>false</transparent>
