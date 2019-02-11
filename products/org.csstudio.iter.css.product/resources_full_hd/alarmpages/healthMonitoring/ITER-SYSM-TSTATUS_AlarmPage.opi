@@ -519,7 +519,7 @@
             <name>Text Update Template</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TSTATUS</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TSTATUS</pv_name>
             <pv_value/>
             <rotation_angle>0.0</rotation_angle>
             <rules/>
@@ -653,7 +653,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_6</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TVERSION</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TVERSION</pv_name>
             <pv_value/>
             <rotation_angle>0.0</rotation_angle>
             <rules/>
@@ -919,7 +919,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_7</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TUPTIME</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TUPTIME</pv_name>
             <pv_value/>
             <rotation_angle>0.0</rotation_angle>
             <rules/>
@@ -1012,7 +1012,7 @@ $(pv_value)</tooltip>
             <name>Text Update Template_8</name>
             <precision>0</precision>
             <precision_from_pv>true</precision_from_pv>
-            <pv_name>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TDEVICE</pv_name>
+            <pv_name>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TDEVICE</pv_name>
             <pv_value/>
             <rotation_angle>0.0</rotation_angle>
             <rules/>
@@ -1314,7 +1314,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv/>
             <trace_0_x_pv_value/>
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TSTDOFF</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TSTDOFF</trace_0_y_pv>
             <trace_0_y_pv_value/>
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1436,7 +1436,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv/>
             <trace_0_x_pv_value/>
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TMEANOFF</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TMEANOFF</trace_0_y_pv>
             <trace_0_y_pv_value/>
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1558,7 +1558,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv/>
             <trace_0_x_pv_value/>
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TSTATUS</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TSTATUS</trace_0_y_pv>
             <trace_0_y_pv_value/>
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1680,7 +1680,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv/>
             <trace_0_x_pv_value/>
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TOFFSET</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TOFFSET</trace_0_y_pv>
             <trace_0_y_pv_value/>
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1802,7 +1802,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv/>
             <trace_0_x_pv_value/>
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TMAXOFF</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TMAXOFF</trace_0_y_pv>
             <trace_0_y_pv_value/>
             <trace_count>1</trace_count>
             <transparent>false</transparent>
@@ -1924,7 +1924,7 @@ $(trace_0_y_pv_value)</tooltip>
             <trace_0_x_pv/>
             <trace_0_x_pv_value/>
             <trace_0_y_axis_index>1</trace_0_y_axis_index>
-            <trace_0_y_pv>$(CBS)-SYSM-$(PPPP)-$(PP):$(TTT)$(NNNN)-TMINOFF</trace_0_y_pv>
+            <trace_0_y_pv>$(CBS)-$(PPPP)-$(PP):$(TTT)$(NNNN)-TMINOFF</trace_0_y_pv>
             <trace_0_y_pv_value/>
             <trace_count>1</trace_count>
             <transparent>false</transparent>
