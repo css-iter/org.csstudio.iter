@@ -30,6 +30,7 @@ openFile
 -Dpython.cachedir.skip=true
 -Dorg.osgi.framework.bundle.parent=ext
 -Dosgi.framework.extensions=org.eclipse.fx.osgi
+-Djava.util.Arrays.useLegacyMergeSort=true
       </vmArgs>
    </launcherArgs>
 
