@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+
+ <pvtable version="3.0" >
+     <nbMeasure >1</nbMeasure>
+
+     <pvlist >
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:AI1</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:AI2</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:AI3</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:ARCHIVE</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:ARCHIVE_R</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:BI</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:COMPRESS</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:LONGIN</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:MBBI</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:RAMP1</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:RAMP2</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:RNDM-AI</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:RNDM-BI</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:RNDM-MBBI</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:SIMULATION_MODE</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:STRING</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAU:WAVEFORM</name>
+</pv>
+</pvlist>
+</pvtable>

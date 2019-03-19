@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 #+======================================================================
-# $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-codac-unit-api/trunk/src/main/resources/test_template.pl $
-# $Id: test_template.pl 54863 2015-02-20 21:39:47Z zagara $
+# $HeadURL: https://svnpub.codac.iter.org/codac/iter/codac/dev/units/m-codac-unit-api/branches/codac-core-6.1/src/main/resources/test_template.pl $
+# $Id: test_template.pl 96475 2019-01-09 13:47:38Z sivecm $
 #
 # Project       : CODAC Core System
 #

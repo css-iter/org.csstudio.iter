@@ -1,6 +1,6 @@
 #+======================================================================
-# $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-epics-iter-templates/tags/CODAC-CORE-5.2B4/templates/genericApp/Makefile $
-# $Id: Makefile 62306 2016-01-05 11:09:21Z kumard1 $
+# $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-css-iter/trunk/src/main/tycho/org.csstudio.iter/products/org.csstudio.iter.css.product/demo/m-TEST/src/main/epics/PLCApp/Makefile $
+# $Id: Makefile 97320 2019-01-29 17:17:28Z utzeln $
 #
 # Project       : CODAC Core System
 #

@@ -1,7 +1,7 @@
 #!../../bin/linux-x86_64/CTRL-SUP
 #+======================================================================
-# $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-epics-iter-templates/trunk/templates/genericBoot/ioc/st.cmd $
-# $Id: st.cmd 58139 2015-07-09 11:55:11Z zagara $
+# $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-css-iter/trunk/src/main/tycho/org.csstudio.iter/products/org.csstudio.iter.css.product/demo/m-TEST/src/main/epics/iocBoot/iocCTRL-SUP-PSH0CORE/st.cmd $
+# $Id: st.cmd 97320 2019-01-29 17:17:28Z utzeln $
 #
 # Project       : CODAC Core System
 #

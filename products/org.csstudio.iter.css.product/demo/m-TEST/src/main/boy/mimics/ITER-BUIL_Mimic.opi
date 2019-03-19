@@ -76,7 +76,7 @@
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL-SRVY:INTLK COMPONENT=BUIL-SRVY:INTLK</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -199,8 +199,8 @@
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:INTLK</name>
-        <pv_name>BUIL:INTLK</pv_name>
+        <name>BUIL-SRVY:INTLK</name>
+        <pv_name>BUIL-SRVY:INTLK</pv_name>
         <pv_value />
         <rules>
           <rule name="NoAlarmLED" prop_id="visible" out_exp="false">
@@ -233,7 +233,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL-SRVY:INTLK COMPONENT=BUIL-SRVY:INTLK</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -356,8 +356,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:INTLK</name>
-        <pv_name>BUIL:INTLK</pv_name>
+        <name>BUIL-SRVY:INTLK</name>
+        <pv_name>BUIL-SRVY:INTLK</pv_name>
         <pv_value />
         <rules>
           <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -389,7 +389,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL-SRVY:INTLK COMPONENT=BUIL-SRVY:INTLK</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -512,8 +512,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:INTLK</name>
-        <pv_name>BUIL:INTLK</pv_name>
+        <name>BUIL-SRVY:INTLK</name>
+        <pv_name>BUIL-SRVY:INTLK</pv_name>
         <pv_value />
         <rules>
           <rule name="ClearedUn-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -546,7 +546,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL-SRVY:INTLK COMPONENT=BUIL-SRVY:INTLK</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -636,7 +636,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL:INTLK COMPONENT=BUIL:INTLK</value>
+          <value>faceplates/DigitalInProbe.opi PROBE_PV=BUIL-SRVY:INTLK COMPONENT=BUIL-SRVY:INTLK</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -759,8 +759,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:INTLK</name>
-        <pv_name>BUIL:INTLK</pv_name>
+        <name>BUIL-SRVY:INTLK</name>
+        <pv_name>BUIL-SRVY:INTLK</pv_name>
         <pv_value />
         <rules>
           <rule name="AcknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -816,7 +816,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>NEW</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:INTLK</pv_name>
+      <pv_name>BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -864,7 +864,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>CLEAR</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:INTLK</pv_name>
+      <pv_name>BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -912,7 +912,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>RE-INIT</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:INTLK</pv_name>
+      <pv_name>BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -960,7 +960,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>RE-INIT</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:INTLK</pv_name>
+      <pv_name>BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1008,7 +1008,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>CLEAR</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:INTLK</pv_name>
+      <pv_name>BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1056,7 +1056,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>un-Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:INTLK</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1104,7 +1104,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:INTLK</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1152,7 +1152,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:INTLK</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1205,10 +1205,10 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <height>35</height>
       <horizontal_alignment>0</horizontal_alignment>
-      <name>BUIL:INTLK</name>
+      <name>BUIL-SRVY:INTLK</name>
       <precision>0</precision>
       <precision_from_pv>true</precision_from_pv>
-      <pv_name>BUIL:INTLK</pv_name>
+      <pv_name>BUIL-SRVY:INTLK</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1265,10 +1265,10 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <height>35</height>
       <horizontal_alignment>0</horizontal_alignment>
-      <name>BUIL:15KV_ACT_POWER</name>
+      <name>BUIL-SRVY:15KV_ACT_POWER</name>
       <precision>0</precision>
       <precision_from_pv>true</precision_from_pv>
-      <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1296,7 +1296,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -1419,8 +1419,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -1453,7 +1453,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -1576,8 +1576,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -1610,7 +1610,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -1733,8 +1733,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -1791,7 +1791,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>NEW</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-IOERR</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-IOERR</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1839,7 +1839,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>NEW</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-VAL</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1887,7 +1887,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>NEW</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-VAL</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1935,7 +1935,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>CLEAR</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-IOERR</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-IOERR</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1983,7 +1983,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>CLEAR</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-VAL</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -2031,7 +2031,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>CLEAR</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-VAL</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -2055,7 +2055,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -2178,8 +2178,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="ClearedUn-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -2212,7 +2212,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -2335,8 +2335,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="ClearedUn-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -2369,7 +2369,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -2492,8 +2492,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="NoAlarmLED" prop_id="visible" out_exp="false">
@@ -2526,7 +2526,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -2649,8 +2649,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -2683,7 +2683,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -2806,8 +2806,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -2840,7 +2840,7 @@ $(pv_value)</tooltip>
       <actions hook="true" hook_all="true">
         <action type="WRITE_PV">
           <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+          <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description>Load the component faceplate</description>
@@ -2963,8 +2963,8 @@ $(pv_value)</tooltip>
         </line_color>
         <line_style>0</line_style>
         <line_width>0</line_width>
-        <name>BUIL:15KV_ACT_POWER</name>
-        <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+        <name>BUIL-SRVY:15KV_ACT_POWER</name>
+        <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
         <pv_value />
         <rules>
           <rule name="Un-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -3021,7 +3021,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:15KV_ACT_POWER</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3069,7 +3069,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:15KV_ACT_POWER</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3117,7 +3117,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:15KV_ACT_POWER</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3165,7 +3165,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>CLEAR</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-IOERR</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-IOERR</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3213,7 +3213,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:15KV_ACT_POWER</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3261,7 +3261,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>CLEAR</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-VAL</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3309,7 +3309,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:15KV_ACT_POWER</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3357,7 +3357,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>CLEAR</name>
       <push_action_index>0</push_action_index>
-      <pv_name>BUIL:15KV_ACT_POWER-VAL</pv_name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER-VAL</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3405,7 +3405,7 @@ $(pv_value)</tooltip>
       <image></image>
       <name>Ack</name>
       <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/BUIL:15KV_ACT_POWER</pv_name>
+      <pv_name>beast://BUIL/Automation/BUIL-SRVY:15KV_ACT_POWER</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -3463,7 +3463,7 @@ $(pv_value)</tooltip>
       </line_color>
       <line_style>0</line_style>
       <line_width>0</line_width>
-      <name>BUIL:15KV_ACT_POWER_1</name>
+      <name>BUIL-SRVY:15KV_ACT_POWER_1</name>
       <pv_name></pv_name>
       <pv_value />
       <rules />
@@ -3524,12 +3524,12 @@ $(pv_value)</tooltip>
       <text>$(actions)</text>
       <toggle_button>true</toggle_button>
       <tooltip>Generate 6000 IOERR alarms</tooltip>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Action Button</widget_type>
       <width>500</width>
       <wuid>-eb6e141:16730c0fd38:-7f53</wuid>
       <x>1953</x>
-      <y>740</y>
+      <y>1421</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <actions hook="false" hook_all="false">
@@ -3572,43 +3572,37 @@ $(pv_value)</tooltip>
       <text>$(actions)</text>
       <toggle_button>true</toggle_button>
       <tooltip>Clear 6000 IOERR alarms</tooltip>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Action Button</widget_type>
       <width>500</width>
       <wuid>-eb6e141:16730c0fd38:-5701</wuid>
       <x>1953</x>
-      <y>945</y>
+      <y>1626</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="true">
-        <action type="WRITE_PV">
-          <pv_name>$(pv_name)</pv_name>
-          <value>ack</value>
-          <timeout>10</timeout>
-          <confirm_message></confirm_message>
-          <description>Acknowledge 6000 alarms</description>
-        </action>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color name="IO Background" red="235" green="235" blue="235" />
+      </background_color>
       <border_color>
         <color name="IO Border" red="0" green="0" blue="0" />
       </border_color>
-      <border_style>6</border_style>
+      <border_style>13</border_style>
       <border_width>2</border_width>
       <enabled>true</enabled>
+      <fc>false</fc>
       <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
       </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
         <color name="IO Foreground" red="0" green="0" blue="0" />
       </foreground_color>
-      <height>52</height>
-      <image></image>
-      <name>Ack 6000 IOERR</name>
-      <push_action_index>0</push_action_index>
-      <pv_name>beast://BUIL/Automation/Flurry</pv_name>
-      <pv_value />
+      <height>284</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Set/Unset 6000 IOERR</name>
       <rules />
       <scale_options>
         <width_scalable>false</width_scalable>
@@ -3616,23 +3610,132 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <style>1</style>
-      <text>$(actions)</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>Acknowledge 6000 IOERR alarms</tooltip>
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
       <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>75</width>
-      <wuid>-eb6e141:16730c0fd38:-56fb</wuid>
-      <x>2165</x>
-      <y>1157</y>
+      <widget_type>Grouping Container</widget_type>
+      <width>583</width>
+      <wuid>-66f05471:16929f23919:-7871</wuid>
+      <x>1953</x>
+      <y>833</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </background_color>
+        <bit>0</bit>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <confirm_message>Are you sure you want to do this?</confirm_message>
+        <data_type>0</data_type>
+        <effect_3d>true</effect_3d>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>80</height>
+        <labels_from_pv>false</labels_from_pv>
+        <name>Simulation Value</name>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <off_label>OFF</off_label>
+        <on_color>
+          <color name="IO PV ON" red="0" green="0" blue="255" />
+        </on_color>
+        <on_label>ON</on_label>
+        <password></password>
+        <push_action_index>0</push_action_index>
+        <pv_name>BUIL-SRVY:BI-IOERR-SIM</pv_name>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_boolean_label>true</show_boolean_label>
+        <show_confirm_dialog>1</show_confirm_dialog>
+        <show_led>true</show_led>
+        <square_button>true</square_button>
+        <toggle_button>true</toggle_button>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <visible>true</visible>
+        <widget_type>Boolean Button</widget_type>
+        <width>500</width>
+        <wuid>-66f05471:16929f23919:-7ae7</wuid>
+        <x>0</x>
+        <y>15</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+        <actions hook="false" hook_all="true">
+          <action type="WRITE_PV">
+            <pv_name>$(pv_name)</pv_name>
+            <value>ack</value>
+            <timeout>10</timeout>
+            <confirm_message></confirm_message>
+            <description>Acknowledge 6000 alarms</description>
+          </action>
+        </actions>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>6</border_style>
+        <border_width>2</border_width>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO Foreground" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>52</height>
+        <image></image>
+        <name>Ack 6000 IOERR</name>
+        <push_action_index>0</push_action_index>
+        <pv_name>beast://BUIL/Automation/Flurry</pv_name>
+        <pv_value />
+        <rules />
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <style>1</style>
+        <text>$(actions)</text>
+        <toggle_button>false</toggle_button>
+        <tooltip>Acknowledge 6000 IOERR alarms</tooltip>
+        <visible>true</visible>
+        <widget_type>Action Button</widget_type>
+        <width>75</width>
+        <wuid>-66f05471:16929f23919:-6d19</wuid>
+        <x>212</x>
+        <y>136</y>
+      </widget>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="true" hook_all="true">
       <action type="WRITE_PV">
         <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
-        <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL:15KV_ACT_POWER COMPONENT=BUIL:15KV_ACT_POWER</value>
+        <value>faceplates/AnalogProbe.opi PROBE_PV=BUIL-SRVY:15KV_ACT_POWER COMPONENT=BUIL-SRVY:15KV_ACT_POWER</value>
         <timeout>10</timeout>
         <confirm_message></confirm_message>
         <description>Load the component faceplate</description>
@@ -3755,8 +3858,8 @@ $(pv_value)</tooltip>
       </line_color>
       <line_style>0</line_style>
       <line_width>0</line_width>
-      <name>BUIL:15KV_ACT_POWER</name>
-      <pv_name>BUIL:15KV_ACT_POWER</pv_name>
+      <name>BUIL-SRVY:15KV_ACT_POWER</name>
+      <pv_name>BUIL-SRVY:15KV_ACT_POWER</pv_name>
       <pv_value />
       <rules>
         <rule name="ClearedUn-acknowledgedAlarmLED" prop_id="visible" out_exp="false">
@@ -3894,392 +3997,6 @@ $(pv_value)</tooltip>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
     <src_term>RIGHT</src_term>
     <src_wuid>-3f6ea216:16717674b54:-5404</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-655f</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points>
-      <point x="1596" y="1759" />
-      <point x="27" y="1759" />
-      <point x="27" y="1244" />
-    </points>
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-bad</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_-3f6ea216:16717674b54:-5404</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-5403</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>7769493c:155a056b0e9:-753b</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-2cd5</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-11ba</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-655f</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-2ccf</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-11b9</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-59e8</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-11b9</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-657d</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-59e8</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points>
-      <point x="1052" y="7" />
-      <point x="616" y="7" />
-    </points>
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-753b</src_path>
-    <src_term>TOP</src_term>
-    <src_wuid>7769493c:155a056b0e9:-753a</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points>
-      <point x="1597" y="1315" />
-      <point x="1597" y="1214" />
-      <point x="1596" y="1214" />
-    </points>
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-11ba</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-75f1</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-753b</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-753a</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-5404</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-657d</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-657d</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-2cd5</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-6575</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-59f0</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-5404</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50_-3f6ea216:16717674b54:-6575</tgt_path>
     <tgt_term>LEFT</tgt_term>
     <tgt_wuid>-3f6ea216:16717674b54:-6574</tgt_wuid>
@@ -4330,17 +4047,66 @@ $(pv_value)</tooltip>
     <line_width>4</line_width>
     <name>Connection Template</name>
     <points>
-      <point x="1597" y="1692" />
-      <point x="1597" y="1214" />
-      <point x="1596" y="1214" />
+      <point x="340" y="497" />
+      <point x="340" y="196" />
     </points>
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>LEFT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-11b4</src_wuid>
+    <src_wuid>-3f6ea216:16717674b54:-6575</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-59f0</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-655f</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-2ccf</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -4366,81 +4132,6 @@ $(pv_value)</tooltip>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
     <tgt_term>LEFT</tgt_term>
     <tgt_wuid>-3f6ea216:16717674b54:-11b4</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-6575</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-2cd2</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>15</arrow_length>
-    <arrows>0</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-13b5</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
-    <widget_type>connection</widget_type>
-    <wuid>-19d36239:134b27295e1:-7d63</wuid>
-  </connection>
-  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
-    <anti_alias>true</anti_alias>
-    <arrow_length>30</arrow_length>
-    <arrows>2</arrows>
-    <fill_arrow>true</fill_arrow>
-    <line_color>
-      <color name="IO Link" red="0" green="0" blue="0" />
-    </line_color>
-    <line_jump_add>1</line_jump_add>
-    <line_jump_size>10</line_jump_size>
-    <line_jump_style>1</line_jump_style>
-    <line_style>0</line_style>
-    <line_width>4</line_width>
-    <name>Connection Template</name>
-    <points />
-    <router>0</router>
-    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>BOTTOM</src_term>
-    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-752f</tgt_path>
-    <tgt_term>TOP</tgt_term>
-    <tgt_wuid>7769493c:155a056b0e9:-752e</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -4515,6 +4206,85 @@ $(pv_value)</tooltip>
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
     <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-13b5</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1596" y="1759" />
+      <point x="27" y="1759" />
+      <point x="27" y="1244" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-bad</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_-3f6ea216:16717674b54:-5404</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-5403</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-655f</src_wuid>
+    <tgt_path>-3f6ea216:16717674b54:-59e0</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-59df</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
     <src_wuid>-3f6ea216:16717674b54:-2cd2</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
     <tgt_term>LEFT</tgt_term>
@@ -4540,10 +4310,85 @@ $(pv_value)</tooltip>
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-13b9</src_wuid>
+    <src_wuid>-3f6ea216:16717674b54:-2cd5</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-11ba</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-59f0</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-13b5</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-11b9</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
     <tgt_term>TOP</tgt_term>
     <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -4591,16 +4436,145 @@ $(pv_value)</tooltip>
     <line_width>4</line_width>
     <name>Connection Template</name>
     <points>
-      <point x="340" y="497" />
-      <point x="340" y="196" />
+      <point x="1597" y="1315" />
+      <point x="1597" y="1214" />
+      <point x="1596" y="1214" />
     </points>
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>LEFT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
-    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-11ba</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-657d</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
     <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-59e8</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1052" y="7" />
+      <point x="616" y="7" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-753b</src_path>
+    <src_term>TOP</src_term>
+    <src_wuid>7769493c:155a056b0e9:-753a</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>TOP</tgt_term>
     <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-5404</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-657d</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-59e8</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-11b9</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-13b9</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -4621,10 +4595,10 @@ $(pv_value)</tooltip>
     <points />
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
-    <src_term>RIGHT</src_term>
-    <src_wuid>7769493c:155a056b0e9:-752f</src_wuid>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-753b</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7535</tgt_path>
-    <tgt_term>LEFT</tgt_term>
+    <tgt_term>TOP</tgt_term>
     <tgt_wuid>7769493c:155a056b0e9:-7534</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
@@ -4647,10 +4621,64 @@ $(pv_value)</tooltip>
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-655f</src_wuid>
-    <tgt_path>-3f6ea216:16717674b54:-59e0</tgt_path>
+    <src_wuid>-3f6ea216:16717674b54:-5404</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
     <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-59df</tgt_wuid>
+    <tgt_wuid>-3f6ea216:16717674b54:-655f</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-75f7</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-75f1</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-7541</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-7540</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points>
+      <point x="1597" y="1692" />
+      <point x="1597" y="1214" />
+      <point x="1596" y="1214" />
+    </points>
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-11b4</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-bad</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>
@@ -4672,10 +4700,85 @@ $(pv_value)</tooltip>
     <router>0</router>
     <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
     <src_term>RIGHT</src_term>
-    <src_wuid>-3f6ea216:16717674b54:-59f0</src_wuid>
+    <src_wuid>-3f6ea216:16717674b54:-6575</src_wuid>
     <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
     <tgt_term>LEFT</tgt_term>
-    <tgt_wuid>-3f6ea216:16717674b54:-13b5</tgt_wuid>
+    <tgt_wuid>-3f6ea216:16717674b54:-2cd2</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>15</arrow_length>
+    <arrows>0</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>-3f6ea216:16717674b54:-657d</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>-3f6ea216:16717674b54:-2cd5</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>RIGHT</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-753b</tgt_path>
+    <tgt_term>LEFT</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-753a</tgt_wuid>
+    <widget_type>connection</widget_type>
+    <wuid>-19d36239:134b27295e1:-7d63</wuid>
+  </connection>
+  <connection typeId="org.csstudio.opibuilder.connection" version="1.0.0">
+    <anti_alias>true</anti_alias>
+    <arrow_length>30</arrow_length>
+    <arrows>2</arrows>
+    <fill_arrow>true</fill_arrow>
+    <line_color>
+      <color name="IO Link" red="0" green="0" blue="0" />
+    </line_color>
+    <line_jump_add>1</line_jump_add>
+    <line_jump_size>10</line_jump_size>
+    <line_jump_style>1</line_jump_style>
+    <line_style>0</line_style>
+    <line_width>4</line_width>
+    <name>Connection Template</name>
+    <points />
+    <router>0</router>
+    <src_path>-28c93393:14b0cb4ebee:-6a50</src_path>
+    <src_term>BOTTOM</src_term>
+    <src_wuid>7769493c:155a056b0e9:-7541</src_wuid>
+    <tgt_path>-28c93393:14b0cb4ebee:-6a50_7769493c:155a056b0e9:-752f</tgt_path>
+    <tgt_term>TOP</tgt_term>
+    <tgt_wuid>7769493c:155a056b0e9:-752e</tgt_wuid>
     <widget_type>connection</widget_type>
     <wuid>-19d36239:134b27295e1:-7d63</wuid>
   </connection>

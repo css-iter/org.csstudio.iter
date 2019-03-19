@@ -1,6 +1,6 @@
 <!--
- $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-codac-unit-api/trunk/src/main/resources/pom-unit.xml $
- $Id: pom-unit.xml 54863 2015-02-20 21:39:47Z zagara $
+ $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-css-iter/trunk/src/main/tycho/org.csstudio.iter/products/org.csstudio.iter.css.product/demo/m-TEST/pom.xml $
+ $Id: pom.xml 97320 2019-01-29 17:17:28Z utzeln $
 
  Project       : CODAC Core System
 
@@ -78,12 +78,28 @@
                         </package>
                         <package name="alarm">
                             <include type="beast" configuration="CTRL-beast.xml" />
+                            <include configuration="BUIL-beast.xml" type="beast" />
+                            <include configuration="UTIL-beast.xml" type="beast" />
                         </package>
                         <package name="archive">
                             <include type="beauty" configuration="CTRL-beauty.xml" />
+                            <include configuration="BUIL-beauty.xml" type="beauty" />
+                            <include configuration="UTIL-beauty.xml" type="beauty" />
                         </package>
                         <package name="CTRL-SUP-PSH0PLC-ioc">
                             <include type="ioc" name="CTRL-SUP-PSH0PLC" />
+                        </package>
+                        <package name="BUIL-SRVY-PSH0CORE-ioc">
+                            <include name="BUIL-SRVY-PSH0CORE" type="ioc" />
+                        </package>
+                        <package name="BUIL-SRVY-PSH0SYSM-ioc">
+                            <include name="BUIL-SRVY-PSH0SYSM" type="ioc" />
+                        </package>
+                        <package name="UTIL-S15-PSH0CORE-ioc">
+                            <include name="UTIL-S15-PSH0CORE" type="ioc" />
+                        </package>
+                        <package name="UTIL-S15-PSH0SYSM-ioc">
+                            <include name="UTIL-S15-PSH0SYSM" type="ioc" />
                         </package>
                     </packaging>
                 </configuration>

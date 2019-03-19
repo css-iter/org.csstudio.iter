@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+ <pvtable version="3.0" >
+     <nbMeasure >1</nbMeasure>
+
+     <pvlist >
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:HIGH-CHECK</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:HIGH-SWITCH</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:IOC-TIME</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:LOW-CHECK</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:LOW-SWITCH</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:MID-CHECK</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:MID-SWITCH</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:MID-SWITCH-FAIL</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:MID-TIMER</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:PUMP</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:TANK-HIGH</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:TANK-INTERLOCK</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:TANK-LEVEL</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:TANK-LOW</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:TANK-MID</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:TANK-MODE</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:TIMER-CHECK</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-BEAS:TIMER-START</name>
+</pv>
+</pvlist>
+</pvtable>

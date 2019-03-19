@@ -1,18 +1,24 @@
 TYPE "sCTRL_SUP_CSS"
+TITLE =User data type for CTRL-SUP-CSS Codac States
+AUTHOR  : ITER
+FAMILY  : SDD
+
 	STRUCT
-		VAR1 : BYTE ;	
+		VAR1 : BYTE ;						 // VAR1
 	END_STRUCT ;	
 END_TYPE
 
-
-
-
+//----------------------------------------------------------------------------------
 
 
 DATA_BLOCK "CodacStates"
+TITLE =Data block for Codac States
+AUTHOR  : ITER
+FAMILY  : SDD
+
 	STRUCT 	
 	Header : "CodacStatesHeader" ;	
-	CTRL_SUP_CSS : "sCTRL_SUP_CSS" ;
+	CTRL_SUP_CSS : "sCTRL_SUP_CSS" ;		// CS-Studio tools test
    Footer : "CodacStatesFooter" ;	
   END_STRUCT ;	
 BEGIN
@@ -23,6 +29,10 @@ END_DATA_BLOCK
 
 
 DATA_BLOCK "CodacChannels"
+TITLE =Data block for Codac communication parameters
+AUTHOR  : ITER
+FAMILY  : SPSS
+
   STRUCT 	
    channel1 : "UCodacChannel" ;	//State and configuration
    channel2 : "UCodacChannel" ;	//Simple commands

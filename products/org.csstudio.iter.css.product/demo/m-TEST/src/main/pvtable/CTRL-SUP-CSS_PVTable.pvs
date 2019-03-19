@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+
+ <pvtable version="3.0" >
+     <nbMeasure >1</nbMeasure>
+
+     <pvlist >
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:ACQ-STATE</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:ALRM-BEAS</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:ALRM-BEAU</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:ALRM-BOY</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:AMPL</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:DEMO-ALARM-SERVER-HEARTBEAT</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:FREQ</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:GENERATOR-STATE</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:SIG-GENERATED</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:SIG-STATE</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:SIMULATION</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:SINE-CALC</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:START-ACQ</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:TEMP</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:TIME</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:TRACEMSG</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:VAR1</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:VERSION</name>
+</pv>
+
+         <pv >
+             <selected >true</selected>
+
+             <name >CTRL-SUP-CSS:WAVEFORM-TYPE</name>
+</pv>
+</pvlist>
+</pvtable>

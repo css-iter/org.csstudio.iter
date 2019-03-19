@@ -1,6 +1,6 @@
 #+======================================================================
-# $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-epics-iter-templates/trunk/templates/sddconfApp/src/Makefile $
-# $Id: Makefile 54863 2015-02-20 21:39:47Z zagara $
+# $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-css-iter/trunk/src/main/tycho/org.csstudio.iter/products/org.csstudio.iter.css.product/demo/m-TEST/src/main/epics/CTRL-SUPApp/src/Makefile $
+# $Id: Makefile 97320 2019-01-29 17:17:28Z utzeln $
 #
 # Project       : CODAC Core System
 #

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+ <pvtable version="3.0" >
+     <nbMeasure >1</nbMeasure>
+
+     <pvlist >
+         <pv >
+             <selected >true</selected>
+
+             <name >UTIL-S15-0000:15KV_ACT_POWER</name>
+</pv>
+</pvlist>
+</pvtable>
