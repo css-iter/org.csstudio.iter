@@ -353,7 +353,7 @@ $(trace_0_y_pv_value)</tooltip>
       <y>504</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="false" hook_all="false" />
+      <actions hook="true" hook_all="true" />
       <background_color>
         <color name="IO Background" red="235" green="235" blue="235" />
       </background_color>
@@ -393,7 +393,15 @@ $(trace_0_y_pv_value)</tooltip>
       <x>2200</x>
       <y>10</y>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-        <actions hook="false" hook_all="false" />
+        <actions hook="true" hook_all="true">
+          <action type="WRITE_PV">
+            <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+            <value>faceplates/DigitalOutProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
+            <timeout>10</timeout>
+            <confirm_message></confirm_message>
+            <description>Load the component faceplate</description>
+          </action>
+        </actions>
         <alarm_pulsing>false</alarm_pulsing>
         <auto_size>false</auto_size>
         <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
@@ -417,7 +425,7 @@ $(trace_0_y_pv_value)</tooltip>
         <format_type>0</format_type>
         <height>41</height>
         <horizontal_alignment>0</horizontal_alignment>
-        <name>DEMO ALARM SERVER HEARTBEAT</name>
+        <name>CTRL-SUP-CSS:DEMO-ALARM-SERVER-HEARTBEAT</name>
         <precision>0</precision>
         <precision_from_pv>true</precision_from_pv>
         <pv_name>CTRL-SUP-CSS:DEMO-ALARM-SERVER-HEARTBEAT</pv_name>
@@ -445,7 +453,15 @@ $(pv_value)</tooltip>
         <y>24</y>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
-        <actions hook="false" hook_all="false" />
+        <actions hook="true" hook_all="true">
+          <action type="WRITE_PV">
+            <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+            <value>faceplates/DigitalOutProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
+            <timeout>10</timeout>
+            <confirm_message></confirm_message>
+            <description>Load the component faceplate</description>
+          </action>
+        </actions>
         <alarm_pulsing>false</alarm_pulsing>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <background_color>
@@ -473,7 +489,7 @@ $(pv_value)</tooltip>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
         <height>39</height>
-        <name>DEMO ALARM SERVER HEARTBEAT</name>
+        <name>CTRL-SUP-CSS:DEMO-ALARM-SERVER-HEARTBEAT</name>
         <off_color>
           <color name="IO PV OFF" red="149" green="125" blue="71" />
         </off_color>
@@ -575,33 +591,45 @@ $(pv_value)</tooltip>
       <wuid>-51e0fad0:165d309fe1e:-77c1</wuid>
       <x>2200</x>
       <y>276</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
-        <actions hook="false" hook_all="false" />
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="WRITE_PV">
+            <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+            <value>faceplates/MultiBitBinaryInputProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
+            <timeout>10</timeout>
+            <confirm_message></confirm_message>
+            <description>Load the component faceplate</description>
+          </action>
+        </actions>
         <alarm_pulsing>false</alarm_pulsing>
+        <auto_size>false</auto_size>
         <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
         <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
         </background_color>
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
+          <color name="IO Button" red="178" green="178" blue="178" />
         </border_color>
-        <border_style>6</border_style>
-        <border_width>2</border_width>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="0" blue="0" />
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
+        <format_type>0</format_type>
         <height>400</height>
-        <horizontal>false</horizontal>
-        <items_from_pv>true</items_from_pv>
-        <name>SEVRPV</name>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>CTRL-SUP-CSS:ALRM-BOY</name>
+        <precision>0</precision>
+        <precision_from_pv>true</precision_from_pv>
         <pv_name>CTRL-SUP-CSS:ALRM-BOY</pv_name>
         <pv_value />
+        <rotation_angle>0.0</rotation_angle>
         <rules />
         <scale_options>
           <width_scalable>false</width_scalable>
@@ -609,15 +637,17 @@ $(pv_value)</tooltip>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <scripts />
-        <selected_color>
-          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
-        </selected_color>
+        <show_units>true</show_units>
+        <text>######</text>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
-        <widget_type>Choice Button</widget_type>
+        <widget_type>Text Update</widget_type>
         <width>612</width>
-        <wuid>5cad586e:165d2fb465d:-7fb5</wuid>
+        <wrap_words>false</wrap_words>
+        <wuid>-4f06800b:1699badac2c:-550a</wuid>
         <x>0</x>
         <y>0</y>
       </widget>
@@ -662,33 +692,45 @@ $(pv_value)</tooltip>
       <wuid>-51e0fad0:165d309fe1e:-71bc</wuid>
       <x>2200</x>
       <y>759</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
-        <actions hook="false" hook_all="false" />
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="WRITE_PV">
+            <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+            <value>faceplates/MultiBitBinaryInputProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
+            <timeout>10</timeout>
+            <confirm_message></confirm_message>
+            <description>Load the component faceplate</description>
+          </action>
+        </actions>
         <alarm_pulsing>false</alarm_pulsing>
+        <auto_size>false</auto_size>
         <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
         <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
         </background_color>
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
+          <color name="IO Button" red="178" green="178" blue="178" />
         </border_color>
-        <border_style>6</border_style>
-        <border_width>2</border_width>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="0" blue="0" />
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
+        <format_type>0</format_type>
         <height>400</height>
-        <horizontal>false</horizontal>
-        <items_from_pv>true</items_from_pv>
-        <name>SEVRPV</name>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>CTRL-SUP-CSS:ALRM-BEAS</name>
+        <precision>0</precision>
+        <precision_from_pv>true</precision_from_pv>
         <pv_name>CTRL-SUP-CSS:ALRM-BEAS</pv_name>
         <pv_value />
+        <rotation_angle>0.0</rotation_angle>
         <rules />
         <scale_options>
           <width_scalable>false</width_scalable>
@@ -696,15 +738,17 @@ $(pv_value)</tooltip>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <scripts />
-        <selected_color>
-          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
-        </selected_color>
+        <show_units>true</show_units>
+        <text>######</text>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
-        <widget_type>Choice Button</widget_type>
+        <widget_type>Text Update</widget_type>
         <width>612</width>
-        <wuid>-51e0fad0:165d309fe1e:-71bb</wuid>
+        <wrap_words>false</wrap_words>
+        <wuid>-4f06800b:1699badac2c:-4a30</wuid>
         <x>0</x>
         <y>0</y>
       </widget>
@@ -749,33 +793,45 @@ $(pv_value)</tooltip>
       <wuid>-51e0fad0:165d309fe1e:-71b1</wuid>
       <x>2200</x>
       <y>1242</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
-        <actions hook="false" hook_all="false" />
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="WRITE_PV">
+            <pv_name>loc://$(DID)_FACEPLATE("")</pv_name>
+            <value>faceplates/MultiBitBinaryInputProbe.opi PROBE_PV=$(pv_name) COMPONENT=$(name)</value>
+            <timeout>10</timeout>
+            <confirm_message></confirm_message>
+            <description>Load the component faceplate</description>
+          </action>
+        </actions>
         <alarm_pulsing>false</alarm_pulsing>
+        <auto_size>false</auto_size>
         <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
         <background_color>
-          <color name="IO Background" red="235" green="235" blue="235" />
+          <color name="IO InputPV Bg" red="235" green="235" blue="235" />
         </background_color>
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <border_color>
-          <color name="IO Border" red="0" green="0" blue="0" />
+          <color name="IO Button" red="178" green="178" blue="178" />
         </border_color>
-        <border_style>6</border_style>
-        <border_width>2</border_width>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+          <opifont.name fontName="DejaVu Sans Mono" height="36" style="0" pixels="false">IO Title</opifont.name>
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
-          <color name="IO Text Fg" red="0" green="0" blue="0" />
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
+        <format_type>0</format_type>
         <height>400</height>
-        <horizontal>false</horizontal>
-        <items_from_pv>true</items_from_pv>
-        <name>SEVRPV</name>
+        <horizontal_alignment>1</horizontal_alignment>
+        <name>CTRL-SUP-CSS:ALRM-BEAU</name>
+        <precision>0</precision>
+        <precision_from_pv>true</precision_from_pv>
         <pv_name>CTRL-SUP-CSS:ALRM-BEAU</pv_name>
         <pv_value />
+        <rotation_angle>0.0</rotation_angle>
         <rules />
         <scale_options>
           <width_scalable>false</width_scalable>
@@ -783,15 +839,17 @@ $(pv_value)</tooltip>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <scripts />
-        <selected_color>
-          <color name="IO OutputPV Bg" red="255" green="255" blue="255" />
-        </selected_color>
+        <show_units>true</show_units>
+        <text>######</text>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
+        <transparent>false</transparent>
+        <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
-        <widget_type>Choice Button</widget_type>
+        <widget_type>Text Update</widget_type>
         <width>612</width>
-        <wuid>-51e0fad0:165d309fe1e:-71b0</wuid>
+        <wrap_words>false</wrap_words>
+        <wuid>-4f06800b:1699badac2c:-48a8</wuid>
         <x>0</x>
         <y>0</y>
       </widget>
