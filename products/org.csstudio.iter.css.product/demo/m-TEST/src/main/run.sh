@@ -85,6 +85,10 @@ function init {
     echo "org.csstudio.diirt.util.core.preferences/diirt.ca.repeater.port=$PORT">>$DEMO_INI_FILE
     echo "org.csstudio.diirt.util.core.preferences/diirt.ca.server.port=$SERVER_PORT">>$DEMO_INI_FILE
 
+    # Setting heartbeat PV 'CTRL-SUP-CSS:DEMO-ALARM-SERVER-HEARTBEAT' every 10 sec
+    echo "# Setting heartbeat PV 'CTRL-SUP-CSS:DEMO-ALARM-SERVER-HEARTBEAT' every 10 sec">>$DEMO_INI_FILE
+    echo "org.csstudio.alarm.beast/heartbeat_pv=CTRL-SUP-CSS:DEMO-ALARM-SERVER-HEARTBEAT">>$DEMO_INI_FILE
+
     DEMO_LOCK="/tmp/demo_$PORT.lock"
     WORKSPACE_FILE="/tmp/CSS-Workspaces_$PORT" 
 
@@ -98,7 +102,7 @@ function init {
     css-alarm-annunciator stop
     css-archive-engine stop
 
-    # Start cs-studio GUI
+    # Configure cs-studio GUI
     echo "# OPI settings">>$DEMO_INI_FILE
     echo "org.csstudio.opibuilder/macros=MIMIC_FILE,templates/ITER_Mimic|TITLE, DEMO SUPERVISION|ALARM_ROOT,/ITER">>$DEMO_INI_FILE
     
@@ -119,8 +123,6 @@ function start {
     archive
 
     # Start cs-studio GUI
-    echo "# OPI settings">>$DEMO_INI_FILE
-    echo "org.csstudio.opibuilder/macros=MIMIC_FILE,templates/ITER_Mimic|TITLE, DEMO SUPERVISION|ALARM_ROOT,/ITER">>$DEMO_INI_FILE
     css
 
     CMD="gnome-terminal "${options[@]}""
