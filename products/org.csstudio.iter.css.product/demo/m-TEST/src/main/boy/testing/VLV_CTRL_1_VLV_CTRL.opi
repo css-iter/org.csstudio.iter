@@ -555,7 +555,7 @@ Total Objects: 250</TITLE>
             <TAG>VC101</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC101</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -597,7 +597,7 @@ Total Objects: 250</TITLE>
             <TAG>VC102</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC102</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -639,7 +639,7 @@ Total Objects: 250</TITLE>
             <TAG>VC103</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC103</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -681,7 +681,7 @@ Total Objects: 250</TITLE>
             <TAG>VC104</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC104</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -723,7 +723,7 @@ Total Objects: 250</TITLE>
             <TAG>VC105</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC105</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -765,7 +765,7 @@ Total Objects: 250</TITLE>
             <TAG>VC106</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC106</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -807,7 +807,7 @@ Total Objects: 250</TITLE>
             <TAG>VC107</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC107</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -849,7 +849,7 @@ Total Objects: 250</TITLE>
             <TAG>VC108</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC108</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -891,7 +891,7 @@ Total Objects: 250</TITLE>
             <TAG>VC109</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC109</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -933,7 +933,7 @@ Total Objects: 250</TITLE>
             <TAG>VC110</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC110</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -975,7 +975,7 @@ Total Objects: 250</TITLE>
             <TAG>VC111</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC111</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1017,7 +1017,7 @@ Total Objects: 250</TITLE>
             <TAG>VC112</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC112</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1059,7 +1059,7 @@ Total Objects: 250</TITLE>
             <TAG>VC113</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC113</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1101,7 +1101,7 @@ Total Objects: 250</TITLE>
             <TAG>VC114</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC114</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1143,7 +1143,7 @@ Total Objects: 250</TITLE>
             <TAG>VC115</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC115</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1185,7 +1185,7 @@ Total Objects: 250</TITLE>
             <TAG>VC116</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC116</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1227,7 +1227,7 @@ Total Objects: 250</TITLE>
             <TAG>VC117</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC117</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1269,7 +1269,7 @@ Total Objects: 250</TITLE>
             <TAG>VC118</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC118</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1311,7 +1311,7 @@ Total Objects: 250</TITLE>
             <TAG>VC119</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC119</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1353,7 +1353,7 @@ Total Objects: 250</TITLE>
             <TAG>VC120</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC120</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1395,7 +1395,7 @@ Total Objects: 250</TITLE>
             <TAG>VC121</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC121</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1437,7 +1437,7 @@ Total Objects: 250</TITLE>
             <TAG>VC122</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC122</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1479,7 +1479,7 @@ Total Objects: 250</TITLE>
             <TAG>VC123</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC123</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1521,7 +1521,7 @@ Total Objects: 250</TITLE>
             <TAG>VC124</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC124</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1563,7 +1563,7 @@ Total Objects: 250</TITLE>
             <TAG>VC125</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC125</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1605,7 +1605,7 @@ Total Objects: 250</TITLE>
             <TAG>VC126</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC126</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1647,7 +1647,7 @@ Total Objects: 250</TITLE>
             <TAG>VC127</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC127</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1689,7 +1689,7 @@ Total Objects: 250</TITLE>
             <TAG>VC128</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC128</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1731,7 +1731,7 @@ Total Objects: 250</TITLE>
             <TAG>VC129</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC129</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1773,7 +1773,7 @@ Total Objects: 250</TITLE>
             <TAG>VC130</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC130</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1815,7 +1815,7 @@ Total Objects: 250</TITLE>
             <TAG>VC131</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC131</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1857,7 +1857,7 @@ Total Objects: 250</TITLE>
             <TAG>VC132</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC132</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1899,7 +1899,7 @@ Total Objects: 250</TITLE>
             <TAG>VC133</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC133</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1941,7 +1941,7 @@ Total Objects: 250</TITLE>
             <TAG>VC134</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC134</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -1983,7 +1983,7 @@ Total Objects: 250</TITLE>
             <TAG>VC135</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC135</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2025,7 +2025,7 @@ Total Objects: 250</TITLE>
             <TAG>VC136</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC136</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2067,7 +2067,7 @@ Total Objects: 250</TITLE>
             <TAG>VC137</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC137</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2109,7 +2109,7 @@ Total Objects: 250</TITLE>
             <TAG>VC138</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC138</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2151,7 +2151,7 @@ Total Objects: 250</TITLE>
             <TAG>VC139</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC139</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2193,7 +2193,7 @@ Total Objects: 250</TITLE>
             <TAG>VC140</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC140</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2235,7 +2235,7 @@ Total Objects: 250</TITLE>
             <TAG>VC141</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC141</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2277,7 +2277,7 @@ Total Objects: 250</TITLE>
             <TAG>VC142</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC142</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2319,7 +2319,7 @@ Total Objects: 250</TITLE>
             <TAG>VC143</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC143</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2361,7 +2361,7 @@ Total Objects: 250</TITLE>
             <TAG>VC144</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC144</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2403,7 +2403,7 @@ Total Objects: 250</TITLE>
             <TAG>VC145</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC145</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2445,7 +2445,7 @@ Total Objects: 250</TITLE>
             <TAG>VC146</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC146</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2487,7 +2487,7 @@ Total Objects: 250</TITLE>
             <TAG>VC147</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC147</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2529,7 +2529,7 @@ Total Objects: 250</TITLE>
             <TAG>VC148</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC148</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2571,7 +2571,7 @@ Total Objects: 250</TITLE>
             <TAG>VC149</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC149</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2613,7 +2613,7 @@ Total Objects: 250</TITLE>
             <TAG>VC150</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC150</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2655,7 +2655,7 @@ Total Objects: 250</TITLE>
             <TAG>VC151</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC151</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2697,7 +2697,7 @@ Total Objects: 250</TITLE>
             <TAG>VC152</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC152</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2739,7 +2739,7 @@ Total Objects: 250</TITLE>
             <TAG>VC153</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC153</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2781,7 +2781,7 @@ Total Objects: 250</TITLE>
             <TAG>VC154</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC154</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2823,7 +2823,7 @@ Total Objects: 250</TITLE>
             <TAG>VC155</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC155</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2865,7 +2865,7 @@ Total Objects: 250</TITLE>
             <TAG>VC156</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC156</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2907,7 +2907,7 @@ Total Objects: 250</TITLE>
             <TAG>VC157</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC157</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2949,7 +2949,7 @@ Total Objects: 250</TITLE>
             <TAG>VC158</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC158</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -2991,7 +2991,7 @@ Total Objects: 250</TITLE>
             <TAG>VC159</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC159</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3033,7 +3033,7 @@ Total Objects: 250</TITLE>
             <TAG>VC160</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC160</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3075,7 +3075,7 @@ Total Objects: 250</TITLE>
             <TAG>VC161</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC161</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3117,7 +3117,7 @@ Total Objects: 250</TITLE>
             <TAG>VC162</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC162</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3159,7 +3159,7 @@ Total Objects: 250</TITLE>
             <TAG>VC163</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC163</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3201,7 +3201,7 @@ Total Objects: 250</TITLE>
             <TAG>VC164</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC164</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3243,7 +3243,7 @@ Total Objects: 250</TITLE>
             <TAG>VC165</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC165</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3285,7 +3285,7 @@ Total Objects: 250</TITLE>
             <TAG>VC166</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC166</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3327,7 +3327,7 @@ Total Objects: 250</TITLE>
             <TAG>VC167</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC167</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3369,7 +3369,7 @@ Total Objects: 250</TITLE>
             <TAG>VC168</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC168</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3411,7 +3411,7 @@ Total Objects: 250</TITLE>
             <TAG>VC169</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC169</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3453,7 +3453,7 @@ Total Objects: 250</TITLE>
             <TAG>VC170</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC170</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3495,7 +3495,7 @@ Total Objects: 250</TITLE>
             <TAG>VC171</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC171</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3537,7 +3537,7 @@ Total Objects: 250</TITLE>
             <TAG>VC172</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC172</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3579,7 +3579,7 @@ Total Objects: 250</TITLE>
             <TAG>VC173</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC173</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3621,7 +3621,7 @@ Total Objects: 250</TITLE>
             <TAG>VC174</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC174</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3663,7 +3663,7 @@ Total Objects: 250</TITLE>
             <TAG>VC175</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC175</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3705,7 +3705,7 @@ Total Objects: 250</TITLE>
             <TAG>VC176</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC176</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3747,7 +3747,7 @@ Total Objects: 250</TITLE>
             <TAG>VC177</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC177</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3789,7 +3789,7 @@ Total Objects: 250</TITLE>
             <TAG>VC178</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC178</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3831,7 +3831,7 @@ Total Objects: 250</TITLE>
             <TAG>VC179</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC179</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3873,7 +3873,7 @@ Total Objects: 250</TITLE>
             <TAG>VC180</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC180</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3915,7 +3915,7 @@ Total Objects: 250</TITLE>
             <TAG>VC181</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC181</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3957,7 +3957,7 @@ Total Objects: 250</TITLE>
             <TAG>VC182</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC182</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -3999,7 +3999,7 @@ Total Objects: 250</TITLE>
             <TAG>VC183</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC183</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4041,7 +4041,7 @@ Total Objects: 250</TITLE>
             <TAG>VC184</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC184</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4083,7 +4083,7 @@ Total Objects: 250</TITLE>
             <TAG>VC185</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC185</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4125,7 +4125,7 @@ Total Objects: 250</TITLE>
             <TAG>VC186</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC186</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4167,7 +4167,7 @@ Total Objects: 250</TITLE>
             <TAG>VC187</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC187</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4209,7 +4209,7 @@ Total Objects: 250</TITLE>
             <TAG>VC188</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC188</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4251,7 +4251,7 @@ Total Objects: 250</TITLE>
             <TAG>VC189</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC189</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4293,7 +4293,7 @@ Total Objects: 250</TITLE>
             <TAG>VC190</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC190</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4335,7 +4335,7 @@ Total Objects: 250</TITLE>
             <TAG>VC191</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC191</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4377,7 +4377,7 @@ Total Objects: 250</TITLE>
             <TAG>VC192</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC192</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4419,7 +4419,7 @@ Total Objects: 250</TITLE>
             <TAG>VC193</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC193</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4461,7 +4461,7 @@ Total Objects: 250</TITLE>
             <TAG>VC194</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC194</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4503,7 +4503,7 @@ Total Objects: 250</TITLE>
             <TAG>VC195</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC195</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4545,7 +4545,7 @@ Total Objects: 250</TITLE>
             <TAG>VC196</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC196</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4587,7 +4587,7 @@ Total Objects: 250</TITLE>
             <TAG>VC197</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC197</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4629,7 +4629,7 @@ Total Objects: 250</TITLE>
             <TAG>VC198</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC198</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4671,7 +4671,7 @@ Total Objects: 250</TITLE>
             <TAG>VC199</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC199</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4713,7 +4713,7 @@ Total Objects: 250</TITLE>
             <TAG>VC200</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC200</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4755,7 +4755,7 @@ Total Objects: 250</TITLE>
             <TAG>VC201</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC201</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4797,7 +4797,7 @@ Total Objects: 250</TITLE>
             <TAG>VC202</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC202</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4839,7 +4839,7 @@ Total Objects: 250</TITLE>
             <TAG>VC203</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC203</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4881,7 +4881,7 @@ Total Objects: 250</TITLE>
             <TAG>VC204</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC204</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4923,7 +4923,7 @@ Total Objects: 250</TITLE>
             <TAG>VC205</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC205</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -4965,7 +4965,7 @@ Total Objects: 250</TITLE>
             <TAG>VC206</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC206</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5007,7 +5007,7 @@ Total Objects: 250</TITLE>
             <TAG>VC207</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC207</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5049,7 +5049,7 @@ Total Objects: 250</TITLE>
             <TAG>VC208</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC208</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5091,7 +5091,7 @@ Total Objects: 250</TITLE>
             <TAG>VC209</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC209</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5133,7 +5133,7 @@ Total Objects: 250</TITLE>
             <TAG>VC210</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC210</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5175,7 +5175,7 @@ Total Objects: 250</TITLE>
             <TAG>VC211</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC211</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5217,7 +5217,7 @@ Total Objects: 250</TITLE>
             <TAG>VC212</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC212</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5259,7 +5259,7 @@ Total Objects: 250</TITLE>
             <TAG>VC213</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC213</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5301,7 +5301,7 @@ Total Objects: 250</TITLE>
             <TAG>VC214</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC214</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5343,7 +5343,7 @@ Total Objects: 250</TITLE>
             <TAG>VC215</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC215</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5385,7 +5385,7 @@ Total Objects: 250</TITLE>
             <TAG>VC216</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC216</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5427,7 +5427,7 @@ Total Objects: 250</TITLE>
             <TAG>VC217</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC217</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5469,7 +5469,7 @@ Total Objects: 250</TITLE>
             <TAG>VC218</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC218</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5511,7 +5511,7 @@ Total Objects: 250</TITLE>
             <TAG>VC219</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC219</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5553,7 +5553,7 @@ Total Objects: 250</TITLE>
             <TAG>VC220</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC220</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5595,7 +5595,7 @@ Total Objects: 250</TITLE>
             <TAG>VC221</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC221</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5637,7 +5637,7 @@ Total Objects: 250</TITLE>
             <TAG>VC222</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC222</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5679,7 +5679,7 @@ Total Objects: 250</TITLE>
             <TAG>VC223</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC223</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5721,7 +5721,7 @@ Total Objects: 250</TITLE>
             <TAG>VC224</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC224</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5763,7 +5763,7 @@ Total Objects: 250</TITLE>
             <TAG>VC225</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC225</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5805,7 +5805,7 @@ Total Objects: 250</TITLE>
             <TAG>VC226</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC226</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5847,7 +5847,7 @@ Total Objects: 250</TITLE>
             <TAG>VC227</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC227</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5889,7 +5889,7 @@ Total Objects: 250</TITLE>
             <TAG>VC228</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC228</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5931,7 +5931,7 @@ Total Objects: 250</TITLE>
             <TAG>VC229</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC229</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -5973,7 +5973,7 @@ Total Objects: 250</TITLE>
             <TAG>VC230</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC230</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6015,7 +6015,7 @@ Total Objects: 250</TITLE>
             <TAG>VC231</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC231</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6057,7 +6057,7 @@ Total Objects: 250</TITLE>
             <TAG>VC232</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC232</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6099,7 +6099,7 @@ Total Objects: 250</TITLE>
             <TAG>VC233</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC233</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6141,7 +6141,7 @@ Total Objects: 250</TITLE>
             <TAG>VC234</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC234</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6183,7 +6183,7 @@ Total Objects: 250</TITLE>
             <TAG>VC235</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC235</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6225,7 +6225,7 @@ Total Objects: 250</TITLE>
             <TAG>VC236</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC236</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6267,7 +6267,7 @@ Total Objects: 250</TITLE>
             <TAG>VC237</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC237</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6309,7 +6309,7 @@ Total Objects: 250</TITLE>
             <TAG>VC238</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC238</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6351,7 +6351,7 @@ Total Objects: 250</TITLE>
             <TAG>VC239</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC239</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6393,7 +6393,7 @@ Total Objects: 250</TITLE>
             <TAG>VC240</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC240</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6435,7 +6435,7 @@ Total Objects: 250</TITLE>
             <TAG>VC241</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC241</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6477,7 +6477,7 @@ Total Objects: 250</TITLE>
             <TAG>VC242</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC242</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6519,7 +6519,7 @@ Total Objects: 250</TITLE>
             <TAG>VC243</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC243</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6561,7 +6561,7 @@ Total Objects: 250</TITLE>
             <TAG>VC244</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC244</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6603,7 +6603,7 @@ Total Objects: 250</TITLE>
             <TAG>VC245</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC245</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6645,7 +6645,7 @@ Total Objects: 250</TITLE>
             <TAG>VC246</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC246</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6687,7 +6687,7 @@ Total Objects: 250</TITLE>
             <TAG>VC247</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC247</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6729,7 +6729,7 @@ Total Objects: 250</TITLE>
             <TAG>VC248</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC248</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6771,7 +6771,7 @@ Total Objects: 250</TITLE>
             <TAG>VC249</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC249</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6813,7 +6813,7 @@ Total Objects: 250</TITLE>
             <TAG>VC250</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC250</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6855,7 +6855,7 @@ Total Objects: 250</TITLE>
             <TAG>VC251</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC251</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6897,7 +6897,7 @@ Total Objects: 250</TITLE>
             <TAG>VC252</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC252</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6939,7 +6939,7 @@ Total Objects: 250</TITLE>
             <TAG>VC253</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC253</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -6981,7 +6981,7 @@ Total Objects: 250</TITLE>
             <TAG>VC254</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC254</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7023,7 +7023,7 @@ Total Objects: 250</TITLE>
             <TAG>VC255</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC255</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7065,7 +7065,7 @@ Total Objects: 250</TITLE>
             <TAG>VC256</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC256</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7107,7 +7107,7 @@ Total Objects: 250</TITLE>
             <TAG>VC257</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC257</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7149,7 +7149,7 @@ Total Objects: 250</TITLE>
             <TAG>VC258</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC258</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7191,7 +7191,7 @@ Total Objects: 250</TITLE>
             <TAG>VC259</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC259</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7233,7 +7233,7 @@ Total Objects: 250</TITLE>
             <TAG>VC260</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC260</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7275,7 +7275,7 @@ Total Objects: 250</TITLE>
             <TAG>VC261</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC261</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7317,7 +7317,7 @@ Total Objects: 250</TITLE>
             <TAG>VC262</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC262</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7359,7 +7359,7 @@ Total Objects: 250</TITLE>
             <TAG>VC263</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC263</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7401,7 +7401,7 @@ Total Objects: 250</TITLE>
             <TAG>VC264</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC264</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7443,7 +7443,7 @@ Total Objects: 250</TITLE>
             <TAG>VC265</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC265</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7485,7 +7485,7 @@ Total Objects: 250</TITLE>
             <TAG>VC266</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC266</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7527,7 +7527,7 @@ Total Objects: 250</TITLE>
             <TAG>VC267</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC267</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7569,7 +7569,7 @@ Total Objects: 250</TITLE>
             <TAG>VC268</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC268</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7611,7 +7611,7 @@ Total Objects: 250</TITLE>
             <TAG>VC269</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC269</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7653,7 +7653,7 @@ Total Objects: 250</TITLE>
             <TAG>VC270</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC270</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7695,7 +7695,7 @@ Total Objects: 250</TITLE>
             <TAG>VC271</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC271</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7737,7 +7737,7 @@ Total Objects: 250</TITLE>
             <TAG>VC272</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC272</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7779,7 +7779,7 @@ Total Objects: 250</TITLE>
             <TAG>VC273</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC273</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7821,7 +7821,7 @@ Total Objects: 250</TITLE>
             <TAG>VC274</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC274</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7863,7 +7863,7 @@ Total Objects: 250</TITLE>
             <TAG>VC275</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC275</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7905,7 +7905,7 @@ Total Objects: 250</TITLE>
             <TAG>VC276</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC276</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7947,7 +7947,7 @@ Total Objects: 250</TITLE>
             <TAG>VC277</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC277</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -7989,7 +7989,7 @@ Total Objects: 250</TITLE>
             <TAG>VC278</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC278</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8031,7 +8031,7 @@ Total Objects: 250</TITLE>
             <TAG>VC279</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC279</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8073,7 +8073,7 @@ Total Objects: 250</TITLE>
             <TAG>VC280</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC280</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8115,7 +8115,7 @@ Total Objects: 250</TITLE>
             <TAG>VC281</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC281</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8157,7 +8157,7 @@ Total Objects: 250</TITLE>
             <TAG>VC282</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC282</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8199,7 +8199,7 @@ Total Objects: 250</TITLE>
             <TAG>VC283</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC283</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8241,7 +8241,7 @@ Total Objects: 250</TITLE>
             <TAG>VC284</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC284</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8283,7 +8283,7 @@ Total Objects: 250</TITLE>
             <TAG>VC285</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC285</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8325,7 +8325,7 @@ Total Objects: 250</TITLE>
             <TAG>VC286</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC286</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8367,7 +8367,7 @@ Total Objects: 250</TITLE>
             <TAG>VC287</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC287</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8409,7 +8409,7 @@ Total Objects: 250</TITLE>
             <TAG>VC288</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC288</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8451,7 +8451,7 @@ Total Objects: 250</TITLE>
             <TAG>VC289</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC289</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8493,7 +8493,7 @@ Total Objects: 250</TITLE>
             <TAG>VC290</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC290</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8535,7 +8535,7 @@ Total Objects: 250</TITLE>
             <TAG>VC291</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC291</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8577,7 +8577,7 @@ Total Objects: 250</TITLE>
             <TAG>VC292</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC292</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8619,7 +8619,7 @@ Total Objects: 250</TITLE>
             <TAG>VC293</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC293</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8661,7 +8661,7 @@ Total Objects: 250</TITLE>
             <TAG>VC294</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC294</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8703,7 +8703,7 @@ Total Objects: 250</TITLE>
             <TAG>VC295</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC295</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8745,7 +8745,7 @@ Total Objects: 250</TITLE>
             <TAG>VC296</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC296</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8787,7 +8787,7 @@ Total Objects: 250</TITLE>
             <TAG>VC297</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC297</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8829,7 +8829,7 @@ Total Objects: 250</TITLE>
             <TAG>VC298</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC298</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8871,7 +8871,7 @@ Total Objects: 250</TITLE>
             <TAG>VC299</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC299</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8913,7 +8913,7 @@ Total Objects: 250</TITLE>
             <TAG>VC300</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC300</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8955,7 +8955,7 @@ Total Objects: 250</TITLE>
             <TAG>VC301</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC301</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -8997,7 +8997,7 @@ Total Objects: 250</TITLE>
             <TAG>VC302</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC302</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9039,7 +9039,7 @@ Total Objects: 250</TITLE>
             <TAG>VC303</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC303</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9081,7 +9081,7 @@ Total Objects: 250</TITLE>
             <TAG>VC304</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC304</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9123,7 +9123,7 @@ Total Objects: 250</TITLE>
             <TAG>VC305</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC305</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9165,7 +9165,7 @@ Total Objects: 250</TITLE>
             <TAG>VC306</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC306</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9207,7 +9207,7 @@ Total Objects: 250</TITLE>
             <TAG>VC307</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC307</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9249,7 +9249,7 @@ Total Objects: 250</TITLE>
             <TAG>VC308</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC308</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9291,7 +9291,7 @@ Total Objects: 250</TITLE>
             <TAG>VC309</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC309</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9333,7 +9333,7 @@ Total Objects: 250</TITLE>
             <TAG>VC310</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC310</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9375,7 +9375,7 @@ Total Objects: 250</TITLE>
             <TAG>VC311</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC311</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9417,7 +9417,7 @@ Total Objects: 250</TITLE>
             <TAG>VC312</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC312</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9459,7 +9459,7 @@ Total Objects: 250</TITLE>
             <TAG>VC313</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC313</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9501,7 +9501,7 @@ Total Objects: 250</TITLE>
             <TAG>VC314</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC314</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9543,7 +9543,7 @@ Total Objects: 250</TITLE>
             <TAG>VC315</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC315</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9585,7 +9585,7 @@ Total Objects: 250</TITLE>
             <TAG>VC316</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC316</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9627,7 +9627,7 @@ Total Objects: 250</TITLE>
             <TAG>VC317</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC317</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9669,7 +9669,7 @@ Total Objects: 250</TITLE>
             <TAG>VC318</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC318</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9711,7 +9711,7 @@ Total Objects: 250</TITLE>
             <TAG>VC319</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC319</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9753,7 +9753,7 @@ Total Objects: 250</TITLE>
             <TAG>VC320</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC320</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9795,7 +9795,7 @@ Total Objects: 250</TITLE>
             <TAG>VC321</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC321</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9837,7 +9837,7 @@ Total Objects: 250</TITLE>
             <TAG>VC322</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC322</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9879,7 +9879,7 @@ Total Objects: 250</TITLE>
             <TAG>VC323</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC323</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9921,7 +9921,7 @@ Total Objects: 250</TITLE>
             <TAG>VC324</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC324</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -9963,7 +9963,7 @@ Total Objects: 250</TITLE>
             <TAG>VC325</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC325</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10005,7 +10005,7 @@ Total Objects: 250</TITLE>
             <TAG>VC326</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC326</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10047,7 +10047,7 @@ Total Objects: 250</TITLE>
             <TAG>VC327</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC327</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10089,7 +10089,7 @@ Total Objects: 250</TITLE>
             <TAG>VC328</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC328</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10131,7 +10131,7 @@ Total Objects: 250</TITLE>
             <TAG>VC329</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC329</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10173,7 +10173,7 @@ Total Objects: 250</TITLE>
             <TAG>VC330</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC330</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10215,7 +10215,7 @@ Total Objects: 250</TITLE>
             <TAG>VC331</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC331</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10257,7 +10257,7 @@ Total Objects: 250</TITLE>
             <TAG>VC332</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC332</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10299,7 +10299,7 @@ Total Objects: 250</TITLE>
             <TAG>VC333</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC333</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10341,7 +10341,7 @@ Total Objects: 250</TITLE>
             <TAG>VC334</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC334</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10383,7 +10383,7 @@ Total Objects: 250</TITLE>
             <TAG>VC335</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC335</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10425,7 +10425,7 @@ Total Objects: 250</TITLE>
             <TAG>VC336</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC336</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10467,7 +10467,7 @@ Total Objects: 250</TITLE>
             <TAG>VC337</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC337</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10509,7 +10509,7 @@ Total Objects: 250</TITLE>
             <TAG>VC338</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC338</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10551,7 +10551,7 @@ Total Objects: 250</TITLE>
             <TAG>VC339</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC339</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10593,7 +10593,7 @@ Total Objects: 250</TITLE>
             <TAG>VC340</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC340</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10635,7 +10635,7 @@ Total Objects: 250</TITLE>
             <TAG>VC341</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC341</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10677,7 +10677,7 @@ Total Objects: 250</TITLE>
             <TAG>VC342</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC342</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10719,7 +10719,7 @@ Total Objects: 250</TITLE>
             <TAG>VC343</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC343</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10761,7 +10761,7 @@ Total Objects: 250</TITLE>
             <TAG>VC344</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC344</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10803,7 +10803,7 @@ Total Objects: 250</TITLE>
             <TAG>VC345</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC345</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10845,7 +10845,7 @@ Total Objects: 250</TITLE>
             <TAG>VC346</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC346</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10887,7 +10887,7 @@ Total Objects: 250</TITLE>
             <TAG>VC347</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC347</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10929,7 +10929,7 @@ Total Objects: 250</TITLE>
             <TAG>VC348</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC348</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -10971,7 +10971,7 @@ Total Objects: 250</TITLE>
             <TAG>VC349</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC349</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
@@ -11013,7 +11013,7 @@ Total Objects: 250</TITLE>
             <TAG>VC350</TAG>
           </macros>
           <name>CTRL-SUP-BOY:VC350</name>
-          <opi_file>industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
+          <opi_file>mimics/industrial-control/Field/Objects/VLV_CTRL.opi</opi_file>
           <resize_behaviour>2</resize_behaviour>
           <rules />
           <scale_options>
