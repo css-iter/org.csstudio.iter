@@ -589,6 +589,7 @@ record (waveform,"CTRL-SUP-BOY:WAVEFORM")
 record (bo,"CTRL-SUP-BOY:BO")
 {
     field(DESC, "Control Switch ON/OFF")
+    field(DOL, "1")
     field(ONAM, "ON")
     field(OSV, "NO_ALARM")
     field(PINI, "YES")

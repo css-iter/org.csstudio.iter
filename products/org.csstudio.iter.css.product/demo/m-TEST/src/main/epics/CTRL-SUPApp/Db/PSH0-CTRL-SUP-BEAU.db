@@ -246,6 +246,7 @@ record (waveform,"CTRL-SUP-BEAU:WAVEFORM")
 record (bo,"CTRL-SUP-BEAU:ARCHIVE")
 {
     field(DESC, "Archive Enabling ON/OFF")
+    field(DOL, "0")
     field(ONAM, "ON")
     field(PINI, "YES")
     field(SCAN, "1 second")
