@@ -367,6 +367,9 @@ function addOPImacros(container, elt) {
                 // macro format: macro_name=macro_value
                 var macro_name = macros[0];
                 var macro_value = (macros[1] == null) ? "" : macros[1];
+                if (macro_name == "OPI_FILE" && opi_type != "USER") {
+                    macro_value=top_opi;
+                }
                 container.addMacro(macro_name, macro_value);
             }
         }
