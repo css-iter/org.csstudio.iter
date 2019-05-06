@@ -512,7 +512,7 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color name="IO InputPV Fg" red="0" green="0" blue="0" />
         </foreground_color>
-        <height>68</height>
+        <height>67</height>
         <image_file>SymbolLibrary/SVG/Fluid/Pumps/PV Scroll Vacuum Pump 0.svg</image_file>
         <name>BI</name>
         <no_animation>false</no_animation>
@@ -550,7 +550,7 @@ $(pv_value)</tooltip>
         <transparency>true</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Monitor</widget_type>
-        <width>68</width>
+        <width>67</width>
         <wuid>-7c21f2fb:1520c4b5b67:-39c5</wuid>
         <x>170</x>
         <y>16</y>
@@ -2330,7 +2330,7 @@ $(pv_value)</tooltip>
         <width>124</width>
         <wuid>-4f06800b:1699badac2c:-31e6</wuid>
         <x>88</x>
-        <y>94</y>
+        <y>24</y>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.scaledslider" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -2418,7 +2418,225 @@ $(pv_value)</tooltip>
         <width>300</width>
         <wuid>-4f06800b:1699badac2c:-3031</wuid>
         <x>0</x>
-        <y>214</y>
+        <y>144</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bit>0</bit>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <bulb_border>3</bulb_border>
+        <bulb_border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </bulb_border_color>
+        <data_type>0</data_type>
+        <effect_3d>true</effect_3d>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>50</height>
+        <name>IsReadOnly</name>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <off_label>CONST IsReadOnly</off_label>
+        <on_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </on_color>
+        <on_label>CONST IsWritable</on_label>
+        <pv_name>sim://const(0)</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+            <exp bool_exp="pv0== 0">
+              <value>
+                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 1">
+              <value>
+                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 2">
+              <value>
+                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts>
+          <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+            <scriptName>isWritable</scriptName>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.org.eclipse.jface.dialogs);
+
+var trigger_pv    = pvs[0];
+var request_value = PVUtil.getDouble(pvs[0]);
+var null_value    = 0;
+
+// If none, set an initial value
+if (request_value == null_value && PVUtil.isWriteAllowed(trigger_pv)) {
+//	MessageDialog.openInformation(null, "pv info", trigger_pv + " write: " + PVUtil.isWriteAllowed(trigger_pv));
+	trigger_pv.setValue(1);
+}
+]]></scriptText>
+            <pv trig="true">$(pv_name)</pv>
+          </path>
+        </scripts>
+        <show_boolean_label>true</show_boolean_label>
+        <square_led>true</square_led>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <visible>true</visible>
+        <widget_type>LED</widget_type>
+        <width>300</width>
+        <wuid>1c2e85:16a4ab6855f:-6907</wuid>
+        <x>0</x>
+        <y>377</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <alarm_pulsing>false</alarm_pulsing>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <background_color>
+          <color name="IO Background" red="235" green="235" blue="235" />
+        </background_color>
+        <bit>0</bit>
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <border_color>
+          <color name="IO Border" red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>2</border_width>
+        <bulb_border>3</bulb_border>
+        <bulb_border_color>
+          <color name="IO Button" red="178" green="178" blue="178" />
+        </bulb_border_color>
+        <data_type>0</data_type>
+        <effect_3d>true</effect_3d>
+        <enabled>true</enabled>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="26" style="0" pixels="false">IO Label</opifont.name>
+        </font>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <foreground_color>
+          <color name="IO InputPV Fg" red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>50</height>
+        <name>IsWritable</name>
+        <off_color>
+          <color name="IO PV OFF" red="149" green="125" blue="71" />
+        </off_color>
+        <off_label>LOC IsReadOnly</off_label>
+        <on_color>
+          <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+        </on_color>
+        <on_label>LOC IsWritable</on_label>
+        <pv_name>loc://myWritablePV(0)</pv_name>
+        <pv_value />
+        <rules>
+          <rule name="Alarm LED ON State Color" prop_id="on_color" out_exp="false">
+            <exp bool_exp="pv0== 0">
+              <value>
+                <color name="IO Normal Level Alarm" red="0" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 1">
+              <value>
+                <color name="IO Medium Level Alarm" red="255" green="255" blue="0" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 2">
+              <value>
+                <color name="IO High Level Alarm" red="250" green="12" blue="14" />
+              </value>
+            </exp>
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+          <rule name="Alarm LED OFF State Color" prop_id="off_color" out_exp="false">
+            <exp bool_exp="pv0== 3">
+              <value>
+                <color name="IO Invalid Level Alarm" red="255" green="0" blue="255" />
+              </value>
+            </exp>
+            <pv trig="true">$(pv_name).SEVR</pv>
+          </rule>
+        </rules>
+        <scale_options>
+          <width_scalable>false</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts>
+          <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+            <scriptName>isWritable</scriptName>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.org.eclipse.jface.dialogs);
+
+var trigger_pv    = pvs[0];
+var request_value = PVUtil.getDouble(pvs[0]);
+var null_value    = 0;
+
+// If none, set an initial value
+if (request_value == null_value && PVUtil.isWriteAllowed(trigger_pv)) {
+//	MessageDialog.openInformation(null, "pv info", trigger_pv + " write: " + PVUtil.isWriteAllowed(trigger_pv));
+	trigger_pv.setValue(1);
+}
+]]></scriptText>
+            <pv trig="true">$(pv_name)</pv>
+          </path>
+        </scripts>
+        <show_boolean_label>true</show_boolean_label>
+        <square_led>true</square_led>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <visible>true</visible>
+        <widget_type>LED</widget_type>
+        <width>300</width>
+        <wuid>1c2e85:16a4ab6855f:-59af</wuid>
+        <x>0</x>
+        <y>444</y>
       </widget>
     </widget>
   </widget>
