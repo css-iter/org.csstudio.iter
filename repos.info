@@ -2,5 +2,5 @@ CSS: 4.6.3~20190517
 maven-osgi-bundles: 8e7c330
 cs-studio-thirdparty: 966cded
 diirt: f72620b
-cs-studio: b4d2643
-org.csstudio.iter: da04b80
+cs-studio: a96ee48
+org.csstudio.iter: d19b0f0
