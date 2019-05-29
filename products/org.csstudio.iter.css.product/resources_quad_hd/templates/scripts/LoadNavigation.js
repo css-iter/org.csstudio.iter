@@ -337,7 +337,7 @@ function getALARM_FILTER(elt) {
     } else {
         alarm_filter=""
         var alarm_root=getALARM_ROOT(elt)
-        if (alarm_root) {
+        if (alarm_root && alarm_root != "/ITER") {
             var branches = alarm_root.split("/");
             var depth = branches.length;
             if (depth > 1) {
