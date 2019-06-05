@@ -358,7 +358,8 @@
         <column_headers>true</column_headers>
         <columns>
           <column name="TIME" weight="10" width="140" visible="true" />
-          <column name="TEXT" weight="400" width="1600" visible="true" />
+          <column name="NAME" weight="100" width="500" visible="true" />
+          <column name="TEXT" weight="400" width="1400" visible="true" />
           <column name="DELTA" weight="1" width="150" visible="false" />
           <column name="TYPE" weight="5" width="120" visible="false" />
           <column name="FILENAME" weight="10" width="50" visible="false" />
@@ -368,7 +369,6 @@
           <column name="USER" weight="10" width="120" visible="false" />
           <column name="CREATETIME" weight="50" width="300" visible="false" />
           <column name="SEQ" weight="5" width="60" visible="false" />
-          <column name="NAME" weight="100" width="500" visible="false" />
           <column name="CURRENT_SEVERITY" weight="80" width="300" visible="false" />
           <column name="VALUE" weight="50" width="300" visible="false" />
           <column name="STATUS" weight="80" width="170" visible="false" />
@@ -395,7 +395,7 @@
         <sort_ascending>true</sort_ascending>
         <sorting_column>0</sorting_column>
         <time_format>HH:mm:ss</time_format>
-        <tooltip>List of log messages from history from -1 hour to now for ${ALARM_FILTER}</tooltip>
+        <tooltip>List of PV write log messages from history from -1 hour to now for ${ALARM_FILTER}</tooltip>
         <visible>true</visible>
         <widget_type>Message history</widget_type>
         <width>563</width>
